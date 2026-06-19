@@ -65,12 +65,14 @@ jobs:
           git commit -m "chore: refresh best bets [skip ci]"
           git push
 
-      - if: steps.changes.outputs.changed == 'true'
+      # Deploy when data changed, or on any manual run (so the first deploy and
+      # any forced refresh always publish, even on a no-change tick).
+      - if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
-      - if: steps.changes.outputs.changed == 'true'
+      - if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - id: deploy
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/deploy-pages@v4
