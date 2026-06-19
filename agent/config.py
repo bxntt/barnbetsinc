@@ -66,6 +66,7 @@ class WorldCupConfig:
     max_published: int = 60                      # cap on games shown (all calls per game kept)
     sims: int = 20000
     seed: int = 42
+    injuries_espn: bool = False                  # enrich the injuries page with ESPN live data
     # Live-polling budget guard (the_odds_api provider only). A paid odds poll is
     # only made inside a match window AND within the rolling daily credit cap.
     pre_kickoff_min: int = 60         # start polling this long before kickoff
@@ -152,6 +153,7 @@ class Config:
                 max_published=int(wc.get("max_published", 60)),
                 sims=int(wc.get("sims", 20000)),
                 seed=int(wc.get("seed", 42)),
+                injuries_espn=bool(wc.get("injuries_espn", False)),
                 pre_kickoff_min=int(wc.get("pre_kickoff_min", 60)),
                 post_kickoff_min=int(wc.get("post_kickoff_min", 150)),
                 min_interval_min=int(wc.get("min_interval_min", 15)),

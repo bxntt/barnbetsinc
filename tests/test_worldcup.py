@@ -4,7 +4,7 @@ from __future__ import annotations
 import math
 
 from agent.models import BookOdds, Game, Outcome
-from agent.worldcup import fixtures, ratings
+from agent.worldcup import fixtures, injuries, ratings
 from agent.worldcup.devig import consensus_fair
 from agent.worldcup.models import Match
 from agent.worldcup.poisson import fit_lambdas, outcome_probs, score_matrix
@@ -242,3 +242,41 @@ def test_seeded_simulation_uses_real_standings():
     mexico = next(t for g in projections if g.group == "A"
                   for t in g.teams if t.team == "Mexico")
     assert mexico.points == 6 and mexico.played == 2
+
+
+# --------------------------------------------------------------- injuries ---
+def _wc_match(home, away, group="C", played=False, mid="inj-m"):
+    game = Game(mid, "soccer_fifa_world_cup", "World Cup", _future(),
+                home, away, markets={})
+    return Match(game=game, group=group, matchday=2, played=played)
+
+
+def test_injury_report_is_organized_by_game_and_attaches_absences():
+    # Brazil has curated absences; Haiti has none.
+    games = injuries.build_report([_wc_match("Brazil", "Haiti")])
+    assert len(games) == 1
+    g = games[0]
+    assert g.home == "Brazil" and g.away == "Haiti"
+    assert len(g.home_absences) >= 1            # Brazil snapshot has entries
+    assert g.away_absences == []                # Haiti: squad as expected
+    assert g.total == len(g.home_absences)
+    # Out is sorted ahead of Doubtful (severity-first within a team).
+    statuses = [a.status.lower() for a in g.home_absences]
+    assert statuses == sorted(statuses, key=lambda s: injuries._STATUS_RANK.get(s, 9))
+
+
+def test_injury_report_skips_played_matches_and_resolves_aliases():
+    games = injuries.build_report([
+        _wc_match("Brazil", "Haiti", played=True, mid="done"),   # settled -> dropped
+        _wc_match("Korea Republic", "Czech Republic", group="A", mid="live"),  # aliases
+    ])
+    assert [g.match_id for g in games] == ["live"]               # played one is gone
+
+
+def test_injury_payload_counts_match_games():
+    payload = injuries.build_payload(
+        injuries.build_report([_wc_match("Brazil", "France")]), used_espn=False)
+    assert payload["game_count"] == 1
+    assert payload["affected_games"] == 1        # both sides carry absences
+    assert payload["total_absences"] == payload["games"][0]["total"]
+    assert payload["as_of"] == injuries.AS_OF

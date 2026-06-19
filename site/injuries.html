@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>Injuries · Barn Betting Inc.</title>
+  <meta name="description" content="World Cup availability report: players expected to feature who are ruled out, doubtful, or suspended — organized by game." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>Barn Betting <span class="accent">Inc.</span></h1>
+      <nav class="nav" aria-label="Pages">
+        <a class="nav-link" href="index.html">Picks</a>
+        <a class="nav-link" href="injuries.html" aria-current="page">Injuries</a>
+        <a class="nav-link" href="justification.html">Justification</a>
+      </nav>
+      <p id="updated" class="updated"></p>
+    </div>
+  </header>
+
+  <main class="wrap page">
+    <section class="block">
+      <h2 class="block-title">🩹 Who's missing — by game</h2>
+      <p class="lede">Players who were expected to feature but are <strong>out</strong>,
+      <strong>doubtful</strong>, or <strong>suspended</strong>, for each upcoming match.
+      A clean sheet means the squad is as expected.</p>
+      <div id="injuries" class="stack" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>Back to the <a href="index.html">picks</a>.</p>
+    <p class="fine">A maintained snapshot — verify against official team news before kickoff. Not financial advice. 21+.</p>
+  </footer>
+
+  <script src="common.js"></script>
+  <script src="injuries.js"></script>
+</body>
+</html>

@@ -122,6 +122,10 @@ worldcup:
   max_published: 60                    # cap on games shown (all 4 market calls per game kept)
   sims: 20000                          # Monte Carlo group-stage simulations
   seed: 42                             # deterministic output (stable site diffs)
+  # Injuries page (site/injuries.json): who was expected to play but is out, by
+  # game. Sourced from the hand-maintained snapshot in agent/worldcup/injuries.py.
+  # Set true to also pull ESPN's free live data (no key); off keeps it budget-safe.
+  injuries_espn: false
 
   # ----- Live-polling budget guard (free-tier safe) -----
   # A paid odds poll happens ONLY inside a match window AND within a rolling daily

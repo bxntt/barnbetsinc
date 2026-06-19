@@ -119,6 +119,12 @@ def run(config: Config = None) -> dict:
 
     grouped = [m for m in matches if m.group]
 
+    # 0) Availability report (who was expected to play but isn't), by game.
+    from .injuries import run as run_injuries
+    injuries = run_injuries(grouped if grouped else matches, use_espn=wc.injuries_espn)
+    print(f"[worldcup] injuries: {injuries['total_absences']} absences across "
+          f"{injuries['affected_games']}/{injuries['game_count']} games -> site/injuries.json")
+
     # 1) Per-game predictions (model + optional market blend).
     preds = predict_all(grouped if grouped else matches, standings)
     predictions = rank_predictions(preds, wc.max_published)

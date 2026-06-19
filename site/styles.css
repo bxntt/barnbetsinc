@@ -16,9 +16,6 @@
 
 * { box-sizing: border-box; }
 
-/* The `hidden` attribute must beat class-level `display` rules (.bets/.groups/.view). */
-[hidden] { display: none !important; }
-
 html, body {
   margin: 0;
   background: var(--bg);
@@ -27,147 +24,127 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-.wrap { width: 100%; max-width: 640px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--wc); }
 
-.header { padding: 22px 0 0; border-bottom: 1px solid var(--line);
+.wrap { width: 100%; max-width: 620px; margin: 0 auto; padding: 0 16px; }
+
+/* Header + nav -------------------------------------------------------------- */
+.header { padding: 22px 0 14px; border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, #10161e, var(--bg)); }
-.header h1 { margin: 0; font-size: 1.55rem; letter-spacing: -0.02em; }
+.header h1 { margin: 0; font-size: 1.5rem; letter-spacing: -0.02em; }
 .accent { color: var(--accent); }
-.tagline { color: var(--muted); margin: 6px 0 14px; font-size: 0.92rem; line-height: 1.4; }
-.tagline strong { color: var(--text); font-weight: 600; }
 
-/* Top-level section tabs */
-.tabs { display: flex; gap: 6px; }
-.tab { flex: 1; background: transparent; color: var(--muted); border: none;
-  border-bottom: 2px solid transparent; padding: 12px 8px; font-size: 0.95rem;
-  font-weight: 700; cursor: pointer; min-height: 46px; }
-.tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
-body[data-view="worldcup"] .tab[aria-selected="true"] { border-bottom-color: var(--wc); }
+.nav { display: flex; gap: 8px; margin-top: 12px; }
+.nav-link { flex: 0 0 auto; text-decoration: none; color: var(--muted);
+  border: 1px solid var(--line); background: var(--panel); border-radius: 999px;
+  padding: 7px 16px; font-size: 0.85rem; font-weight: 700; }
+.nav-link[aria-current="page"] { color: #04222e; background: var(--wc); border-color: var(--wc); }
 
-.section-head { padding-top: 16px; }
+.updated { color: var(--muted); font-size: 0.76rem; margin: 12px 0 0; }
 
-/* World Cup sub-tabs (segmented) */
-.subtabs { display: inline-flex; gap: 4px; background: var(--panel); border: 1px solid var(--line);
-  border-radius: 999px; padding: 4px; margin: 6px 0 2px; }
-.subtab { background: transparent; color: var(--muted); border: none; border-radius: 999px;
-  padding: 8px 16px; font-size: 0.85rem; font-weight: 700; cursor: pointer; min-height: 36px; }
-.subtab[aria-selected="true"] { background: var(--wc); color: #04222e; }
+/* Page layout --------------------------------------------------------------- */
+.page { padding-top: 22px; }
+.block { margin-bottom: 30px; }
+.block-title { font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--muted); margin: 0 0 12px; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
 
-.view[hidden] { display: none; }
+/* Card shell ---------------------------------------------------------------- */
+.card { background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 14px 16px; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.matchup { font-weight: 700; font-size: 1.02rem; }
+.meta { display: block; color: var(--muted); font-size: 0.76rem; margin-top: 3px; }
 
-.track-record { display: flex; flex-wrap: wrap; gap: 10px; }
-.tr-stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
-  padding: 8px 12px; min-width: 92px; }
-.tr-stat .v { font-size: 1.15rem; font-weight: 700; }
-.tr-stat .k { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-.tr-note { color: var(--muted); font-size: 0.82rem; }
-.updated { color: var(--muted); font-size: 0.78rem; margin: 12px 0 4px; }
+/* World Cup prediction lines ------------------------------------------------ */
+.lines { margin-top: 10px; display: flex; flex-direction: column; }
+.line { display: flex; align-items: baseline; gap: 10px; padding: 7px 0;
+  border-top: 1px solid rgba(36,48,64,0.55); }
+.line:first-child { border-top: none; }
+.line-mkt { flex: 0 0 64px; font-size: 0.64rem; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--muted); }
+.line-pick { flex: 1; font-size: 0.92rem; font-weight: 600; }
+.line-pct { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1rem; }
+.line-pct.p-strong { color: var(--green-strong); }
+.line-pct.p-good { color: var(--wc); }
+.line-pct.p-lean { color: var(--muted); }
 
-.filters { display: flex; gap: 8px; overflow-x: auto; padding: 14px 16px;
-  -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-.filters::-webkit-scrollbar { display: none; }
-.chip { flex: 0 0 auto; background: var(--panel); color: var(--muted);
-  border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px;
-  font-size: 0.85rem; font-weight: 600; cursor: pointer; min-height: 38px; }
-.chip[aria-pressed="true"] { background: var(--accent); color: #1a1300; border-color: var(--accent); }
-
-.bets { display: flex; flex-direction: column; gap: 14px; padding-bottom: 8px; }
-
-.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 16px; }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-.bet-label { font-size: 1.22rem; font-weight: 700; line-height: 1.2; }
-.matchup { color: var(--muted); font-size: 0.85rem; margin-top: 3px; }
-.sport-tag { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em;
-  color: var(--accent); background: rgba(255,210,63,0.1); border: 1px solid rgba(255,210,63,0.25);
-  padding: 2px 8px; border-radius: 6px; margin-top: 8px; text-transform: uppercase; }
-
-.ev-badge { text-align: center; flex: 0 0 auto; border-radius: 12px; padding: 8px 12px;
-  min-width: 76px; background: var(--panel-2); }
-.ev-badge .ev { font-size: 1.4rem; font-weight: 800; line-height: 1; }
-.ev-badge .ev-k { font-size: 0.62rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-.ev-strong .ev { color: var(--green-strong); }
-.ev-good .ev { color: var(--green); }
-.ev-lean .ev { color: var(--amber); }
-
-.prices { display: flex; gap: 10px; margin: 14px 0 10px; }
-.price-box { flex: 1; background: var(--panel-2); border: 1px solid var(--line);
-  border-radius: 10px; padding: 9px 12px; }
-.price-box .k { font-size: 0.66rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-.price-box .v { font-size: 1.12rem; font-weight: 700; margin-top: 2px; }
-.price-box.hr .v { color: var(--accent); }
-
-.conf-row { display: flex; align-items: center; gap: 8px; margin: 4px 0 12px; }
-.conf-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-.conf-bar { flex: 1; height: 7px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
-.conf-fill { height: 100%; background: linear-gradient(90deg, var(--amber), var(--green-strong)); }
-.conf-val { font-size: 0.74rem; color: var(--muted); min-width: 34px; text-align: right; }
-
-.rationale { font-size: 0.9rem; line-height: 1.5; color: #cbd5e1; }
-
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-.tag { font-size: 0.72rem; padding: 4px 9px; border-radius: 7px; border: 1px solid var(--line);
-  background: var(--panel-2); color: var(--muted); }
-.tag.toward { color: var(--green-strong); border-color: rgba(25,226,122,0.3); }
-.tag.away { color: var(--red); border-color: rgba(239,83,80,0.3); }
-
-/* ------------------------------- World Cup -------------------------------- */
-.sport-tag.wc-tag { color: var(--wc); background: rgba(54,194,255,0.1);
-  border-color: rgba(54,194,255,0.28); }
-.price-box.best .v { color: var(--wc); }
-
-.card.wc { border-color: rgba(54,194,255,0.18); }
-
-/* Per-game prediction calls: one row per bet market */
-.card.wc.pred { padding-bottom: 12px; }
-.preds { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
-.pred-row { border-top: 1px solid rgba(36,48,64,0.6); padding-top: 10px; }
-.pred-row:first-child { border-top: none; padding-top: 0; }
-.pred-head { display: flex; align-items: baseline; gap: 8px; }
-.pred-mkt { font-size: 0.62rem; color: var(--muted); text-transform: uppercase;
-  letter-spacing: 0.05em; flex: 0 0 auto; min-width: 92px; }
-.pred-pick { font-weight: 600; font-size: 0.95rem; flex: 1; }
-.pred-pct { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.05rem; }
-.pred-pct.p-strong { color: var(--green-strong); }
-.pred-pct.p-good { color: var(--wc); }
-.pred-pct.p-lean { color: var(--muted); }
-.pbar { height: 7px; background: var(--panel-2); border-radius: 999px; overflow: hidden; margin: 7px 0 5px; }
-.pfill { height: 100%; border-radius: 999px; }
-.pfill.p-strong { background: linear-gradient(90deg, var(--wc), var(--green-strong)); }
-.pfill.p-good { background: linear-gradient(90deg, rgba(54,194,255,0.5), var(--wc)); }
-.pfill.p-lean { background: var(--line); }
-.pred-meta { font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.pred-row .rationale { font-size: 0.82rem; margin: 6px 0 0; }
-
-/* Group simulator tables */
-.groups { display: flex; flex-direction: column; gap: 14px; padding-bottom: 8px; }
-.card.group { padding: 14px 14px 8px; }
-.group-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
-.group-head h3 { margin: 0; font-size: 1.05rem; }
-.group-head .played { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-
-.gtable { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
-.gtable th { text-align: right; font-size: 0.62rem; color: var(--muted); text-transform: uppercase;
-  letter-spacing: 0.04em; font-weight: 600; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+/* Group simulator table ----------------------------------------------------- */
+.gtable { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 10px; }
+.gtable th { text-align: right; font-size: 0.62rem; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;
+  padding: 4px 6px; border-bottom: 1px solid var(--line); }
 .gtable th:first-child { text-align: left; }
 .gtable td { padding: 9px 6px; border-bottom: 1px solid rgba(36,48,64,0.5); }
 .gtable tbody tr:last-child td { border-bottom: none; }
 .gtable .team { font-weight: 600; }
 .gtable .num { text-align: right; font-variant-numeric: tabular-nums; }
-.gtable .dim { color: var(--muted); }
 .gtable tr.adv-in .team { color: var(--green-strong); }
 .gtable tr.adv-edge .team { color: var(--amber); }
 .gtable tr.adv-out .team { color: var(--muted); }
 .gtable tr.adv-in { box-shadow: inset 3px 0 0 var(--green-strong); }
 .gtable tr.adv-edge { box-shadow: inset 3px 0 0 var(--amber); }
 
-.advc { display: flex; align-items: center; gap: 7px; min-width: 96px; }
+.advc { display: flex; align-items: center; gap: 8px; min-width: 110px; }
 .advbar { flex: 1; height: 7px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
 .advfill { height: 100%; background: linear-gradient(90deg, var(--wc), var(--green-strong)); }
-.advnum { font-size: 0.74rem; font-variant-numeric: tabular-nums; min-width: 38px; text-align: right; }
+.advnum { font-size: 0.76rem; font-variant-numeric: tabular-nums; min-width: 40px; text-align: right; }
 
-.empty { text-align: center; color: var(--muted); padding: 48px 16px; }
+/* Hard Rock bet ------------------------------------------------------------- */
+.bet-label { font-size: 1.12rem; font-weight: 700; line-height: 1.2; }
+.ev-badge { text-align: center; flex: 0 0 auto; border-radius: 12px; padding: 7px 12px;
+  min-width: 72px; background: var(--panel-2); }
+.ev-badge .ev { font-size: 1.32rem; font-weight: 800; line-height: 1; }
+.ev-badge .ev-k { font-size: 0.6rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.ev-strong .ev { color: var(--green-strong); }
+.ev-good .ev { color: var(--green); }
+.ev-lean .ev { color: var(--amber); }
 
-.footer { padding: 22px 16px 40px; color: var(--muted); border-top: 1px solid var(--line); margin-top: 18px; }
+.prices { display: flex; gap: 10px; margin-top: 12px; }
+.price-box { flex: 1; background: var(--panel-2); border: 1px solid var(--line);
+  border-radius: 10px; padding: 9px 12px; }
+.price-box .k { font-size: 0.64rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.price-box .v { font-size: 1.1rem; font-weight: 700; margin-top: 2px; }
+.price-box.hr .v { color: var(--accent); }
+
+/* Justification page -------------------------------------------------------- */
+.method h3 { margin: 0 0 8px; font-size: 1rem; }
+.method p { margin: 0; }
+.rationale { font-size: 0.88rem; line-height: 1.5; color: #cbd5e1; margin: 8px 0 0; }
+.rationale strong, .method strong { color: var(--text); font-weight: 600; }
+.whys { display: flex; flex-direction: column; gap: 14px; margin-top: 10px; }
+.why-row { border-top: 1px solid rgba(36,48,64,0.55); padding-top: 12px; }
+.why-row:first-child { border-top: none; padding-top: 0; }
+.why-head { display: flex; align-items: baseline; gap: 10px; }
+
+/* Injuries page ------------------------------------------------------------- */
+.lede { color: var(--muted); font-size: 0.86rem; line-height: 1.5; margin: 0 0 14px; }
+.lede strong { color: var(--text); font-weight: 600; }
+
+.card.inj.clean { opacity: 0.72; }
+.inj-count { color: var(--red); font-weight: 700; }
+.clean-note { color: var(--green); font-size: 0.82rem; margin: 8px 0 0; }
+.clean-note.small { font-size: 0.76rem; margin: 4px 0 0; }
+
+.teams { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+.team-block { border-top: 1px solid rgba(36,48,64,0.55); padding-top: 10px; }
+.team-block:first-child { border-top: none; padding-top: 0; }
+.team-name { font-weight: 700; font-size: 0.92rem; margin-bottom: 8px; }
+
+.absence { display: flex; align-items: flex-start; gap: 10px; padding: 5px 0; }
+.absence-main { flex: 1; }
+.player { font-size: 0.92rem; font-weight: 600; }
+.starter { color: var(--accent); margin-left: 5px; font-size: 0.8rem; }
+.absence-detail { color: var(--muted); font-size: 0.74rem; margin-top: 1px; }
+
+.status { flex: 0 0 auto; font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.04em; padding: 3px 8px; border-radius: 6px; min-width: 74px;
+  text-align: center; border: 1px solid transparent; }
+.status.st-out { color: var(--red); background: rgba(239,83,80,0.12); border-color: rgba(239,83,80,0.3); }
+.status.st-doubt { color: var(--amber); background: rgba(245,166,35,0.12); border-color: rgba(245,166,35,0.3); }
+
+/* Misc ---------------------------------------------------------------------- */
+.empty { text-align: center; color: var(--muted); padding: 40px 16px; }
+.footer { padding: 22px 16px 40px; color: var(--muted); border-top: 1px solid var(--line); }
 .footer p { font-size: 0.78rem; line-height: 1.5; margin: 6px 0; }
 .footer .fine { color: #6b7785; }

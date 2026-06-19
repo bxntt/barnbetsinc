@@ -1,0 +1,600 @@
+{
+  "generated_at": "2026-06-19T21:43:07.318881+00:00",
+  "competition": "soccer_fifa_world_cup",
+  "as_of": "2026-06-19",
+  "source": "Maintained snapshot",
+  "game_count": 43,
+  "affected_games": 14,
+  "total_absences": 16,
+  "games": [
+    {
+      "match_id": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "group": "C",
+      "commence_time": "2026-06-19T22:00:00Z",
+      "home": "Scotland",
+      "away": "Morocco",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "ef0f74a991d3e35798ae5af77667bce1",
+      "group": "C",
+      "commence_time": "2026-06-20T00:30:00Z",
+      "home": "Brazil",
+      "away": "Haiti",
+      "home_absences": [
+        {
+          "player": "Neymar",
+          "position": "FW",
+          "status": "Out",
+          "reason": "Knee \u2014 ruled out of the tournament",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        },
+        {
+          "player": "\u00c9der Milit\u00e3o",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Match-fitness, late call",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 2
+    },
+    {
+      "match_id": "f955d4b3395ce6e3b5ac1031ca52ca4e",
+      "group": "D",
+      "commence_time": "2026-06-20T03:00:00Z",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "4f0c518545b0096c68326daf25bffc1e",
+      "group": "F",
+      "commence_time": "2026-06-20T17:00:00Z",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_absences": [
+        {
+          "player": "Frenkie de Jong",
+          "position": "MF",
+          "status": "Out",
+          "reason": "Lower-leg injury",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "f1ab0f69832972a329243522ceaa7804",
+      "group": "E",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "home_absences": [
+        {
+          "player": "Marco Reus",
+          "position": "MF",
+          "status": "Out",
+          "reason": "Ankle",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "E",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "group": "F",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "home": "Tunisia",
+      "away": "Japan",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "H",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_absences": [
+        {
+          "player": "Gavi",
+          "position": "MF",
+          "status": "Doubtful",
+          "reason": "Knock, assessed before kickoff",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "group": "G",
+      "commence_time": "2026-06-21T19:00:00Z",
+      "home": "Belgium",
+      "away": "Iran",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "852a3abe6d46820720febc0fedebff9a",
+      "group": "H",
+      "commence_time": "2026-06-21T22:00:00Z",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "group": "G",
+      "commence_time": "2026-06-22T01:00:00Z",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "be6c63f416c67bca1300a98f5b89c3af",
+      "group": "J",
+      "commence_time": "2026-06-22T17:00:00Z",
+      "home": "Argentina",
+      "away": "Austria",
+      "home_absences": [
+        {
+          "player": "\u00c1ngel Di Mar\u00eda",
+          "position": "FW",
+          "status": "Doubtful",
+          "reason": "Rested / minor strain",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "group": "I",
+      "commence_time": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "away": "Iraq",
+      "home_absences": [
+        {
+          "player": "Aur\u00e9lien Tchouam\u00e9ni",
+          "position": "MF",
+          "status": "Suspended",
+          "reason": "Yellow-card accumulation",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "3f48473742ca0fd2a85930554720c75e",
+      "group": "I",
+      "commence_time": "2026-06-23T00:00:00Z",
+      "home": "Norway",
+      "away": "Senegal",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "fd8533b650e655030f6a7946f8795db2",
+      "group": "J",
+      "commence_time": "2026-06-23T03:00:00Z",
+      "home": "Jordan",
+      "away": "Algeria",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
+      "group": "K",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
+      "group": "L",
+      "commence_time": "2026-06-23T20:00:00Z",
+      "home": "England",
+      "away": "Ghana",
+      "home_absences": [
+        {
+          "player": "John Stones",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Hamstring tightness",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "c1bc8c26480cd42b89a0de5329581314",
+      "group": "L",
+      "commence_time": "2026-06-23T23:00:00Z",
+      "home": "Panama",
+      "away": "Croatia",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "group": "K",
+      "commence_time": "2026-06-24T02:00:00Z",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
+      "group": "B",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
+      "group": "B",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "home": "Switzerland",
+      "away": "Canada",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
+      "group": "C",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Scotland",
+      "away": "Brazil",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Neymar",
+          "position": "FW",
+          "status": "Out",
+          "reason": "Knee \u2014 ruled out of the tournament",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        },
+        {
+          "player": "\u00c9der Milit\u00e3o",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Match-fitness, late call",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 2
+    },
+    {
+      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
+      "group": "C",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "5993bd5196ca09f83990f0c3261e442e",
+      "group": "A",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "home": "Czechia",
+      "away": "Mexico",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
+      "group": "A",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "home": "South Africa",
+      "away": "South Korea",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
+      "group": "E",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+      "group": "E",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Ecuador",
+      "away": "Germany",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Marco Reus",
+          "position": "MF",
+          "status": "Out",
+          "reason": "Ankle",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Japan",
+      "away": "Sweden",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Frenkie de Jong",
+          "position": "MF",
+          "status": "Out",
+          "reason": "Lower-leg injury",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "22f6ac06dfcc88a847920f62633e6459",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Turkey",
+      "away": "United States",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
+      "group": "I",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "home": "Norway",
+      "away": "France",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Aur\u00e9lien Tchouam\u00e9ni",
+          "position": "MF",
+          "status": "Suspended",
+          "reason": "Yellow-card accumulation",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "7e6aee294ea1a4792c59558791084528",
+      "group": "I",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "home": "Senegal",
+      "away": "Iraq",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
+      "group": "H",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
+      "group": "H",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "home": "Uruguay",
+      "away": "Spain",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Gavi",
+          "position": "MF",
+          "status": "Doubtful",
+          "reason": "Knock, assessed before kickoff",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "Egypt",
+      "away": "Iran",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "537c0997cd899394f47f16545b7068b2",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Panama",
+      "away": "England",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "John Stones",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Hamstring tightness",
+          "expected_starter": true,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "67ae5751c401a98409b8566ae4897069",
+      "group": "K",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "home": "Colombia",
+      "away": "Portugal",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "13eab94a136b9c264ba974cf437a5f71",
+      "group": "K",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "8756200e539155e571557c4f2e0d7f05",
+      "group": "J",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "home": "Algeria",
+      "away": "Austria",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "54697f453437ab26276d773be1d72e9b",
+      "group": "J",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "home": "Jordan",
+      "away": "Argentina",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "\u00c1ngel Di Mar\u00eda",
+          "position": "FW",
+          "status": "Doubtful",
+          "reason": "Rested / minor strain",
+          "expected_starter": false,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    }
+  ],
+  "note": "Players who were expected to feature but are ruled out, doubtful, or suspended, per upcoming game. Maintained snapshot dated 2026-06-19; verify against official team news before kickoff."
+}
