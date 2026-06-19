@@ -118,12 +118,26 @@ body[data-view="worldcup"] .tab[aria-selected="true"] { border-bottom-color: var
 
 .card.wc { border-color: rgba(54,194,255,0.18); }
 
-/* Line-shop strip: every book's price, best first */
-.shop { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
-.shop-px { font-size: 0.72rem; font-variant-numeric: tabular-nums; padding: 4px 8px;
-  border-radius: 7px; border: 1px solid var(--line); background: var(--panel-2); color: var(--muted); }
-.shop-px.best { color: var(--wc); border-color: rgba(54,194,255,0.4);
-  background: rgba(54,194,255,0.08); font-weight: 700; }
+/* Per-game prediction calls: one row per bet market */
+.card.wc.pred { padding-bottom: 12px; }
+.preds { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
+.pred-row { border-top: 1px solid rgba(36,48,64,0.6); padding-top: 10px; }
+.pred-row:first-child { border-top: none; padding-top: 0; }
+.pred-head { display: flex; align-items: baseline; gap: 8px; }
+.pred-mkt { font-size: 0.62rem; color: var(--muted); text-transform: uppercase;
+  letter-spacing: 0.05em; flex: 0 0 auto; min-width: 92px; }
+.pred-pick { font-weight: 600; font-size: 0.95rem; flex: 1; }
+.pred-pct { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.05rem; }
+.pred-pct.p-strong { color: var(--green-strong); }
+.pred-pct.p-good { color: var(--wc); }
+.pred-pct.p-lean { color: var(--muted); }
+.pbar { height: 7px; background: var(--panel-2); border-radius: 999px; overflow: hidden; margin: 7px 0 5px; }
+.pfill { height: 100%; border-radius: 999px; }
+.pfill.p-strong { background: linear-gradient(90deg, var(--wc), var(--green-strong)); }
+.pfill.p-good { background: linear-gradient(90deg, rgba(54,194,255,0.5), var(--wc)); }
+.pfill.p-lean { background: var(--line); }
+.pred-meta { font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pred-row .rationale { font-size: 0.82rem; margin: 6px 0 0; }
 
 /* Group simulator tables */
 .groups { display: flex; flex-direction: column; gap: 14px; padding-bottom: 8px; }

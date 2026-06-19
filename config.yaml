@@ -102,22 +102,24 @@ context:
   weather: false     # Open-Meteo, for outdoor-sport totals (off by default)
 
 # ----------------------------------------------------------------------------
-# World Cup tools — SPORTSBOOK-AGNOSTIC (separate from the Hard Rock engine).
-# These don't judge a single book; they report what's fair across the whole
-# market and where the best price lives. Output -> site/worldcup.json.
+# World Cup predictor — MODEL-DRIVEN (separate from the Hard Rock engine).
+# For each game we predict what will happen across every bet type (result,
+# total, both-teams-to-score, handicap) from team strength + live form, blended
+# with market consensus when odds are available. Output -> site/worldcup.json.
 # ----------------------------------------------------------------------------
 worldcup:
   enabled: true
-  # mock = bundled 12-group 2026 field (no key, powers value finder + simulator).
-  # the_odds_api = live soccer odds (value finder only; simulator needs groups).
+  # mock = bundled 12-group 2026 field (no key; powers predictor + simulator).
+  # the_odds_api = live schedule (free /events) tagged to the real 2026 draw via
+  # agent/worldcup/fixtures.py; ratings live in agent/worldcup/ratings.py. Paid
+  # odds polls only sharpen the prediction blend — they never gate publishing.
   provider: the_odds_api
   competition: soccer_fifa_world_cup   # The Odds API sport key (real provider)
   markets:
-    - h2h        # 1X2: home / draw / away
+    - h2h        # 1X2: home / draw / away (sharpens the result + derived calls)
     - totals     # match goals over/under
-  regions: us                          # us-only: prices a US bettor can actually get; cheapest
-  min_ev_pct: 1.5                      # flag a selection when the best price beats fair by this
-  max_published: 40                    # cap on value bets shown
+  regions: us                          # us-only: cheapest; predictions are free regardless
+  max_published: 60                    # cap on games shown (all 4 market calls per game kept)
   sims: 20000                          # Monte Carlo group-stage simulations
   seed: 42                             # deterministic output (stable site diffs)
 

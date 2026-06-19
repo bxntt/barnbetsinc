@@ -1,16 +1,19 @@
-"""Sportsbook-agnostic World Cup tools.
+"""Model-driven World Cup predictor.
 
 Unlike the Hard Rock engine (which judges *one* book against a sharp reference),
-these tools take the *whole market* and report things that are true regardless of
-where you bet:
+this side predicts *what will happen* in each game from a model of the teams, and
+only uses the market as one more input:
 
-  * `value`      — no-vig fair odds (1X2 / totals) vs the BEST price across every
-                   book, flagging where positive expected value actually lives.
+  * `ratings`    — team strength priors, form-adjusted from the live standings.
+  * `predict`    — per-game calls for every bet type (result / total / both-teams-
+                   to-score / handicap), each with a probability of hitting. The
+                   probability is the team-strength model blended with the no-vig
+                   market consensus when odds are available.
   * `simulate`   — a Monte Carlo of the group stage (2026 48-team / 12-group
-                   format) driven by market-implied probabilities: each team's
-                   chance to win its group and to advance.
+                   format): each team's chance to win its group and to advance,
+                   driven by the same model (sharpened by market odds where quoted).
 
-Both consume normalized `Game` odds (reusing `agent.models`) and never reference a
-single target book — the edge is "what is fair" and "who is cheapest", not "is
-Hard Rock mispricing this".
+The question is "what is most likely to happen", not "which book is mispricing
+this" — the schedule (and so the predictions) comes free from the /events feed,
+and paid odds polls only sharpen the blend.
 """

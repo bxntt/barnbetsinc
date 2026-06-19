@@ -7,9 +7,9 @@ multi-book 1X2 + totals odds. Per-book noise + vig make the cross-book value fin
 and the simulator both exercise real data with no API key.
 
 `the_odds_api` fetches live soccer odds (1X2 + totals) for the value finder. The
-odds endpoint carries no group/schedule metadata, so the group simulator runs only
-when matches have a real group label (i.e. the mock provider, or a future fixtures
-map) — the pipeline handles that gracefully.
+odds endpoint carries no group/schedule metadata, so the pipeline tags live matches
+to the real 2026 draw via `fixtures.py` (group + current standings) and seeds the
+simulator from there — the live odds then drive every remaining match.
 """
 from __future__ import annotations
 
@@ -55,11 +55,14 @@ _BASE_GOALS = 2.65         # baseline total goals for an even match
 
 
 def _lambdas(rating_a: float, rating_b: float) -> tuple:
-    """Goal expectancies for A vs B from their ratings (A is nominal home)."""
-    supremacy = (rating_a - rating_b) / 150.0 + _HOME_ADV
-    lh = max(0.18, (_BASE_GOALS + supremacy) / 2.0)
-    la = max(0.18, (_BASE_GOALS - supremacy) / 2.0)
-    return lh, la
+    """Goal expectancies for A vs B from their ratings (A is nominal home).
+
+    Delegates to ratings.lambdas so the rating->goals mapping has one source
+    shared with the live prediction engine and the simulator fallback.
+    """
+    from . import ratings
+    return ratings.lambdas(rating_a, rating_b,
+                           mean_goals=_BASE_GOALS, home_advantage=_HOME_ADV)
 
 
 def _prob_to_american(p: float) -> int:
@@ -212,6 +215,43 @@ def the_odds_api_events(api_key: str, competition: str):
     return times, remaining_from_response(resp)
 
 
+def the_odds_api_schedule(api_key: str, competition: str):
+    """FREE schedule WITH matchups: Match objects (teams + kickoff, no odds).
+
+    The /events endpoint costs 0 credits and returns home_team / away_team, so we
+    can predict every upcoming match from our model at zero credit cost. Paid odds
+    polls (the_odds_api_matches_meta) only *sharpen* these via the market blend.
+    Returns (matches, remaining).
+    """
+    import requests
+
+    from ..budget import remaining_from_response
+
+    if not api_key:
+        return [], None
+    params = {"apiKey": api_key, "dateFormat": "iso"}
+    resp = requests.get(_SOCCER_EVENTS.format(sport=competition), params=params, timeout=15)
+    if resp.status_code == 422:
+        return [], remaining_from_response(resp)
+    resp.raise_for_status()
+    matches = []
+    for ev in resp.json():
+        home, away = ev.get("home_team", ""), ev.get("away_team", "")
+        if not home or not away:
+            continue
+        game = Game(
+            id=ev.get("id", f"wc-{_slug(home)}-{_slug(away)}"),
+            sport_key=ev.get("sport_key", competition),
+            sport_title="World Cup",
+            commence_time=ev.get("commence_time", ""),
+            home_team=home,
+            away_team=away,
+            markets={},  # no odds from /events — model-only until a paid poll
+        )
+        matches.append(Match(game=game, group="", matchday=0))
+    return matches, remaining_from_response(resp)
+
+
 def the_odds_api_matches_meta(api_key: str, competition: str, markets: List[str],
                               regions: str = "us,uk,eu"):
     """Live soccer odds for the value finder. Returns (matches, remaining)."""
@@ -236,7 +276,7 @@ def the_odds_api_matches_meta(api_key: str, competition: str, markets: List[str]
     matches = []
     for ev in resp.json():
         game = TheOddsApiProvider._parse_event(ev)
-        # No group/schedule from the odds feed -> "" means "skip the simulator".
+        # Odds feed has no group label; the pipeline tags it via fixtures.py.
         matches.append(Match(game=game, group="", matchday=0))
     return matches, remaining_from_response(resp)
 

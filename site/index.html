@@ -33,14 +33,14 @@
   <!-- ============================== World Cup ============================= -->
   <section id="view-worldcup" class="view" role="tabpanel">
     <div class="wrap section-head">
-      <p class="tagline">The bets our bot thinks have the <strong>best chance of hitting</strong> — plus a simulator that plays the group stage out thousands of times to show <strong>who's likely to advance</strong>.</p>
+      <p class="tagline">For every game, our model predicts <strong>what will happen</strong> — who wins, over/under, both teams to score, the handicap — ranked by <strong>how likely each call is to hit</strong>, plus a simulator for <strong>who's likely to advance</strong>.</p>
       <p id="wcUpdated" class="updated"></p>
       <nav class="subtabs" id="wcSubtabs" role="tablist" aria-label="World Cup tools">
-        <button class="subtab" data-sub="value" role="tab" aria-selected="true">Value finder</button>
+        <button class="subtab" data-sub="predictions" role="tab" aria-selected="true">Predictions</button>
         <button class="subtab" data-sub="groups" role="tab" aria-selected="false">Group simulator</button>
       </nav>
     </div>
-    <main id="wcValue" class="bets wrap" aria-live="polite"></main>
+    <main id="wcPredictions" class="bets wrap" aria-live="polite"></main>
     <main id="wcGroups" class="groups wrap" aria-live="polite" hidden></main>
   </section>
 

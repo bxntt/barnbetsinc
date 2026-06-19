@@ -57,14 +57,13 @@ class StrategyConfig:
 
 @dataclass
 class WorldCupConfig:
-    """Sportsbook-agnostic World Cup tools (value finder + group simulator)."""
+    """Model-driven World Cup predictor (per-game bet calls + group simulator)."""
     enabled: bool = True
     provider: str = "mock"                      # mock | the_odds_api
     competition: str = "soccer_fifa_world_cup"
     markets: List[str] = field(default_factory=lambda: ["h2h", "totals"])
     regions: str = "us,uk,eu"
-    min_ev_pct: float = 1.5
-    max_published: int = 40
+    max_published: int = 60                      # cap on games shown (all calls per game kept)
     sims: int = 20000
     seed: int = 42
     # Live-polling budget guard (the_odds_api provider only). A paid odds poll is
@@ -150,8 +149,7 @@ class Config:
                 competition=wc.get("competition", "soccer_fifa_world_cup"),
                 markets=wc.get("markets", ["h2h", "totals"]),
                 regions=wc.get("regions", "us,uk,eu"),
-                min_ev_pct=float(wc.get("min_ev_pct", 1.5)),
-                max_published=int(wc.get("max_published", 40)),
+                max_published=int(wc.get("max_published", 60)),
                 sims=int(wc.get("sims", 20000)),
                 seed=int(wc.get("seed", 42)),
                 pre_kickoff_min=int(wc.get("pre_kickoff_min", 60)),

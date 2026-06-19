@@ -1,6 +1,6 @@
 "use strict";
 
-const state = { bets: [], filter: "ALL", view: "worldcup", wc: null, wcSub: "value" };
+const state = { bets: [], filter: "ALL", view: "worldcup", wc: null, wcSub: "predictions" };
 
 async function load() {
   // Hard Rock and World Cup are independent feeds; load both, tolerate either missing.
@@ -19,7 +19,7 @@ async function load() {
     state.wc = wc.value;
     renderWorldCup(wc.value);
   } else {
-    document.getElementById("wcValue").innerHTML = loadError(wc.reason, "agent.worldcup.pipeline");
+    document.getElementById("wcPredictions").innerHTML = loadError(wc.reason, "agent.worldcup.pipeline");
   }
 
   initTabs();
@@ -63,7 +63,7 @@ function switchWcSub(sub) {
   document.querySelectorAll("#wcSubtabs .subtab").forEach((t) =>
     t.setAttribute("aria-selected", String(t.dataset.sub === sub))
   );
-  document.getElementById("wcValue").hidden = sub !== "value";
+  document.getElementById("wcPredictions").hidden = sub !== "predictions";
   document.getElementById("wcGroups").hidden = sub !== "groups";
 }
 
@@ -189,67 +189,85 @@ function card(b) {
 }
 
 /* -------------------------------------------------------------- World Cup --- */
+const MARKET_LABEL = {
+  result: "Result",
+  total: "Total goals",
+  btts: "Both teams to score",
+  handicap: "Handicap",
+};
+
 function renderWorldCup(data) {
+  const preds = data.predictions || [];
+  const games = new Set(preds.map((p) => p.match_id)).size;
   document.getElementById("wcUpdated").textContent =
     "Updated " + timeAgo(data.generated_at) +
-    " · " + (data.value_count || 0) + " value bets · " +
+    " · " + (data.prediction_count || preds.length) + " predictions across " + games + " games · " +
     (data.groups ? data.groups.length : 0) + " groups · " +
     (data.sims ? data.sims.toLocaleString() + " sims" : "");
-  renderWcValue(data.value_bets || []);
+  renderWcPredictions(preds);
   renderWcGroups(data.groups || [], data.sim_note || "");
 }
 
-function renderWcValue(bets) {
-  const el = document.getElementById("wcValue");
-  if (!bets.length) {
-    el.innerHTML = `<div class="empty">No value above the threshold right now. The fair line and the best price agree.</div>`;
-    return;
-  }
-  el.innerHTML = bets.slice().sort((a, b) => b.ev_pct - a.ev_pct).map(wcCard).join("");
+function pctClass(pct) {
+  if (pct >= 60) return "p-strong";
+  if (pct >= 45) return "p-good";
+  return "p-lean";
 }
 
-function wcCard(b) {
-  const conf = Math.round((b.confidence || 0) * 100);
-  const shop = (b.all_prices || [])
-    .map(
-      (p, i) =>
-        `<span class="shop-px ${i === 0 ? "best" : ""}">${escapeHtml(p.book)} ${p.price_display}</span>`
-    )
+function renderWcPredictions(preds) {
+  const el = document.getElementById("wcPredictions");
+  if (!preds.length) {
+    el.innerHTML = `<div class="empty">No predictions yet. Run <code>python -m agent.worldcup.pipeline</code> to generate them.</div>`;
+    return;
+  }
+  // Group the per-market calls by game. preds arrive ranked by probability, so a
+  // game with a strong single call naturally floats to the top.
+  const byGame = new Map();
+  for (const p of preds) {
+    if (!byGame.has(p.match_id)) byGame.set(p.match_id, []);
+    byGame.get(p.match_id).push(p);
+  }
+  el.innerHTML = Array.from(byGame.values()).map(predGameCard).join("");
+}
+
+function predGameCard(calls) {
+  const g = calls[0];
+  const rows = calls
+    .slice()
+    .sort((a, b) => b.prob - a.prob)
+    .map(predRow)
     .join("");
   return `
-  <article class="card wc">
+  <article class="card wc pred">
     <div class="card-top">
       <div>
-        <div class="bet-label">${escapeHtml(b.label)}</div>
-        <div class="matchup">${escapeHtml(b.home)} vs ${escapeHtml(b.away)}</div>
-        <span class="sport-tag wc-tag">Group ${escapeHtml(b.group)} · ${b.market === "h2h" ? "1X2" : "Totals"}</span>
-      </div>
-      <div class="ev-badge ${evClass(b.ev_pct)}">
-        <div class="ev">+${b.ev_pct}%</div>
-        <div class="ev-k">edge</div>
+        <div class="matchup">${escapeHtml(g.home)} vs ${escapeHtml(g.away)}</div>
+        <span class="sport-tag wc-tag">${g.group ? "Group " + escapeHtml(g.group) + " · " : ""}starts ${timeUntil(g.commence_time)}</span>
       </div>
     </div>
-
-    <div class="prices">
-      <div class="price-box best"><div class="k">Best price · ${escapeHtml(b.best_book)}</div>
-        <div class="v">${b.best_price_display}</div></div>
-      <div class="price-box"><div class="k">Fair (${b.n_books} books)</div>
-        <div class="v">${fmtAmerican(b.fair_price_american)} · ${b.fair_prob_pct}%</div></div>
-    </div>
-
-    <div class="conf-row">
-      <span class="conf-label">Confidence</span>
-      <div class="conf-bar"><div class="conf-fill" style="width:${conf}%"></div></div>
-      <span class="conf-val">${conf}%</span>
-    </div>
-
-    <p class="rationale">${escapeHtml(b.rationale)}</p>
-    <div class="shop">${shop}</div>
-    <div class="tags">
-      <span class="tag">vig ${b.vig_pct}%</span>
-      <span class="tag">starts ${timeUntil(b.commence_time)}</span>
-    </div>
+    <div class="preds">${rows}</div>
   </article>`;
+}
+
+function predRow(p) {
+  const pct = p.prob_pct;
+  const conf = Math.round((p.confidence || 0) * 100);
+  const cls = pctClass(pct);
+  const split =
+    p.market_prob_pct != null
+      ? `model ${p.model_prob_pct}% · market ${p.market_prob_pct}%`
+      : "model only";
+  return `
+  <div class="pred-row">
+    <div class="pred-head">
+      <span class="pred-mkt">${MARKET_LABEL[p.market] || escapeHtml(p.market)}</span>
+      <span class="pred-pick">${escapeHtml(p.pick)}</span>
+      <span class="pred-pct ${cls}">${pct}%</span>
+    </div>
+    <div class="pbar"><div class="pfill ${cls}" style="width:${pct}%"></div></div>
+    <div class="pred-meta">${split} · confidence ${conf}%</div>
+    <p class="rationale">${escapeHtml(p.rationale)}</p>
+  </div>`;
 }
 
 function renderWcGroups(groups, note) {

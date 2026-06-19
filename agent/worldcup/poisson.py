@@ -90,6 +90,17 @@ def fit_lambdas(
     return best
 
 
+def score_matrix(lam_home: float, lam_away: float) -> List[List[float]]:
+    """Joint P(home=i, away=j) grid for i,j = 0..MAX_GOALS (independent Poissons).
+
+    The single source for every derived market: 1X2, totals, both-teams-to-score,
+    and goal-handicap probabilities are all sums over cells of this grid.
+    """
+    h = _pmf_vector(round(lam_home, 3))
+    a = _pmf_vector(round(lam_away, 3))
+    return [[h[i] * a[j] for j in range(MAX_GOALS + 1)] for i in range(MAX_GOALS + 1)]
+
+
 def goal_cdf(lam: float) -> List[float]:
     """Cumulative Poisson over k = 0..MAX_GOALS for fast inverse-CDF sampling."""
     pmf = _pmf_vector(round(lam, 3))

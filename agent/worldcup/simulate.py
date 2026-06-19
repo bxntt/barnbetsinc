@@ -18,6 +18,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
+from . import ratings
 from .devig import consensus_fair
 from .models import GroupProjection, Match, TeamProjection
 from .poisson import fit_lambdas, goal_cdf, sample_goals
@@ -63,13 +64,21 @@ def _mean_goals(match: Match) -> float:
     return 2.7
 
 
-def _build_model(match: Match) -> _MatchModel:
+def _build_model(match: Match, standings: Optional[Dict[str, Dict]] = None) -> _MatchModel:
     if match.played and match.home_goals is not None and match.away_goals is not None:
         return _MatchModel(match.home, match.away, True, match.home_goals, match.away_goals)
 
     probs = _fair_1x2(match)
     if probs is None:
-        lh = la = 1.35  # no market -> neutral coin-flip-ish model
+        # No market for this match -> predict from team strength + live form
+        # instead of a neutral coin flip.
+        sh = sa = None
+        if standings and match.group in standings:
+            g = standings[match.group]
+            sh, sa = g.get(match.home), g.get(match.away)
+        rh = ratings.effective_rating(match.home, sh)
+        ra = ratings.effective_rating(match.away, sa)
+        lh, la = ratings.lambdas(rh, ra)
     else:
         lh, la = fit_lambdas(*probs, mean_goals=_mean_goals(match))
     return _MatchModel(
@@ -100,23 +109,39 @@ def simulate(
     sims: int = 20000,
     seed: int = 42,
     third_place_slots: int = THIRD_PLACE_SLOTS,
+    seed_standings: Optional[Dict[str, Dict[str, Dict[str, int]]]] = None,
 ) -> List[GroupProjection]:
-    """Run the Monte Carlo and return per-group, per-team projections."""
+    """Run the Monte Carlo and return per-group, per-team projections.
+
+    Two modes:
+      * Full field (mock provider): pass every group match — played ones carry
+        real scorelines, upcoming ones carry odds — and leave `seed_standings`
+        unset. Tables are built from the played scorelines.
+      * Seeded (live provider): pass only the *remaining* matches (odds-priced)
+        and a `seed_standings` map {group: {team: {points, gd, gf, played}}}.
+        Each group's four teams and starting table come from the standings, so
+        the projection reflects where the tournament actually stands.
+    """
     rng = random.Random(seed)
 
     by_group: Dict[str, List[Match]] = defaultdict(list)
     for m in matches:
         by_group[m.group].append(m)
 
-    groups = sorted(by_group)
+    groups = sorted(seed_standings) if seed_standings else sorted(by_group)
     n_thirds = min(third_place_slots, len(groups))
 
-    # Precompute the per-match scoreline model once (the expensive fit).
+    # Precompute the per-match scoreline model once (the expensive fit). Matches
+    # with no market line fall back to the ratings model, form-adjusted from the
+    # seeded standings when available.
     models: Dict[str, List[_MatchModel]] = {
-        g: [_build_model(m) for m in by_group[g]] for g in groups
+        g: [_build_model(m, seed_standings) for m in by_group[g]] for g in groups
     }
     teams_in: Dict[str, List[str]] = {}
     for g in groups:
+        if seed_standings:
+            teams_in[g] = list(seed_standings[g].keys())
+            continue
         seen: List[str] = []
         for m in models[g]:
             for t in (m.home, m.away):
@@ -135,7 +160,12 @@ def simulate(
         third_pool: List[Tuple[Tuple[int, int, int], str]] = []  # (key, team)
 
         for g in groups:
-            stats = {t: [0, 0, 0] for t in teams_in[g]}  # [points, gd, gf]
+            if seed_standings:
+                # Start from the real current table; only remaining matches vary.
+                stats = {t: [s["points"], s["gd"], s["gf"]]
+                         for t, s in seed_standings[g].items()}
+            else:
+                stats = {t: [0, 0, 0] for t in teams_in[g]}  # [points, gd, gf]
             for m in models[g]:
                 if m.played:
                     hg, ag = m.home_goals, m.away_goals
@@ -178,7 +208,7 @@ def simulate(
     # Assemble projections.
     out: List[GroupProjection] = []
     for g in groups:
-        cur = _current_standings(models[g], teams_in[g])
+        cur = seed_standings[g] if seed_standings else _current_standings(models[g], teams_in[g])
         projs = []
         for t in teams_in[g]:
             fp = {str(p): finish[g][t][p] / sims for p in (1, 2, 3, 4)}
@@ -196,8 +226,14 @@ def simulate(
             ))
         # Display order: current points, then projected advancement.
         projs.sort(key=lambda p: (p.points, p.goal_diff, p.p_advance), reverse=True)
-        played = sum(1 for m in models[g] if m.played)
+        if seed_standings:
+            # A 4-team group is a 6-match round robin; played comes from the table.
+            played = round(sum(s["played"] for s in seed_standings[g].values()) / 2)
+            total = len(teams_in[g]) * (len(teams_in[g]) - 1) // 2
+        else:
+            played = sum(1 for m in models[g] if m.played)
+            total = len(models[g])
         out.append(GroupProjection(
-            group=g, teams=projs, matches_played=played, matches_total=len(models[g]),
+            group=g, teams=projs, matches_played=played, matches_total=total,
         ))
     return out

@@ -148,11 +148,8 @@ def main() -> int:
         from .worldcup.pipeline import run as run_worldcup
         wc = run_worldcup(config)
         remaining = wc.get("remaining")
-        if wc.get("skipped"):
-            print("[pipeline] worldcup: skipped this tick (last snapshot kept).")
-        else:
-            print(f"[pipeline] worldcup: {wc['value_count']} value bets, "
-                  f"{len(wc['groups'])} groups simulated -> site/worldcup.json")
+        print(f"[pipeline] worldcup: {wc.get('prediction_count', 0)} predictions, "
+              f"{len(wc.get('groups', []))} groups simulated -> site/worldcup.json")
 
     # Hard Rock engine: gated to at most once/interval on a live provider.
     if _engine_due(config, remaining):

@@ -6,11 +6,10 @@ the final score once it has been played) without polluting the generic model.
 """
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from typing import Dict, List, Optional, Tuple
 
 from ..models import Game
-from ..odds_math import format_american
 
 # (selection name, point) — point is None for 1X2, the line for totals.
 Key = Tuple[str, Optional[float]]
@@ -48,59 +47,53 @@ class FairLine:
 
 
 @dataclass
-class ValueQuote:
-    """The best available price for one selection vs the no-vig fair line."""
+class Prediction:
+    """A single model call for one bet market of one match.
+
+    The model assigns a probability to every outcome of the market; `pick` is the
+    most likely one and `prob` is the (model+market blended) chance it hits. We
+    keep the model-only and market-only probabilities alongside for transparency,
+    so the site can show where our model and the market agree or diverge.
+    """
     match_id: str
     group: str
     commence_time: str
     home: str
     away: str
-    market: str                      # "h2h" | "totals"
-    selection: str                   # team name, "Draw", "Over"/"Under"
-    point: Optional[float]
-
-    fair_prob: float                 # consensus no-vig probability (0..1)
-    best_price_american: int         # cheapest (highest-paying) price found
-    best_book: str
-    ev_pct: float                    # fair_prob * best_decimal - 1, in %
-    n_books: int
-    vig: float                       # avg market hold of the consensus
-    confidence: float                # 0..1 trust weight
-    all_prices: List[Tuple[str, int]] = field(default_factory=list)  # (book, american)
+    market: str                      # "result" | "total" | "btts" | "handicap"
+    pick: str                        # human label of the predicted outcome
+    prob: float                      # blended probability the pick hits (0..1)
+    confidence: float                # 0..1 trust in this probability
+    model_prob: float                # model-only probability for the pick
+    market_prob: Optional[float]     # market-only probability, if odds available
+    outcomes: List[Tuple[str, float]]  # full distribution: (label, prob), desc
     rationale: str = ""
-
-    @property
-    def best_price_display(self) -> str:
-        return format_american(self.best_price_american)
 
     @property
     def fair_price_american(self) -> int:
         from ..odds_math import implied_to_american
-        return implied_to_american(self.fair_prob)
-
-    def label(self) -> str:
-        if self.market == "h2h":
-            if self.selection == "Draw":
-                return "Draw"
-            return f"{self.selection} to win"
-        if self.market == "totals" and self.point is not None:
-            return f"{self.selection} {self.point:g}"
-        return self.selection
+        return implied_to_american(self.prob)
 
     def to_dict(self) -> dict:
-        d = asdict(self)
-        d["label"] = self.label()
-        d["best_price_display"] = self.best_price_display
-        d["fair_price_american"] = self.fair_price_american
-        d["fair_prob_pct"] = round(self.fair_prob * 100, 1)
-        d["ev_pct"] = round(self.ev_pct, 2)
-        d["vig_pct"] = round(self.vig * 100, 2)
-        d["confidence"] = round(self.confidence, 2)
-        # all_prices: list of {book, price_display}
-        d["all_prices"] = [
-            {"book": bk, "price_display": format_american(am)} for bk, am in self.all_prices
-        ]
-        return d
+        return {
+            "match_id": self.match_id,
+            "group": self.group,
+            "commence_time": self.commence_time,
+            "home": self.home,
+            "away": self.away,
+            "market": self.market,
+            "pick": self.pick,
+            "prob": round(self.prob, 4),
+            "prob_pct": round(self.prob * 100, 1),
+            "confidence": round(self.confidence, 2),
+            "model_prob_pct": round(self.model_prob * 100, 1),
+            "market_prob_pct": (None if self.market_prob is None
+                                else round(self.market_prob * 100, 1)),
+            "fair_price_american": self.fair_price_american,
+            "outcomes": [{"label": lbl, "prob_pct": round(p * 100, 1)}
+                         for lbl, p in self.outcomes],
+            "rationale": self.rationale,
+        }
 
 
 @dataclass
