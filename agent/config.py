@@ -35,6 +35,27 @@ class ContextConfig:
 
 
 @dataclass
+class WorldCupConfig:
+    """Sportsbook-agnostic World Cup tools (value finder + group simulator)."""
+    enabled: bool = True
+    provider: str = "mock"                      # mock | the_odds_api
+    competition: str = "soccer_fifa_world_cup"
+    markets: List[str] = field(default_factory=lambda: ["h2h", "totals"])
+    regions: str = "us,uk,eu"
+    min_ev_pct: float = 1.5
+    max_published: int = 40
+    sims: int = 20000
+    seed: int = 42
+    # Live-polling budget guard (the_odds_api provider only). A paid odds poll is
+    # only made inside a match window AND within the rolling daily credit cap.
+    pre_kickoff_min: int = 60         # start polling this long before kickoff
+    post_kickoff_min: int = 150       # keep polling until ~this long after kickoff
+    min_interval_min: int = 15        # never poll more than once per this many min
+    credit_reserve: int = 20          # never spend below this many remaining credits
+    tournament_end: str = "2026-07-19"  # spread remaining credits through this date
+
+
+@dataclass
 class Config:
     provider: str = "mock"
     target_book: str = "hardrockbet"
@@ -46,6 +67,10 @@ class Config:
     confidence: ConfidenceConfig = field(default_factory=ConfidenceConfig)
     max_published: int = 50
     context: ContextConfig = field(default_factory=ContextConfig)
+    worldcup: WorldCupConfig = field(default_factory=WorldCupConfig)
+    # Hard Rock engine throttle on a live provider (keeps the budget for World Cup).
+    engine_min_interval_hours: int = 24
+    engine_credit_reserve: int = 20
 
     # secrets
     odds_api_io_key: Optional[str] = None
@@ -59,6 +84,7 @@ class Config:
 
         conf = raw.get("confidence", {}) or {}
         ctx = raw.get("context", {}) or {}
+        wc = raw.get("worldcup", {}) or {}
 
         return cls(
             provider=raw.get("provider", "mock"),
@@ -77,6 +103,24 @@ class Config:
                 injuries=bool(ctx.get("injuries", True)),
                 weather=bool(ctx.get("weather", False)),
             ),
+            worldcup=WorldCupConfig(
+                enabled=bool(wc.get("enabled", True)),
+                provider=wc.get("provider", "mock"),
+                competition=wc.get("competition", "soccer_fifa_world_cup"),
+                markets=wc.get("markets", ["h2h", "totals"]),
+                regions=wc.get("regions", "us,uk,eu"),
+                min_ev_pct=float(wc.get("min_ev_pct", 1.5)),
+                max_published=int(wc.get("max_published", 40)),
+                sims=int(wc.get("sims", 20000)),
+                seed=int(wc.get("seed", 42)),
+                pre_kickoff_min=int(wc.get("pre_kickoff_min", 60)),
+                post_kickoff_min=int(wc.get("post_kickoff_min", 150)),
+                min_interval_min=int(wc.get("min_interval_min", 15)),
+                credit_reserve=int(wc.get("credit_reserve", 20)),
+                tournament_end=str(wc.get("tournament_end", "2026-07-19")),
+            ),
+            engine_min_interval_hours=int(raw.get("engine_min_interval_hours", 24)),
+            engine_credit_reserve=int(raw.get("engine_credit_reserve", 20)),
             odds_api_io_key=os.getenv("ODDS_API_IO_KEY") or None,
             the_odds_api_key=os.getenv("THE_ODDS_API_KEY") or None,
         )

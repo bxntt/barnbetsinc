@@ -1,20 +1,74 @@
 "use strict";
 
-const state = { bets: [], filter: "ALL" };
+const state = { bets: [], filter: "ALL", view: "worldcup", wc: null, wcSub: "value" };
 
 async function load() {
-  try {
-    const res = await fetch("data.json?_=" + Date.now());
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-    render(data);
-  } catch (err) {
-    document.getElementById("bets").innerHTML =
-      `<div class="empty">Couldn't load data.json (${err.message}).<br/>Run <code>python -m agent.pipeline</code> first.</div>`;
+  // Hard Rock and World Cup are independent feeds; load both, tolerate either missing.
+  const [hr, wc] = await Promise.allSettled([
+    fetchJson("data.json"),
+    fetchJson("worldcup.json"),
+  ]);
+
+  if (hr.status === "fulfilled") {
+    renderHardRock(hr.value);
+  } else {
+    document.getElementById("bets").innerHTML = loadError(hr.reason, "agent.pipeline");
   }
+
+  if (wc.status === "fulfilled") {
+    state.wc = wc.value;
+    renderWorldCup(wc.value);
+  } else {
+    document.getElementById("wcValue").innerHTML = loadError(wc.reason, "agent.worldcup.pipeline");
+  }
+
+  initTabs();
 }
 
-function render(data) {
+async function fetchJson(name) {
+  const res = await fetch(name + "?_=" + Date.now());
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
+
+function loadError(err, mod) {
+  const msg = err && err.message ? err.message : String(err);
+  return `<div class="empty">Couldn't load (${escapeHtml(msg)}).<br/>Run <code>python -m ${mod}</code> first.</div>`;
+}
+
+/* ------------------------------------------------------------------ tabs --- */
+function initTabs() {
+  document.body.dataset.view = state.view;
+  document.querySelectorAll("#tabs .tab").forEach((t) =>
+    t.addEventListener("click", () => switchView(t.dataset.view))
+  );
+  document.querySelectorAll("#wcSubtabs .subtab").forEach((t) =>
+    t.addEventListener("click", () => switchWcSub(t.dataset.sub))
+  );
+}
+
+function switchView(view) {
+  state.view = view;
+  document.querySelectorAll("#tabs .tab").forEach((t) =>
+    t.setAttribute("aria-selected", String(t.dataset.view === view))
+  );
+  document.getElementById("view-hardrock").hidden = view !== "hardrock";
+  document.getElementById("view-worldcup").hidden = view !== "worldcup";
+  document.body.dataset.view = view;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function switchWcSub(sub) {
+  state.wcSub = sub;
+  document.querySelectorAll("#wcSubtabs .subtab").forEach((t) =>
+    t.setAttribute("aria-selected", String(t.dataset.sub === sub))
+  );
+  document.getElementById("wcValue").hidden = sub !== "value";
+  document.getElementById("wcGroups").hidden = sub !== "groups";
+}
+
+/* -------------------------------------------------------------- Hard Rock --- */
+function renderHardRock(data) {
   state.bets = data.bets || [];
   renderTrackRecord(data.track_record || {});
   document.getElementById("updated").textContent =
@@ -58,10 +112,12 @@ function renderFilters() {
 }
 
 function renderBets() {
-  const list =
-    state.filter === "ALL"
-      ? state.bets
-      : state.bets.filter((b) => b.sport_title === state.filter);
+  const list = (state.filter === "ALL"
+    ? state.bets
+    : state.bets.filter((b) => b.sport_title === state.filter)
+  )
+    .slice()
+    .sort((a, b) => b.ev_pct - a.ev_pct);
   const el = document.getElementById("bets");
   if (!list.length) {
     el.innerHTML = `<div class="empty">No +EV bets right now. Check back after the next refresh.</div>`;
@@ -118,6 +174,115 @@ function card(b) {
   </article>`;
 }
 
+/* -------------------------------------------------------------- World Cup --- */
+function renderWorldCup(data) {
+  document.getElementById("wcUpdated").textContent =
+    "Updated " + timeAgo(data.generated_at) +
+    " · " + (data.value_count || 0) + " value bets · " +
+    (data.groups ? data.groups.length : 0) + " groups · " +
+    (data.sims ? data.sims.toLocaleString() + " sims" : "");
+  renderWcValue(data.value_bets || []);
+  renderWcGroups(data.groups || [], data.sim_note || "");
+}
+
+function renderWcValue(bets) {
+  const el = document.getElementById("wcValue");
+  if (!bets.length) {
+    el.innerHTML = `<div class="empty">No value above the threshold right now. The fair line and the best price agree.</div>`;
+    return;
+  }
+  el.innerHTML = bets.slice().sort((a, b) => b.ev_pct - a.ev_pct).map(wcCard).join("");
+}
+
+function wcCard(b) {
+  const conf = Math.round((b.confidence || 0) * 100);
+  const shop = (b.all_prices || [])
+    .map(
+      (p, i) =>
+        `<span class="shop-px ${i === 0 ? "best" : ""}">${escapeHtml(p.book)} ${p.price_display}</span>`
+    )
+    .join("");
+  return `
+  <article class="card wc">
+    <div class="card-top">
+      <div>
+        <div class="bet-label">${escapeHtml(b.label)}</div>
+        <div class="matchup">${escapeHtml(b.home)} vs ${escapeHtml(b.away)}</div>
+        <span class="sport-tag wc-tag">Group ${escapeHtml(b.group)} · ${b.market === "h2h" ? "1X2" : "Totals"}</span>
+      </div>
+      <div class="ev-badge ${evClass(b.ev_pct)}">
+        <div class="ev">+${b.ev_pct}%</div>
+        <div class="ev-k">edge</div>
+      </div>
+    </div>
+
+    <div class="prices">
+      <div class="price-box best"><div class="k">Best price · ${escapeHtml(b.best_book)}</div>
+        <div class="v">${b.best_price_display}</div></div>
+      <div class="price-box"><div class="k">Fair (${b.n_books} books)</div>
+        <div class="v">${fmtAmerican(b.fair_price_american)} · ${b.fair_prob_pct}%</div></div>
+    </div>
+
+    <div class="conf-row">
+      <span class="conf-label">Confidence</span>
+      <div class="conf-bar"><div class="conf-fill" style="width:${conf}%"></div></div>
+      <span class="conf-val">${conf}%</span>
+    </div>
+
+    <p class="rationale">${escapeHtml(b.rationale)}</p>
+    <div class="shop">${shop}</div>
+    <div class="tags">
+      <span class="tag">vig ${b.vig_pct}%</span>
+      <span class="tag">starts ${timeUntil(b.commence_time)}</span>
+    </div>
+  </article>`;
+}
+
+function renderWcGroups(groups, note) {
+  const el = document.getElementById("wcGroups");
+  if (!groups.length) {
+    el.innerHTML = `<div class="empty">${escapeHtml(note || "No group projections available.")}</div>`;
+    return;
+  }
+  el.innerHTML = groups.map(groupCard).join("");
+}
+
+function groupCard(g) {
+  const rows = g.teams
+    .map((t) => {
+      const adv = t.p_advance_pct;
+      const cls = t.p_advance >= 0.5 ? "adv-in" : t.p_advance >= 0.2 ? "adv-edge" : "adv-out";
+      return `
+      <tr class="${cls}">
+        <td class="team">${escapeHtml(t.team)}</td>
+        <td class="num">${t.points}</td>
+        <td class="num">${t.goal_diff >= 0 ? "+" : ""}${t.goal_diff}</td>
+        <td class="num dim">${t.exp_points}</td>
+        <td class="advc">
+          <div class="advbar"><div class="advfill" style="width:${adv}%"></div></div>
+          <span class="advnum">${adv}%</span>
+        </td>
+        <td class="num dim">${t.p_win_group_pct}%</td>
+      </tr>`;
+    })
+    .join("");
+
+  return `
+  <article class="card group">
+    <div class="group-head">
+      <h3>Group ${escapeHtml(g.group)}</h3>
+      <span class="played">${g.matches_played}/${g.matches_total} played</span>
+    </div>
+    <table class="gtable">
+      <thead>
+        <tr><th>Team</th><th>Pts</th><th>GD</th><th>xPts</th><th>Advance</th><th>Win</th></tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </article>`;
+}
+
+/* --------------------------------------------------------------- helpers --- */
 function fmtAmerican(n) {
   return n > 0 ? "+" + n : "" + n;
 }

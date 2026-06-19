@@ -1,8 +1,14 @@
-# Best Bets · Hard Rock
+# EdgeFinder
 
-An agent that finds **+EV ("value") bets at Hard Rock Bet** — the only legal mobile
-sportsbook in Florida — and publishes a ranked, mobile-friendly list with a shareable
-URL. For each bet it shows **how much edge** you have and **why**.
+A mobile-first site with **two sections**, served from one shareable URL:
+
+1. **🎰 Hard Rock** — finds **+EV ("value") bets at Hard Rock Bet** (the only legal
+   mobile sportsbook in Florida) by judging its prices against the sharp market.
+2. **⚽ World Cup** — **sportsbook-agnostic** tools that don't care where you bet:
+   no-vig **fair odds vs the best price across every book**, and a Monte-Carlo
+   **group-stage simulator** for the 2026 tournament.
+
+For each bet it shows **how much edge** you have and **why**.
 
 > **Informational only. Not financial advice. 21+ where legal.** Sportsbooks
 > (Hard Rock/Kambi included) may limit accounts that consistently bet value.
@@ -44,11 +50,16 @@ imminently score higher) and annotated with **line movement** and a **closing-li
 
 ```bash
 pip install -r requirements.txt
-python -m agent.pipeline          # uses the bundled mock data -> writes site/data.json
+python -m agent.pipeline          # bundled mock data -> writes site/data.json AND site/worldcup.json
 cd site && python -m http.server  # open http://localhost:8000 on desktop or phone
 ```
 
-The mock slate includes planted +EV bets so you can see the full thing working offline.
+The mock slate includes planted +EV bets (Hard Rock) and a full 12-group World Cup
+field, so both tabs of the site work offline with no API key. To run just one side:
+
+```bash
+python -m agent.worldcup.pipeline   # World Cup only -> site/worldcup.json
+```
 
 ## Switching to real Hard Rock odds
 
@@ -75,25 +86,61 @@ costs more credits), `confidence`, `max_published`.
 
 ---
 
+## World Cup tools (sportsbook-agnostic)
+
+The Hard Rock engine judges *one* book against a sharp reference. The World Cup
+tools drop the single-book constraint entirely and report what's true across the
+*whole* market — so they're useful no matter where (or whether) you bet.
+
+| Tool | What it answers |
+|---|---|
+| **Value finder** | What's the **no-vig fair price** for 1X2 / totals, and which book offers the **best price**? Flags +EV when the best price beats fair. |
+| **Group simulator** | Given the market, what's each team's chance to **win its group** and to **advance** (2026: top 2 + 8 best thirds → Round of 32)? |
+
+How it works:
+
+```
+value:  fair_i = de-vig each book multiplicatively, then average across books
+        EV%    = fair_prob * best_price_decimal − 1     (best price = cheapest book)
+
+sim:    each unplayed match's no-vig 1X2 line -> Poisson goal expectancies
+        (λ_home, λ_away) -> Monte-Carlo scorelines -> group tables (points, GD,
+        GF tiebreakers) -> P(win group) / P(advance), over `sims` runs (seeded)
+```
+
+Played matches use their real scoreline, so projections sharpen through the group
+stage. Knobs live under `worldcup:` in `config.yaml` (`provider`, `markets`,
+`min_ev_pct`, `sims`, `seed`). The bundled `mock` provider powers both tools with
+no key; `the_odds_api` gives live odds for the value finder (the simulator needs
+group/schedule metadata the odds feed doesn't carry, so it stays on the mock field
+until a fixtures map is added).
+
 ## How it works (layout)
 
 ```
 agent/
-  config.py              # config.yaml + .env loader
+  config.py              # config.yaml + .env loader (incl. worldcup block)
   models.py              # Game / BookOdds / Outcome / BestBet
   odds_math.py           # American <-> decimal <-> implied probability
   providers/             # mock (default) | the_odds_api | odds_api_io
-  engine/
+  engine/                # Hard Rock +EV engine
     devig.py             # no-vig fair line from sharp ref or consensus
     ev.py                # EV% + confidence per Hard Rock outcome
     movement.py          # line movement from snapshot history
     clv.py               # closing-line-value track record
   context/               # espn (injuries), weather (Open-Meteo) — optional
+  worldcup/              # sportsbook-agnostic World Cup tools
+    devig.py             # N-way (1X2) no-vig consensus across all books
+    value.py             # best price across books vs fair -> +EV finder
+    poisson.py           # fit goal expectancies from a 1X2 line; sample scorelines
+    simulate.py          # Monte-Carlo group-stage simulator (2026 format)
+    provider.py          # mock 12-group field | the_odds_api soccer odds
+    pipeline.py          # fetch -> value + simulate -> site/worldcup.json
   store.py               # odds snapshots + recommendation log in data/history/
   rank.py                # confidence-weighted ranking + plain-English "why"
-  pipeline.py            # fetch -> de-vig -> EV -> rank -> publish
-site/                    # mobile-first static site (reads data.json)
-tests/test_engine.py     # odds math, de-vig, EV, ranking
+  pipeline.py            # Hard Rock run; also triggers the World Cup run
+site/                    # mobile-first static site; tabs read data.json + worldcup.json
+tests/                   # test_engine.py (Hard Rock) + test_worldcup.py
 ```
 
 Run the tests with `pytest`.

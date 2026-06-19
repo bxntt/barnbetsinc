@@ -4,23 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#0b0f14" />
-  <title>Best Bets · Hard Rock</title>
-  <meta name="description" content="Daily +EV best bets at Hard Rock Bet vs the sharp market." />
+  <title>Barn Betting Inc. · Best Bets & World Cup</title>
+  <meta name="description" content="+EV best bets at Hard Rock, plus sportsbook-agnostic World Cup fair odds and a group-stage simulator." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <div class="wrap">
-      <h1>Best Bets <span class="accent">· Hard Rock</span></h1>
-      <p class="tagline">Where Hard Rock is paying more than the bet is worth — ranked by edge.</p>
-      <div id="trackRecord" class="track-record" aria-live="polite"></div>
-      <p id="updated" class="updated"></p>
+      <h1>Barn Betting <span class="accent">Inc.</span></h1>
+      <nav class="tabs" id="tabs" role="tablist" aria-label="Sections">
+        <button class="tab" data-view="worldcup" role="tab" aria-selected="true">⚽ World Cup</button>
+        <button class="tab" data-view="hardrock" role="tab" aria-selected="false">🎰 Hard Rock</button>
+      </nav>
     </div>
   </header>
 
-  <nav id="filters" class="filters wrap" aria-label="Filter by sport"></nav>
+  <!-- ============================== Hard Rock ============================== -->
+  <section id="view-hardrock" class="view" role="tabpanel" hidden>
+    <div class="wrap section-head">
+      <p class="tagline">+EV bets where Hard Rock pays more than the bet is worth — ranked by edge.</p>
+      <div id="trackRecord" class="track-record" aria-live="polite"></div>
+      <p id="updated" class="updated"></p>
+    </div>
+    <nav id="filters" class="filters wrap" aria-label="Filter by sport"></nav>
+    <main id="bets" class="bets wrap" aria-live="polite"></main>
+  </section>
 
-  <main id="bets" class="bets wrap" aria-live="polite"></main>
+  <!-- ============================== World Cup ============================= -->
+  <section id="view-worldcup" class="view" role="tabpanel">
+    <div class="wrap section-head">
+      <p class="tagline">The bets our bot thinks have the <strong>best chance of hitting</strong> — plus a simulator that plays the group stage out thousands of times to show <strong>who's likely to advance</strong>.</p>
+      <p id="wcUpdated" class="updated"></p>
+      <nav class="subtabs" id="wcSubtabs" role="tablist" aria-label="World Cup tools">
+        <button class="subtab" data-sub="value" role="tab" aria-selected="true">Value finder</button>
+        <button class="subtab" data-sub="groups" role="tab" aria-selected="false">Group simulator</button>
+      </nav>
+    </div>
+    <main id="wcValue" class="bets wrap" aria-live="polite"></main>
+    <main id="wcGroups" class="groups wrap" aria-live="polite" hidden></main>
+  </section>
 
   <footer class="footer wrap">
     <p id="disclaimer"></p>

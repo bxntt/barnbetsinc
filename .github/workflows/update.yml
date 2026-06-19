@@ -8,8 +8,10 @@ name: Update best bets & deploy
 on:
   workflow_dispatch:          # run manually from the Actions tab
   schedule:
-    # Every 3 hours. Tighten/loosen to match your API's free-tier budget.
-    - cron: "0 */3 * * *"
+    # Every 15 min so the World Cup tab stays fresh during matches. Most ticks
+    # cost 0 credits: the agent's free /events gate only pays for an odds poll
+    # inside a match window and within its rolling daily budget cap.
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write             # commit history snapshots back (for movement + CLV)
@@ -42,17 +44,33 @@ jobs:
           ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
         run: python -m agent.pipeline
 
+      # Most cron ticks change nothing (no match in window). Only commit + deploy
+      # when site/data actually moved, so we don't spam commits or Pages builds.
+      - name: Detect changes
+        id: changes
+        run: |
+          git add -A data/history site
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes this tick — skipping commit & deploy."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Persist history (for line movement & CLV)
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/history site/data.json
-          git commit -m "chore: refresh best bets [skip ci]" || echo "nothing to commit"
-          git push || echo "nothing to push"
+          git commit -m "chore: refresh best bets [skip ci]"
+          git push
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - if: steps.changes.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+      - if: steps.changes.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - id: deploy
+        if: steps.changes.outputs.changed == 'true'
         uses: actions/deploy-pages@v4

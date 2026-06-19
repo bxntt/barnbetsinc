@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-06-19T15:45:51.797458+00:00",
+  "target_book": "hardrockbet",
+  "target_prices": {
+    "mock-nba-lal-bos|h2h|Los Angeles Lakers|": -110,
+    "mock-nba-lal-bos|h2h|Boston Celtics|": -110,
+    "mock-nfl-phi-dal|spreads|Philadelphia Eagles|-2.5": 100,
+    "mock-nfl-phi-dal|spreads|Dallas Cowboys|2.5": -120,
+    "mock-mlb-nyy-bos|totals|Over|8.5": -110,
+    "mock-mlb-nyy-bos|totals|Under|8.5": -110,
+    "mock-nhl-edm-col|h2h|Edmonton Oilers|": 124,
+    "mock-nhl-edm-col|h2h|Colorado Avalanche|": -136,
+    "mock-nba-gsw-mia|h2h|Golden State Warriors|": -170,
+    "mock-nba-gsw-mia|h2h|Miami Heat|": 120
+  },
+  "commence_times": {
+    "mock-nba-lal-bos": "2026-06-19T19:45:51.796616+00:00",
+    "mock-nfl-phi-dal": "2026-06-20T19:45:51.796882+00:00",
+    "mock-mlb-nyy-bos": "2026-06-19T21:45:51.796891+00:00",
+    "mock-nhl-edm-col": "2026-06-20T00:45:51.796898+00:00",
+    "mock-nba-gsw-mia": "2026-06-19T20:45:51.796904+00:00"
+  }
+}

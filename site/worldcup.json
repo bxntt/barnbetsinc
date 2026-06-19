@@ -1,0 +1,1551 @@
+{
+  "generated_at": "2026-06-19T16:23:52.476171+00:00",
+  "competition": "soccer_fifa_world_cup",
+  "provider": "the_odds_api",
+  "min_ev_pct": 1.5,
+  "sims": 20000,
+  "value_count": 26,
+  "value_bets": [
+    {
+      "match_id": "ef0f74a991d3e35798ae5af77667bce1",
+      "group": "",
+      "commence_time": "2026-06-20T00:30:00Z",
+      "home": "Brazil",
+      "away": "Haiti",
+      "market": "h2h",
+      "selection": "Haiti",
+      "point": null,
+      "fair_prob": 0.046272063656125115,
+      "best_price_american": 2600,
+      "best_book": "mybookieag",
+      "ev_pct": 24.93,
+      "n_books": 9,
+      "vig": 0.04505909751302211,
+      "confidence": 0.94,
+      "all_prices": [
+        {
+          "book": "mybookieag",
+          "price_display": "+2600"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+2200"
+        },
+        {
+          "book": "betus",
+          "price_display": "+2100"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+2000"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+1900"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1900"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1900"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+1800"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1600"
+        }
+      ],
+      "rationale": "Fair value for Haiti to win is 4.6% (~+2061) across 9 books. Best price is +2600 (3.7% implied) at mybookieag \u2014 a +24.9% edge.",
+      "label": "Haiti to win",
+      "best_price_display": "+2600",
+      "fair_price_american": 2061,
+      "fair_prob_pct": 4.6,
+      "vig_pct": 4.51
+    },
+    {
+      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "group": "",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Panama",
+      "away": "England",
+      "market": "h2h",
+      "selection": "Panama",
+      "point": null,
+      "fair_prob": 0.09956481560024406,
+      "best_price_american": 1050,
+      "best_book": "betrivers",
+      "ev_pct": 14.5,
+      "n_books": 8,
+      "vig": 0.057056217843899665,
+      "confidence": 0.8,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+1050"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+950"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+900"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+900"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+800"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+765"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+765"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+750"
+        }
+      ],
+      "rationale": "Fair value for Panama to win is 10.0% (~+904) across 8 books. Best price is +1050 (8.7% implied) at betrivers \u2014 a +14.5% edge.",
+      "label": "Panama to win",
+      "best_price_display": "+1050",
+      "fair_price_american": 904,
+      "fair_prob_pct": 10.0,
+      "vig_pct": 5.71
+    },
+    {
+      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "group": "",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "market": "h2h",
+      "selection": "Tunisia",
+      "point": null,
+      "fair_prob": 0.10541389459538036,
+      "best_price_american": 950,
+      "best_book": "betrivers",
+      "ev_pct": 10.68,
+      "n_books": 8,
+      "vig": 0.05497078637653313,
+      "confidence": 0.83,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+950"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+875"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+850"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+810"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+780"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+780"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+700"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+700"
+        }
+      ],
+      "rationale": "Fair value for Tunisia to win is 10.5% (~+849) across 8 books. Best price is +950 (9.5% implied) at betrivers \u2014 a +10.7% edge.",
+      "label": "Tunisia to win",
+      "best_price_display": "+950",
+      "fair_price_american": 849,
+      "fair_prob_pct": 10.5,
+      "vig_pct": 5.5
+    },
+    {
+      "match_id": "ef0f74a991d3e35798ae5af77667bce1",
+      "group": "",
+      "commence_time": "2026-06-20T00:30:00Z",
+      "home": "Brazil",
+      "away": "Haiti",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.08826739322734742,
+      "best_price_american": 1125,
+      "best_book": "betus",
+      "ev_pct": 8.13,
+      "n_books": 9,
+      "vig": 0.04505909751302211,
+      "confidence": 0.94,
+      "all_prices": [
+        {
+          "book": "betus",
+          "price_display": "+1125"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1014"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+1000"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1000"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1000"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1000"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+950"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+900"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+900"
+        }
+      ],
+      "rationale": "Fair value for Draw is 8.8% (~+1033) across 9 books. Best price is +1125 (8.2% implied) at betus \u2014 a +8.1% edge.",
+      "label": "Draw",
+      "best_price_display": "+1125",
+      "fair_price_american": 1033,
+      "fair_prob_pct": 8.8,
+      "vig_pct": 4.51
+    },
+    {
+      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
+      "group": "",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "market": "h2h",
+      "selection": "Uzbekistan",
+      "point": null,
+      "fair_prob": 0.06730664152058108,
+      "best_price_american": 1500,
+      "best_book": "fanduel",
+      "ev_pct": 7.69,
+      "n_books": 9,
+      "vig": 0.04927380602751246,
+      "confidence": 0.89,
+      "all_prices": [
+        {
+          "book": "fanduel",
+          "price_display": "+1500"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+1400"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1400"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1300"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1300"
+        },
+        {
+          "book": "betus",
+          "price_display": "+1300"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1300"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1250"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+1150"
+        }
+      ],
+      "rationale": "Fair value for Uzbekistan to win is 6.7% (~+1386) across 9 books. Best price is +1500 (6.2% implied) at fanduel \u2014 a +7.7% edge.",
+      "label": "Uzbekistan to win",
+      "best_price_display": "+1500",
+      "fair_price_american": 1386,
+      "fair_prob_pct": 6.7,
+      "vig_pct": 4.93
+    },
+    {
+      "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
+      "group": "",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Scotland",
+      "away": "Brazil",
+      "market": "h2h",
+      "selection": "Scotland",
+      "point": null,
+      "fair_prob": 0.1438009601681309,
+      "best_price_american": 650,
+      "best_book": "betrivers",
+      "ev_pct": 7.85,
+      "n_books": 8,
+      "vig": 0.0566000750986137,
+      "confidence": 0.81,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+650"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+620"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+600"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+550"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+550"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+515"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+515"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+500"
+        }
+      ],
+      "rationale": "Fair value for Scotland to win is 14.4% (~+595) across 8 books. Best price is +650 (13.3% implied) at betrivers \u2014 a +7.9% edge.",
+      "label": "Scotland to win",
+      "best_price_display": "+650",
+      "fair_price_american": 595,
+      "fair_prob_pct": 14.4,
+      "vig_pct": 5.66
+    },
+    {
+      "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "group": "",
+      "commence_time": "2026-06-21T19:00:00Z",
+      "home": "Belgium",
+      "away": "Iran",
+      "market": "h2h",
+      "selection": "Iran",
+      "point": null,
+      "fair_prob": 0.12562053877452198,
+      "best_price_american": 750,
+      "best_book": "betonlineag",
+      "ev_pct": 6.78,
+      "n_books": 9,
+      "vig": 0.04793297350434895,
+      "confidence": 0.91,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+750"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+750"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+700"
+        },
+        {
+          "book": "betus",
+          "price_display": "+660"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+650"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+650"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+625"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+610"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+575"
+        }
+      ],
+      "rationale": "Fair value for Iran to win is 12.6% (~+696) across 9 books. Best price is +750 (11.8% implied) at betonlineag \u2014 a +6.8% edge.",
+      "label": "Iran to win",
+      "best_price_display": "+750",
+      "fair_price_american": 696,
+      "fair_prob_pct": 12.6,
+      "vig_pct": 4.79
+    },
+    {
+      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "group": "",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Panama",
+      "away": "England",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.14841522196350193,
+      "best_price_american": 625,
+      "best_book": "bovada",
+      "ev_pct": 7.6,
+      "n_books": 8,
+      "vig": 0.057056217843899665,
+      "confidence": 0.8,
+      "all_prices": [
+        {
+          "book": "bovada",
+          "price_display": "+625"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+600"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+575"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+575"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+550"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+480"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+475"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+460"
+        }
+      ],
+      "rationale": "Fair value for Draw is 14.8% (~+574) across 8 books. Best price is +625 (13.8% implied) at bovada \u2014 a +7.6% edge.",
+      "label": "Draw",
+      "best_price_display": "+625",
+      "fair_price_american": 574,
+      "fair_prob_pct": 14.8,
+      "vig_pct": 5.71
+    },
+    {
+      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "group": "",
+      "commence_time": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "away": "Iraq",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.08864084242923967,
+      "best_price_american": 1100,
+      "best_book": "draftkings",
+      "ev_pct": 6.37,
+      "n_books": 9,
+      "vig": 0.04670758954806691,
+      "confidence": 0.92,
+      "all_prices": [
+        {
+          "book": "draftkings",
+          "price_display": "+1100"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1000"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+1000"
+        },
+        {
+          "book": "betus",
+          "price_display": "+1000"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+950"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+950"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+950"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+950"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+920"
+        }
+      ],
+      "rationale": "Fair value for Draw is 8.9% (~+1028) across 9 books. Best price is +1100 (8.3% implied) at draftkings \u2014 a +6.4% edge.",
+      "label": "Draw",
+      "best_price_display": "+1100",
+      "fair_price_american": 1028,
+      "fair_prob_pct": 8.9,
+      "vig_pct": 4.67
+    },
+    {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "market": "h2h",
+      "selection": "Cura\u00e7ao",
+      "point": null,
+      "fair_prob": 0.04083467662876538,
+      "best_price_american": 2500,
+      "best_book": "betrivers",
+      "ev_pct": 6.17,
+      "n_books": 9,
+      "vig": 0.046800867008044617,
+      "confidence": 0.92,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+2500"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+2500"
+        },
+        {
+          "book": "betus",
+          "price_display": "+2500"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+2300"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+2200"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+2200"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+2100"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+2000"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+2000"
+        }
+      ],
+      "rationale": "Fair value for Cura\u00e7ao to win is 4.1% (~+2349) across 9 books. Best price is +2500 (3.8% implied) at betrivers \u2014 a +6.2% edge.",
+      "label": "Cura\u00e7ao to win",
+      "best_price_display": "+2500",
+      "fair_price_american": 2349,
+      "fair_prob_pct": 4.1,
+      "vig_pct": 4.68
+    },
+    {
+      "match_id": "7e6aee294ea1a4792c59558791084528",
+      "group": "",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "home": "Senegal",
+      "away": "Iraq",
+      "market": "h2h",
+      "selection": "Iraq",
+      "point": null,
+      "fair_prob": 0.09663759798354363,
+      "best_price_american": 1000,
+      "best_book": "draftkings",
+      "ev_pct": 6.3,
+      "n_books": 8,
+      "vig": 0.05169587880810858,
+      "confidence": 0.86,
+      "all_prices": [
+        {
+          "book": "draftkings",
+          "price_display": "+1000"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+975"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+920"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+900"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+900"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+850"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+850"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+725"
+        }
+      ],
+      "rationale": "Fair value for Iraq to win is 9.7% (~+935) across 8 books. Best price is +1000 (9.1% implied) at draftkings \u2014 a +6.3% edge.",
+      "label": "Iraq to win",
+      "best_price_display": "+1000",
+      "fair_price_american": 935,
+      "fair_prob_pct": 9.7,
+      "vig_pct": 5.17
+    },
+    {
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.09192306216663024,
+      "best_price_american": 1050,
+      "best_book": "betonlineag",
+      "ev_pct": 5.71,
+      "n_books": 9,
+      "vig": 0.04922000063040441,
+      "confidence": 0.89,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+1050"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1050"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+950"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+950"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+950"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+900"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+900"
+        },
+        {
+          "book": "betus",
+          "price_display": "+900"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+820"
+        }
+      ],
+      "rationale": "Fair value for Draw is 9.2% (~+988) across 9 books. Best price is +1050 (8.7% implied) at betonlineag \u2014 a +5.7% edge.",
+      "label": "Draw",
+      "best_price_display": "+1050",
+      "fair_price_american": 988,
+      "fair_prob_pct": 9.2,
+      "vig_pct": 4.92
+    },
+    {
+      "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
+      "group": "",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "market": "h2h",
+      "selection": "Qatar",
+      "point": null,
+      "fair_prob": 0.1395485067782773,
+      "best_price_american": 650,
+      "best_book": "betrivers",
+      "ev_pct": 4.66,
+      "n_books": 8,
+      "vig": 0.04831415033745601,
+      "confidence": 0.9,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+650"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+600"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+600"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+600"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+580"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+550"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+550"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+550"
+        }
+      ],
+      "rationale": "Fair value for Qatar to win is 14.0% (~+617) across 8 books. Best price is +650 (13.3% implied) at betrivers \u2014 a +4.7% edge.",
+      "label": "Qatar to win",
+      "best_price_display": "+650",
+      "fair_price_american": 617,
+      "fair_prob_pct": 14.0,
+      "vig_pct": 4.83
+    },
+    {
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
+      "group": "",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
+      "market": "h2h",
+      "selection": "Cura\u00e7ao",
+      "point": null,
+      "fair_prob": 0.049905169697051395,
+      "best_price_american": 2000,
+      "best_book": "betonlineag",
+      "ev_pct": 4.8,
+      "n_books": 8,
+      "vig": 0.05219417046809757,
+      "confidence": 0.86,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+2000"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+2000"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+2000"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1900"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1850"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+1800"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1800"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+1300"
+        }
+      ],
+      "rationale": "Fair value for Cura\u00e7ao to win is 5.0% (~+1904) across 8 books. Best price is +2000 (4.8% implied) at betonlineag \u2014 a +4.8% edge.",
+      "label": "Cura\u00e7ao to win",
+      "best_price_display": "+2000",
+      "fair_price_american": 1904,
+      "fair_prob_pct": 5.0,
+      "vig_pct": 5.22
+    },
+    {
+      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
+      "group": "",
+      "commence_time": "2026-06-23T20:00:00Z",
+      "home": "England",
+      "away": "Ghana",
+      "market": "h2h",
+      "selection": "Ghana",
+      "point": null,
+      "fair_prob": 0.07456194969619766,
+      "best_price_american": 1300,
+      "best_book": "betrivers",
+      "ev_pct": 4.39,
+      "n_books": 9,
+      "vig": 0.05089371189267674,
+      "confidence": 0.87,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+1300"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+1300"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1300"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1200"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+1200"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1100"
+        },
+        {
+          "book": "betus",
+          "price_display": "+1100"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1075"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1075"
+        }
+      ],
+      "rationale": "Fair value for Ghana to win is 7.5% (~+1241) across 9 books. Best price is +1300 (7.1% implied) at betrivers \u2014 a +4.4% edge.",
+      "label": "Ghana to win",
+      "best_price_display": "+1300",
+      "fair_price_american": 1241,
+      "fair_prob_pct": 7.5,
+      "vig_pct": 5.09
+    },
+    {
+      "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "group": "",
+      "commence_time": "2026-06-22T01:00:00Z",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "market": "h2h",
+      "selection": "New Zealand",
+      "point": null,
+      "fair_prob": 0.17049884075589303,
+      "best_price_american": 510,
+      "best_book": "betrivers",
+      "ev_pct": 4.0,
+      "n_books": 9,
+      "vig": 0.04920732701238993,
+      "confidence": 0.89,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+510"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+475"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+475"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+470"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+450"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+450"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+450"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+430"
+        },
+        {
+          "book": "betus",
+          "price_display": "+430"
+        }
+      ],
+      "rationale": "Fair value for New Zealand to win is 17.0% (~+487) across 9 books. Best price is +510 (16.4% implied) at betrivers \u2014 a +4.0% edge.",
+      "label": "New Zealand to win",
+      "best_price_display": "+510",
+      "fair_price_american": 487,
+      "fair_prob_pct": 17.0,
+      "vig_pct": 4.92
+    },
+    {
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
+      "group": "",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.10936181858592402,
+      "best_price_american": 850,
+      "best_book": "betrivers",
+      "ev_pct": 3.89,
+      "n_books": 8,
+      "vig": 0.05219417046809757,
+      "confidence": 0.86,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+850"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+800"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+800"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+750"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+750"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+750"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+740"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+725"
+        }
+      ],
+      "rationale": "Fair value for Draw is 10.9% (~+814) across 8 books. Best price is +850 (10.5% implied) at betrivers \u2014 a +3.9% edge.",
+      "label": "Draw",
+      "best_price_display": "+850",
+      "fair_price_american": 814,
+      "fair_prob_pct": 10.9,
+      "vig_pct": 5.22
+    },
+    {
+      "match_id": "54697f453437ab26276d773be1d72e9b",
+      "group": "",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "home": "Jordan",
+      "away": "Argentina",
+      "market": "h2h",
+      "selection": "Jordan",
+      "point": null,
+      "fair_prob": 0.06940242264915035,
+      "best_price_american": 1400,
+      "best_book": "fanduel",
+      "ev_pct": 4.1,
+      "n_books": 8,
+      "vig": 0.05733238052222428,
+      "confidence": 0.8,
+      "all_prices": [
+        {
+          "book": "fanduel",
+          "price_display": "+1400"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+1400"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1400"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1300"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1300"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1300"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1175"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+950"
+        }
+      ],
+      "rationale": "Fair value for Jordan to win is 6.9% (~+1341) across 8 books. Best price is +1400 (6.7% implied) at fanduel \u2014 a +4.1% edge.",
+      "label": "Jordan to win",
+      "best_price_display": "+1400",
+      "fair_price_american": 1341,
+      "fair_prob_pct": 6.9,
+      "vig_pct": 5.73
+    },
+    {
+      "match_id": "c1bc8c26480cd42b89a0de5329581314",
+      "group": "",
+      "commence_time": "2026-06-23T23:00:00Z",
+      "home": "Panama",
+      "away": "Croatia",
+      "market": "h2h",
+      "selection": "Panama",
+      "point": null,
+      "fair_prob": 0.14328638390271992,
+      "best_price_american": 620,
+      "best_book": "betonlineag",
+      "ev_pct": 3.17,
+      "n_books": 9,
+      "vig": 0.05213386155887793,
+      "confidence": 0.86,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+620"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+620"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+600"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+550"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+550"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+550"
+        },
+        {
+          "book": "betus",
+          "price_display": "+550"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+525"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+520"
+        }
+      ],
+      "rationale": "Fair value for Panama to win is 14.3% (~+598) across 9 books. Best price is +620 (13.9% implied) at betonlineag \u2014 a +3.2% edge.",
+      "label": "Panama to win",
+      "best_price_display": "+620",
+      "fair_price_american": 598,
+      "fair_prob_pct": 14.3,
+      "vig_pct": 5.21
+    },
+    {
+      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "group": "",
+      "commence_time": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "away": "Iraq",
+      "market": "h2h",
+      "selection": "Iraq",
+      "point": null,
+      "fair_prob": 0.033202739123343754,
+      "best_price_american": 3000,
+      "best_book": "betonlineag",
+      "ev_pct": 2.93,
+      "n_books": 9,
+      "vig": 0.04670758954806691,
+      "confidence": 0.92,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+3000"
+        },
+        {
+          "book": "betus",
+          "price_display": "+3000"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+3000"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+2800"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+2800"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+2800"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+2700"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+2500"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+2500"
+        }
+      ],
+      "rationale": "Fair value for Iraq to win is 3.3% (~+2912) across 9 books. Best price is +3000 (3.2% implied) at betonlineag \u2014 a +2.9% edge.",
+      "label": "Iraq to win",
+      "best_price_display": "+3000",
+      "fair_price_american": 2912,
+      "fair_prob_pct": 3.3,
+      "vig_pct": 4.67
+    },
+    {
+      "match_id": "54697f453437ab26276d773be1d72e9b",
+      "group": "",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "home": "Jordan",
+      "away": "Argentina",
+      "market": "h2h",
+      "selection": "Draw",
+      "point": null,
+      "fair_prob": 0.13781484002058442,
+      "best_price_american": 650,
+      "best_book": "draftkings",
+      "ev_pct": 3.36,
+      "n_books": 8,
+      "vig": 0.05733238052222428,
+      "confidence": 0.8,
+      "all_prices": [
+        {
+          "book": "draftkings",
+          "price_display": "+650"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+650"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+625"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+625"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+550"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+550"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+540"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+525"
+        }
+      ],
+      "rationale": "Fair value for Draw is 13.8% (~+626) across 8 books. Best price is +650 (13.3% implied) at draftkings \u2014 a +3.4% edge.",
+      "label": "Draw",
+      "best_price_display": "+650",
+      "fair_price_american": 626,
+      "fair_prob_pct": 13.8,
+      "vig_pct": 5.73
+    },
+    {
+      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
+      "group": "",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "market": "h2h",
+      "selection": "New Zealand",
+      "point": null,
+      "fair_prob": 0.07971819327270208,
+      "best_price_american": 1200,
+      "best_book": "betrivers",
+      "ev_pct": 3.63,
+      "n_books": 8,
+      "vig": 0.06603465782288112,
+      "confidence": 0.7,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+1200"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+1200"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+1175"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+1100"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+1100"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+1000"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+1000"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+900"
+        }
+      ],
+      "rationale": "Fair value for New Zealand to win is 8.0% (~+1154) across 8 books. Best price is +1200 (7.7% implied) at betrivers \u2014 a +3.6% edge.",
+      "label": "New Zealand to win",
+      "best_price_display": "+1200",
+      "fair_price_american": 1154,
+      "fair_prob_pct": 8.0,
+      "vig_pct": 6.6
+    },
+    {
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "market": "h2h",
+      "selection": "Saudi Arabia",
+      "point": null,
+      "fair_prob": 0.039450197029692324,
+      "best_price_american": 2500,
+      "best_book": "betrivers",
+      "ev_pct": 2.57,
+      "n_books": 9,
+      "vig": 0.04922000063040441,
+      "confidence": 0.89,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+2500"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+2500"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+2500"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+2450"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+2450"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+2400"
+        },
+        {
+          "book": "betus",
+          "price_display": "+2200"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+2000"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+2000"
+        }
+      ],
+      "rationale": "Fair value for Saudi Arabia to win is 3.9% (~+2435) across 9 books. Best price is +2500 (3.8% implied) at betrivers \u2014 a +2.6% edge.",
+      "label": "Saudi Arabia to win",
+      "best_price_display": "+2500",
+      "fair_price_american": 2435,
+      "fair_prob_pct": 3.9,
+      "vig_pct": 4.92
+    },
+    {
+      "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "group": "",
+      "commence_time": "2026-06-24T02:00:00Z",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "market": "h2h",
+      "selection": "DR Congo",
+      "point": null,
+      "fair_prob": 0.13624366887597972,
+      "best_price_american": 650,
+      "best_book": "draftkings",
+      "ev_pct": 2.18,
+      "n_books": 9,
+      "vig": 0.04864732221594337,
+      "confidence": 0.9,
+      "all_prices": [
+        {
+          "book": "draftkings",
+          "price_display": "+650"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+635"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+635"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+600"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+600"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+590"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+575"
+        },
+        {
+          "book": "betus",
+          "price_display": "+575"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+550"
+        }
+      ],
+      "rationale": "Fair value for DR Congo to win is 13.6% (~+634) across 9 books. Best price is +650 (13.3% implied) at draftkings \u2014 a +2.2% edge.",
+      "label": "DR Congo to win",
+      "best_price_display": "+650",
+      "fair_price_american": 634,
+      "fair_prob_pct": 13.6,
+      "vig_pct": 4.86
+    },
+    {
+      "match_id": "4f0c518545b0096c68326daf25bffc1e",
+      "group": "",
+      "commence_time": "2026-06-20T17:00:00Z",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "market": "h2h",
+      "selection": "Sweden",
+      "point": null,
+      "fair_prob": 0.20793300795858974,
+      "best_price_american": 390,
+      "best_book": "betrivers",
+      "ev_pct": 1.89,
+      "n_books": 9,
+      "vig": 0.0488098926658732,
+      "confidence": 0.9,
+      "all_prices": [
+        {
+          "book": "betrivers",
+          "price_display": "+390"
+        },
+        {
+          "book": "betus",
+          "price_display": "+385"
+        },
+        {
+          "book": "betonlineag",
+          "price_display": "+365"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+365"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+360"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+350"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+345"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+340"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+333"
+        }
+      ],
+      "rationale": "Fair value for Sweden to win is 20.8% (~+381) across 9 books. Best price is +390 (20.4% implied) at betrivers \u2014 a +1.9% edge.",
+      "label": "Sweden to win",
+      "best_price_display": "+390",
+      "fair_price_american": 381,
+      "fair_prob_pct": 20.8,
+      "vig_pct": 4.88
+    },
+    {
+      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
+      "group": "",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "home": "Uruguay",
+      "away": "Spain",
+      "market": "h2h",
+      "selection": "Uruguay",
+      "point": null,
+      "fair_prob": 0.15881394008890148,
+      "best_price_american": 540,
+      "best_book": "betonlineag",
+      "ev_pct": 1.64,
+      "n_books": 8,
+      "vig": 0.05476234518958592,
+      "confidence": 0.83,
+      "all_prices": [
+        {
+          "book": "betonlineag",
+          "price_display": "+540"
+        },
+        {
+          "book": "lowvig",
+          "price_display": "+540"
+        },
+        {
+          "book": "betrivers",
+          "price_display": "+525"
+        },
+        {
+          "book": "draftkings",
+          "price_display": "+500"
+        },
+        {
+          "book": "bovada",
+          "price_display": "+500"
+        },
+        {
+          "book": "fanduel",
+          "price_display": "+480"
+        },
+        {
+          "book": "mybookieag",
+          "price_display": "+480"
+        },
+        {
+          "book": "betmgm",
+          "price_display": "+425"
+        }
+      ],
+      "rationale": "Fair value for Uruguay to win is 15.9% (~+530) across 8 books. Best price is +540 (15.6% implied) at betonlineag \u2014 a +1.6% edge.",
+      "label": "Uruguay to win",
+      "best_price_display": "+540",
+      "fair_price_american": 530,
+      "fair_prob_pct": 15.9,
+      "vig_pct": 5.48
+    }
+  ],
+  "groups": [],
+  "sim_note": "Group simulator needs group/schedule metadata, which the live odds feed doesn't provide. Use the mock provider (or add a fixtures map) to enable it.",
+  "disclaimer": "Sportsbook-agnostic. Fair odds and advancement chances are estimates from the public market, not predictions. Informational only, 21+ where legal."
+}
