@@ -61,6 +61,38 @@ confidence:
   # (late info, stale comparisons).
   min_minutes_to_start: 30
 
+# ----- Value engine (de-vig accuracy, guardrails, sizing, model) -----
+strategy:
+  # De-vig method used to turn reference prices into fair probabilities.
+  # power (default) corrects favorite-longshot bias without overcorrecting;
+  # shin corrects it most aggressively; multiplicative is the simple baseline.
+  devig_method: power
+  # Weighted consensus: sharper books count more when no single sharp book is present.
+  book_weights:
+    pinnacle: 3.0
+    circa: 3.0
+    betonlineag: 2.0
+  # Price Hard Rock's alternate spread/total lines off the nearest sharp line
+  # (Normal model), reach-limited and confidence-penalized.
+  interpolate: true
+  interp_max_reach: 2.0       # never shift a line more than this many points
+  interp_conf_penalty: 0.5    # confidence cut at full reach (0..1)
+  # Favorite-longshot guardrail: discount value found on heavy underdogs, where
+  # book vig is heaviest and multiplicative de-vig overstates the fair price.
+  longshot_prob: 0.30         # fair prob below this is treated as a longshot
+  longshot_penalty: 0.5       # confidence floor for extreme longshots
+  # De-vig method disagreement beyond this fully discounts confidence.
+  method_spread_tol: 0.04
+  # Fractional-Kelly stake sizing (shown per bet; quarter-Kelly, hard-capped).
+  kelly_fraction: 0.25
+  kelly_cap: 0.05             # max suggested stake as a fraction of bankroll
+  # Independent Elo cross-check (flags moneyline bets where a model disagrees).
+  model_enabled: true
+  model_disagree: 0.10        # |model - market| beyond this is flagged
+  model_min_games: 30         # min graded games before Elo is trusted
+  # Probability calibration loop (predicted vs realized hit rate from results).
+  calibration_enabled: true
+
 # How many best bets to publish to the site (overall). 0 = unlimited.
 max_published: 50
 

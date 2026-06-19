@@ -5,7 +5,7 @@ import math
 
 import pytest
 
-from agent.config import Config
+from agent.config import Config, StrategyConfig
 from agent.engine.devig import fair_from_book, reference_fair
 from agent.engine.ev import evaluate_game
 from agent.models import BookOdds, Game, Outcome
@@ -79,17 +79,20 @@ def _cfg(**kw) -> Config:
 def test_positive_ev_detected_and_negative_ignored():
     # Pinnacle implies Away fair ~55.3%; Hard Rock pays -110 (decimal 1.909)
     # -> EV = 0.553*1.909 - 1 ~= +5.5%. The Home side is clearly -EV.
+    # Pinned to multiplicative de-vig so the documented arithmetic is exact.
     game = Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
                 "Home", "Away", markets={"h2h": [
                     BookOdds("pinnacle", [Outcome("Away", -128), Outcome("Home", 120)]),
                     BookOdds("hardrockbet", [Outcome("Away", -110), Outcome("Home", -110)]),
                 ]})
-    bets = evaluate_game(game, _cfg())
+    bets = evaluate_game(game, _cfg(strategy=StrategyConfig(devig_method="multiplicative")))
     assert len(bets) == 1
     bet = bets[0]
     assert bet.selection == "Away"
     assert 5.0 < bet.ev_pct < 6.0
     assert math.isclose(bet.fair_prob, 0.5526, rel_tol=1e-3)
+    # Fractional-Kelly stake is attached and positive for a +EV bet.
+    assert bet.kelly_pct > 0.0
 
 
 def test_no_bet_when_hardrock_is_worse_than_market():
@@ -101,15 +104,29 @@ def test_no_bet_when_hardrock_is_worse_than_market():
     assert evaluate_game(game, _cfg()) == []
 
 
-def test_spread_requires_matching_point():
-    # Hard Rock offers a +EV-looking price but at a DIFFERENT line than the
-    # reference, so it must not be compared (no recommendation).
+def test_spread_interpolates_mismatched_point():
+    # Hard Rock's line (-2.5) differs from the reference (-3.5). With interpolation
+    # on (default), the fair prob is shifted to HR's number and the bet is graded.
     game = Game("g", "americanfootball_nfl", "NFL", "2099-01-01T00:00:00+00:00",
                 "Home", "Away", markets={"spreads": [
                     BookOdds("pinnacle", [Outcome("Away", -110, -3.5), Outcome("Home", -110, 3.5)]),
                     BookOdds("hardrockbet", [Outcome("Away", 120, -2.5), Outcome("Home", -140, 2.5)]),
                 ]})
-    cfg = _cfg(markets=["spreads"])
+    bets = evaluate_game(game, _cfg(markets=["spreads"]))
+    away = [b for b in bets if b.selection == "Away"]
+    assert away and away[0].interpolated
+    assert away[0].reach == 1.0
+    # A shorter spread (-2.5 vs -3.5) is easier to cover -> fair prob above 50%.
+    assert away[0].fair_prob > 0.5
+
+
+def test_interpolation_can_be_disabled():
+    game = Game("g", "americanfootball_nfl", "NFL", "2099-01-01T00:00:00+00:00",
+                "Home", "Away", markets={"spreads": [
+                    BookOdds("pinnacle", [Outcome("Away", -110, -3.5), Outcome("Home", -110, 3.5)]),
+                    BookOdds("hardrockbet", [Outcome("Away", 120, -2.5), Outcome("Home", -140, 2.5)]),
+                ]})
+    cfg = _cfg(markets=["spreads"], strategy=StrategyConfig(interpolate=False))
     assert evaluate_game(game, cfg) == []
 
 

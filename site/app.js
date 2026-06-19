@@ -70,7 +70,7 @@ function switchWcSub(sub) {
 /* -------------------------------------------------------------- Hard Rock --- */
 function renderHardRock(data) {
   state.bets = data.bets || [];
-  renderTrackRecord(data.track_record || {});
+  renderTrackRecord(data.track_record || {}, data.calibration || {});
   document.getElementById("updated").textContent =
     "Updated " + timeAgo(data.generated_at) + " · target: " + (data.target_book || "—");
   document.getElementById("disclaimer").textContent = data.disclaimer || "";
@@ -78,17 +78,22 @@ function renderHardRock(data) {
   renderBets();
 }
 
-function renderTrackRecord(tr) {
+function renderTrackRecord(tr, cal) {
   const el = document.getElementById("trackRecord");
+  const calStat =
+    cal && cal.graded
+      ? `<div class="tr-stat"><div class="v">${cal.brier}</div><div class="k">Brier (cal.)</div></div>`
+      : "";
   if (tr.avg_clv_pct === null || tr.avg_clv_pct === undefined) {
-    el.innerHTML = `<span class="tr-note">📈 ${tr.note || "Track record builds as games settle."}</span>`;
+    el.innerHTML =
+      `<span class="tr-note">📈 ${tr.note || "Track record builds as games settle."}</span>` + calStat;
     return;
   }
   const sign = tr.avg_clv_pct >= 0 ? "+" : "";
   el.innerHTML = `
     <div class="tr-stat"><div class="v">${sign}${tr.avg_clv_pct}%</div><div class="k">Avg CLV</div></div>
     <div class="tr-stat"><div class="v">${tr.beat_close_pct}%</div><div class="k">Beat close</div></div>
-    <div class="tr-stat"><div class="v">${tr.graded}</div><div class="k">Graded bets</div></div>`;
+    <div class="tr-stat"><div class="v">${tr.graded}</div><div class="k">Graded bets</div></div>` + calStat;
 }
 
 function renderFilters() {
@@ -135,10 +140,19 @@ function evClass(ev) {
 function card(b) {
   const conf = Math.round((b.confidence || 0) * 100);
   const tags = [];
+  tags.push(`<span class="tag chance">🎯 ${b.chance_pct ?? b.fair_prob_pct}% to hit</span>`);
+  if (b.kelly_pct && b.kelly_pct >= 0.05)
+    tags.push(`<span class="tag stake">💰 stake ~${b.kelly_pct}%</span>`);
   if (b.movement && b.movement.direction === "toward")
     tags.push(`<span class="tag toward">↗ line moving your way</span>`);
   if (b.movement && b.movement.direction === "away")
     tags.push(`<span class="tag away">↘ line drifting away</span>`);
+  if (b.movement && b.movement.sharp && b.movement.sharp.direction === "toward")
+    tags.push(`<span class="tag toward">⚡ sharp money in</span>`);
+  if (b.model_flag === "disagree")
+    tags.push(`<span class="tag warn">⚠︎ model disagrees${b.model_prob_pct != null ? " (" + b.model_prob_pct + "%)" : ""}</span>`);
+  if (b.interpolated) tags.push(`<span class="tag">≈ alt line</span>`);
+  if (b.longshot) tags.push(`<span class="tag">🐶 underdog</span>`);
   tags.push(`<span class="tag">vig ${b.market_vig_pct}%</span>`);
   tags.push(`<span class="tag">starts ${timeUntil(b.commence_time)}</span>`);
   if (b.context && b.context.notes) tags.push(`<span class="tag">ℹ︎ context</span>`);

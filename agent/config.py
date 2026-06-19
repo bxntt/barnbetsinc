@@ -8,7 +8,7 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 import yaml
 
@@ -32,6 +32,27 @@ class ConfidenceConfig:
 class ContextConfig:
     injuries: bool = True
     weather: bool = False
+
+
+@dataclass
+class StrategyConfig:
+    """Knobs for the upgraded value engine (de-vig, guardrails, sizing, model)."""
+    devig_method: str = "power"                 # power | shin | multiplicative
+    book_weights: Dict[str, float] = field(default_factory=lambda: {
+        "pinnacle": 3.0, "circa": 3.0, "betonlineag": 2.0,
+    })
+    interpolate: bool = True                     # price alternate spread/total lines
+    interp_max_reach: float = 2.0                # max points to shift a line
+    interp_conf_penalty: float = 0.5            # confidence cut at full reach (0..1)
+    longshot_prob: float = 0.30                  # fair_prob below this = longshot
+    longshot_penalty: float = 0.5               # confidence floor for extreme longshots
+    method_spread_tol: float = 0.04             # de-vig disagreement that fully discounts
+    kelly_fraction: float = 0.25                 # fractional Kelly multiplier
+    kelly_cap: float = 0.05                      # max stake as fraction of bankroll
+    model_enabled: bool = True                   # Elo cross-check flag
+    model_disagree: float = 0.10                 # |model-fair| beyond this = disagree
+    model_min_games: int = 30                    # min graded games before Elo is trusted
+    calibration_enabled: bool = True             # reliability tracking from results
 
 
 @dataclass
@@ -65,6 +86,7 @@ class Config:
     the_odds_api_regions: str = "us,eu"
     min_ev_pct: float = 2.0
     confidence: ConfidenceConfig = field(default_factory=ConfidenceConfig)
+    strategy: StrategyConfig = field(default_factory=StrategyConfig)
     max_published: int = 50
     context: ContextConfig = field(default_factory=ContextConfig)
     worldcup: WorldCupConfig = field(default_factory=WorldCupConfig)
@@ -83,8 +105,11 @@ class Config:
             raw = yaml.safe_load(path.read_text()) or {}
 
         conf = raw.get("confidence", {}) or {}
+        strat = raw.get("strategy", {}) or {}
         ctx = raw.get("context", {}) or {}
         wc = raw.get("worldcup", {}) or {}
+
+        strat_defaults = StrategyConfig()
 
         return cls(
             provider=raw.get("provider", "mock"),
@@ -97,6 +122,22 @@ class Config:
             confidence=ConfidenceConfig(
                 max_trusted_vig=float(conf.get("max_trusted_vig", 0.06)),
                 min_minutes_to_start=int(conf.get("min_minutes_to_start", 30)),
+            ),
+            strategy=StrategyConfig(
+                devig_method=str(strat.get("devig_method", strat_defaults.devig_method)),
+                book_weights=dict(strat.get("book_weights", strat_defaults.book_weights)),
+                interpolate=bool(strat.get("interpolate", strat_defaults.interpolate)),
+                interp_max_reach=float(strat.get("interp_max_reach", strat_defaults.interp_max_reach)),
+                interp_conf_penalty=float(strat.get("interp_conf_penalty", strat_defaults.interp_conf_penalty)),
+                longshot_prob=float(strat.get("longshot_prob", strat_defaults.longshot_prob)),
+                longshot_penalty=float(strat.get("longshot_penalty", strat_defaults.longshot_penalty)),
+                method_spread_tol=float(strat.get("method_spread_tol", strat_defaults.method_spread_tol)),
+                kelly_fraction=float(strat.get("kelly_fraction", strat_defaults.kelly_fraction)),
+                kelly_cap=float(strat.get("kelly_cap", strat_defaults.kelly_cap)),
+                model_enabled=bool(strat.get("model_enabled", strat_defaults.model_enabled)),
+                model_disagree=float(strat.get("model_disagree", strat_defaults.model_disagree)),
+                model_min_games=int(strat.get("model_min_games", strat_defaults.model_min_games)),
+                calibration_enabled=bool(strat.get("calibration_enabled", strat_defaults.calibration_enabled)),
             ),
             max_published=int(raw.get("max_published", 50)),
             context=ContextConfig(

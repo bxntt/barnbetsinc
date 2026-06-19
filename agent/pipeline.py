@@ -12,17 +12,53 @@ import sys
 from .config import Config
 from .context import enrich
 from .engine.clv import compute_track_record
+from .engine.devig import reference_fair
 from .engine.ev import evaluate_game
 from .engine.movement import attach_movement
 from .providers.base import get_provider
 from .publish import build_payload, write_site_data
 from .rank import rank_bets
 from .store import (
+    bet_key,
     load_recommendations,
     load_snapshots,
     log_recommendations,
     save_snapshot,
 )
+
+
+def _ref_probs(games, config: Config) -> dict:
+    """Sharp/consensus no-vig fair prob per bet key, stored in the snapshot so CLV
+    and steam can be measured against the sharp market over time."""
+    st = config.strategy
+    out = {}
+    for g in games:
+        for market in config.markets:
+            ref = reference_fair(
+                g, market, config.sharp_books, config.target_book,
+                method=st.devig_method, book_weights=st.book_weights,
+            )
+            if not ref:
+                continue
+            for (name, point), p in ref.fair_by_key.items():
+                out[bet_key(g.id, market, name, point)] = round(p, 6)
+    return out
+
+
+def _grade_results(config: Config) -> list:
+    """Fetch + persist final scores for grading/calibration (live provider only,
+    so mock/offline runs stay deterministic). Best-effort; never raises."""
+    if config.provider == "mock":
+        return []
+    if not (config.strategy.model_enabled or config.strategy.calibration_enabled):
+        return []
+    try:
+        from .engine.results import fetch_results
+        from .store import load_results, save_results
+        save_results(fetch_results(config.sports))
+        return load_results()
+    except Exception:
+        return []
 
 
 def _engine_due(config: Config, remaining: int = None) -> bool:
@@ -55,10 +91,10 @@ def run(config: Config = None) -> dict:
     provider = get_provider(config)
     games = provider.fetch_odds()
 
-    # 2) Snapshot the target book's prices BEFORE evaluating (so movement uses
-    #    history that does not yet include this run's current prices).
+    # 2) Snapshot the target book's prices + sharp fair probs BEFORE evaluating
+    #    (so movement/CLV use history that excludes this run's current prices).
     snapshots = load_snapshots()
-    save_snapshot(games, config.target_book)
+    save_snapshot(games, config.target_book, _ref_probs(games, config))
 
     # 3) Evaluate every game for +EV bets at the target book.
     bets = []
@@ -69,14 +105,32 @@ def run(config: Config = None) -> dict:
     attach_movement(bets, snapshots)
     enrich(bets, config)
 
-    # 5) Rank and trim.
+    # 5) Independent-model cross-check (Elo) before ranking, so the rationale can
+    #    note agreement/disagreement. No-op until enough graded games exist.
+    results = _grade_results(config)
+    if config.strategy.model_enabled and results:
+        try:
+            from .engine.elo import annotate as elo_annotate
+            elo_annotate(bets, results, config.strategy.model_min_games,
+                         config.strategy.model_disagree)
+        except Exception:
+            pass
+
+    # 6) Rank and trim.
     ranked = rank_bets(bets, config.max_published)
 
-    # 6) Track record (CLV) from prior recommendations + snapshots.
+    # 7) Track record (CLV) + probability calibration from history.
     track_record = compute_track_record(load_recommendations(), snapshots)
+    calibration = {}
+    if config.strategy.calibration_enabled:
+        try:
+            from .engine.calibration import compute_calibration
+            calibration = compute_calibration(load_recommendations(), results)
+        except Exception:
+            calibration = {}
 
-    # 7) Publish + log this run's recommendations for future grading.
-    payload = build_payload(ranked, track_record, config.target_book)
+    # 8) Publish + log this run's recommendations for future grading.
+    payload = build_payload(ranked, track_record, config.target_book, calibration)
     write_site_data(payload)
     log_recommendations(ranked)
 

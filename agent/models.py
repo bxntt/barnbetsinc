@@ -85,6 +85,16 @@ class BestBet:
     context: Optional[dict] = None     # injuries / weather chips, if available
     rationale: str = ""
 
+    # ----- enrichment from the upgraded engine (all optional, default-safe) -----
+    method_spread: float = 0.0         # de-vig method disagreement on this side (0..1)
+    interpolated: bool = False         # fair prob shifted from a different sharp line
+    reach: float = 0.0                 # points shifted during interpolation
+    longshot: bool = False             # fair_prob below the longshot threshold
+    kelly_frac: float = 0.0            # full-Kelly fraction of bankroll
+    kelly_pct: float = 0.0             # recommended stake as % of bankroll (fractional, capped)
+    model_prob: Optional[float] = None # independent model (Elo) win prob, if available
+    model_flag: Optional[str] = None   # "agree" | "disagree" vs the market, if modeled
+
     @property
     def price_display(self) -> str:
         return format_american(self.price_american)

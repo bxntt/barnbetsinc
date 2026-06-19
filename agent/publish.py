@@ -13,15 +13,24 @@ from .rank import selection_label
 SITE_DATA = ROOT / "site" / "data.json"
 
 
-def build_payload(bets: List[BestBet], track_record: dict, target_book: str) -> dict:
+def build_payload(
+    bets: List[BestBet],
+    track_record: dict,
+    target_book: str,
+    calibration: dict = None,
+) -> dict:
     items = []
     for b in bets:
         d = b.to_dict()
         d["label"] = selection_label(b.market, b.selection, b.point)
         d["ev_pct"] = round(b.ev_pct, 2)
-        d["fair_prob_pct"] = round(b.fair_prob * 100, 1)
+        d["fair_prob_pct"] = round(b.fair_prob * 100, 1)   # estimated chance to hit
+        d["chance_pct"] = round(b.fair_prob * 100, 1)
         d["confidence"] = round(b.confidence, 2)
         d["market_vig_pct"] = round(b.market_vig * 100, 2)
+        d["kelly_pct"] = round(b.kelly_pct, 2)
+        d["method_spread_pct"] = round(b.method_spread * 100, 1)
+        d["model_prob_pct"] = None if b.model_prob is None else round(b.model_prob * 100, 1)
         items.append(d)
 
     return {
@@ -29,6 +38,7 @@ def build_payload(bets: List[BestBet], track_record: dict, target_book: str) -> 
         "target_book": target_book,
         "count": len(items),
         "track_record": track_record,
+        "calibration": calibration or {},
         "bets": items,
         "disclaimer": (
             "Informational only. Not financial advice. For 21+ where legal. "

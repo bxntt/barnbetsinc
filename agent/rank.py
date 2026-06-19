@@ -30,9 +30,24 @@ def _rationale(b: BestBet) -> str:
 
     parts = [
         f"Hard Rock has {label} at {b.price_display} ({hr_pct}% implied). "
-        f"Sharp fair value is {fair_pct}% (~{fair_price}) per {b.reference_book}. "
-        f"That's a +{b.ev_pct:.1f}% edge."
+        f"Sharp fair value is {fair_pct}% (~{fair_price}) per {b.reference_book} — "
+        f"so an estimated {fair_pct}% chance to hit. That's a +{b.ev_pct:.1f}% edge."
     ]
+
+    # Suggested sizing (fractional Kelly).
+    if b.kelly_pct and b.kelly_pct >= 0.05:
+        parts.append(f"Suggested stake ~{b.kelly_pct:.1f}% of bankroll (¼-Kelly).")
+
+    # Interpolated line caveat.
+    if b.interpolated:
+        parts.append(
+            f"Fair value was shifted {b.reach:g} pt from the nearest sharp line, "
+            "so the estimate is softer here."
+        )
+
+    # Longshot caution (favorite-longshot bias).
+    if b.longshot:
+        parts.append("Heads up: this is an underdog price, where market vig is heaviest — sized down.")
 
     # Market quality.
     if b.market_vig <= 0.035:
@@ -40,13 +55,24 @@ def _rationale(b: BestBet) -> str:
     elif b.market_vig >= 0.06:
         parts.append("Note: the reference market is wide, so treat with caution.")
 
-    # Movement confirmation.
+    # Movement confirmation (target book + sharp market).
     if b.movement:
-        d = b.movement["direction"]
+        d = b.movement.get("direction")
         if d == "toward":
             parts.append("The line has moved toward this side since open — sharp confirmation.")
         elif d == "away":
             parts.append("The line has drifted the other way since open, so the value may be fading.")
+        sharp = b.movement.get("sharp")
+        if sharp and sharp.get("direction") == "toward":
+            parts.append("Sharp/consensus fair value has also moved toward this side — stronger confirmation.")
+
+    # Independent model cross-check (Elo).
+    if b.model_flag == "disagree" and b.model_prob is not None:
+        parts.append(
+            f"Independent model differs (it sees ~{b.model_prob * 100:.0f}%), so treat as lower-conviction."
+        )
+    elif b.model_flag == "agree":
+        parts.append("An independent model agrees with the market here.")
 
     # Context chips.
     if b.context:

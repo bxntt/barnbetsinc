@@ -20,6 +20,7 @@ from .models import BestBet, Game
 
 HISTORY_DIR = ROOT / "data" / "history"
 RECS_LOG = HISTORY_DIR / "recommendations.jsonl"
+RESULTS_LOG = HISTORY_DIR / "results.jsonl"
 
 
 def bet_key(game_id: str, market: str, selection: str, point: Optional[float]) -> str:
@@ -31,8 +32,12 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def save_snapshot(games: List[Game], target_book: str) -> Path:
-    """Record the target book's current prices for every market/outcome."""
+def save_snapshot(
+    games: List[Game], target_book: str, ref_probs: Optional[Dict[str, float]] = None
+) -> Path:
+    """Record the target book's current prices for every market/outcome, plus the
+    sharp/consensus no-vig fair prob per key (`ref_probs`) so CLV and steam can be
+    measured against the sharp market, not the target book's vig-inclusive price."""
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     target_prices: Dict[str, int] = {}
     commence_times: Dict[str, str] = {}
@@ -50,6 +55,7 @@ def save_snapshot(games: List[Game], target_book: str) -> Path:
         "generated_at": _now(),
         "target_book": target_book,
         "target_prices": target_prices,
+        "ref_probs": ref_probs or {},
         "commence_times": commence_times,
     }
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -81,18 +87,25 @@ def log_recommendations(bets: List[BestBet]) -> None:
             fh.write(json.dumps({
                 "logged_at": _now(),
                 "key": bet_key(b.game_id, b.market, b.selection, b.point),
+                "game_id": b.game_id,
+                "sport_key": b.sport_key,
                 "commence_time": b.commence_time,
+                "home_team": b.home_team,
+                "away_team": b.away_team,
+                "market": b.market,
+                "selection": b.selection,
+                "point": b.point,
                 "price_american": b.price_american,
                 "fair_prob": b.fair_prob,
                 "ev_pct": b.ev_pct,
             }) + "\n")
 
 
-def load_recommendations() -> List[dict]:
-    if not RECS_LOG.exists():
+def _read_jsonl(path: Path) -> List[dict]:
+    if not path.exists():
         return []
     out = []
-    for line in RECS_LOG.read_text().splitlines():
+    for line in path.read_text().splitlines():
         line = line.strip()
         if not line:
             continue
@@ -101,3 +114,25 @@ def load_recommendations() -> List[dict]:
         except json.JSONDecodeError:
             continue
     return out
+
+
+def load_recommendations() -> List[dict]:
+    return _read_jsonl(RECS_LOG)
+
+
+def save_results(results: List[dict]) -> None:
+    """Append newly-final game results (deduped by game_id) for grading/calibration."""
+    if not results:
+        return
+    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+    seen = {r.get("game_id") for r in _read_jsonl(RESULTS_LOG)}
+    fresh = [r for r in results if r.get("game_id") and r["game_id"] not in seen]
+    if not fresh:
+        return
+    with RESULTS_LOG.open("a") as fh:
+        for r in fresh:
+            fh.write(json.dumps(r) + "\n")
+
+
+def load_results() -> List[dict]:
+    return _read_jsonl(RESULTS_LOG)
