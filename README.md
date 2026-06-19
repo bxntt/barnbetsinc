@@ -1,4 +1,4 @@
-# EdgeFinder
+# Barn Betting Inc.
 
 A mobile-first site with **two sections**, served from one shareable URL:
 
