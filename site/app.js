@@ -22,10 +22,13 @@ function pickLabel(pick) {
 }
 
 async function load() {
-  const [hr, wc] = await Promise.allSettled([
+  const [hr, wc, rec] = await Promise.allSettled([
     fetchJson("data.json"),
     fetchJson("worldcup.json"),
+    fetchJson("record.json"),
   ]);
+
+  renderRecord(rec.status === "fulfilled" ? rec.value : null);
 
   let updated = [];
 
@@ -45,6 +48,65 @@ async function load() {
   }
 
   document.getElementById("updated").textContent = updated.length ? "Updated · " + updated.join(" · ") : "";
+}
+
+/* ------------------------------------------------------ Track record --- */
+// A permanent, horizontally-scrolling ticker pinned to the top of the page:
+// overall first, then one segment per bet category. Each shows the W-L of the
+// published pick settled against final scores; colour tracks the win rate. The
+// segment list is rendered twice so the CSS marquee loops seamlessly.
+function renderRecord(rec) {
+  const el = document.getElementById("recordTicker");
+  if (!el) return;
+  const cats = (rec && rec.categories) || [];
+  const segments = [];
+  if (rec && rec.overall) {
+    segments.push(tickerSegment({ label: "Overall", ...rec.overall }, true));
+  }
+  for (const c of cats) segments.push(tickerSegment(c, false));
+  if (!segments.length) {
+    el.innerHTML = `<span class="ticker-seg"><span class="t-cat">No record yet</span></span>`;
+    el.classList.add("is-static");
+    return;
+  }
+  const inner = segments.join("");
+  const runOne = `<div class="ticker-run">${inner}</div>`;
+  const runTwo = `<div class="ticker-run" aria-hidden="true">${inner}</div>`;
+  // Only scroll when one run actually overflows the viewport. If it fits, a
+  // second run would just sit beside the first and read as a doubled record,
+  // so we keep a single, centered run instead. Re-check on resize/rotate.
+  const layout = () => {
+    el.classList.remove("is-static");
+    el.innerHTML = runOne;
+    if (el.scrollWidth <= el.parentElement.clientWidth + 1) {
+      el.classList.add("is-static");
+    } else {
+      el.innerHTML = runOne + runTwo;
+    }
+  };
+  layout();
+  let raf;
+  window.addEventListener("resize", () => {
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(layout);
+  });
+}
+
+function tickerSegment(c, isOverall) {
+  const decided = (c.wins || 0) + (c.losses || 0);
+  const has = decided > 0;
+  const cls = !has ? "t-none"
+    : c.win_pct >= 55 ? "t-hot"
+    : c.win_pct >= 50 ? "t-ok"
+    : "t-cold";
+  const wl = `${c.wins || 0}<span class="t-dash">–</span>${c.losses || 0}`;
+  const pct = has ? `<span class="t-pct">${c.win_pct}%</span>` : "";
+  return `
+  <span class="ticker-seg ${cls}${isOverall ? " t-overall" : ""}">
+    <span class="t-cat">${escapeHtml(c.label)}</span>
+    <span class="t-wl">${wl}</span>
+    ${pct}
+  </span>`;
 }
 
 /* ---------------------------------------------------------- World Cup --- */
