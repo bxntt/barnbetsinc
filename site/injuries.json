@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T15:24:40.861614+00:00",
+  "generated_at": "2026-06-20T15:56:07.512782+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
@@ -20,6 +20,7 @@
           "status": "Out",
           "reason": "Lower-leg injury",
           "expected_starter": true,
+          "impact": 1.5,
           "note": "",
           "source": "snapshot"
         }
@@ -40,6 +41,7 @@
           "status": "Out",
           "reason": "Ankle",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -80,6 +82,7 @@
           "status": "Doubtful",
           "reason": "Knock, assessed before kickoff",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -130,6 +133,7 @@
           "status": "Doubtful",
           "reason": "Rested / minor strain",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -150,6 +154,7 @@
           "status": "Suspended",
           "reason": "Yellow-card accumulation",
           "expected_starter": true,
+          "impact": 1.3,
           "note": "",
           "source": "snapshot"
         }
@@ -200,6 +205,7 @@
           "status": "Doubtful",
           "reason": "Hamstring tightness",
           "expected_starter": true,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -261,6 +267,7 @@
           "status": "Out",
           "reason": "Knee \u2014 ruled out of the tournament",
           "expected_starter": true,
+          "impact": 2.0,
           "note": "",
           "source": "snapshot"
         },
@@ -270,6 +277,7 @@
           "status": "Doubtful",
           "reason": "Match-fitness, late call",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -330,6 +338,7 @@
           "status": "Out",
           "reason": "Ankle",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -360,6 +369,7 @@
           "status": "Out",
           "reason": "Lower-leg injury",
           "expected_starter": true,
+          "impact": 1.5,
           "note": "",
           "source": "snapshot"
         }
@@ -400,6 +410,7 @@
           "status": "Suspended",
           "reason": "Yellow-card accumulation",
           "expected_starter": true,
+          "impact": 1.3,
           "note": "",
           "source": "snapshot"
         }
@@ -440,6 +451,7 @@
           "status": "Doubtful",
           "reason": "Knock, assessed before kickoff",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -490,6 +502,7 @@
           "status": "Doubtful",
           "reason": "Hamstring tightness",
           "expected_starter": true,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }
@@ -540,6 +553,7 @@
           "status": "Doubtful",
           "reason": "Rested / minor strain",
           "expected_starter": false,
+          "impact": 1.0,
           "note": "",
           "source": "snapshot"
         }

@@ -1,27 +1,51 @@
 {
-  "generated_at": "2026-06-20T15:01:46.043799+00:00",
+  "generated_at": "2026-06-20T15:56:07.634418+00:00",
   "result": {
-    "n": 0,
-    "rps": null,
-    "log_loss": null
+    "n": 1,
+    "rps": 0.3622,
+    "log_loss": 1.2736
   },
   "binary": {
     "total": {
-      "n": 0,
-      "brier": null,
-      "bins": []
+      "n": 1,
+      "brier": 0.2257,
+      "bins": [
+        {
+          "lo": 0.5,
+          "hi": 0.55,
+          "n": 1,
+          "predicted_pct": 52.5,
+          "actual_pct": 100.0
+        }
+      ]
     },
     "btts": {
-      "n": 0,
-      "brier": null,
-      "bins": []
+      "n": 1,
+      "brier": 0.068,
+      "bins": [
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 1,
+          "predicted_pct": 73.9,
+          "actual_pct": 100.0
+        }
+      ]
     },
     "handicap": {
-      "n": 0,
-      "brier": null,
-      "bins": []
+      "n": 1,
+      "brier": 0.0011,
+      "bins": [
+        {
+          "lo": 0.8,
+          "hi": 1.01,
+          "n": 1,
+          "predicted_pct": 96.7,
+          "actual_pct": 100.0
+        }
+      ]
     }
   },
-  "graded_total": 0,
+  "graded_total": 4,
   "note": "Calibration sharpens as group-stage results settle. RPS/log loss and Brier all read lower-is-better."
 }
