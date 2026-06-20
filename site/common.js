@@ -1,7 +1,7 @@
 "use strict";
 
-/* Shared helpers used by both the picks page (app.js) and the
-   justification page (justification.js). Kept tiny and dependency-free. */
+/* Shared helpers used across the site pages (app.js, record.js, groups.js,
+   injuries.js). Kept tiny and dependency-free. */
 
 async function fetchJson(name) {
   const res = await fetch(name + "?_=" + Date.now());

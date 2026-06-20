@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-06-20T16:03:17.713946+00:00",
+  "since": "2026-06-20",
+  "overall": {
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "win_pct": null
+  },
+  "categories": [
+    {
+      "key": "moneyline",
+      "label": "Moneyline",
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct": null
+    },
+    {
+      "key": "spread",
+      "label": "Spread",
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct": null
+    },
+    {
+      "key": "total",
+      "label": "Total",
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct": null
+    },
+    {
+      "key": "btts",
+      "label": "Both Teams to Score",
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_pct": null
+    }
+  ],
+  "note": "Win-loss record of the published pick in each game, settled against final scores. Pushes are excluded from win %."
+}

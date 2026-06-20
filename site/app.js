@@ -2,7 +2,7 @@
 
 /* Picks page: an essentials-only view of World Cup match predictions and
    US-sports model picks. Group advancement lives on groups.html and the
-   "why" lives on justification.html, so this page stays uncluttered. */
+   win-loss history lives on record.html, so this page stays uncluttered. */
 
 const MARKET_LABEL = {
   // World Cup

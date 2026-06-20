@@ -122,6 +122,15 @@ def main() -> int:
             print(f"[pipeline] calibration: Brier {cal.get('brier')} "
                   f"over {cal['graded']} graded predictions.")
 
+    # Track record: W-L of the published pick per bet category, settled against
+    # final scores. Pure over the same logs the calibration loops keep, so it's
+    # free and never gates publishing.
+    from .record import run as run_record
+    rec = run_record()
+    o = rec.get("overall", {})
+    print(f"[pipeline] record: {o.get('wins', 0)}-{o.get('losses', 0)} overall "
+          f"-> site/record.json")
+
     return 0
 
 
