@@ -30,7 +30,12 @@ function renderGroups(groups) {
     el.innerHTML = `<div class="empty">No group projections yet.</div>`;
     return;
   }
-  el.innerHTML = groups.map(groupCard).join("");
+  // Stable A→L order regardless of how the feed lists them.
+  el.innerHTML = groups
+    .slice()
+    .sort((a, b) => String(a.group).localeCompare(String(b.group)))
+    .map(groupCard)
+    .join("");
 }
 
 function groupCard(g) {

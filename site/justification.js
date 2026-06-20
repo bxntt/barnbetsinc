@@ -50,7 +50,9 @@ function renderWcWhy(preds) {
     if (!byGame.has(p.match_id)) byGame.set(p.match_id, []);
     byGame.get(p.match_id).push(p);
   }
+  // Order games chronologically by kickoff (matches the picks page).
   el.innerHTML = Array.from(byGame.values())
+    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time))
     .map((calls) => {
       const g = calls[0];
       const rows = calls
@@ -88,7 +90,9 @@ function renderUsWhy(preds) {
     if (!byGame.has(p.game_id)) byGame.set(p.game_id, []);
     byGame.get(p.game_id).push(p);
   }
+  // Order games chronologically by start time (matches the picks page).
   el.innerHTML = Array.from(byGame.values())
+    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time))
     .map((calls) => {
       const g = calls[0];
       const rows = calls

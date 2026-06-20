@@ -2,8 +2,9 @@
 
 /* Injuries page: per-game availability report from site/injuries.json.
    For each upcoming match we list both sides' absences (out / doubtful /
-   suspended). Games with reported absences float to the top; the rest are
-   shown as "squad as expected" so the by-game picture stays complete. */
+   suspended). Games are ordered chronologically by kickoff; games with no
+   reported absences are shown as "squad as expected" so the by-game picture
+   stays complete. */
 
 const STATUS_CLASS = {
   out: "st-out",
@@ -35,8 +36,8 @@ function renderInjuries(d) {
     el.innerHTML = `<div class="empty">No upcoming games to report.</div>`;
     return;
   }
-  // Affected games first (most absences first), then the clean sheets.
-  games.sort((a, b) => (b.total || 0) - (a.total || 0));
+  // Chronological — earliest kickoff first (matches the picks page order).
+  games.sort((a, b) => new Date(a.commence_time) - new Date(b.commence_time));
   el.innerHTML = games.map(gameCard).join("");
 }
 
