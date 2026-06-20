@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-20T16:03:52.009976+00:00",
+  "generated_at": "2026-06-20T19:59:48.964993+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 160,
+  "prediction_count": 156,
   "predictions": [
     {
       "match_id": "22f6ac06dfcc88a847920f62633e6459",
@@ -13,23 +13,23 @@
       "away": "Australia",
       "market": "handicap",
       "pick": "Paraguay +1.5",
-      "prob": 0.9087,
-      "prob_pct": 90.9,
+      "prob": 0.8967,
+      "prob_pct": 89.7,
       "confidence": 0.5,
-      "model_prob_pct": 90.9,
+      "model_prob_pct": 89.7,
       "market_prob_pct": null,
-      "fair_price_american": -995,
+      "fair_price_american": -868,
       "outcomes": [
         {
           "label": "Paraguay +1.5",
-          "prob_pct": 90.9
+          "prob_pct": 89.7
         },
         {
           "label": "Australia -1.5",
-          "prob_pct": 9.1
+          "prob_pct": 10.3
         }
       ],
-      "rationale": "Australia wins by 2+ goals 9% of the time; the 91% call is Paraguay +1.5."
+      "rationale": "Australia wins by 2+ goals 10% of the time; the 90% call is Paraguay +1.5."
     },
     {
       "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
@@ -39,27 +39,27 @@
       "away": "Iraq",
       "market": "result",
       "pick": "France win",
-      "prob": 0.892,
-      "prob_pct": 89.2,
+      "prob": 0.8927,
+      "prob_pct": 89.3,
       "confidence": 0.85,
       "model_prob_pct": 91.9,
-      "market_prob_pct": 88.0,
-      "fair_price_american": -826,
+      "market_prob_pct": 88.2,
+      "fair_price_american": -832,
       "outcomes": [
         {
           "label": "France win",
-          "prob_pct": 89.2
+          "prob_pct": 89.3
         },
         {
           "label": "Draw",
-          "prob_pct": 8.3
+          "prob_pct": 8.2
         },
         {
           "label": "Iraq win",
           "prob_pct": 2.5
         }
       ],
-      "rationale": "France is the 89% pick \u2014 a clear favorite (expected goals France 3.14, Iraq 0.50). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "France is the 89% pick \u2014 a clear favorite (expected goals France 3.15, Iraq 0.49). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "73529a242e319a86bf3d00ddb4accc37",
@@ -69,27 +69,27 @@
       "away": "Saudi Arabia",
       "market": "result",
       "pick": "Spain win",
-      "prob": 0.8571,
-      "prob_pct": 85.7,
-      "confidence": 0.74,
+      "prob": 0.8543,
+      "prob_pct": 85.4,
+      "confidence": 0.76,
       "model_prob_pct": 82.3,
-      "market_prob_pct": 87.4,
-      "fair_price_american": -600,
+      "market_prob_pct": 86.9,
+      "fair_price_american": -586,
       "outcomes": [
         {
           "label": "Spain win",
-          "prob_pct": 85.7
+          "prob_pct": 85.4
         },
         {
           "label": "Draw",
-          "prob_pct": 10.9
+          "prob_pct": 11.1
         },
         {
           "label": "Saudi Arabia win",
-          "prob_pct": 3.4
+          "prob_pct": 3.5
         }
       ],
-      "rationale": "Spain is the 86% pick \u2014 a clear favorite (expected goals Spain 3.29, Saudi Arabia 0.63)."
+      "rationale": "Spain is the 85% pick \u2014 a clear favorite (expected goals Spain 3.05, Saudi Arabia 0.47)."
     },
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -99,20 +99,20 @@
       "away": "Argentina",
       "market": "result",
       "pick": "Argentina win",
-      "prob": 0.8498,
-      "prob_pct": 85.0,
+      "prob": 0.8507,
+      "prob_pct": 85.1,
       "confidence": 0.5,
       "model_prob_pct": 94.4,
       "market_prob_pct": 79.3,
-      "fair_price_american": -566,
+      "fair_price_american": -570,
       "outcomes": [
         {
           "label": "Argentina win",
-          "prob_pct": 85.0
+          "prob_pct": 85.1
         },
         {
           "label": "Draw",
-          "prob_pct": 10.5
+          "prob_pct": 10.4
         },
         {
           "label": "Jordan win",
@@ -120,6 +120,36 @@
         }
       ],
       "rationale": "Argentina is the 85% pick \u2014 a clear favorite (expected goals Jordan 0.73, Argentina 2.69)."
+    },
+    {
+      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
+      "group": "K",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "market": "result",
+      "pick": "Portugal win",
+      "prob": 0.8352,
+      "prob_pct": 83.5,
+      "confidence": 0.53,
+      "model_prob_pct": 91.4,
+      "market_prob_pct": 79.6,
+      "fair_price_american": -507,
+      "outcomes": [
+        {
+          "label": "Portugal win",
+          "prob_pct": 83.5
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 11.8
+        },
+        {
+          "label": "Uzbekistan win",
+          "prob_pct": 4.7
+        }
+      ],
+      "rationale": "Portugal is the 84% pick \u2014 a clear favorite (expected goals Portugal 2.73, Uzbekistan 0.75)."
     },
     {
       "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
@@ -149,37 +179,7 @@
           "prob_pct": 3.3
         }
       ],
-      "rationale": "United States is the 83% pick \u2014 a clear favorite (expected goals Turkey 0.37, United States 2.45). Factoring in United States on home soil."
-    },
-    {
-      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
-      "group": "K",
-      "commence_time": "2026-06-23T17:00:00Z",
-      "home": "Portugal",
-      "away": "Uzbekistan",
-      "market": "result",
-      "pick": "Portugal win",
-      "prob": 0.8336,
-      "prob_pct": 83.4,
-      "confidence": 0.52,
-      "model_prob_pct": 91.4,
-      "market_prob_pct": 79.4,
-      "fair_price_american": -501,
-      "outcomes": [
-        {
-          "label": "Portugal win",
-          "prob_pct": 83.4
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 11.8
-        },
-        {
-          "label": "Uzbekistan win",
-          "prob_pct": 4.8
-        }
-      ],
-      "rationale": "Portugal is the 83% pick \u2014 a clear favorite (expected goals Portugal 2.72, Uzbekistan 0.76)."
+      "rationale": "United States is the 83% pick \u2014 a clear favorite (expected goals Turkey 0.36, United States 2.45). Factoring in United States on home soil."
     },
     {
       "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
@@ -241,27 +241,27 @@
       "away": "Haiti",
       "market": "result",
       "pick": "Morocco win",
-      "prob": 0.8213,
-      "prob_pct": 82.1,
-      "confidence": 0.68,
+      "prob": 0.8225,
+      "prob_pct": 82.2,
+      "confidence": 0.69,
       "model_prob_pct": 87.6,
-      "market_prob_pct": 79.7,
-      "fair_price_american": -459,
+      "market_prob_pct": 79.9,
+      "fair_price_american": -463,
       "outcomes": [
         {
           "label": "Morocco win",
-          "prob_pct": 82.1
+          "prob_pct": 82.2
         },
         {
           "label": "Draw",
-          "prob_pct": 13.1
+          "prob_pct": 13.0
         },
         {
           "label": "Haiti win",
-          "prob_pct": 4.8
+          "prob_pct": 4.7
         }
       ],
-      "rationale": "Morocco is the 82% pick \u2014 a clear favorite (expected goals Morocco 2.69, Haiti 0.75)."
+      "rationale": "Morocco is the 82% pick \u2014 a clear favorite (expected goals Morocco 2.68, Haiti 0.74)."
     },
     {
       "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
@@ -271,27 +271,27 @@
       "away": "England",
       "market": "result",
       "pick": "England win",
-      "prob": 0.8192,
-      "prob_pct": 81.9,
+      "prob": 0.8224,
+      "prob_pct": 82.2,
       "confidence": 0.47,
       "model_prob_pct": 91.4,
-      "market_prob_pct": 76.5,
-      "fair_price_american": -453,
+      "market_prob_pct": 76.7,
+      "fair_price_american": -463,
       "outcomes": [
         {
           "label": "England win",
-          "prob_pct": 81.9
+          "prob_pct": 82.2
         },
         {
           "label": "Draw",
-          "prob_pct": 12.0
+          "prob_pct": 11.8
         },
         {
           "label": "Panama win",
-          "prob_pct": 6.1
+          "prob_pct": 5.9
         }
       ],
-      "rationale": "England is the 82% pick \u2014 a clear favorite (expected goals Panama 0.84, England 2.70)."
+      "rationale": "England is the 82% pick \u2014 a clear favorite (expected goals Panama 0.84, England 2.72)."
     },
     {
       "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
@@ -320,36 +320,6 @@
       "rationale": "Saudi Arabia wins by 2+ goals 18% of the time; the 82% call is Cape Verde +1.5."
     },
     {
-      "match_id": "681895f294b670b4c7b14495dfb583bc",
-      "group": "E",
-      "commence_time": "2026-06-21T00:00:00Z",
-      "home": "Ecuador",
-      "away": "Cura\u00e7ao",
-      "market": "result",
-      "pick": "Ecuador win",
-      "prob": 0.8013,
-      "prob_pct": 80.1,
-      "confidence": 0.5,
-      "model_prob_pct": 69.3,
-      "market_prob_pct": 84.7,
-      "fair_price_american": -403,
-      "outcomes": [
-        {
-          "label": "Ecuador win",
-          "prob_pct": 80.1
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 13.6
-        },
-        {
-          "label": "Cura\u00e7ao win",
-          "prob_pct": 6.2
-        }
-      ],
-      "rationale": "Ecuador is the 80% pick \u2014 a clear favorite (expected goals Ecuador 2.96, Cura\u00e7ao 0.62)."
-    },
-    {
       "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
       "group": "G",
       "commence_time": "2026-06-27T03:00:00Z",
@@ -357,7 +327,7 @@
       "away": "Belgium",
       "market": "result",
       "pick": "Belgium win",
-      "prob": 0.7999,
+      "prob": 0.8001,
       "prob_pct": 80.0,
       "confidence": 0.73,
       "model_prob_pct": 83.5,
@@ -377,7 +347,7 @@
           "prob_pct": 5.7
         }
       ],
-      "rationale": "Belgium is the 80% pick \u2014 a clear favorite (expected goals New Zealand 0.58, Belgium 2.36)."
+      "rationale": "Belgium is the 80% pick \u2014 a clear favorite (expected goals New Zealand 0.59, Belgium 2.39)."
     },
     {
       "match_id": "3f48473742ca0fd2a85930554720c75e",
@@ -387,20 +357,20 @@
       "away": "Senegal",
       "market": "handicap",
       "pick": "Senegal +1.5",
-      "prob": 0.7994,
-      "prob_pct": 79.9,
+      "prob": 0.7955,
+      "prob_pct": 79.6,
       "confidence": 0.5,
-      "model_prob_pct": 79.9,
+      "model_prob_pct": 79.6,
       "market_prob_pct": null,
-      "fair_price_american": -399,
+      "fair_price_american": -389,
       "outcomes": [
         {
           "label": "Senegal +1.5",
-          "prob_pct": 79.9
+          "prob_pct": 79.6
         },
         {
           "label": "Norway -1.5",
-          "prob_pct": 20.1
+          "prob_pct": 20.4
         }
       ],
       "rationale": "Norway wins by 2+ goals 20% of the time; the 80% call is Senegal +1.5."
@@ -413,16 +383,16 @@
       "away": "Ivory Coast",
       "market": "result",
       "pick": "Ivory Coast win",
-      "prob": 0.7956,
-      "prob_pct": 79.6,
-      "confidence": 0.51,
+      "prob": 0.7935,
+      "prob_pct": 79.4,
+      "confidence": 0.53,
       "model_prob_pct": 71.7,
-      "market_prob_pct": 84.0,
-      "fair_price_american": -389,
+      "market_prob_pct": 83.4,
+      "fair_price_american": -384,
       "outcomes": [
         {
           "label": "Ivory Coast win",
-          "prob_pct": 79.6
+          "prob_pct": 79.4
         },
         {
           "label": "Draw",
@@ -430,36 +400,10 @@
         },
         {
           "label": "Cura\u00e7ao win",
-          "prob_pct": 6.3
+          "prob_pct": 6.6
         }
       ],
-      "rationale": "Ivory Coast is the 80% pick \u2014 a clear favorite (expected goals Cura\u00e7ao 0.68, Ivory Coast 2.98)."
-    },
-    {
-      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Japan",
-      "away": "Sweden",
-      "market": "handicap",
-      "pick": "Sweden +1.5",
-      "prob": 0.7862,
-      "prob_pct": 78.6,
-      "confidence": 0.85,
-      "model_prob_pct": 78.6,
-      "market_prob_pct": null,
-      "fair_price_american": -368,
-      "outcomes": [
-        {
-          "label": "Sweden +1.5",
-          "prob_pct": 78.6
-        },
-        {
-          "label": "Japan -1.5",
-          "prob_pct": 21.4
-        }
-      ],
-      "rationale": "Japan wins by 2+ goals 21% of the time; the 79% call is Sweden +1.5."
+      "rationale": "Ivory Coast is the 79% pick \u2014 a clear favorite (expected goals Cura\u00e7ao 0.64, Ivory Coast 2.94)."
     },
     {
       "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
@@ -469,27 +413,57 @@
       "away": "Ghana",
       "market": "result",
       "pick": "England win",
-      "prob": 0.7807,
-      "prob_pct": 78.1,
+      "prob": 0.783,
+      "prob_pct": 78.3,
       "confidence": 0.88,
       "model_prob_pct": 77.6,
-      "market_prob_pct": 78.3,
-      "fair_price_american": -356,
+      "market_prob_pct": 78.7,
+      "fair_price_american": -361,
       "outcomes": [
         {
           "label": "England win",
-          "prob_pct": 78.1
+          "prob_pct": 78.3
         },
         {
           "label": "Draw",
-          "prob_pct": 15.1
+          "prob_pct": 15.0
         },
         {
           "label": "Ghana win",
-          "prob_pct": 6.8
+          "prob_pct": 6.7
         }
       ],
-      "rationale": "England is the 78% pick \u2014 a clear favorite (expected goals England 2.45, Ghana 0.59)."
+      "rationale": "England is the 78% pick \u2014 a clear favorite (expected goals England 2.45, Ghana 0.57)."
+    },
+    {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "E",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "market": "result",
+      "pick": "Ecuador win",
+      "prob": 0.7817,
+      "prob_pct": 78.2,
+      "confidence": 0.5,
+      "model_prob_pct": 69.3,
+      "market_prob_pct": 82.1,
+      "fair_price_american": -358,
+      "outcomes": [
+        {
+          "label": "Ecuador win",
+          "prob_pct": 78.2
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 14.7
+        },
+        {
+          "label": "Cura\u00e7ao win",
+          "prob_pct": 7.1
+        }
+      ],
+      "rationale": "Ecuador is the 78% pick \u2014 a clear favorite (expected goals Ecuador 2.86, Cura\u00e7ao 0.68)."
     },
     {
       "match_id": "67ae5751c401a98409b8566ae4897069",
@@ -518,30 +492,30 @@
       "rationale": "Portugal wins by 2+ goals 22% of the time; the 78% call is Colombia +1.5."
     },
     {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
+      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Japan",
+      "away": "Sweden",
       "market": "handicap",
-      "pick": "Iran +1.5",
-      "prob": 0.7785,
+      "pick": "Sweden +1.5",
+      "prob": 0.7781,
       "prob_pct": 77.8,
-      "confidence": 0.67,
+      "confidence": 0.86,
       "model_prob_pct": 77.8,
       "market_prob_pct": null,
       "fair_price_american": -351,
       "outcomes": [
         {
-          "label": "Iran +1.5",
+          "label": "Sweden +1.5",
           "prob_pct": 77.8
         },
         {
-          "label": "Egypt -1.5",
+          "label": "Japan -1.5",
           "prob_pct": 22.2
         }
       ],
-      "rationale": "Egypt wins by 2+ goals 22% of the time; the 78% call is Iran +1.5."
+      "rationale": "Japan wins by 2+ goals 22% of the time; the 78% call is Sweden +1.5."
     },
     {
       "match_id": "13eab94a136b9c264ba974cf437a5f71",
@@ -570,30 +544,30 @@
       "rationale": "DR Congo wins by 2+ goals 23% of the time; the 77% call is Uzbekistan +1.5."
     },
     {
-      "match_id": "22f6ac06dfcc88a847920f62633e6459",
-      "group": "D",
-      "commence_time": "2026-06-26T02:00:00Z",
-      "home": "Paraguay",
-      "away": "Australia",
-      "market": "total",
-      "pick": "Under 2",
-      "prob": 0.7567,
-      "prob_pct": 75.7,
-      "confidence": 0.5,
-      "model_prob_pct": 75.7,
-      "market_prob_pct": 55.5,
-      "fair_price_american": -311,
+      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "Egypt",
+      "away": "Iran",
+      "market": "handicap",
+      "pick": "Iran +1.5",
+      "prob": 0.7742,
+      "prob_pct": 77.4,
+      "confidence": 0.69,
+      "model_prob_pct": 77.4,
+      "market_prob_pct": null,
+      "fair_price_american": -343,
       "outcomes": [
         {
-          "label": "Under 2",
-          "prob_pct": 75.7
+          "label": "Iran +1.5",
+          "prob_pct": 77.4
         },
         {
-          "label": "Over 2",
-          "prob_pct": 24.3
+          "label": "Egypt -1.5",
+          "prob_pct": 22.6
         }
       ],
-      "rationale": "Expected ~1.7 goals (Paraguay 0.92, Australia 0.78); under 2 is the 76% side."
+      "rationale": "Egypt wins by 2+ goals 23% of the time; the 77% call is Iran +1.5."
     },
     {
       "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
@@ -603,27 +577,27 @@
       "away": "Netherlands",
       "market": "result",
       "pick": "Netherlands win",
-      "prob": 0.7433,
-      "prob_pct": 74.3,
-      "confidence": 0.79,
-      "model_prob_pct": 77.6,
-      "market_prob_pct": 72.4,
-      "fair_price_american": -290,
+      "prob": 0.7713,
+      "prob_pct": 77.1,
+      "confidence": 0.75,
+      "model_prob_pct": 81.4,
+      "market_prob_pct": 75.2,
+      "fair_price_american": -337,
       "outcomes": [
         {
           "label": "Netherlands win",
-          "prob_pct": 74.3
+          "prob_pct": 77.1
         },
         {
           "label": "Draw",
-          "prob_pct": 17.0
+          "prob_pct": 15.6
         },
         {
           "label": "Tunisia win",
-          "prob_pct": 8.7
+          "prob_pct": 7.3
         }
       ],
-      "rationale": "Netherlands is the 74% pick \u2014 a clear favorite (expected goals Tunisia 0.71, Netherlands 2.25). Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "Netherlands is the 77% pick \u2014 a clear favorite (expected goals Tunisia 0.75, Netherlands 2.43). Factoring in Netherlands missing Frenkie de Jong."
     },
     {
       "match_id": "5993bd5196ca09f83990f0c3261e442e",
@@ -656,6 +630,32 @@
       "rationale": "Mexico is the 74% pick \u2014 a clear favorite (expected goals Czechia 0.46, Mexico 2.01). Factoring in Mexico on home soil."
     },
     {
+      "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Turkey",
+      "away": "United States",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.7194,
+      "prob_pct": 71.9,
+      "confidence": 0.8,
+      "model_prob_pct": 71.9,
+      "market_prob_pct": null,
+      "fair_price_american": -256,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 71.9
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 28.1
+        }
+      ],
+      "rationale": "With scoring rates of 0.36 and 2.45, both teams scoring is a 28% chance \u2014 BTTS: No. Factoring in United States on home soil."
+    },
+    {
       "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
       "group": "I",
       "commence_time": "2026-06-26T19:00:00Z",
@@ -682,32 +682,6 @@
       "rationale": "France wins by 2+ goals 28% of the time; the 72% call is Norway +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
-      "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
-      "group": "D",
-      "commence_time": "2026-06-26T02:00:00Z",
-      "home": "Turkey",
-      "away": "United States",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.7161,
-      "prob_pct": 71.6,
-      "confidence": 0.8,
-      "model_prob_pct": 71.6,
-      "market_prob_pct": null,
-      "fair_price_american": -252,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 71.6
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 28.4
-        }
-      ],
-      "rationale": "With scoring rates of 0.37 and 2.45, both teams scoring is a 28% chance \u2014 BTTS: No. Factoring in United States on home soil."
-    },
-    {
       "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
       "group": "I",
       "commence_time": "2026-06-22T21:00:00Z",
@@ -715,49 +689,23 @@
       "away": "Iraq",
       "market": "handicap",
       "pick": "France -1.5",
-      "prob": 0.7138,
-      "prob_pct": 71.4,
+      "prob": 0.7175,
+      "prob_pct": 71.8,
       "confidence": 0.85,
-      "model_prob_pct": 71.4,
+      "model_prob_pct": 71.8,
       "market_prob_pct": null,
-      "fair_price_american": -249,
+      "fair_price_american": -254,
       "outcomes": [
         {
           "label": "France -1.5",
-          "prob_pct": 71.4
+          "prob_pct": 71.8
         },
         {
           "label": "Iraq +1.5",
-          "prob_pct": 28.6
+          "prob_pct": 28.2
         }
       ],
-      "rationale": "France wins by 2+ goals 71% of the time; the 71% call is France -1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "73529a242e319a86bf3d00ddb4accc37",
-      "group": "H",
-      "commence_time": "2026-06-21T16:00:00Z",
-      "home": "Spain",
-      "away": "Saudi Arabia",
-      "market": "handicap",
-      "pick": "Spain -1.5",
-      "prob": 0.7115,
-      "prob_pct": 71.1,
-      "confidence": 0.74,
-      "model_prob_pct": 71.1,
-      "market_prob_pct": null,
-      "fair_price_american": -247,
-      "outcomes": [
-        {
-          "label": "Spain -1.5",
-          "prob_pct": 71.1
-        },
-        {
-          "label": "Saudi Arabia +1.5",
-          "prob_pct": 28.9
-        }
-      ],
-      "rationale": "Spain wins by 2+ goals 71% of the time; the 71% call is Spain -1.5."
+      "rationale": "France wins by 2+ goals 72% of the time; the 72% call is France -1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "7e6aee294ea1a4792c59558791084528",
@@ -767,7 +715,7 @@
       "away": "Iraq",
       "market": "result",
       "pick": "Senegal win",
-      "prob": 0.7071,
+      "prob": 0.7065,
       "prob_pct": 70.7,
       "confidence": 0.71,
       "model_prob_pct": 66.2,
@@ -784,10 +732,62 @@
         },
         {
           "label": "Iraq win",
-          "prob_pct": 10.6
+          "prob_pct": 10.7
         }
       ],
-      "rationale": "Senegal is the 71% pick \u2014 a clear favorite (expected goals Senegal 2.17, Iraq 0.61)."
+      "rationale": "Senegal is the 71% pick \u2014 a clear favorite (expected goals Senegal 2.18, Iraq 0.60)."
+    },
+    {
+      "match_id": "22f6ac06dfcc88a847920f62633e6459",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Paraguay",
+      "away": "Australia",
+      "market": "total",
+      "pick": "Under 2",
+      "prob": 0.7059,
+      "prob_pct": 70.6,
+      "confidence": 0.5,
+      "model_prob_pct": 70.6,
+      "market_prob_pct": 55.9,
+      "fair_price_american": -240,
+      "outcomes": [
+        {
+          "label": "Under 2",
+          "prob_pct": 70.6
+        },
+        {
+          "label": "Over 2",
+          "prob_pct": 29.4
+        }
+      ],
+      "rationale": "Expected ~1.9 goals (Paraguay 1.02, Australia 0.88); under 2 is the 71% side."
+    },
+    {
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "H",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "market": "handicap",
+      "pick": "Spain -1.5",
+      "prob": 0.7049,
+      "prob_pct": 70.5,
+      "confidence": 0.76,
+      "model_prob_pct": 70.5,
+      "market_prob_pct": null,
+      "fair_price_american": -239,
+      "outcomes": [
+        {
+          "label": "Spain -1.5",
+          "prob_pct": 70.5
+        },
+        {
+          "label": "Saudi Arabia +1.5",
+          "prob_pct": 29.5
+        }
+      ],
+      "rationale": "Spain wins by 2+ goals 70% of the time; the 70% call is Spain -1.5."
     },
     {
       "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
@@ -797,27 +797,27 @@
       "away": "Iran",
       "market": "result",
       "pick": "Belgium win",
-      "prob": 0.6916,
-      "prob_pct": 69.2,
-      "confidence": 0.73,
+      "prob": 0.6901,
+      "prob_pct": 69.0,
+      "confidence": 0.72,
       "model_prob_pct": 73.8,
-      "market_prob_pct": 67.0,
-      "fair_price_american": -224,
+      "market_prob_pct": 66.8,
+      "fair_price_american": -223,
       "outcomes": [
         {
           "label": "Belgium win",
-          "prob_pct": 69.2
+          "prob_pct": 69.0
         },
         {
           "label": "Draw",
-          "prob_pct": 19.8
+          "prob_pct": 19.9
         },
         {
           "label": "Iran win",
           "prob_pct": 11.1
         }
       ],
-      "rationale": "Belgium is the 69% pick \u2014 a clear favorite (expected goals Belgium 2.00, Iran 0.74)."
+      "rationale": "Belgium is the 69% pick \u2014 a clear favorite (expected goals Belgium 1.98, Iran 0.74)."
     },
     {
       "match_id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
@@ -827,20 +827,20 @@
       "away": "Germany",
       "market": "handicap",
       "pick": "Ecuador +1.5",
-      "prob": 0.6879,
-      "prob_pct": 68.8,
+      "prob": 0.6885,
+      "prob_pct": 68.9,
       "confidence": 0.5,
-      "model_prob_pct": 68.8,
+      "model_prob_pct": 68.9,
       "market_prob_pct": null,
-      "fair_price_american": -220,
+      "fair_price_american": -221,
       "outcomes": [
         {
           "label": "Ecuador +1.5",
-          "prob_pct": 68.8
+          "prob_pct": 68.9
         },
         {
           "label": "Germany -1.5",
-          "prob_pct": 31.2
+          "prob_pct": 31.1
         }
       ],
       "rationale": "Germany wins by 2+ goals 31% of the time; the 69% call is Ecuador +1.5."
@@ -853,27 +853,27 @@
       "away": "Cape Verde",
       "market": "result",
       "pick": "Uruguay win",
-      "prob": 0.686,
-      "prob_pct": 68.6,
-      "confidence": 0.76,
+      "prob": 0.6797,
+      "prob_pct": 68.0,
+      "confidence": 0.73,
       "model_prob_pct": 72.6,
-      "market_prob_pct": 66.7,
-      "fair_price_american": -218,
+      "market_prob_pct": 65.7,
+      "fair_price_american": -212,
       "outcomes": [
         {
           "label": "Uruguay win",
-          "prob_pct": 68.6
+          "prob_pct": 68.0
         },
         {
           "label": "Draw",
-          "prob_pct": 21.5
+          "prob_pct": 22.0
         },
         {
           "label": "Cape Verde win",
-          "prob_pct": 9.9
+          "prob_pct": 10.0
         }
       ],
-      "rationale": "Uruguay is the 69% pick \u2014 a clear favorite (expected goals Uruguay 1.78, Cape Verde 0.58)."
+      "rationale": "Uruguay is the 68% pick \u2014 a clear favorite (expected goals Uruguay 1.74, Cape Verde 0.58)."
     },
     {
       "match_id": "5993bd5196ca09f83990f0c3261e442e",
@@ -883,12 +883,12 @@
       "away": "Mexico",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.6742,
+      "prob": 0.6736,
       "prob_pct": 67.4,
       "confidence": 0.8,
       "model_prob_pct": 67.4,
       "market_prob_pct": null,
-      "fair_price_american": -207,
+      "fair_price_american": -206,
       "outcomes": [
         {
           "label": "BTTS: No",
@@ -909,23 +909,83 @@
       "away": "Ghana",
       "market": "handicap",
       "pick": "Ghana +1.5",
-      "prob": 0.672,
-      "prob_pct": 67.2,
+      "prob": 0.6728,
+      "prob_pct": 67.3,
       "confidence": 0.66,
-      "model_prob_pct": 67.2,
+      "model_prob_pct": 67.3,
       "market_prob_pct": null,
-      "fair_price_american": -205,
+      "fair_price_american": -206,
       "outcomes": [
         {
           "label": "Ghana +1.5",
-          "prob_pct": 67.2
+          "prob_pct": 67.3
         },
         {
           "label": "Croatia -1.5",
-          "prob_pct": 32.8
+          "prob_pct": 32.7
         }
       ],
       "rationale": "Croatia wins by 2+ goals 33% of the time; the 67% call is Ghana +1.5."
+    },
+    {
+      "match_id": "f1ab0f69832972a329243522ceaa7804",
+      "group": "E",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "market": "result",
+      "pick": "Germany win",
+      "prob": 0.671,
+      "prob_pct": 67.1,
+      "confidence": 0.5,
+      "model_prob_pct": 69.2,
+      "market_prob_pct": 66.1,
+      "fair_price_american": -204,
+      "outcomes": [
+        {
+          "label": "Germany win",
+          "prob_pct": 67.1
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 20.1
+        },
+        {
+          "label": "Ivory Coast win",
+          "prob_pct": 12.8
+        }
+      ],
+      "rationale": "Germany is the 67% pick \u2014 a clear favorite (expected goals Germany 2.33, Ivory Coast 1.09)."
+    },
+    {
+      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "group": "F",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "home": "Tunisia",
+      "away": "Japan",
+      "market": "result",
+      "pick": "Japan win",
+      "prob": 0.6687,
+      "prob_pct": 66.9,
+      "confidence": 0.7,
+      "model_prob_pct": 72.0,
+      "market_prob_pct": 64.5,
+      "fair_price_american": -202,
+      "outcomes": [
+        {
+          "label": "Japan win",
+          "prob_pct": 66.9
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 21.2
+        },
+        {
+          "label": "Tunisia win",
+          "prob_pct": 11.9
+        }
+      ],
+      "rationale": "Japan is the 67% pick \u2014 a clear favorite (expected goals Tunisia 0.68, Japan 1.80)."
     },
     {
       "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
@@ -935,7 +995,7 @@
       "away": "South Korea",
       "market": "handicap",
       "pick": "South Africa +1.5",
-      "prob": 0.667,
+      "prob": 0.6671,
       "prob_pct": 66.7,
       "confidence": 0.85,
       "model_prob_pct": 66.7,
@@ -954,58 +1014,6 @@
       "rationale": "South Korea wins by 2+ goals 33% of the time; the 67% call is South Africa +1.5."
     },
     {
-      "match_id": "22f6ac06dfcc88a847920f62633e6459",
-      "group": "D",
-      "commence_time": "2026-06-26T02:00:00Z",
-      "home": "Paraguay",
-      "away": "Australia",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.6659,
-      "prob_pct": 66.6,
-      "confidence": 0.5,
-      "model_prob_pct": 66.6,
-      "market_prob_pct": null,
-      "fair_price_american": -199,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 66.6
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 33.4
-        }
-      ],
-      "rationale": "With scoring rates of 0.92 and 0.78, both teams scoring is a 33% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "4f0c518545b0096c68326daf25bffc1e",
-      "group": "F",
-      "commence_time": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "away": "Sweden",
-      "market": "handicap",
-      "pick": "Sweden +1.5",
-      "prob": 0.6644,
-      "prob_pct": 66.4,
-      "confidence": 0.65,
-      "model_prob_pct": 66.4,
-      "market_prob_pct": null,
-      "fair_price_american": -198,
-      "outcomes": [
-        {
-          "label": "Sweden +1.5",
-          "prob_pct": 66.4
-        },
-        {
-          "label": "Netherlands -1.5",
-          "prob_pct": 33.6
-        }
-      ],
-      "rationale": "Netherlands wins by 2+ goals 34% of the time; the 66% call is Sweden +1.5. Factoring in Netherlands missing Frenkie de Jong."
-    },
-    {
       "match_id": "c1bc8c26480cd42b89a0de5329581314",
       "group": "L",
       "commence_time": "2026-06-23T23:00:00Z",
@@ -1013,8 +1021,8 @@
       "away": "Croatia",
       "market": "result",
       "pick": "Croatia win",
-      "prob": 0.6638,
-      "prob_pct": 66.4,
+      "prob": 0.6631,
+      "prob_pct": 66.3,
       "confidence": 0.5,
       "model_prob_pct": 74.6,
       "market_prob_pct": 61.7,
@@ -1022,11 +1030,11 @@
       "outcomes": [
         {
           "label": "Croatia win",
-          "prob_pct": 66.4
+          "prob_pct": 66.3
         },
         {
           "label": "Draw",
-          "prob_pct": 21.7
+          "prob_pct": 21.8
         },
         {
           "label": "Panama win",
@@ -1036,36 +1044,6 @@
       "rationale": "Croatia is the 66% pick \u2014 a clear favorite (expected goals Panama 0.75, Croatia 1.75)."
     },
     {
-      "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
-      "group": "C",
-      "commence_time": "2026-06-24T22:00:00Z",
-      "home": "Scotland",
-      "away": "Brazil",
-      "market": "result",
-      "pick": "Brazil win",
-      "prob": 0.662,
-      "prob_pct": 66.2,
-      "confidence": 0.65,
-      "model_prob_pct": 60.2,
-      "market_prob_pct": 68.8,
-      "fair_price_american": -196,
-      "outcomes": [
-        {
-          "label": "Brazil win",
-          "prob_pct": 66.2
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 21.2
-        },
-        {
-          "label": "Scotland win",
-          "prob_pct": 12.6
-        }
-      ],
-      "rationale": "Brazil is the 66% pick \u2014 a clear favorite (expected goals Scotland 0.76, Brazil 2.14). Factoring in Brazil missing Neymar."
-    },
-    {
       "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
       "group": "G",
       "commence_time": "2026-06-22T01:00:00Z",
@@ -1073,7 +1051,7 @@
       "away": "Egypt",
       "market": "handicap",
       "pick": "New Zealand +1.5",
-      "prob": 0.6611,
+      "prob": 0.6613,
       "prob_pct": 66.1,
       "confidence": 0.78,
       "model_prob_pct": 66.1,
@@ -1092,90 +1070,64 @@
       "rationale": "Egypt wins by 2+ goals 34% of the time; the 66% call is New Zealand +1.5."
     },
     {
-      "match_id": "f1ab0f69832972a329243522ceaa7804",
-      "group": "E",
-      "commence_time": "2026-06-20T20:00:00Z",
-      "home": "Germany",
-      "away": "Ivory Coast",
+      "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
+      "group": "C",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Scotland",
+      "away": "Brazil",
       "market": "result",
-      "pick": "Germany win",
-      "prob": 0.6596,
-      "prob_pct": 66.0,
-      "confidence": 0.8,
-      "model_prob_pct": 69.2,
-      "market_prob_pct": 64.5,
-      "fair_price_american": -194,
+      "pick": "Brazil win",
+      "prob": 0.6612,
+      "prob_pct": 66.1,
+      "confidence": 0.64,
+      "model_prob_pct": 60.2,
+      "market_prob_pct": 68.8,
+      "fair_price_american": -195,
       "outcomes": [
         {
-          "label": "Germany win",
-          "prob_pct": 66.0
+          "label": "Brazil win",
+          "prob_pct": 66.1
         },
         {
           "label": "Draw",
-          "prob_pct": 20.6
+          "prob_pct": 21.2
         },
         {
-          "label": "Ivory Coast win",
-          "prob_pct": 13.5
+          "label": "Scotland win",
+          "prob_pct": 12.6
         }
       ],
-      "rationale": "Germany is the 66% pick \u2014 a clear favorite (expected goals Germany 2.29, Ivory Coast 1.13)."
+      "rationale": "Brazil is the 66% pick \u2014 a clear favorite (expected goals Scotland 0.76, Brazil 2.14). Factoring in Brazil missing Neymar."
     },
     {
-      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
-      "group": "F",
-      "commence_time": "2026-06-21T04:00:00Z",
-      "home": "Tunisia",
-      "away": "Japan",
+      "match_id": "be6c63f416c67bca1300a98f5b89c3af",
+      "group": "J",
+      "commence_time": "2026-06-22T17:00:00Z",
+      "home": "Argentina",
+      "away": "Austria",
       "market": "result",
-      "pick": "Japan win",
-      "prob": 0.6567,
+      "pick": "Argentina win",
+      "prob": 0.6568,
       "prob_pct": 65.7,
-      "confidence": 0.62,
-      "model_prob_pct": 72.0,
-      "market_prob_pct": 62.6,
+      "confidence": 0.5,
+      "model_prob_pct": 75.2,
+      "market_prob_pct": 60.6,
       "fair_price_american": -191,
       "outcomes": [
         {
-          "label": "Japan win",
+          "label": "Argentina win",
           "prob_pct": 65.7
         },
         {
           "label": "Draw",
-          "prob_pct": 21.8
+          "prob_pct": 21.7
         },
         {
-          "label": "Tunisia win",
+          "label": "Austria win",
           "prob_pct": 12.6
         }
       ],
-      "rationale": "Japan is the 66% pick \u2014 a clear favorite (expected goals Tunisia 0.72, Japan 1.76)."
-    },
-    {
-      "match_id": "681895f294b670b4c7b14495dfb583bc",
-      "group": "E",
-      "commence_time": "2026-06-21T00:00:00Z",
-      "home": "Ecuador",
-      "away": "Cura\u00e7ao",
-      "market": "handicap",
-      "pick": "Ecuador -1.5",
-      "prob": 0.6564,
-      "prob_pct": 65.6,
-      "confidence": 0.5,
-      "model_prob_pct": 65.6,
-      "market_prob_pct": null,
-      "fair_price_american": -191,
-      "outcomes": [
-        {
-          "label": "Ecuador -1.5",
-          "prob_pct": 65.6
-        },
-        {
-          "label": "Cura\u00e7ao +1.5",
-          "prob_pct": 34.4
-        }
-      ],
-      "rationale": "Ecuador wins by 2+ goals 66% of the time; the 66% call is Ecuador -1.5."
+      "rationale": "Argentina is the 66% pick \u2014 a clear favorite (expected goals Argentina 1.74, Austria 0.78)."
     },
     {
       "match_id": "be6c63f416c67bca1300a98f5b89c3af",
@@ -1204,36 +1156,6 @@
       "rationale": "Argentina wins by 2+ goals 34% of the time; the 66% call is Austria +1.5."
     },
     {
-      "match_id": "be6c63f416c67bca1300a98f5b89c3af",
-      "group": "J",
-      "commence_time": "2026-06-22T17:00:00Z",
-      "home": "Argentina",
-      "away": "Austria",
-      "market": "result",
-      "pick": "Argentina win",
-      "prob": 0.6561,
-      "prob_pct": 65.6,
-      "confidence": 0.5,
-      "model_prob_pct": 75.2,
-      "market_prob_pct": 60.6,
-      "fair_price_american": -191,
-      "outcomes": [
-        {
-          "label": "Argentina win",
-          "prob_pct": 65.6
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 21.8
-        },
-        {
-          "label": "Austria win",
-          "prob_pct": 12.6
-        }
-      ],
-      "rationale": "Argentina is the 66% pick \u2014 a clear favorite (expected goals Argentina 1.74, Austria 0.78)."
-    },
-    {
       "match_id": "fd8533b650e655030f6a7946f8795db2",
       "group": "J",
       "commence_time": "2026-06-23T03:00:00Z",
@@ -1258,6 +1180,32 @@
         }
       ],
       "rationale": "Algeria wins by 2+ goals 35% of the time; the 65% call is Jordan +1.5."
+    },
+    {
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
+      "group": "E",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
+      "market": "handicap",
+      "pick": "Ivory Coast -1.5",
+      "prob": 0.6483,
+      "prob_pct": 64.8,
+      "confidence": 0.53,
+      "model_prob_pct": 64.8,
+      "market_prob_pct": null,
+      "fair_price_american": -184,
+      "outcomes": [
+        {
+          "label": "Ivory Coast -1.5",
+          "prob_pct": 64.8
+        },
+        {
+          "label": "Cura\u00e7ao +1.5",
+          "prob_pct": 35.2
+        }
+      ],
+      "rationale": "Ivory Coast wins by 2+ goals 65% of the time; the 65% call is Ivory Coast -1.5."
     },
     {
       "match_id": "c1bc8c26480cd42b89a0de5329581314",
@@ -1286,32 +1234,6 @@
       "rationale": "Croatia wins by 2+ goals 35% of the time; the 65% call is Panama +1.5."
     },
     {
-      "match_id": "a5a0b544a984ab16e564264f3e859b43",
-      "group": "E",
-      "commence_time": "2026-06-25T20:00:00Z",
-      "home": "Cura\u00e7ao",
-      "away": "Ivory Coast",
-      "market": "handicap",
-      "pick": "Ivory Coast -1.5",
-      "prob": 0.6473,
-      "prob_pct": 64.7,
-      "confidence": 0.51,
-      "model_prob_pct": 64.7,
-      "market_prob_pct": null,
-      "fair_price_american": -184,
-      "outcomes": [
-        {
-          "label": "Ivory Coast -1.5",
-          "prob_pct": 64.7
-        },
-        {
-          "label": "Cura\u00e7ao +1.5",
-          "prob_pct": 35.3
-        }
-      ],
-      "rationale": "Ivory Coast wins by 2+ goals 65% of the time; the 65% call is Ivory Coast -1.5."
-    },
-    {
       "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
       "group": "K",
       "commence_time": "2026-06-24T02:00:00Z",
@@ -1319,16 +1241,16 @@
       "away": "DR Congo",
       "market": "result",
       "pick": "Colombia win",
-      "prob": 0.6444,
-      "prob_pct": 64.4,
+      "prob": 0.6449,
+      "prob_pct": 64.5,
       "confidence": 0.87,
       "model_prob_pct": 66.6,
       "market_prob_pct": 63.4,
-      "fair_price_american": -181,
+      "fair_price_american": -182,
       "outcomes": [
         {
           "label": "Colombia win",
-          "prob_pct": 64.4
+          "prob_pct": 64.5
         },
         {
           "label": "Draw",
@@ -1340,32 +1262,6 @@
         }
       ],
       "rationale": "Colombia is the 64% pick \u2014 a clear favorite (expected goals Colombia 1.74, DR Congo 0.66)."
-    },
-    {
-      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
-      "group": "F",
-      "commence_time": "2026-06-21T04:00:00Z",
-      "home": "Tunisia",
-      "away": "Japan",
-      "market": "handicap",
-      "pick": "Tunisia +1.5",
-      "prob": 0.64,
-      "prob_pct": 64.0,
-      "confidence": 0.62,
-      "model_prob_pct": 64.0,
-      "market_prob_pct": null,
-      "fair_price_american": -178,
-      "outcomes": [
-        {
-          "label": "Tunisia +1.5",
-          "prob_pct": 64.0
-        },
-        {
-          "label": "Japan -1.5",
-          "prob_pct": 36.0
-        }
-      ],
-      "rationale": "Japan wins by 2+ goals 36% of the time; the 64% call is Tunisia +1.5."
     },
     {
       "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
@@ -1394,30 +1290,30 @@
       "rationale": "Spain wins by 2+ goals 36% of the time; the 64% call is Uruguay +1.5."
     },
     {
-      "match_id": "4f0c518545b0096c68326daf25bffc1e",
-      "group": "F",
-      "commence_time": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "away": "Sweden",
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "H",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
       "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.6333,
-      "prob_pct": 63.3,
-      "confidence": 0.65,
-      "model_prob_pct": 63.3,
+      "pick": "BTTS: No",
+      "prob": 0.6378,
+      "prob_pct": 63.8,
+      "confidence": 0.76,
+      "model_prob_pct": 63.8,
       "market_prob_pct": null,
-      "fair_price_american": -173,
+      "fair_price_american": -176,
       "outcomes": [
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 63.3
+          "label": "BTTS: No",
+          "prob_pct": 63.8
         },
         {
-          "label": "BTTS: No",
-          "prob_pct": 36.7
+          "label": "BTTS: Yes",
+          "prob_pct": 36.2
         }
       ],
-      "rationale": "With scoring rates of 2.07 and 1.27, both teams scoring is a 63% chance \u2014 BTTS: Yes. Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "With scoring rates of 3.05 and 0.47, both teams scoring is a 36% chance \u2014 BTTS: No."
     },
     {
       "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
@@ -1453,23 +1349,75 @@
       "away": "Cape Verde",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.631,
-      "prob_pct": 63.1,
-      "confidence": 0.76,
-      "model_prob_pct": 63.1,
+      "prob": 0.6323,
+      "prob_pct": 63.2,
+      "confidence": 0.73,
+      "model_prob_pct": 63.2,
       "market_prob_pct": null,
-      "fair_price_american": -171,
+      "fair_price_american": -172,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 63.1
+          "prob_pct": 63.2
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 36.9
+          "prob_pct": 36.8
         }
       ],
-      "rationale": "With scoring rates of 1.78 and 0.58, both teams scoring is a 37% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 1.74 and 0.58, both teams scoring is a 37% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "group": "I",
+      "commence_time": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "away": "Iraq",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.6256,
+      "prob_pct": 62.6,
+      "confidence": 0.85,
+      "model_prob_pct": 62.6,
+      "market_prob_pct": null,
+      "fair_price_american": -167,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 62.6
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 37.4
+        }
+      ],
+      "rationale": "With scoring rates of 3.15 and 0.49, both teams scoring is a 37% chance \u2014 BTTS: No. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "E",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "market": "handicap",
+      "pick": "Ecuador -1.5",
+      "prob": 0.6245,
+      "prob_pct": 62.4,
+      "confidence": 0.5,
+      "model_prob_pct": 62.4,
+      "market_prob_pct": null,
+      "fair_price_american": -166,
+      "outcomes": [
+        {
+          "label": "Ecuador -1.5",
+          "prob_pct": 62.4
+        },
+        {
+          "label": "Cura\u00e7ao +1.5",
+          "prob_pct": 37.6
+        }
+      ],
+      "rationale": "Ecuador wins by 2+ goals 62% of the time; the 62% call is Ecuador -1.5."
     },
     {
       "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
@@ -1505,16 +1453,16 @@
       "away": "Germany",
       "market": "result",
       "pick": "Germany win",
-      "prob": 0.6209,
-      "prob_pct": 62.1,
+      "prob": 0.6219,
+      "prob_pct": 62.2,
       "confidence": 0.5,
       "model_prob_pct": 71.6,
-      "market_prob_pct": 56.2,
+      "market_prob_pct": 56.3,
       "fair_price_american": -164,
       "outcomes": [
         {
           "label": "Germany win",
-          "prob_pct": 62.1
+          "prob_pct": 62.2
         },
         {
           "label": "Draw",
@@ -1522,25 +1470,51 @@
         },
         {
           "label": "Ecuador win",
-          "prob_pct": 15.3
+          "prob_pct": 15.2
         }
       ],
       "rationale": "Germany is the 62% pick \u2014 a clear favorite (expected goals Ecuador 0.90, Germany 1.70)."
     },
     {
-      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
-      "group": "I",
-      "commence_time": "2026-06-22T21:00:00Z",
-      "home": "France",
-      "away": "Iraq",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.6205,
-      "prob_pct": 62.0,
-      "confidence": 0.85,
-      "model_prob_pct": 62.0,
+      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "group": "F",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "home": "Tunisia",
+      "away": "Japan",
+      "market": "handicap",
+      "pick": "Tunisia +1.5",
+      "prob": 0.6216,
+      "prob_pct": 62.2,
+      "confidence": 0.7,
+      "model_prob_pct": 62.2,
       "market_prob_pct": null,
       "fair_price_american": -164,
+      "outcomes": [
+        {
+          "label": "Tunisia +1.5",
+          "prob_pct": 62.2
+        },
+        {
+          "label": "Japan -1.5",
+          "prob_pct": 37.8
+        }
+      ],
+      "rationale": "Japan wins by 2+ goals 38% of the time; the 62% call is Tunisia +1.5."
+    },
+    {
+      "match_id": "22f6ac06dfcc88a847920f62633e6459",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Paraguay",
+      "away": "Australia",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.6197,
+      "prob_pct": 62.0,
+      "confidence": 0.5,
+      "model_prob_pct": 62.0,
+      "market_prob_pct": null,
+      "fair_price_american": -163,
       "outcomes": [
         {
           "label": "BTTS: No",
@@ -1551,7 +1525,33 @@
           "prob_pct": 38.0
         }
       ],
-      "rationale": "With scoring rates of 3.14 and 0.50, both teams scoring is a 38% chance \u2014 BTTS: No. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "With scoring rates of 1.02 and 0.88, both teams scoring is a 38% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "852a3abe6d46820720febc0fedebff9a",
+      "group": "H",
+      "commence_time": "2026-06-21T22:00:00Z",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "market": "handicap",
+      "pick": "Cape Verde +1.5",
+      "prob": 0.6173,
+      "prob_pct": 61.7,
+      "confidence": 0.73,
+      "model_prob_pct": 61.7,
+      "market_prob_pct": null,
+      "fair_price_american": -161,
+      "outcomes": [
+        {
+          "label": "Cape Verde +1.5",
+          "prob_pct": 61.7
+        },
+        {
+          "label": "Uruguay -1.5",
+          "prob_pct": 38.3
+        }
+      ],
+      "rationale": "Uruguay wins by 2+ goals 38% of the time; the 62% call is Cape Verde +1.5."
     },
     {
       "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
@@ -1561,7 +1561,7 @@
       "away": "Egypt",
       "market": "result",
       "pick": "Egypt win",
-      "prob": 0.6143,
+      "prob": 0.614,
       "prob_pct": 61.4,
       "confidence": 0.78,
       "model_prob_pct": 65.1,
@@ -1574,40 +1574,14 @@
         },
         {
           "label": "Draw",
-          "prob_pct": 22.7
+          "prob_pct": 22.8
         },
         {
           "label": "New Zealand win",
           "prob_pct": 15.8
         }
       ],
-      "rationale": "Egypt is the 61% pick \u2014 a clear favorite (expected goals New Zealand 0.79, Egypt 1.73)."
-    },
-    {
-      "match_id": "f1ab0f69832972a329243522ceaa7804",
-      "group": "E",
-      "commence_time": "2026-06-20T20:00:00Z",
-      "home": "Germany",
-      "away": "Ivory Coast",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.6128,
-      "prob_pct": 61.3,
-      "confidence": 0.8,
-      "model_prob_pct": 61.3,
-      "market_prob_pct": null,
-      "fair_price_american": -158,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 61.3
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 38.7
-        }
-      ],
-      "rationale": "With scoring rates of 2.29 and 1.13, both teams scoring is a 61% chance \u2014 BTTS: Yes."
+      "rationale": "Egypt is the 61% pick \u2014 a clear favorite (expected goals New Zealand 0.78, Egypt 1.72)."
     },
     {
       "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
@@ -1636,30 +1610,56 @@
       "rationale": "United States wins by 2+ goals 61% of the time; the 61% call is United States -1.5. Factoring in United States on home soil."
     },
     {
-      "match_id": "852a3abe6d46820720febc0fedebff9a",
-      "group": "H",
-      "commence_time": "2026-06-21T22:00:00Z",
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "market": "handicap",
-      "pick": "Cape Verde +1.5",
-      "prob": 0.6066,
-      "prob_pct": 60.7,
-      "confidence": 0.76,
-      "model_prob_pct": 60.7,
-      "market_prob_pct": null,
+      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.6057,
+      "prob_pct": 60.6,
+      "confidence": 0.75,
+      "model_prob_pct": 60.6,
+      "market_prob_pct": 53.0,
       "fair_price_american": -154,
       "outcomes": [
         {
-          "label": "Cape Verde +1.5",
-          "prob_pct": 60.7
+          "label": "Under 3",
+          "prob_pct": 60.6
         },
         {
-          "label": "Uruguay -1.5",
-          "prob_pct": 39.3
+          "label": "Over 3",
+          "prob_pct": 39.4
         }
       ],
-      "rationale": "Uruguay wins by 2+ goals 39% of the time; the 61% call is Cape Verde +1.5."
+      "rationale": "Expected ~3.2 goals (Tunisia 0.75, Netherlands 2.43); under 3 is the 61% side. Factoring in Netherlands missing Frenkie de Jong."
+    },
+    {
+      "match_id": "f1ab0f69832972a329243522ceaa7804",
+      "group": "E",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.6049,
+      "prob_pct": 60.5,
+      "confidence": 0.5,
+      "model_prob_pct": 60.5,
+      "market_prob_pct": null,
+      "fair_price_american": -153,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 60.5
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 39.5
+        }
+      ],
+      "rationale": "With scoring rates of 2.33 and 1.09, both teams scoring is a 60% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
@@ -1669,12 +1669,12 @@
       "away": "South Korea",
       "market": "result",
       "pick": "South Korea win",
-      "prob": 0.6039,
+      "prob": 0.604,
       "prob_pct": 60.4,
       "confidence": 0.85,
       "model_prob_pct": 63.0,
       "market_prob_pct": 59.2,
-      "fair_price_american": -152,
+      "fair_price_american": -153,
       "outcomes": [
         {
           "label": "South Korea win",
@@ -1692,30 +1692,30 @@
       "rationale": "South Korea is the 60% pick \u2014 a clear favorite (expected goals South Africa 0.78, South Korea 1.70)."
     },
     {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
+      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
+      "group": "L",
+      "commence_time": "2026-06-23T20:00:00Z",
+      "home": "England",
+      "away": "Ghana",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5971,
-      "prob_pct": 59.7,
-      "confidence": 0.73,
-      "model_prob_pct": 59.7,
+      "prob": 0.6006,
+      "prob_pct": 60.1,
+      "confidence": 0.88,
+      "model_prob_pct": 60.1,
       "market_prob_pct": null,
-      "fair_price_american": -148,
+      "fair_price_american": -150,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 59.7
+          "prob_pct": 60.1
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 40.3
+          "prob_pct": 39.9
         }
       ],
-      "rationale": "With scoring rates of 0.58 and 2.36, both teams scoring is a 40% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 2.45 and 0.57, both teams scoring is a 40% chance \u2014 BTTS: No."
     },
     {
       "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
@@ -1725,8 +1725,8 @@
       "away": "Qatar",
       "market": "result",
       "pick": "Bosnia & Herzegovina win",
-      "prob": 0.5966,
-      "prob_pct": 59.7,
+      "prob": 0.596,
+      "prob_pct": 59.6,
       "confidence": 0.5,
       "model_prob_pct": 45.3,
       "market_prob_pct": 66.7,
@@ -1734,11 +1734,11 @@
       "outcomes": [
         {
           "label": "Bosnia & Herzegovina win",
-          "prob_pct": 59.7
+          "prob_pct": 59.6
         },
         {
           "label": "Draw",
-          "prob_pct": 21.5
+          "prob_pct": 21.6
         },
         {
           "label": "Qatar win",
@@ -1800,30 +1800,30 @@
       "rationale": "Expected ~2.3 goals (Algeria 1.08, Austria 1.22); under 2.2 is the 59% side."
     },
     {
-      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
-      "group": "L",
-      "commence_time": "2026-06-23T20:00:00Z",
-      "home": "England",
-      "away": "Ghana",
+      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "New Zealand",
+      "away": "Belgium",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5908,
-      "prob_pct": 59.1,
-      "confidence": 0.88,
-      "model_prob_pct": 59.1,
+      "prob": 0.5931,
+      "prob_pct": 59.3,
+      "confidence": 0.73,
+      "model_prob_pct": 59.3,
       "market_prob_pct": null,
-      "fair_price_american": -144,
+      "fair_price_american": -146,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 59.1
+          "prob_pct": 59.3
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 40.9
+          "prob_pct": 40.7
         }
       ],
-      "rationale": "With scoring rates of 2.45 and 0.59, both teams scoring is a 41% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 0.59 and 2.39, both teams scoring is a 41% chance \u2014 BTTS: No."
     },
     {
       "match_id": "7e6aee294ea1a4792c59558791084528",
@@ -1833,49 +1833,49 @@
       "away": "Iraq",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5906,
-      "prob_pct": 59.1,
+      "prob": 0.5928,
+      "prob_pct": 59.3,
       "confidence": 0.71,
-      "model_prob_pct": 59.1,
+      "model_prob_pct": 59.3,
       "market_prob_pct": null,
-      "fair_price_american": -144,
+      "fair_price_american": -146,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 59.1
+          "prob_pct": 59.3
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 40.9
+          "prob_pct": 40.7
         }
       ],
-      "rationale": "With scoring rates of 2.17 and 0.61, both teams scoring is a 41% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 2.18 and 0.60, both teams scoring is a 41% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "f1ab0f69832972a329243522ceaa7804",
-      "group": "E",
-      "commence_time": "2026-06-20T20:00:00Z",
-      "home": "Germany",
-      "away": "Ivory Coast",
-      "market": "handicap",
-      "pick": "Ivory Coast +1.5",
-      "prob": 0.5901,
-      "prob_pct": 59.0,
-      "confidence": 0.8,
-      "model_prob_pct": 59.0,
-      "market_prob_pct": null,
-      "fair_price_american": -144,
+      "match_id": "852a3abe6d46820720febc0fedebff9a",
+      "group": "H",
+      "commence_time": "2026-06-21T22:00:00Z",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5918,
+      "prob_pct": 59.2,
+      "confidence": 0.73,
+      "model_prob_pct": 59.2,
+      "market_prob_pct": 58.4,
+      "fair_price_american": -145,
       "outcomes": [
         {
-          "label": "Ivory Coast +1.5",
-          "prob_pct": 59.0
+          "label": "Under 2.5",
+          "prob_pct": 59.2
         },
         {
-          "label": "Germany -1.5",
-          "prob_pct": 41.0
+          "label": "Over 2.5",
+          "prob_pct": 40.8
         }
       ],
-      "rationale": "Germany wins by 2+ goals 41% of the time; the 59% call is Ivory Coast +1.5."
+      "rationale": "Expected ~2.3 goals (Uruguay 1.74, Cape Verde 0.58); under 2.5 is the 59% side."
     },
     {
       "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
@@ -1885,7 +1885,7 @@
       "away": "Spain",
       "market": "result",
       "pick": "Spain win",
-      "prob": 0.5878,
+      "prob": 0.588,
       "prob_pct": 58.8,
       "confidence": 0.71,
       "model_prob_pct": 54.2,
@@ -1908,84 +1908,6 @@
       "rationale": "Spain is the 59% pick \u2014 a clear favorite (expected goals Uruguay 0.82, Spain 1.84)."
     },
     {
-      "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
-      "group": "B",
-      "commence_time": "2026-06-24T19:00:00Z",
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5865,
-      "prob_pct": 58.7,
-      "confidence": 0.5,
-      "model_prob_pct": 58.7,
-      "market_prob_pct": 53.6,
-      "fair_price_american": -142,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 58.7
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 41.3
-        }
-      ],
-      "rationale": "Expected ~3.3 goals (Bosnia & Herzegovina 2.28, Qatar 1.00); under 3 is the 59% side."
-    },
-    {
-      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
-      "group": "L",
-      "commence_time": "2026-06-23T20:00:00Z",
-      "home": "England",
-      "away": "Ghana",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5839,
-      "prob_pct": 58.4,
-      "confidence": 0.88,
-      "model_prob_pct": 58.4,
-      "market_prob_pct": 57.9,
-      "fair_price_american": -140,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 58.4
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 41.6
-        }
-      ],
-      "rationale": "Expected ~3.0 goals (England 2.45, Ghana 0.59); over 2.5 is the 58% side."
-    },
-    {
-      "match_id": "852a3abe6d46820720febc0fedebff9a",
-      "group": "H",
-      "commence_time": "2026-06-21T22:00:00Z",
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5828,
-      "prob_pct": 58.3,
-      "confidence": 0.76,
-      "model_prob_pct": 58.3,
-      "market_prob_pct": 57.7,
-      "fair_price_american": -140,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 58.3
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 41.7
-        }
-      ],
-      "rationale": "Expected ~2.4 goals (Uruguay 1.78, Cape Verde 0.58); under 2.5 is the 58% side."
-    },
-    {
       "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
       "group": "G",
       "commence_time": "2026-06-21T19:00:00Z",
@@ -1993,23 +1915,101 @@
       "away": "Iran",
       "market": "handicap",
       "pick": "Iran +1.5",
-      "prob": 0.5818,
-      "prob_pct": 58.2,
-      "confidence": 0.73,
-      "model_prob_pct": 58.2,
+      "prob": 0.5869,
+      "prob_pct": 58.7,
+      "confidence": 0.72,
+      "model_prob_pct": 58.7,
       "market_prob_pct": null,
-      "fair_price_american": -139,
+      "fair_price_american": -142,
       "outcomes": [
         {
           "label": "Iran +1.5",
-          "prob_pct": 58.2
+          "prob_pct": 58.7
         },
         {
           "label": "Belgium -1.5",
-          "prob_pct": 41.8
+          "prob_pct": 41.3
         }
       ],
-      "rationale": "Belgium wins by 2+ goals 42% of the time; the 58% call is Iran +1.5."
+      "rationale": "Belgium wins by 2+ goals 41% of the time; the 59% call is Iran +1.5."
+    },
+    {
+      "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
+      "group": "B",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5857,
+      "prob_pct": 58.6,
+      "confidence": 0.5,
+      "model_prob_pct": 58.6,
+      "market_prob_pct": 53.4,
+      "fair_price_american": -141,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 58.6
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 41.4
+        }
+      ],
+      "rationale": "Expected ~3.3 goals (Bosnia & Herzegovina 2.28, Qatar 1.00); under 3 is the 59% side."
+    },
+    {
+      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "group": "F",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "home": "Tunisia",
+      "away": "Japan",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.584,
+      "prob_pct": 58.4,
+      "confidence": 0.7,
+      "model_prob_pct": 58.4,
+      "market_prob_pct": null,
+      "fair_price_american": -140,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 58.4
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 41.6
+        }
+      ],
+      "rationale": "With scoring rates of 0.68 and 1.80, both teams scoring is a 42% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
+      "group": "K",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "market": "handicap",
+      "pick": "Portugal -1.5",
+      "prob": 0.5833,
+      "prob_pct": 58.3,
+      "confidence": 0.53,
+      "model_prob_pct": 58.3,
+      "market_prob_pct": null,
+      "fair_price_american": -140,
+      "outcomes": [
+        {
+          "label": "Portugal -1.5",
+          "prob_pct": 58.3
+        },
+        {
+          "label": "Uzbekistan +1.5",
+          "prob_pct": 41.7
+        }
+      ],
+      "rationale": "Portugal wins by 2+ goals 58% of the time; the 58% call is Portugal -1.5."
     },
     {
       "match_id": "fd8533b650e655030f6a7946f8795db2",
@@ -2019,12 +2019,12 @@
       "away": "Algeria",
       "market": "result",
       "pick": "Algeria win",
-      "prob": 0.581,
+      "prob": 0.5807,
       "prob_pct": 58.1,
       "confidence": 0.65,
       "model_prob_pct": 52.2,
       "market_prob_pct": 60.9,
-      "fair_price_american": -139,
+      "fair_price_american": -138,
       "outcomes": [
         {
           "label": "Algeria win",
@@ -2036,10 +2036,36 @@
         },
         {
           "label": "Jordan win",
-          "prob_pct": 18.3
+          "prob_pct": 18.4
         }
       ],
       "rationale": "Algeria is the 58% pick \u2014 a clear favorite (expected goals Jordan 0.81, Algeria 1.79)."
+    },
+    {
+      "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
+      "group": "L",
+      "commence_time": "2026-06-23T20:00:00Z",
+      "home": "England",
+      "away": "Ghana",
+      "market": "total",
+      "pick": "Over 2.5",
+      "prob": 0.5799,
+      "prob_pct": 58.0,
+      "confidence": 0.88,
+      "model_prob_pct": 58.0,
+      "market_prob_pct": 57.3,
+      "fair_price_american": -138,
+      "outcomes": [
+        {
+          "label": "Over 2.5",
+          "prob_pct": 58.0
+        },
+        {
+          "label": "Under 2.5",
+          "prob_pct": 42.0
+        }
+      ],
+      "rationale": "Expected ~3.0 goals (England 2.45, Ghana 0.57); over 2.5 is the 58% side."
     },
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -2066,32 +2092,6 @@
         }
       ],
       "rationale": "Argentina wins by 2+ goals 58% of the time; the 58% call is Argentina -1.5."
-    },
-    {
-      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
-      "group": "K",
-      "commence_time": "2026-06-23T17:00:00Z",
-      "home": "Portugal",
-      "away": "Uzbekistan",
-      "market": "handicap",
-      "pick": "Portugal -1.5",
-      "prob": 0.5791,
-      "prob_pct": 57.9,
-      "confidence": 0.52,
-      "model_prob_pct": 57.9,
-      "market_prob_pct": null,
-      "fair_price_american": -138,
-      "outcomes": [
-        {
-          "label": "Portugal -1.5",
-          "prob_pct": 57.9
-        },
-        {
-          "label": "Uzbekistan +1.5",
-          "prob_pct": 42.1
-        }
-      ],
-      "rationale": "Portugal wins by 2+ goals 58% of the time; the 58% call is Portugal -1.5."
     },
     {
       "match_id": "67ae5751c401a98409b8566ae4897069",
@@ -2129,7 +2129,7 @@
       "pick": "Morocco -1.5",
       "prob": 0.5751,
       "prob_pct": 57.5,
-      "confidence": 0.68,
+      "confidence": 0.69,
       "model_prob_pct": 57.5,
       "market_prob_pct": null,
       "fair_price_american": -135,
@@ -2146,56 +2146,30 @@
       "rationale": "Morocco wins by 2+ goals 58% of the time; the 58% call is Morocco -1.5."
     },
     {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "total",
-      "pick": "Under 2",
+      "match_id": "f1ab0f69832972a329243522ceaa7804",
+      "group": "E",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "market": "handicap",
+      "pick": "Ivory Coast +1.5",
       "prob": 0.5734,
       "prob_pct": 57.3,
-      "confidence": 0.67,
+      "confidence": 0.5,
       "model_prob_pct": 57.3,
-      "market_prob_pct": 48.6,
+      "market_prob_pct": null,
       "fair_price_american": -134,
       "outcomes": [
         {
-          "label": "Under 2",
+          "label": "Ivory Coast +1.5",
           "prob_pct": 57.3
         },
         {
-          "label": "Over 2",
+          "label": "Germany -1.5",
           "prob_pct": 42.7
         }
       ],
-      "rationale": "Expected ~2.4 goals (Egypt 1.39, Iran 0.99); under 2 is the 57% side."
-    },
-    {
-      "match_id": "4f0c518545b0096c68326daf25bffc1e",
-      "group": "F",
-      "commence_time": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "away": "Sweden",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5724,
-      "prob_pct": 57.2,
-      "confidence": 0.65,
-      "model_prob_pct": 57.2,
-      "market_prob_pct": 51.9,
-      "fair_price_american": -134,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 57.2
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 42.8
-        }
-      ],
-      "rationale": "Expected ~3.3 goals (Netherlands 2.07, Sweden 1.27); under 3 is the 57% side. Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "Germany wins by 2+ goals 43% of the time; the 57% call is Ivory Coast +1.5."
     },
     {
       "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
@@ -2205,49 +2179,75 @@
       "away": "Qatar",
       "market": "btts",
       "pick": "BTTS: Yes",
-      "prob": 0.571,
-      "prob_pct": 57.1,
+      "prob": 0.5718,
+      "prob_pct": 57.2,
       "confidence": 0.5,
-      "model_prob_pct": 57.1,
+      "model_prob_pct": 57.2,
       "market_prob_pct": null,
-      "fair_price_american": -133,
+      "fair_price_american": -134,
       "outcomes": [
         {
           "label": "BTTS: Yes",
-          "prob_pct": 57.1
+          "prob_pct": 57.2
         },
         {
           "label": "BTTS: No",
-          "prob_pct": 42.9
+          "prob_pct": 42.8
         }
       ],
       "rationale": "With scoring rates of 2.28 and 1.00, both teams scoring is a 57% chance \u2014 BTTS: Yes."
     },
     {
-      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
-      "group": "F",
-      "commence_time": "2026-06-21T04:00:00Z",
-      "home": "Tunisia",
-      "away": "Japan",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5707,
+      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "Egypt",
+      "away": "Iran",
+      "market": "total",
+      "pick": "Under 2",
+      "prob": 0.5708,
       "prob_pct": 57.1,
-      "confidence": 0.62,
+      "confidence": 0.69,
       "model_prob_pct": 57.1,
-      "market_prob_pct": null,
+      "market_prob_pct": 48.6,
       "fair_price_american": -133,
       "outcomes": [
         {
-          "label": "BTTS: No",
+          "label": "Under 2",
           "prob_pct": 57.1
         },
         {
-          "label": "BTTS: Yes",
+          "label": "Over 2",
           "prob_pct": 42.9
         }
       ],
-      "rationale": "With scoring rates of 0.72 and 1.76, both teams scoring is a 43% chance \u2014 BTTS: No."
+      "rationale": "Expected ~2.4 goals (Egypt 1.41, Iran 0.99); under 2 is the 57% side."
+    },
+    {
+      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "market": "total",
+      "pick": "Over 2.8",
+      "prob": 0.5705,
+      "prob_pct": 57.0,
+      "confidence": 0.73,
+      "model_prob_pct": 57.0,
+      "market_prob_pct": 52.9,
+      "fair_price_american": -133,
+      "outcomes": [
+        {
+          "label": "Over 2.8",
+          "prob_pct": 57.0
+        },
+        {
+          "label": "Under 2.8",
+          "prob_pct": 43.0
+        }
+      ],
+      "rationale": "Expected ~3.0 goals (New Zealand 0.59, Belgium 2.39); over 2.8 is the 57% side."
     },
     {
       "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
@@ -2276,32 +2276,6 @@
       "rationale": "Expected ~2.4 goals (Colombia 1.74, DR Congo 0.66); under 2.5 is the 57% side."
     },
     {
-      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5687,
-      "prob_pct": 56.9,
-      "confidence": 0.79,
-      "model_prob_pct": 56.9,
-      "market_prob_pct": 57.1,
-      "fair_price_american": -132,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 56.9
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 43.1
-        }
-      ],
-      "rationale": "Expected ~3.0 goals (Tunisia 0.71, Netherlands 2.25); over 2.5 is the 57% side. Factoring in Netherlands missing Frenkie de Jong."
-    },
-    {
       "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
       "group": "B",
       "commence_time": "2026-06-24T19:00:00Z",
@@ -2309,7 +2283,7 @@
       "away": "Qatar",
       "market": "handicap",
       "pick": "Qatar +1.5",
-      "prob": 0.5674,
+      "prob": 0.5673,
       "prob_pct": 56.7,
       "confidence": 0.5,
       "model_prob_pct": 56.7,
@@ -2328,32 +2302,6 @@
       "rationale": "Bosnia & Herzegovina wins by 2+ goals 43% of the time; the 57% call is Qatar +1.5."
     },
     {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "total",
-      "pick": "Over 2.8",
-      "prob": 0.5632,
-      "prob_pct": 56.3,
-      "confidence": 0.73,
-      "model_prob_pct": 56.3,
-      "market_prob_pct": 52.9,
-      "fair_price_american": -129,
-      "outcomes": [
-        {
-          "label": "Over 2.8",
-          "prob_pct": 56.3
-        },
-        {
-          "label": "Under 2.8",
-          "prob_pct": 43.7
-        }
-      ],
-      "rationale": "Expected ~2.9 goals (New Zealand 0.58, Belgium 2.36); over 2.8 is the 56% side."
-    },
-    {
       "match_id": "2f49dd8deae3079dc4eb2d634d18a99c",
       "group": "L",
       "commence_time": "2026-06-23T20:00:00Z",
@@ -2361,20 +2309,46 @@
       "away": "Ghana",
       "market": "handicap",
       "pick": "England -1.5",
-      "prob": 0.5587,
-      "prob_pct": 55.9,
+      "prob": 0.5632,
+      "prob_pct": 56.3,
       "confidence": 0.88,
-      "model_prob_pct": 55.9,
+      "model_prob_pct": 56.3,
       "market_prob_pct": null,
-      "fair_price_american": -127,
+      "fair_price_american": -129,
       "outcomes": [
         {
           "label": "England -1.5",
-          "prob_pct": 55.9
+          "prob_pct": 56.3
         },
         {
           "label": "Ghana +1.5",
-          "prob_pct": 44.1
+          "prob_pct": 43.7
+        }
+      ],
+      "rationale": "England wins by 2+ goals 56% of the time; the 56% call is England -1.5."
+    },
+    {
+      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Panama",
+      "away": "England",
+      "market": "handicap",
+      "pick": "England -1.5",
+      "prob": 0.562,
+      "prob_pct": 56.2,
+      "confidence": 0.47,
+      "model_prob_pct": 56.2,
+      "market_prob_pct": null,
+      "fair_price_american": -128,
+      "outcomes": [
+        {
+          "label": "England -1.5",
+          "prob_pct": 56.2
+        },
+        {
+          "label": "Panama +1.5",
+          "prob_pct": 43.8
         }
       ],
       "rationale": "England wins by 2+ goals 56% of the time; the 56% call is England -1.5."
@@ -2385,13 +2359,39 @@
       "commence_time": "2026-06-27T21:00:00Z",
       "home": "Croatia",
       "away": "Ghana",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5598,
+      "prob_pct": 56.0,
+      "confidence": 0.66,
+      "model_prob_pct": 56.0,
+      "market_prob_pct": 53.4,
+      "fair_price_american": -127,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 56.0
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 44.0
+        }
+      ],
+      "rationale": "Expected ~2.4 goals (Croatia 1.67, Ghana 0.77); under 2.5 is the 56% side."
+    },
+    {
+      "match_id": "537c0997cd899394f47f16545b7068b2",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Croatia",
+      "away": "Ghana",
       "market": "result",
       "pick": "Croatia win",
-      "prob": 0.5585,
+      "prob": 0.5586,
       "prob_pct": 55.9,
       "confidence": 0.66,
       "model_prob_pct": 50.6,
-      "market_prob_pct": 59.2,
+      "market_prob_pct": 59.0,
       "fair_price_american": -127,
       "outcomes": [
         {
@@ -2400,26 +2400,26 @@
         },
         {
           "label": "Draw",
-          "prob_pct": 25.0
+          "prob_pct": 25.1
         },
         {
           "label": "Ghana win",
-          "prob_pct": 19.1
+          "prob_pct": 19.0
         }
       ],
-      "rationale": "Croatia is the 56% pick \u2014 a clear favorite (expected goals Croatia 1.68, Ghana 0.78)."
+      "rationale": "Croatia is the 56% pick \u2014 a clear favorite (expected goals Croatia 1.67, Ghana 0.77)."
     },
     {
-      "match_id": "681895f294b670b4c7b14495dfb583bc",
-      "group": "E",
-      "commence_time": "2026-06-21T00:00:00Z",
-      "home": "Ecuador",
-      "away": "Cura\u00e7ao",
+      "match_id": "537c0997cd899394f47f16545b7068b2",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Croatia",
+      "away": "Ghana",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5583,
+      "prob": 0.5579,
       "prob_pct": 55.8,
-      "confidence": 0.5,
+      "confidence": 0.66,
       "model_prob_pct": 55.8,
       "market_prob_pct": null,
       "fair_price_american": -126,
@@ -2433,33 +2433,7 @@
           "prob_pct": 44.2
         }
       ],
-      "rationale": "With scoring rates of 2.96 and 0.62, both teams scoring is a 44% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Panama",
-      "away": "England",
-      "market": "handicap",
-      "pick": "England -1.5",
-      "prob": 0.5578,
-      "prob_pct": 55.8,
-      "confidence": 0.47,
-      "model_prob_pct": 55.8,
-      "market_prob_pct": null,
-      "fair_price_american": -126,
-      "outcomes": [
-        {
-          "label": "England -1.5",
-          "prob_pct": 55.8
-        },
-        {
-          "label": "Panama +1.5",
-          "prob_pct": 44.2
-        }
-      ],
-      "rationale": "England wins by 2+ goals 56% of the time; the 56% call is England -1.5."
+      "rationale": "With scoring rates of 1.67 and 0.77, both teams scoring is a 44% chance \u2014 BTTS: No."
     },
     {
       "match_id": "c1bc8c26480cd42b89a0de5329581314",
@@ -2469,7 +2443,7 @@
       "away": "Croatia",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5566,
+      "prob": 0.5571,
       "prob_pct": 55.7,
       "confidence": 0.5,
       "model_prob_pct": 55.7,
@@ -2486,58 +2460,6 @@
         }
       ],
       "rationale": "With scoring rates of 0.75 and 1.75, both teams scoring is a 44% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "f1ab0f69832972a329243522ceaa7804",
-      "group": "E",
-      "commence_time": "2026-06-20T20:00:00Z",
-      "home": "Germany",
-      "away": "Ivory Coast",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5549,
-      "prob_pct": 55.5,
-      "confidence": 0.8,
-      "model_prob_pct": 55.5,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -125,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 55.5
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 44.5
-        }
-      ],
-      "rationale": "Expected ~3.4 goals (Germany 2.29, Ivory Coast 1.13); under 3 is the 55% side."
-    },
-    {
-      "match_id": "537c0997cd899394f47f16545b7068b2",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Croatia",
-      "away": "Ghana",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5541,
-      "prob_pct": 55.4,
-      "confidence": 0.66,
-      "model_prob_pct": 55.4,
-      "market_prob_pct": 53.4,
-      "fair_price_american": -124,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 55.4
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 44.6
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Croatia 1.68, Ghana 0.78); under 2.5 is the 55% side."
     },
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -2566,16 +2488,68 @@
       "rationale": "Expected ~3.4 goals (Jordan 0.73, Argentina 2.69); under 3 is the 55% side."
     },
     {
-      "match_id": "537c0997cd899394f47f16545b7068b2",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Croatia",
-      "away": "Ghana",
+      "match_id": "f1ab0f69832972a329243522ceaa7804",
+      "group": "E",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5531,
+      "prob_pct": 55.3,
+      "confidence": 0.5,
+      "model_prob_pct": 55.3,
+      "market_prob_pct": 51.1,
+      "fair_price_american": -124,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 55.3
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 44.7
+        }
+      ],
+      "rationale": "Expected ~3.4 goals (Germany 2.33, Ivory Coast 1.09); under 3 is the 55% side."
+    },
+    {
+      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
+      "group": "C",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Morocco",
+      "away": "Haiti",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5527,
+      "prob_pct": 55.3,
+      "confidence": 0.69,
+      "model_prob_pct": 55.3,
+      "market_prob_pct": 50.8,
+      "fair_price_american": -124,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 55.3
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 44.7
+        }
+      ],
+      "rationale": "Expected ~3.4 goals (Morocco 2.68, Haiti 0.74); under 3 is the 55% side."
+    },
+    {
+      "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
+      "group": "A",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "home": "South Africa",
+      "away": "South Korea",
       "market": "btts",
       "pick": "BTTS: No",
       "prob": 0.5526,
       "prob_pct": 55.3,
-      "confidence": 0.66,
+      "confidence": 0.85,
       "model_prob_pct": 55.3,
       "market_prob_pct": null,
       "fair_price_american": -124,
@@ -2587,32 +2561,6 @@
         {
           "label": "BTTS: Yes",
           "prob_pct": 44.7
-        }
-      ],
-      "rationale": "With scoring rates of 1.68 and 0.78, both teams scoring is a 45% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
-      "group": "A",
-      "commence_time": "2026-06-25T01:00:00Z",
-      "home": "South Africa",
-      "away": "South Korea",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5521,
-      "prob_pct": 55.2,
-      "confidence": 0.85,
-      "model_prob_pct": 55.2,
-      "market_prob_pct": null,
-      "fair_price_american": -123,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 55.2
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 44.8
         }
       ],
       "rationale": "With scoring rates of 0.78 and 1.70, both teams scoring is a 45% chance \u2014 BTTS: No."
@@ -2627,7 +2575,7 @@
       "pick": "Over 2.5",
       "prob": 0.5517,
       "prob_pct": 55.2,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "model_prob_pct": 55.2,
       "market_prob_pct": 52.8,
       "fair_price_american": -123,
@@ -2653,7 +2601,7 @@
       "pick": "Scotland +1.5",
       "prob": 0.5517,
       "prob_pct": 55.2,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "model_prob_pct": 55.2,
       "market_prob_pct": null,
       "fair_price_american": -123,
@@ -2670,30 +2618,30 @@
       "rationale": "Brazil wins by 2+ goals 45% of the time; the 55% call is Scotland +1.5. Factoring in Brazil missing Neymar."
     },
     {
-      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
       "group": "F",
-      "commence_time": "2026-06-21T04:00:00Z",
-      "home": "Tunisia",
-      "away": "Japan",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Japan",
+      "away": "Sweden",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.551,
-      "prob_pct": 55.1,
-      "confidence": 0.62,
-      "model_prob_pct": 55.1,
-      "market_prob_pct": 53.8,
+      "prob": 0.5515,
+      "prob_pct": 55.2,
+      "confidence": 0.86,
+      "model_prob_pct": 55.2,
+      "market_prob_pct": 48.8,
       "fair_price_american": -123,
       "outcomes": [
         {
           "label": "Under 2.5",
-          "prob_pct": 55.1
+          "prob_pct": 55.2
         },
         {
           "label": "Over 2.5",
-          "prob_pct": 44.9
+          "prob_pct": 44.8
         }
       ],
-      "rationale": "Expected ~2.5 goals (Tunisia 0.72, Japan 1.76); under 2.5 is the 55% side."
+      "rationale": "Expected ~2.5 goals (Japan 1.43, Sweden 1.05); under 2.5 is the 55% side."
     },
     {
       "match_id": "13eab94a136b9c264ba974cf437a5f71",
@@ -2703,7 +2651,7 @@
       "away": "Uzbekistan",
       "market": "result",
       "pick": "DR Congo win",
-      "prob": 0.5507,
+      "prob": 0.5513,
       "prob_pct": 55.1,
       "confidence": 0.5,
       "model_prob_pct": 69.6,
@@ -2726,6 +2674,32 @@
       "rationale": "DR Congo is the 55% pick \u2014 a clear favorite (expected goals DR Congo 1.49, Uzbekistan 1.13)."
     },
     {
+      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "group": "F",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "home": "Tunisia",
+      "away": "Japan",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.551,
+      "prob_pct": 55.1,
+      "confidence": 0.7,
+      "model_prob_pct": 55.1,
+      "market_prob_pct": 54.2,
+      "fair_price_american": -123,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 55.1
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 44.9
+        }
+      ],
+      "rationale": "Expected ~2.5 goals (Tunisia 0.68, Japan 1.80); under 2.5 is the 55% side."
+    },
+    {
       "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
       "group": "A",
       "commence_time": "2026-06-25T01:00:00Z",
@@ -2733,12 +2707,12 @@
       "away": "South Korea",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.5505,
+      "prob": 0.551,
       "prob_pct": 55.1,
       "confidence": 0.85,
       "model_prob_pct": 55.1,
-      "market_prob_pct": 54.0,
-      "fair_price_american": -122,
+      "market_prob_pct": 54.1,
+      "fair_price_american": -123,
       "outcomes": [
         {
           "label": "Under 2.5",
@@ -2778,32 +2752,6 @@
       "rationale": "With scoring rates of 1.29 and 1.39, both teams scoring is a 55% chance \u2014 BTTS: Yes."
     },
     {
-      "match_id": "5993bd5196ca09f83990f0c3261e442e",
-      "group": "A",
-      "commence_time": "2026-06-25T01:00:00Z",
-      "home": "Czechia",
-      "away": "Mexico",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.55,
-      "prob_pct": 55.0,
-      "confidence": 0.8,
-      "model_prob_pct": 55.0,
-      "market_prob_pct": 55.8,
-      "fair_price_american": -122,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 55.0
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 45.0
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Czechia 0.46, Mexico 2.01); under 2.5 is the 55% side. Factoring in Mexico on home soil."
-    },
-    {
       "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
       "group": "B",
       "commence_time": "2026-06-24T19:00:00Z",
@@ -2830,82 +2778,82 @@
       "rationale": "With scoring rates of 1.18 and 1.02, both teams scoring is a 45% chance \u2014 BTTS: No. Factoring in Canada on home soil."
     },
     {
-      "match_id": "73529a242e319a86bf3d00ddb4accc37",
-      "group": "H",
-      "commence_time": "2026-06-21T16:00:00Z",
-      "home": "Spain",
-      "away": "Saudi Arabia",
+      "match_id": "5993bd5196ca09f83990f0c3261e442e",
+      "group": "A",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "home": "Czechia",
+      "away": "Mexico",
       "market": "total",
-      "pick": "Over 3",
-      "prob": 0.5493,
+      "pick": "Under 2.5",
+      "prob": 0.5495,
       "prob_pct": 54.9,
-      "confidence": 0.74,
+      "confidence": 0.8,
       "model_prob_pct": 54.9,
       "market_prob_pct": 55.7,
       "fair_price_american": -122,
       "outcomes": [
         {
-          "label": "Over 3",
+          "label": "Under 2.5",
           "prob_pct": 54.9
         },
         {
-          "label": "Under 3",
+          "label": "Over 2.5",
           "prob_pct": 45.1
         }
       ],
-      "rationale": "Expected ~3.9 goals (Spain 3.29, Saudi Arabia 0.63); over 3 is the 55% side."
+      "rationale": "Expected ~2.5 goals (Czechia 0.46, Mexico 2.01); under 2.5 is the 55% side. Factoring in Mexico on home soil."
     },
     {
-      "match_id": "73529a242e319a86bf3d00ddb4accc37",
-      "group": "H",
-      "commence_time": "2026-06-21T16:00:00Z",
-      "home": "Spain",
-      "away": "Saudi Arabia",
+      "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "group": "G",
+      "commence_time": "2026-06-22T01:00:00Z",
+      "home": "New Zealand",
+      "away": "Egypt",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5491,
-      "prob_pct": 54.9,
-      "confidence": 0.74,
-      "model_prob_pct": 54.9,
+      "prob": 0.5474,
+      "prob_pct": 54.7,
+      "confidence": 0.78,
+      "model_prob_pct": 54.7,
       "market_prob_pct": null,
-      "fair_price_american": -122,
+      "fair_price_american": -121,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 54.9
+          "prob_pct": 54.7
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 45.1
+          "prob_pct": 45.3
         }
       ],
-      "rationale": "With scoring rates of 3.29 and 0.63, both teams scoring is a 45% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 0.78 and 1.72, both teams scoring is a 45% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
-      "group": "C",
-      "commence_time": "2026-06-24T22:00:00Z",
-      "home": "Morocco",
-      "away": "Haiti",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5488,
-      "prob_pct": 54.9,
-      "confidence": 0.68,
-      "model_prob_pct": 54.9,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -122,
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
+      "group": "E",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.547,
+      "prob_pct": 54.7,
+      "confidence": 0.53,
+      "model_prob_pct": 54.7,
+      "market_prob_pct": null,
+      "fair_price_american": -121,
       "outcomes": [
         {
-          "label": "Under 3",
-          "prob_pct": 54.9
+          "label": "BTTS: No",
+          "prob_pct": 54.7
         },
         {
-          "label": "Over 3",
-          "prob_pct": 45.1
+          "label": "BTTS: Yes",
+          "prob_pct": 45.3
         }
       ],
-      "rationale": "Expected ~3.4 goals (Morocco 2.69, Haiti 0.75); under 3 is the 55% side."
+      "rationale": "With scoring rates of 0.64 and 2.94, both teams scoring is a 45% chance \u2014 BTTS: No."
     },
     {
       "match_id": "be6c63f416c67bca1300a98f5b89c3af",
@@ -2934,30 +2882,30 @@
       "rationale": "With scoring rates of 1.74 and 0.78, both teams scoring is a 45% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
       "group": "G",
-      "commence_time": "2026-06-22T01:00:00Z",
+      "commence_time": "2026-06-27T03:00:00Z",
       "home": "New Zealand",
-      "away": "Egypt",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5455,
+      "away": "Belgium",
+      "market": "handicap",
+      "pick": "Belgium -1.5",
+      "prob": 0.545,
       "prob_pct": 54.5,
-      "confidence": 0.78,
+      "confidence": 0.73,
       "model_prob_pct": 54.5,
       "market_prob_pct": null,
       "fair_price_american": -120,
       "outcomes": [
         {
-          "label": "BTTS: No",
+          "label": "Belgium -1.5",
           "prob_pct": 54.5
         },
         {
-          "label": "BTTS: Yes",
+          "label": "New Zealand +1.5",
           "prob_pct": 45.5
         }
       ],
-      "rationale": "With scoring rates of 0.79 and 1.73, both teams scoring is a 45% chance \u2014 BTTS: No."
+      "rationale": "Belgium wins by 2+ goals 55% of the time; the 55% call is Belgium -1.5."
     },
     {
       "match_id": "c1bc8c26480cd42b89a0de5329581314",
@@ -2967,11 +2915,11 @@
       "away": "Croatia",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.5428,
+      "prob": 0.5433,
       "prob_pct": 54.3,
       "confidence": 0.5,
       "model_prob_pct": 54.3,
-      "market_prob_pct": 51.7,
+      "market_prob_pct": 51.1,
       "fair_price_american": -119,
       "outcomes": [
         {
@@ -2986,58 +2934,6 @@
       "rationale": "Expected ~2.5 goals (Panama 0.75, Croatia 1.75); under 2.5 is the 54% side."
     },
     {
-      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
-      "group": "K",
-      "commence_time": "2026-06-23T17:00:00Z",
-      "home": "Portugal",
-      "away": "Uzbekistan",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5415,
-      "prob_pct": 54.1,
-      "confidence": 0.52,
-      "model_prob_pct": 54.1,
-      "market_prob_pct": 51.7,
-      "fair_price_american": -118,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 54.1
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 45.9
-        }
-      ],
-      "rationale": "Expected ~3.5 goals (Portugal 2.72, Uzbekistan 0.76); under 3 is the 54% side."
-    },
-    {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "handicap",
-      "pick": "Belgium -1.5",
-      "prob": 0.5404,
-      "prob_pct": 54.0,
-      "confidence": 0.73,
-      "model_prob_pct": 54.0,
-      "market_prob_pct": null,
-      "fair_price_american": -118,
-      "outcomes": [
-        {
-          "label": "Belgium -1.5",
-          "prob_pct": 54.0
-        },
-        {
-          "label": "New Zealand +1.5",
-          "prob_pct": 46.0
-        }
-      ],
-      "rationale": "Belgium wins by 2+ goals 54% of the time; the 54% call is Belgium -1.5."
-    },
-    {
       "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
       "group": "G",
       "commence_time": "2026-06-22T01:00:00Z",
@@ -3045,23 +2941,23 @@
       "away": "Egypt",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.5402,
-      "prob_pct": 54.0,
+      "prob": 0.5423,
+      "prob_pct": 54.2,
       "confidence": 0.78,
-      "model_prob_pct": 54.0,
-      "market_prob_pct": 54.9,
-      "fair_price_american": -117,
+      "model_prob_pct": 54.2,
+      "market_prob_pct": 55.2,
+      "fair_price_american": -118,
       "outcomes": [
         {
           "label": "Under 2.5",
-          "prob_pct": 54.0
+          "prob_pct": 54.2
         },
         {
           "label": "Over 2.5",
-          "prob_pct": 46.0
+          "prob_pct": 45.8
         }
       ],
-      "rationale": "Expected ~2.5 goals (New Zealand 0.79, Egypt 1.73); under 2.5 is the 54% side."
+      "rationale": "Expected ~2.5 goals (New Zealand 0.78, Egypt 1.72); under 2.5 is the 54% side."
     },
     {
       "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
@@ -3071,49 +2967,49 @@
       "away": "Iran",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5397,
-      "prob_pct": 54.0,
-      "confidence": 0.73,
-      "model_prob_pct": 54.0,
+      "prob": 0.5421,
+      "prob_pct": 54.2,
+      "confidence": 0.72,
+      "model_prob_pct": 54.2,
       "market_prob_pct": null,
-      "fair_price_american": -117,
+      "fair_price_american": -118,
       "outcomes": [
         {
           "label": "BTTS: No",
+          "prob_pct": 54.2
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 45.8
+        }
+      ],
+      "rationale": "With scoring rates of 1.98 and 0.74, both teams scoring is a 46% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "8ba93d190f1f934e33862a97a6353a6e",
+      "group": "K",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5402,
+      "prob_pct": 54.0,
+      "confidence": 0.53,
+      "model_prob_pct": 54.0,
+      "market_prob_pct": 51.7,
+      "fair_price_american": -117,
+      "outcomes": [
+        {
+          "label": "Under 3",
           "prob_pct": 54.0
         },
         {
-          "label": "BTTS: Yes",
+          "label": "Over 3",
           "prob_pct": 46.0
         }
       ],
-      "rationale": "With scoring rates of 2.00 and 0.74, both teams scoring is a 46% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5393,
-      "prob_pct": 53.9,
-      "confidence": 0.79,
-      "model_prob_pct": 53.9,
-      "market_prob_pct": null,
-      "fair_price_american": -117,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 53.9
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 46.1
-        }
-      ],
-      "rationale": "With scoring rates of 0.71 and 2.25, both teams scoring is a 46% chance \u2014 BTTS: No. Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "Expected ~3.5 goals (Portugal 2.73, Uzbekistan 0.75); under 3 is the 54% side."
     },
     {
       "match_id": "be6c63f416c67bca1300a98f5b89c3af",
@@ -3142,32 +3038,6 @@
       "rationale": "Expected ~2.5 goals (Argentina 1.74, Austria 0.78); under 2.5 is the 54% side."
     },
     {
-      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Japan",
-      "away": "Sweden",
-      "market": "total",
-      "pick": "Under 2.2",
-      "prob": 0.5367,
-      "prob_pct": 53.7,
-      "confidence": 0.85,
-      "model_prob_pct": 53.7,
-      "market_prob_pct": 47.4,
-      "fair_price_american": -116,
-      "outcomes": [
-        {
-          "label": "Under 2.2",
-          "prob_pct": 53.7
-        },
-        {
-          "label": "Over 2.2",
-          "prob_pct": 46.3
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Japan 1.42, Sweden 1.10); under 2.2 is the 54% side."
-    },
-    {
       "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
       "group": "L",
       "commence_time": "2026-06-27T21:00:00Z",
@@ -3175,79 +3045,23 @@
       "away": "England",
       "market": "btts",
       "pick": "BTTS: Yes",
-      "prob": 0.5362,
-      "prob_pct": 53.6,
+      "prob": 0.5347,
+      "prob_pct": 53.5,
       "confidence": 0.47,
-      "model_prob_pct": 53.6,
+      "model_prob_pct": 53.5,
       "market_prob_pct": null,
-      "fair_price_american": -116,
+      "fair_price_american": -115,
       "outcomes": [
         {
           "label": "BTTS: Yes",
-          "prob_pct": 53.6
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 46.4
-        }
-      ],
-      "rationale": "With scoring rates of 0.84 and 2.70, both teams scoring is a 54% chance \u2014 BTTS: Yes."
-    },
-    {
-      "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
-      "group": "D",
-      "commence_time": "2026-06-26T02:00:00Z",
-      "home": "Turkey",
-      "away": "United States",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5346,
-      "prob_pct": 53.5,
-      "confidence": 0.8,
-      "model_prob_pct": 53.5,
-      "market_prob_pct": 54.5,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
           "prob_pct": 53.5
         },
         {
-          "label": "Under 2.5",
+          "label": "BTTS: No",
           "prob_pct": 46.5
         }
       ],
-      "rationale": "Expected ~2.8 goals (Turkey 0.37, United States 2.45); over 2.5 is the 53% side. Factoring in United States on home soil."
-    },
-    {
-      "match_id": "4f0c518545b0096c68326daf25bffc1e",
-      "group": "F",
-      "commence_time": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "away": "Sweden",
-      "market": "result",
-      "pick": "Netherlands win",
-      "prob": 0.5342,
-      "prob_pct": 53.4,
-      "confidence": 0.65,
-      "model_prob_pct": 48.0,
-      "market_prob_pct": 56.2,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "Netherlands win",
-          "prob_pct": 53.4
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 24.2
-        },
-        {
-          "label": "Sweden win",
-          "prob_pct": 22.4
-        }
-      ],
-      "rationale": "Netherlands is the 53% pick \u2014 a slight edge (expected goals Netherlands 2.07, Sweden 1.27). Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "With scoring rates of 0.84 and 2.72, both teams scoring is a 53% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
@@ -3257,11 +3071,11 @@
       "away": "France",
       "market": "result",
       "pick": "France win",
-      "prob": 0.5331,
+      "prob": 0.5333,
       "prob_pct": 53.3,
       "confidence": 0.91,
       "model_prob_pct": 54.6,
-      "market_prob_pct": 52.4,
+      "market_prob_pct": 52.5,
       "fair_price_american": -114,
       "outcomes": [
         {
@@ -3278,6 +3092,32 @@
         }
       ],
       "rationale": "France is the 53% pick \u2014 a slight edge (expected goals Norway 1.02, France 1.66). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "f41aeac9a8343a84b4950f15ea25fba2",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Turkey",
+      "away": "United States",
+      "market": "total",
+      "pick": "Over 2.5",
+      "prob": 0.5322,
+      "prob_pct": 53.2,
+      "confidence": 0.8,
+      "model_prob_pct": 53.2,
+      "market_prob_pct": 55.1,
+      "fair_price_american": -114,
+      "outcomes": [
+        {
+          "label": "Over 2.5",
+          "prob_pct": 53.2
+        },
+        {
+          "label": "Under 2.5",
+          "prob_pct": 46.8
+        }
+      ],
+      "rationale": "Expected ~2.8 goals (Turkey 0.36, United States 2.45); over 2.5 is the 53% side. Factoring in United States on home soil."
     },
     {
       "match_id": "13eab94a136b9c264ba974cf437a5f71",
@@ -3306,6 +3146,58 @@
       "rationale": "With scoring rates of 1.49 and 1.13, both teams scoring is a 53% chance \u2014 BTTS: Yes."
     },
     {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "E",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.531,
+      "prob_pct": 53.1,
+      "confidence": 0.5,
+      "model_prob_pct": 53.1,
+      "market_prob_pct": null,
+      "fair_price_american": -113,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 53.1
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 46.9
+        }
+      ],
+      "rationale": "With scoring rates of 2.86 and 0.68, both teams scoring is a 47% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "73529a242e319a86bf3d00ddb4accc37",
+      "group": "H",
+      "commence_time": "2026-06-21T16:00:00Z",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "market": "total",
+      "pick": "Under 3.5",
+      "prob": 0.5308,
+      "prob_pct": 53.1,
+      "confidence": 0.76,
+      "model_prob_pct": 53.1,
+      "market_prob_pct": 56.8,
+      "fair_price_american": -113,
+      "outcomes": [
+        {
+          "label": "Under 3.5",
+          "prob_pct": 53.1
+        },
+        {
+          "label": "Over 3.5",
+          "prob_pct": 46.9
+        }
+      ],
+      "rationale": "Expected ~3.5 goals (Spain 3.05, Saudi Arabia 0.47); under 3.5 is the 53% side."
+    },
+    {
       "match_id": "3f48473742ca0fd2a85930554720c75e",
       "group": "I",
       "commence_time": "2026-06-23T00:00:00Z",
@@ -3313,49 +3205,23 @@
       "away": "Senegal",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.5311,
-      "prob_pct": 53.1,
-      "confidence": 0.5,
-      "model_prob_pct": 53.1,
-      "market_prob_pct": 50.8,
-      "fair_price_american": -113,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 53.1
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 46.9
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Norway 1.39, Senegal 1.15); under 2.5 is the 53% side."
-    },
-    {
-      "match_id": "a5a0b544a984ab16e564264f3e859b43",
-      "group": "E",
-      "commence_time": "2026-06-25T20:00:00Z",
-      "home": "Cura\u00e7ao",
-      "away": "Ivory Coast",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5291,
+      "prob": 0.529,
       "prob_pct": 52.9,
-      "confidence": 0.51,
+      "confidence": 0.5,
       "model_prob_pct": 52.9,
-      "market_prob_pct": null,
+      "market_prob_pct": 50.8,
       "fair_price_american": -112,
       "outcomes": [
         {
-          "label": "BTTS: No",
+          "label": "Under 2.5",
           "prob_pct": 52.9
         },
         {
-          "label": "BTTS: Yes",
+          "label": "Over 2.5",
           "prob_pct": 47.1
         }
       ],
-      "rationale": "With scoring rates of 0.68 and 2.98, both teams scoring is a 47% chance \u2014 BTTS: No."
+      "rationale": "Expected ~2.6 goals (Norway 1.41, Senegal 1.15); under 2.5 is the 53% side."
     },
     {
       "match_id": "fd8533b650e655030f6a7946f8795db2",
@@ -3384,6 +3250,58 @@
       "rationale": "With scoring rates of 0.81 and 1.79, both teams scoring is a 47% chance \u2014 BTTS: No."
     },
     {
+      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "group": "E",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "home": "Ecuador",
+      "away": "Cura\u00e7ao",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5277,
+      "prob_pct": 52.8,
+      "confidence": 0.5,
+      "model_prob_pct": 52.8,
+      "market_prob_pct": 52.1,
+      "fair_price_american": -112,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 52.8
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 47.2
+        }
+      ],
+      "rationale": "Expected ~3.5 goals (Ecuador 2.86, Cura\u00e7ao 0.68); under 3 is the 53% side."
+    },
+    {
+      "match_id": "7e6aee294ea1a4792c59558791084528",
+      "group": "I",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "home": "Senegal",
+      "away": "Iraq",
+      "market": "total",
+      "pick": "Over 2.5",
+      "prob": 0.5277,
+      "prob_pct": 52.8,
+      "confidence": 0.71,
+      "model_prob_pct": 52.8,
+      "market_prob_pct": 51.6,
+      "fair_price_american": -112,
+      "outcomes": [
+        {
+          "label": "Over 2.5",
+          "prob_pct": 52.8
+        },
+        {
+          "label": "Under 2.5",
+          "prob_pct": 47.2
+        }
+      ],
+      "rationale": "Expected ~2.8 goals (Senegal 2.18, Iraq 0.60); over 2.5 is the 53% side."
+    },
+    {
       "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
       "group": "C",
       "commence_time": "2026-06-24T22:00:00Z",
@@ -3393,7 +3311,7 @@
       "pick": "BTTS: No",
       "prob": 0.5273,
       "prob_pct": 52.7,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "model_prob_pct": 52.7,
       "market_prob_pct": null,
       "fair_price_american": -112,
@@ -3408,58 +3326,6 @@
         }
       ],
       "rationale": "With scoring rates of 0.76 and 2.14, both teams scoring is a 47% chance \u2014 BTTS: No. Factoring in Brazil missing Neymar."
-    },
-    {
-      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Panama",
-      "away": "England",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5259,
-      "prob_pct": 52.6,
-      "confidence": 0.47,
-      "model_prob_pct": 52.6,
-      "market_prob_pct": 52.4,
-      "fair_price_american": -111,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 52.6
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 47.4
-        }
-      ],
-      "rationale": "Expected ~3.5 goals (Panama 0.84, England 2.70); under 3 is the 53% side."
-    },
-    {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5258,
-      "prob_pct": 52.6,
-      "confidence": 0.71,
-      "model_prob_pct": 52.6,
-      "market_prob_pct": 51.6,
-      "fair_price_american": -111,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 52.6
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 47.4
-        }
-      ],
-      "rationale": "Expected ~2.8 goals (Senegal 2.17, Iraq 0.61); over 2.5 is the 53% side."
     },
     {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
@@ -3488,6 +3354,58 @@
       "rationale": "With scoring rates of 1.08 and 1.22, both teams scoring is a 47% chance \u2014 BTTS: No."
     },
     {
+      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "group": "L",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "home": "Panama",
+      "away": "England",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.5238,
+      "prob_pct": 52.4,
+      "confidence": 0.47,
+      "model_prob_pct": 52.4,
+      "market_prob_pct": 52.4,
+      "fair_price_american": -110,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 52.4
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 47.6
+        }
+      ],
+      "rationale": "Expected ~3.6 goals (Panama 0.84, England 2.72); under 3 is the 52% side."
+    },
+    {
+      "match_id": "3f48473742ca0fd2a85930554720c75e",
+      "group": "I",
+      "commence_time": "2026-06-23T00:00:00Z",
+      "home": "Norway",
+      "away": "Senegal",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5236,
+      "prob_pct": 52.4,
+      "confidence": 0.5,
+      "model_prob_pct": 52.4,
+      "market_prob_pct": null,
+      "fair_price_american": -110,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 52.4
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 47.6
+        }
+      ],
+      "rationale": "With scoring rates of 1.41 and 1.15, both teams scoring is a 52% chance \u2014 BTTS: Yes."
+    },
+    {
       "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
       "group": "I",
       "commence_time": "2026-06-26T19:00:00Z",
@@ -3512,32 +3430,6 @@
         }
       ],
       "rationale": "With scoring rates of 1.02 and 1.66, both teams scoring is a 52% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "3f48473742ca0fd2a85930554720c75e",
-      "group": "I",
-      "commence_time": "2026-06-23T00:00:00Z",
-      "home": "Norway",
-      "away": "Senegal",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5227,
-      "prob_pct": 52.3,
-      "confidence": 0.5,
-      "model_prob_pct": 52.3,
-      "market_prob_pct": null,
-      "fair_price_american": -110,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 52.3
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 47.7
-        }
-      ],
-      "rationale": "With scoring rates of 1.39 and 1.15, both teams scoring is a 52% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
@@ -3592,56 +3484,30 @@
       "rationale": "With scoring rates of 0.99 and 1.39, both teams scoring is a 48% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "681895f294b670b4c7b14495dfb583bc",
+      "match_id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
       "group": "E",
-      "commence_time": "2026-06-21T00:00:00Z",
+      "commence_time": "2026-06-25T20:00:00Z",
       "home": "Ecuador",
-      "away": "Cura\u00e7ao",
+      "away": "Germany",
       "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5192,
-      "prob_pct": 51.9,
+      "pick": "Under 2.5",
+      "prob": 0.5204,
+      "prob_pct": 52.0,
       "confidence": 0.5,
-      "model_prob_pct": 51.9,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -108,
+      "model_prob_pct": 52.0,
+      "market_prob_pct": 50.1,
+      "fair_price_american": -109,
       "outcomes": [
         {
-          "label": "Under 3",
-          "prob_pct": 51.9
+          "label": "Under 2.5",
+          "prob_pct": 52.0
         },
         {
-          "label": "Over 3",
-          "prob_pct": 48.1
+          "label": "Over 2.5",
+          "prob_pct": 48.0
         }
       ],
-      "rationale": "Expected ~3.6 goals (Ecuador 2.96, Cura\u00e7ao 0.62); under 3 is the 52% side."
-    },
-    {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5192,
-      "prob_pct": 51.9,
-      "confidence": 0.67,
-      "model_prob_pct": 51.9,
-      "market_prob_pct": null,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 51.9
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 48.1
-        }
-      ],
-      "rationale": "With scoring rates of 1.39 and 0.99, both teams scoring is a 48% chance \u2014 BTTS: No."
+      "rationale": "Expected ~2.6 goals (Ecuador 0.90, Germany 1.70); under 2.5 is the 52% side."
     },
     {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
@@ -3674,30 +3540,30 @@
       "rationale": "Austria is the 52% pick \u2014 a slight edge (expected goals Algeria 1.08, Austria 1.22)."
     },
     {
-      "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
-      "group": "G",
-      "commence_time": "2026-06-21T19:00:00Z",
-      "home": "Belgium",
-      "away": "Iran",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5185,
+      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "market": "handicap",
+      "pick": "Netherlands -1.5",
+      "prob": 0.5187,
       "prob_pct": 51.9,
-      "confidence": 0.73,
+      "confidence": 0.75,
       "model_prob_pct": 51.9,
-      "market_prob_pct": 52.5,
+      "market_prob_pct": null,
       "fair_price_american": -108,
       "outcomes": [
         {
-          "label": "Over 2.5",
+          "label": "Netherlands -1.5",
           "prob_pct": 51.9
         },
         {
-          "label": "Under 2.5",
+          "label": "Tunisia +1.5",
           "prob_pct": 48.1
         }
       ],
-      "rationale": "Expected ~2.7 goals (Belgium 2.00, Iran 0.74); over 2.5 is the 52% side."
+      "rationale": "Netherlands wins by 2+ goals 52% of the time; the 52% call is Netherlands -1.5. Factoring in Netherlands missing Frenkie de Jong."
     },
     {
       "match_id": "5993bd5196ca09f83990f0c3261e442e",
@@ -3726,30 +3592,56 @@
       "rationale": "Mexico wins by 2+ goals 48% of the time; the 52% call is Czechia +1.5. Factoring in Mexico on home soil."
     },
     {
-      "match_id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
+      "group": "G",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "home": "Egypt",
+      "away": "Iran",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5183,
+      "prob_pct": 51.8,
+      "confidence": 0.69,
+      "model_prob_pct": 51.8,
+      "market_prob_pct": null,
+      "fair_price_american": -108,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 51.8
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 48.2
+        }
+      ],
+      "rationale": "With scoring rates of 1.41 and 0.99, both teams scoring is a 48% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "a5a0b544a984ab16e564264f3e859b43",
       "group": "E",
       "commence_time": "2026-06-25T20:00:00Z",
-      "home": "Ecuador",
-      "away": "Germany",
+      "home": "Cura\u00e7ao",
+      "away": "Ivory Coast",
       "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5164,
-      "prob_pct": 51.6,
-      "confidence": 0.5,
-      "model_prob_pct": 51.6,
-      "market_prob_pct": 50.1,
+      "pick": "Under 3.2",
+      "prob": 0.5179,
+      "prob_pct": 51.8,
+      "confidence": 0.53,
+      "model_prob_pct": 51.8,
+      "market_prob_pct": 52.6,
       "fair_price_american": -107,
       "outcomes": [
         {
-          "label": "Under 2.5",
-          "prob_pct": 51.6
+          "label": "Under 3.2",
+          "prob_pct": 51.8
         },
         {
-          "label": "Over 2.5",
-          "prob_pct": 48.4
+          "label": "Over 3.2",
+          "prob_pct": 48.2
         }
       ],
-      "rationale": "Expected ~2.6 goals (Ecuador 0.90, Germany 1.70); under 2.5 is the 52% side."
+      "rationale": "Expected ~3.6 goals (Cura\u00e7ao 0.64, Ivory Coast 2.94); under 3.2 is the 52% side."
     },
     {
       "match_id": "fd8533b650e655030f6a7946f8795db2",
@@ -3776,58 +3668,6 @@
         }
       ],
       "rationale": "Expected ~2.6 goals (Jordan 0.81, Algeria 1.79); under 2.5 is the 52% side."
-    },
-    {
-      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Japan",
-      "away": "Sweden",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5151,
-      "prob_pct": 51.5,
-      "confidence": 0.85,
-      "model_prob_pct": 51.5,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 51.5
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 48.5
-        }
-      ],
-      "rationale": "With scoring rates of 1.42 and 1.10, both teams scoring is a 52% chance \u2014 BTTS: Yes."
-    },
-    {
-      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "market": "handicap",
-      "pick": "Tunisia +1.5",
-      "prob": 0.5143,
-      "prob_pct": 51.4,
-      "confidence": 0.79,
-      "model_prob_pct": 51.4,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Tunisia +1.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Netherlands -1.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "rationale": "Netherlands wins by 2+ goals 49% of the time; the 51% call is Tunisia +1.5. Factoring in Netherlands missing Frenkie de Jong."
     },
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -3882,56 +3722,56 @@
       "rationale": "Expected ~2.6 goals (DR Congo 1.49, Uzbekistan 1.13); under 2.2 is the 51% side."
     },
     {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "handicap",
-      "pick": "Iraq +1.5",
-      "prob": 0.5118,
-      "prob_pct": 51.2,
-      "confidence": 0.71,
-      "model_prob_pct": 51.2,
+      "match_id": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5128,
+      "prob_pct": 51.3,
+      "confidence": 0.75,
+      "model_prob_pct": 51.3,
       "market_prob_pct": null,
       "fair_price_american": -105,
       "outcomes": [
         {
-          "label": "Iraq +1.5",
-          "prob_pct": 51.2
+          "label": "BTTS: No",
+          "prob_pct": 51.3
         },
         {
-          "label": "Senegal -1.5",
-          "prob_pct": 48.8
+          "label": "BTTS: Yes",
+          "prob_pct": 48.7
         }
       ],
-      "rationale": "Senegal wins by 2+ goals 49% of the time; the 51% call is Iraq +1.5."
+      "rationale": "With scoring rates of 0.75 and 2.43, both teams scoring is a 49% chance \u2014 BTTS: No. Factoring in Netherlands missing Frenkie de Jong."
     },
     {
-      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
-      "group": "I",
-      "commence_time": "2026-06-22T21:00:00Z",
-      "home": "France",
-      "away": "Iraq",
+      "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "group": "G",
+      "commence_time": "2026-06-21T19:00:00Z",
+      "home": "Belgium",
+      "away": "Iran",
       "market": "total",
-      "pick": "Under 3.5",
-      "prob": 0.5065,
-      "prob_pct": 50.7,
-      "confidence": 0.85,
-      "model_prob_pct": 50.7,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
+      "pick": "Over 2.5",
+      "prob": 0.5127,
+      "prob_pct": 51.3,
+      "confidence": 0.72,
+      "model_prob_pct": 51.3,
+      "market_prob_pct": 52.2,
+      "fair_price_american": -105,
       "outcomes": [
         {
-          "label": "Under 3.5",
-          "prob_pct": 50.7
+          "label": "Over 2.5",
+          "prob_pct": 51.3
         },
         {
-          "label": "Over 3.5",
-          "prob_pct": 49.3
+          "label": "Under 2.5",
+          "prob_pct": 48.7
         }
       ],
-      "rationale": "Expected ~3.6 goals (France 3.14, Iraq 0.50); under 3.5 is the 51% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "Expected ~2.7 goals (Belgium 1.98, Iran 0.74); over 2.5 is the 51% side."
     },
     {
       "match_id": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
@@ -3941,20 +3781,20 @@
       "away": "Germany",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5064,
-      "prob_pct": 50.6,
+      "prob": 0.5099,
+      "prob_pct": 51.0,
       "confidence": 0.5,
-      "model_prob_pct": 50.6,
+      "model_prob_pct": 51.0,
       "market_prob_pct": null,
-      "fair_price_american": -103,
+      "fair_price_american": -104,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 50.6
+          "prob_pct": 51.0
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 49.4
+          "prob_pct": 49.0
         }
       ],
       "rationale": "With scoring rates of 0.90 and 1.70, both teams scoring is a 49% chance \u2014 BTTS: No."
@@ -3967,49 +3807,75 @@
       "away": "Haiti",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5034,
-      "prob_pct": 50.3,
-      "confidence": 0.68,
-      "model_prob_pct": 50.3,
+      "prob": 0.5076,
+      "prob_pct": 50.8,
+      "confidence": 0.69,
+      "model_prob_pct": 50.8,
       "market_prob_pct": null,
-      "fair_price_american": -101,
+      "fair_price_american": -103,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 50.3
+          "prob_pct": 50.8
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 49.7
+          "prob_pct": 49.2
         }
       ],
-      "rationale": "With scoring rates of 2.69 and 0.75, both teams scoring is a 50% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 2.68 and 0.74, both teams scoring is a 49% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "a5a0b544a984ab16e564264f3e859b43",
-      "group": "E",
-      "commence_time": "2026-06-25T20:00:00Z",
-      "home": "Cura\u00e7ao",
-      "away": "Ivory Coast",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5031,
-      "prob_pct": 50.3,
-      "confidence": 0.51,
-      "model_prob_pct": 50.3,
-      "market_prob_pct": 45.5,
-      "fair_price_american": -101,
+      "match_id": "7e6aee294ea1a4792c59558791084528",
+      "group": "I",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "home": "Senegal",
+      "away": "Iraq",
+      "market": "handicap",
+      "pick": "Iraq +1.5",
+      "prob": 0.507,
+      "prob_pct": 50.7,
+      "confidence": 0.71,
+      "model_prob_pct": 50.7,
+      "market_prob_pct": null,
+      "fair_price_american": -103,
       "outcomes": [
         {
-          "label": "Under 3",
-          "prob_pct": 50.3
+          "label": "Iraq +1.5",
+          "prob_pct": 50.7
         },
         {
-          "label": "Over 3",
-          "prob_pct": 49.7
+          "label": "Senegal -1.5",
+          "prob_pct": 49.3
         }
       ],
-      "rationale": "Expected ~3.7 goals (Cura\u00e7ao 0.68, Ivory Coast 2.98); under 3 is the 50% side."
+      "rationale": "Senegal wins by 2+ goals 49% of the time; the 51% call is Iraq +1.5."
+    },
+    {
+      "match_id": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "group": "I",
+      "commence_time": "2026-06-22T21:00:00Z",
+      "home": "France",
+      "away": "Iraq",
+      "market": "total",
+      "pick": "Under 3.5",
+      "prob": 0.5061,
+      "prob_pct": 50.6,
+      "confidence": 0.85,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 3.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 3.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~3.6 goals (France 3.15, Iraq 0.49); under 3.5 is the 51% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
@@ -4044,24 +3910,24 @@
       "home": "Portugal",
       "away": "Uzbekistan",
       "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5006,
-      "prob_pct": 50.1,
-      "confidence": 0.52,
-      "model_prob_pct": 50.1,
+      "pick": "BTTS: No",
+      "prob": 0.502,
+      "prob_pct": 50.2,
+      "confidence": 0.53,
+      "model_prob_pct": 50.2,
       "market_prob_pct": null,
-      "fair_price_american": -100,
+      "fair_price_american": -101,
       "outcomes": [
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 50.1
+          "label": "BTTS: No",
+          "prob_pct": 50.2
         },
         {
-          "label": "BTTS: No",
-          "prob_pct": 49.9
+          "label": "BTTS: Yes",
+          "prob_pct": 49.8
         }
       ],
-      "rationale": "With scoring rates of 2.72 and 0.76, both teams scoring is a 50% chance \u2014 BTTS: Yes."
+      "rationale": "With scoring rates of 2.73 and 0.75, both teams scoring is a 50% chance \u2014 BTTS: No."
     },
     {
       "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
@@ -4088,6 +3954,32 @@
         }
       ],
       "rationale": "Expected ~2.7 goals (Norway 1.02, France 1.66); under 2.5 is the 50% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Japan",
+      "away": "Sweden",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5001,
+      "prob_pct": 50.0,
+      "confidence": 0.86,
+      "model_prob_pct": 50.0,
+      "market_prob_pct": null,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 50.0
+        }
+      ],
+      "rationale": "With scoring rates of 1.43 and 1.05, both teams scoring is a 50% chance \u2014 BTTS: No."
     },
     {
       "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
@@ -4123,27 +4015,27 @@
       "away": "Iran",
       "market": "result",
       "pick": "Egypt win",
-      "prob": 0.4851,
-      "prob_pct": 48.5,
-      "confidence": 0.67,
+      "prob": 0.4885,
+      "prob_pct": 48.8,
+      "confidence": 0.69,
       "model_prob_pct": 53.5,
-      "market_prob_pct": 45.3,
-      "fair_price_american": 106,
+      "market_prob_pct": 45.8,
+      "fair_price_american": 105,
       "outcomes": [
         {
           "label": "Egypt win",
-          "prob_pct": 48.5
+          "prob_pct": 48.8
         },
         {
           "label": "Draw",
-          "prob_pct": 28.2
+          "prob_pct": 28.0
         },
         {
           "label": "Iran win",
-          "prob_pct": 23.3
+          "prob_pct": 23.2
         }
       ],
-      "rationale": "Egypt is the 49% pick \u2014 a slight edge (expected goals Egypt 1.39, Iran 0.99)."
+      "rationale": "Egypt is the 49% pick \u2014 a slight edge (expected goals Egypt 1.41, Iran 0.99)."
     },
     {
       "match_id": "3f48473742ca0fd2a85930554720c75e",
@@ -4153,27 +4045,57 @@
       "away": "Senegal",
       "market": "result",
       "pick": "Norway win",
-      "prob": 0.4719,
-      "prob_pct": 47.2,
+      "prob": 0.4762,
+      "prob_pct": 47.6,
       "confidence": 0.5,
       "model_prob_pct": 57.2,
-      "market_prob_pct": 42.3,
-      "fair_price_american": 112,
+      "market_prob_pct": 42.5,
+      "fair_price_american": 110,
       "outcomes": [
         {
           "label": "Norway win",
-          "prob_pct": 47.2
+          "prob_pct": 47.6
         },
         {
           "label": "Senegal win",
-          "prob_pct": 26.8
+          "prob_pct": 26.4
         },
         {
           "label": "Draw",
-          "prob_pct": 26.0
+          "prob_pct": 25.9
         }
       ],
-      "rationale": "Norway is the 47% pick \u2014 a slight edge (expected goals Norway 1.39, Senegal 1.15)."
+      "rationale": "Norway is the 48% pick \u2014 a slight edge (expected goals Norway 1.41, Senegal 1.15)."
+    },
+    {
+      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
+      "group": "F",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "home": "Japan",
+      "away": "Sweden",
+      "market": "result",
+      "pick": "Japan win",
+      "prob": 0.4586,
+      "prob_pct": 45.9,
+      "confidence": 0.86,
+      "model_prob_pct": 46.7,
+      "market_prob_pct": 45.3,
+      "fair_price_american": 118,
+      "outcomes": [
+        {
+          "label": "Japan win",
+          "prob_pct": 45.9
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 27.4
+        },
+        {
+          "label": "Sweden win",
+          "prob_pct": 26.7
+        }
+      ],
+      "rationale": "Japan is the 46% pick \u2014 a slight edge (expected goals Japan 1.43, Sweden 1.05)."
     },
     {
       "match_id": "67ae5751c401a98409b8566ae4897069",
@@ -4206,36 +4128,6 @@
       "rationale": "Portugal is the 45% pick \u2014 a slight edge (expected goals Colombia 0.99, Portugal 1.39)."
     },
     {
-      "match_id": "0ed0233bddc4eafc8507f86a9c17b998",
-      "group": "F",
-      "commence_time": "2026-06-25T23:00:00Z",
-      "home": "Japan",
-      "away": "Sweden",
-      "market": "result",
-      "pick": "Japan win",
-      "prob": 0.4306,
-      "prob_pct": 43.1,
-      "confidence": 0.85,
-      "model_prob_pct": 42.0,
-      "market_prob_pct": 43.7,
-      "fair_price_american": 132,
-      "outcomes": [
-        {
-          "label": "Japan win",
-          "prob_pct": 43.1
-        },
-        {
-          "label": "Sweden win",
-          "prob_pct": 29.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 27.0
-        }
-      ],
-      "rationale": "Japan is the 43% pick \u2014 a slight edge (expected goals Japan 1.42, Sweden 1.10)."
-    },
-    {
       "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
       "group": "H",
       "commence_time": "2026-06-27T00:00:00Z",
@@ -4256,7 +4148,7 @@
         },
         {
           "label": "Cape Verde win",
-          "prob_pct": 31.9
+          "prob_pct": 31.8
         },
         {
           "label": "Draw",
@@ -4266,36 +4158,6 @@
       "rationale": "Saudi Arabia is the 41% pick \u2014 a slight edge (expected goals Cape Verde 1.29, Saudi Arabia 1.39)."
     },
     {
-      "match_id": "22f6ac06dfcc88a847920f62633e6459",
-      "group": "D",
-      "commence_time": "2026-06-26T02:00:00Z",
-      "home": "Paraguay",
-      "away": "Australia",
-      "market": "result",
-      "pick": "Australia win",
-      "prob": 0.3787,
-      "prob_pct": 37.9,
-      "confidence": 0.5,
-      "model_prob_pct": 63.4,
-      "market_prob_pct": 24.5,
-      "fair_price_american": 164,
-      "outcomes": [
-        {
-          "label": "Australia win",
-          "prob_pct": 37.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 35.4
-        },
-        {
-          "label": "Paraguay win",
-          "prob_pct": 26.7
-        }
-      ],
-      "rationale": "Australia is the 38% pick \u2014 a toss-up (expected goals Paraguay 0.92, Australia 0.78)."
-    },
-    {
       "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
       "group": "B",
       "commence_time": "2026-06-24T19:00:00Z",
@@ -4303,11 +4165,11 @@
       "away": "Canada",
       "market": "result",
       "pick": "Switzerland win",
-      "prob": 0.3757,
+      "prob": 0.376,
       "prob_pct": 37.6,
       "confidence": 0.66,
       "model_prob_pct": 35.1,
-      "market_prob_pct": 38.9,
+      "market_prob_pct": 38.8,
       "fair_price_american": 166,
       "outcomes": [
         {
@@ -4316,14 +4178,44 @@
         },
         {
           "label": "Canada win",
-          "prob_pct": 32.8
+          "prob_pct": 32.7
         },
         {
           "label": "Draw",
-          "prob_pct": 29.6
+          "prob_pct": 29.7
         }
       ],
       "rationale": "Switzerland is the 38% pick \u2014 a toss-up (expected goals Switzerland 1.18, Canada 1.02). Factoring in Canada on home soil."
+    },
+    {
+      "match_id": "22f6ac06dfcc88a847920f62633e6459",
+      "group": "D",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "home": "Paraguay",
+      "away": "Australia",
+      "market": "result",
+      "pick": "Australia win",
+      "prob": 0.3725,
+      "prob_pct": 37.2,
+      "confidence": 0.5,
+      "model_prob_pct": 63.4,
+      "market_prob_pct": 24.4,
+      "fair_price_american": 168,
+      "outcomes": [
+        {
+          "label": "Australia win",
+          "prob_pct": 37.2
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 35.9
+        },
+        {
+          "label": "Paraguay win",
+          "prob_pct": 26.9
+        }
+      ],
+      "rationale": "Australia is the 37% pick \u2014 a toss-up (expected goals Paraguay 1.02, Australia 0.88)."
     }
   ],
   "groups": [
@@ -4338,22 +4230,22 @@
           "played": 2,
           "points": 6,
           "goal_diff": 3,
-          "p_win_group": 0.97425,
+          "p_win_group": 0.9731,
           "p_top2": 1.0,
           "p_advance": 1.0,
           "exp_points": 8.41,
           "finish_probs": {
-            "1": 0.97425,
-            "2": 0.02575,
+            "1": 0.9731,
+            "2": 0.0269,
             "3": 0.0,
             "4": 0.0
           },
-          "p_win_group_pct": 97.4,
+          "p_win_group_pct": 97.3,
           "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 97.4,
-            "2": 2.6,
+            "1": 97.3,
+            "2": 2.7,
             "3": 0.0,
             "4": 0.0
           }
@@ -4364,24 +4256,24 @@
           "played": 2,
           "points": 3,
           "goal_diff": 0,
-          "p_win_group": 0.02575,
-          "p_top2": 0.82135,
-          "p_advance": 0.95875,
-          "exp_points": 5.03,
+          "p_win_group": 0.0269,
+          "p_top2": 0.81825,
+          "p_advance": 0.96135,
+          "exp_points": 5.02,
           "finish_probs": {
-            "1": 0.02575,
-            "2": 0.7956,
-            "3": 0.1657,
-            "4": 0.01295
+            "1": 0.0269,
+            "2": 0.79135,
+            "3": 0.1682,
+            "4": 0.01355
           },
-          "p_win_group_pct": 2.6,
-          "p_top2_pct": 82.1,
-          "p_advance_pct": 95.9,
+          "p_win_group_pct": 2.7,
+          "p_top2_pct": 81.8,
+          "p_advance_pct": 96.1,
           "finish_probs_pct": {
-            "1": 2.6,
-            "2": 79.6,
-            "3": 16.6,
-            "4": 1.3
+            "1": 2.7,
+            "2": 79.1,
+            "3": 16.8,
+            "4": 1.4
           }
         },
         {
@@ -4391,23 +4283,23 @@
           "points": 1,
           "goal_diff": -1,
           "p_win_group": 0.0,
-          "p_top2": 0.02355,
-          "p_advance": 0.098,
-          "exp_points": 1.41,
+          "p_top2": 0.0274,
+          "p_advance": 0.1045,
+          "exp_points": 1.42,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.02355,
-            "3": 0.539,
-            "4": 0.43745
+            "2": 0.0274,
+            "3": 0.53195,
+            "4": 0.44065
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 2.4,
-          "p_advance_pct": 9.8,
+          "p_top2_pct": 2.7,
+          "p_advance_pct": 10.4,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 2.4,
-            "3": 53.9,
-            "4": 43.7
+            "2": 2.7,
+            "3": 53.2,
+            "4": 44.1
           }
         },
         {
@@ -4417,23 +4309,23 @@
           "points": 1,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 0.1551,
-          "p_advance": 0.17675,
+          "p_top2": 0.15435,
+          "p_advance": 0.1756,
           "exp_points": 1.74,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.1551,
-            "3": 0.2953,
-            "4": 0.5496
+            "2": 0.15435,
+            "3": 0.29985,
+            "4": 0.5458
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 15.5,
-          "p_advance_pct": 17.7,
+          "p_top2_pct": 15.4,
+          "p_advance_pct": 17.6,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 15.5,
-            "3": 29.5,
-            "4": 55.0
+            "2": 15.4,
+            "3": 30.0,
+            "4": 54.6
           }
         }
       ]
@@ -4449,23 +4341,23 @@
           "played": 2,
           "points": 4,
           "goal_diff": 6,
-          "p_win_group": 0.61435,
-          "p_top2": 0.99835,
+          "p_win_group": 0.61525,
+          "p_top2": 0.9988,
           "p_advance": 1.0,
           "exp_points": 5.22,
           "finish_probs": {
-            "1": 0.61435,
-            "2": 0.384,
-            "3": 0.00165,
+            "1": 0.61525,
+            "2": 0.38355,
+            "3": 0.0012,
             "4": 0.0
           },
-          "p_win_group_pct": 61.4,
-          "p_top2_pct": 99.8,
+          "p_win_group_pct": 61.5,
+          "p_top2_pct": 99.9,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 61.4,
+            "1": 61.5,
             "2": 38.4,
-            "3": 0.2,
+            "3": 0.1,
             "4": 0.0
           }
         },
@@ -4475,23 +4367,23 @@
           "played": 2,
           "points": 4,
           "goal_diff": 3,
-          "p_win_group": 0.38565,
-          "p_top2": 0.98065,
+          "p_win_group": 0.38475,
+          "p_top2": 0.9801,
           "p_advance": 1.0,
           "exp_points": 5.47,
           "finish_probs": {
-            "1": 0.38565,
-            "2": 0.595,
-            "3": 0.01935,
+            "1": 0.38475,
+            "2": 0.59535,
+            "3": 0.0199,
             "4": 0.0
           },
-          "p_win_group_pct": 38.6,
-          "p_top2_pct": 98.1,
+          "p_win_group_pct": 38.5,
+          "p_top2_pct": 98.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 38.6,
+            "1": 38.5,
             "2": 59.5,
-            "3": 1.9,
+            "3": 2.0,
             "4": 0.0
           }
         },
@@ -4502,23 +4394,23 @@
           "points": 1,
           "goal_diff": -3,
           "p_win_group": 0.0,
-          "p_top2": 0.021,
-          "p_advance": 0.67505,
+          "p_top2": 0.0211,
+          "p_advance": 0.6784,
           "exp_points": 3.19,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.021,
-            "3": 0.842,
-            "4": 0.137
+            "2": 0.0211,
+            "3": 0.8351,
+            "4": 0.1438
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 2.1,
-          "p_advance_pct": 67.5,
+          "p_advance_pct": 67.8,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 2.1,
-            "3": 84.2,
-            "4": 13.7
+            "3": 83.5,
+            "4": 14.4
           }
         },
         {
@@ -4529,22 +4421,22 @@
           "goal_diff": -6,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.1369,
-          "exp_points": 1.61,
+          "p_advance": 0.1437,
+          "exp_points": 1.62,
           "finish_probs": {
             "1": 0.0,
             "2": 0.0,
-            "3": 0.137,
-            "4": 0.863
+            "3": 0.1438,
+            "4": 0.8562
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 13.7,
+          "p_advance_pct": 14.4,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
-            "3": 13.7,
-            "4": 86.3
+            "3": 14.4,
+            "4": 85.6
           }
         }
       ]
@@ -4560,23 +4452,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 1,
-          "p_win_group": 0.1805,
-          "p_top2": 0.4176,
-          "p_advance": 0.89195,
-          "exp_points": 3.57,
+          "p_win_group": 0.17435,
+          "p_top2": 0.4169,
+          "p_advance": 0.90195,
+          "exp_points": 3.55,
           "finish_probs": {
-            "1": 0.1805,
-            "2": 0.2371,
-            "3": 0.5824,
+            "1": 0.17435,
+            "2": 0.24255,
+            "3": 0.5831,
             "4": 0.0
           },
-          "p_win_group_pct": 18.1,
-          "p_top2_pct": 41.8,
-          "p_advance_pct": 89.2,
+          "p_win_group_pct": 17.4,
+          "p_top2_pct": 41.7,
+          "p_advance_pct": 90.2,
           "finish_probs_pct": {
-            "1": 18.1,
-            "2": 23.7,
-            "3": 58.2,
+            "1": 17.4,
+            "2": 24.3,
+            "3": 58.3,
             "4": 0.0
           }
         },
@@ -4586,24 +4478,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.4341,
-          "p_top2": 0.82255,
-          "p_advance": 0.8678,
+          "p_win_group": 0.4283,
+          "p_top2": 0.8213,
+          "p_advance": 0.8692,
           "exp_points": 3.52,
           "finish_probs": {
-            "1": 0.4341,
-            "2": 0.38845,
-            "3": 0.1165,
-            "4": 0.06095
+            "1": 0.4283,
+            "2": 0.393,
+            "3": 0.11905,
+            "4": 0.05965
           },
-          "p_win_group_pct": 43.4,
-          "p_top2_pct": 82.3,
-          "p_advance_pct": 86.8,
+          "p_win_group_pct": 42.8,
+          "p_top2_pct": 82.1,
+          "p_advance_pct": 86.9,
           "finish_probs_pct": {
-            "1": 43.4,
-            "2": 38.8,
-            "3": 11.7,
-            "4": 6.1
+            "1": 42.8,
+            "2": 39.3,
+            "3": 11.9,
+            "4": 6.0
           }
         },
         {
@@ -4612,24 +4504,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.3854,
-          "p_top2": 0.7005,
-          "p_advance": 0.77075,
-          "exp_points": 3.24,
+          "p_win_group": 0.39735,
+          "p_top2": 0.7057,
+          "p_advance": 0.77775,
+          "exp_points": 3.26,
           "finish_probs": {
-            "1": 0.3854,
-            "2": 0.3151,
-            "3": 0.2852,
-            "4": 0.0143
+            "1": 0.39735,
+            "2": 0.30835,
+            "3": 0.2829,
+            "4": 0.0114
           },
-          "p_win_group_pct": 38.5,
-          "p_top2_pct": 70.0,
-          "p_advance_pct": 77.1,
+          "p_win_group_pct": 39.7,
+          "p_top2_pct": 70.6,
+          "p_advance_pct": 77.8,
           "finish_probs_pct": {
-            "1": 38.5,
-            "2": 31.5,
-            "3": 28.5,
-            "4": 1.4
+            "1": 39.7,
+            "2": 30.8,
+            "3": 28.3,
+            "4": 1.1
           }
         },
         {
@@ -4639,23 +4531,23 @@
           "points": 0,
           "goal_diff": -1,
           "p_win_group": 0.0,
-          "p_top2": 0.05935,
-          "p_advance": 0.0654,
-          "exp_points": 0.34,
+          "p_top2": 0.0561,
+          "p_advance": 0.06315,
+          "exp_points": 0.33,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.05935,
-            "3": 0.0159,
-            "4": 0.92475
+            "2": 0.0561,
+            "3": 0.01495,
+            "4": 0.92895
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 5.9,
-          "p_advance_pct": 6.5,
+          "p_top2_pct": 5.6,
+          "p_advance_pct": 6.3,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 5.9,
-            "3": 1.6,
-            "4": 92.5
+            "2": 5.6,
+            "3": 1.5,
+            "4": 92.9
           }
         }
       ]
@@ -4671,23 +4563,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.94115,
-          "p_top2": 0.9993,
-          "p_advance": 1.0,
+          "p_win_group": 0.94255,
+          "p_top2": 0.9997,
+          "p_advance": 0.99995,
           "exp_points": 5.64,
           "finish_probs": {
-            "1": 0.94115,
-            "2": 0.05815,
-            "3": 0.0007,
+            "1": 0.94255,
+            "2": 0.05715,
+            "3": 0.0003,
             "4": 0.0
           },
-          "p_win_group_pct": 94.1,
-          "p_top2_pct": 99.9,
+          "p_win_group_pct": 94.3,
+          "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 94.1,
-            "2": 5.8,
-            "3": 0.1,
+            "1": 94.3,
+            "2": 5.7,
+            "3": 0.0,
             "4": 0.0
           }
         },
@@ -4697,23 +4589,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.0586,
-          "p_top2": 0.98005,
-          "p_advance": 0.99655,
+          "p_win_group": 0.05745,
+          "p_top2": 0.9817,
+          "p_advance": 0.9967,
           "exp_points": 4.16,
           "finish_probs": {
-            "1": 0.0586,
-            "2": 0.92145,
-            "3": 0.0197,
-            "4": 0.00025
+            "1": 0.05745,
+            "2": 0.92425,
+            "3": 0.018,
+            "4": 0.0003
           },
-          "p_win_group_pct": 5.9,
-          "p_top2_pct": 98.0,
+          "p_win_group_pct": 5.7,
+          "p_top2_pct": 98.2,
           "p_advance_pct": 99.7,
           "finish_probs_pct": {
-            "1": 5.9,
-            "2": 92.1,
-            "3": 2.0,
+            "1": 5.7,
+            "2": 92.4,
+            "3": 1.8,
             "4": 0.0
           }
         },
@@ -4723,24 +4615,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.00025,
-          "p_top2": 0.0008,
-          "p_advance": 0.0294,
-          "exp_points": 0.24,
+          "p_win_group": 0.0,
+          "p_top2": 0.0004,
+          "p_advance": 0.0286,
+          "exp_points": 0.23,
           "finish_probs": {
-            "1": 0.00025,
-            "2": 0.00055,
-            "3": 0.19685,
-            "4": 0.80235
+            "1": 0.0,
+            "2": 0.0004,
+            "3": 0.19425,
+            "4": 0.80535
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.1,
+          "p_top2_pct": 0.0,
           "p_advance_pct": 2.9,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 0.1,
-            "3": 19.7,
-            "4": 80.2
+            "2": 0.0,
+            "3": 19.4,
+            "4": 80.5
           }
         },
         {
@@ -4750,23 +4642,23 @@
           "points": 0,
           "goal_diff": -3,
           "p_win_group": 0.0,
-          "p_top2": 0.01985,
-          "p_advance": 0.24605,
+          "p_top2": 0.0182,
+          "p_advance": 0.2499,
           "exp_points": 1.41,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.01985,
-            "3": 0.78275,
-            "4": 0.1974
+            "2": 0.0182,
+            "3": 0.78745,
+            "4": 0.19435
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 2.0,
-          "p_advance_pct": 24.6,
+          "p_top2_pct": 1.8,
+          "p_advance_pct": 25.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 2.0,
-            "3": 78.3,
-            "4": 19.7
+            "2": 1.8,
+            "3": 78.7,
+            "4": 19.4
           }
         }
       ]
@@ -4782,23 +4674,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 6,
-          "p_win_group": 0.75975,
-          "p_top2": 0.9379,
-          "p_advance": 0.9997,
-          "exp_points": 7.06,
+          "p_win_group": 0.78105,
+          "p_top2": 0.94295,
+          "p_advance": 0.99965,
+          "exp_points": 7.14,
           "finish_probs": {
-            "1": 0.75975,
-            "2": 0.17815,
-            "3": 0.06185,
-            "4": 0.00025
+            "1": 0.78105,
+            "2": 0.1619,
+            "3": 0.05675,
+            "4": 0.0003
           },
-          "p_win_group_pct": 76.0,
-          "p_top2_pct": 93.8,
+          "p_win_group_pct": 78.1,
+          "p_top2_pct": 94.3,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 76.0,
-            "2": 17.8,
-            "3": 6.2,
+            "1": 78.1,
+            "2": 16.2,
+            "3": 5.7,
             "4": 0.0
           }
         },
@@ -4808,23 +4700,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 1,
-          "p_win_group": 0.22695,
-          "p_top2": 0.8774,
-          "p_advance": 0.9906,
-          "exp_points": 6.3,
+          "p_win_group": 0.2081,
+          "p_top2": 0.8791,
+          "p_advance": 0.9921,
+          "exp_points": 6.23,
           "finish_probs": {
-            "1": 0.22695,
-            "2": 0.65045,
-            "3": 0.1209,
-            "4": 0.0017
+            "1": 0.2081,
+            "2": 0.671,
+            "3": 0.1188,
+            "4": 0.0021
           },
-          "p_win_group_pct": 22.7,
-          "p_top2_pct": 87.7,
-          "p_advance_pct": 99.1,
+          "p_win_group_pct": 20.8,
+          "p_top2_pct": 87.9,
+          "p_advance_pct": 99.2,
           "finish_probs_pct": {
-            "1": 22.7,
-            "2": 65.0,
-            "3": 12.1,
+            "1": 20.8,
+            "2": 67.1,
+            "3": 11.9,
             "4": 0.2
           }
         },
@@ -4834,24 +4726,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -1,
-          "p_win_group": 0.01315,
-          "p_top2": 0.1802,
-          "p_advance": 0.85045,
-          "exp_points": 3.46,
+          "p_win_group": 0.01075,
+          "p_top2": 0.1715,
+          "p_advance": 0.83185,
+          "exp_points": 3.4,
           "finish_probs": {
-            "1": 0.01315,
-            "2": 0.16705,
-            "3": 0.77075,
-            "4": 0.04905
+            "1": 0.01075,
+            "2": 0.16075,
+            "3": 0.76585,
+            "4": 0.06265
           },
-          "p_win_group_pct": 1.3,
-          "p_top2_pct": 18.0,
-          "p_advance_pct": 85.0,
+          "p_win_group_pct": 1.1,
+          "p_top2_pct": 17.2,
+          "p_advance_pct": 83.2,
           "finish_probs_pct": {
-            "1": 1.3,
-            "2": 16.7,
-            "3": 77.1,
-            "4": 4.9
+            "1": 1.1,
+            "2": 16.1,
+            "3": 76.6,
+            "4": 6.3
           }
         },
         {
@@ -4860,24 +4752,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -6,
-          "p_win_group": 0.00015,
-          "p_top2": 0.0045,
-          "p_advance": 0.02925,
-          "exp_points": 0.52,
+          "p_win_group": 0.0001,
+          "p_top2": 0.00645,
+          "p_advance": 0.0396,
+          "exp_points": 0.56,
           "finish_probs": {
-            "1": 0.00015,
-            "2": 0.00435,
-            "3": 0.0465,
-            "4": 0.949
+            "1": 0.0001,
+            "2": 0.00635,
+            "3": 0.0586,
+            "4": 0.93495
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.4,
-          "p_advance_pct": 2.9,
+          "p_top2_pct": 0.6,
+          "p_advance_pct": 4.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 0.4,
-            "3": 4.7,
-            "4": 94.9
+            "2": 0.6,
+            "3": 5.9,
+            "4": 93.5
           }
         }
       ]
@@ -4893,50 +4785,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 4,
-          "p_win_group": 0.31945,
-          "p_top2": 0.59835,
-          "p_advance": 0.9789,
-          "exp_points": 4.97,
+          "p_win_group": 0.34615,
+          "p_top2": 0.61185,
+          "p_advance": 0.9985,
+          "exp_points": 4.07,
           "finish_probs": {
-            "1": 0.31945,
-            "2": 0.2789,
-            "3": 0.38545,
-            "4": 0.0162
+            "1": 0.34615,
+            "2": 0.2657,
+            "3": 0.38815,
+            "4": 0.0
           },
-          "p_win_group_pct": 31.9,
-          "p_top2_pct": 59.8,
-          "p_advance_pct": 97.9,
+          "p_win_group_pct": 34.6,
+          "p_top2_pct": 61.2,
+          "p_advance_pct": 99.9,
           "finish_probs_pct": {
-            "1": 31.9,
-            "2": 27.9,
-            "3": 38.5,
-            "4": 1.6
-          }
-        },
-        {
-          "team": "Netherlands",
-          "group": "F",
-          "played": 1,
-          "points": 1,
-          "goal_diff": 0,
-          "p_win_group": 0.42115,
-          "p_top2": 0.7587,
-          "p_advance": 0.9297,
-          "exp_points": 5.27,
-          "finish_probs": {
-            "1": 0.42115,
-            "2": 0.33755,
-            "3": 0.1941,
-            "4": 0.0472
-          },
-          "p_win_group_pct": 42.1,
-          "p_top2_pct": 75.9,
-          "p_advance_pct": 93.0,
-          "finish_probs_pct": {
-            "1": 42.1,
-            "2": 33.8,
-            "3": 19.4,
-            "4": 4.7
+            "1": 34.6,
+            "2": 26.6,
+            "3": 38.8,
+            "4": 0.0
           }
         },
         {
@@ -4945,24 +4811,50 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.25095,
-          "p_top2": 0.6161,
-          "p_advance": 0.8711,
-          "exp_points": 4.71,
+          "p_win_group": 0.595,
+          "p_top2": 0.72035,
+          "p_advance": 0.8904,
+          "exp_points": 4.81,
           "finish_probs": {
-            "1": 0.25095,
-            "2": 0.36515,
-            "3": 0.3012,
-            "4": 0.0827
+            "1": 0.595,
+            "2": 0.12535,
+            "3": 0.2134,
+            "4": 0.06625
           },
-          "p_win_group_pct": 25.1,
-          "p_top2_pct": 61.6,
-          "p_advance_pct": 87.1,
+          "p_win_group_pct": 59.5,
+          "p_top2_pct": 72.0,
+          "p_advance_pct": 89.0,
           "finish_probs_pct": {
-            "1": 25.1,
-            "2": 36.5,
-            "3": 30.1,
-            "4": 8.3
+            "1": 59.5,
+            "2": 12.5,
+            "3": 21.3,
+            "4": 6.6
+          }
+        },
+        {
+          "team": "Netherlands",
+          "group": "F",
+          "played": 1,
+          "points": 1,
+          "goal_diff": 0,
+          "p_win_group": 0.04935,
+          "p_top2": 0.6182,
+          "p_advance": 0.83415,
+          "exp_points": 3.42,
+          "finish_probs": {
+            "1": 0.04935,
+            "2": 0.56885,
+            "3": 0.28895,
+            "4": 0.09285
+          },
+          "p_win_group_pct": 4.9,
+          "p_top2_pct": 61.8,
+          "p_advance_pct": 83.4,
+          "finish_probs_pct": {
+            "1": 4.9,
+            "2": 56.9,
+            "3": 28.9,
+            "4": 9.3
           }
         },
         {
@@ -4971,24 +4863,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -4,
-          "p_win_group": 0.00845,
-          "p_top2": 0.02685,
-          "p_advance": 0.1132,
-          "exp_points": 1.12,
+          "p_win_group": 0.0095,
+          "p_top2": 0.0496,
+          "p_advance": 0.11605,
+          "exp_points": 1.03,
           "finish_probs": {
-            "1": 0.00845,
-            "2": 0.0184,
-            "3": 0.11925,
-            "4": 0.8539
+            "1": 0.0095,
+            "2": 0.0401,
+            "3": 0.1095,
+            "4": 0.8409
           },
-          "p_win_group_pct": 0.8,
-          "p_top2_pct": 2.7,
-          "p_advance_pct": 11.3,
+          "p_win_group_pct": 0.9,
+          "p_top2_pct": 5.0,
+          "p_advance_pct": 11.6,
           "finish_probs_pct": {
-            "1": 0.8,
-            "2": 1.8,
-            "3": 11.9,
-            "4": 85.4
+            "1": 0.9,
+            "2": 4.0,
+            "3": 10.9,
+            "4": 84.1
           }
         }
       ]
@@ -5004,23 +4896,23 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.6104,
-          "p_top2": 0.8775,
-          "p_advance": 0.952,
+          "p_win_group": 0.60865,
+          "p_top2": 0.8794,
+          "p_advance": 0.9532,
           "exp_points": 5.66,
           "finish_probs": {
-            "1": 0.6104,
-            "2": 0.2671,
-            "3": 0.0861,
-            "4": 0.0364
+            "1": 0.60865,
+            "2": 0.27075,
+            "3": 0.085,
+            "4": 0.0356
           },
-          "p_win_group_pct": 61.0,
-          "p_top2_pct": 87.8,
-          "p_advance_pct": 95.2,
+          "p_win_group_pct": 60.9,
+          "p_top2_pct": 87.9,
+          "p_advance_pct": 95.3,
           "finish_probs_pct": {
-            "1": 61.0,
-            "2": 26.7,
-            "3": 8.6,
+            "1": 60.9,
+            "2": 27.1,
+            "3": 8.5,
             "4": 3.6
           }
         },
@@ -5030,23 +4922,23 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.25845,
-          "p_top2": 0.7254,
-          "p_advance": 0.85605,
-          "exp_points": 4.69,
+          "p_win_group": 0.26885,
+          "p_top2": 0.7269,
+          "p_advance": 0.85795,
+          "exp_points": 4.7,
           "finish_probs": {
-            "1": 0.25845,
-            "2": 0.46695,
-            "3": 0.17255,
-            "4": 0.10205
+            "1": 0.26885,
+            "2": 0.45805,
+            "3": 0.1715,
+            "4": 0.1016
           },
-          "p_win_group_pct": 25.8,
-          "p_top2_pct": 72.5,
-          "p_advance_pct": 85.6,
+          "p_win_group_pct": 26.9,
+          "p_top2_pct": 72.7,
+          "p_advance_pct": 85.8,
           "finish_probs_pct": {
-            "1": 25.8,
-            "2": 46.7,
-            "3": 17.3,
+            "1": 26.9,
+            "2": 45.8,
+            "3": 17.2,
             "4": 10.2
           }
         },
@@ -5056,24 +4948,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.084,
-          "p_top2": 0.237,
-          "p_advance": 0.4236,
-          "exp_points": 2.61,
+          "p_win_group": 0.07875,
+          "p_top2": 0.2348,
+          "p_advance": 0.42175,
+          "exp_points": 2.6,
           "finish_probs": {
-            "1": 0.084,
-            "2": 0.153,
-            "3": 0.437,
-            "4": 0.326
+            "1": 0.07875,
+            "2": 0.15605,
+            "3": 0.4356,
+            "4": 0.3296
           },
-          "p_win_group_pct": 8.4,
-          "p_top2_pct": 23.7,
-          "p_advance_pct": 42.4,
+          "p_win_group_pct": 7.9,
+          "p_top2_pct": 23.5,
+          "p_advance_pct": 42.2,
           "finish_probs_pct": {
-            "1": 8.4,
-            "2": 15.3,
-            "3": 43.7,
-            "4": 32.6
+            "1": 7.9,
+            "2": 15.6,
+            "3": 43.6,
+            "4": 33.0
           }
         },
         {
@@ -5082,24 +4974,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.04715,
-          "p_top2": 0.1601,
-          "p_advance": 0.28925,
-          "exp_points": 2.14,
+          "p_win_group": 0.04375,
+          "p_top2": 0.1589,
+          "p_advance": 0.2909,
+          "exp_points": 2.15,
           "finish_probs": {
-            "1": 0.04715,
-            "2": 0.11295,
-            "3": 0.30435,
-            "4": 0.53555
+            "1": 0.04375,
+            "2": 0.11515,
+            "3": 0.3079,
+            "4": 0.5332
           },
-          "p_win_group_pct": 4.7,
-          "p_top2_pct": 16.0,
-          "p_advance_pct": 28.9,
+          "p_win_group_pct": 4.4,
+          "p_top2_pct": 15.9,
+          "p_advance_pct": 29.1,
           "finish_probs_pct": {
-            "1": 4.7,
-            "2": 11.3,
-            "3": 30.4,
-            "4": 53.6
+            "1": 4.4,
+            "2": 11.5,
+            "3": 30.8,
+            "4": 53.3
           }
         }
       ]
@@ -5115,23 +5007,23 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.7213,
-          "p_top2": 0.9136,
-          "p_advance": 0.9703,
-          "exp_points": 5.78,
+          "p_win_group": 0.71195,
+          "p_top2": 0.91115,
+          "p_advance": 0.97135,
+          "exp_points": 5.77,
           "finish_probs": {
-            "1": 0.7213,
-            "2": 0.1923,
-            "3": 0.06905,
-            "4": 0.01735
+            "1": 0.71195,
+            "2": 0.1992,
+            "3": 0.0716,
+            "4": 0.01725
           },
-          "p_win_group_pct": 72.1,
-          "p_top2_pct": 91.4,
-          "p_advance_pct": 97.0,
+          "p_win_group_pct": 71.2,
+          "p_top2_pct": 91.1,
+          "p_advance_pct": 97.1,
           "finish_probs_pct": {
-            "1": 72.1,
-            "2": 19.2,
-            "3": 6.9,
+            "1": 71.2,
+            "2": 19.9,
+            "3": 7.2,
             "4": 1.7
           }
         },
@@ -5141,24 +5033,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.19585,
-          "p_top2": 0.60135,
-          "p_advance": 0.78135,
-          "exp_points": 3.92,
+          "p_win_group": 0.2008,
+          "p_top2": 0.59525,
+          "p_advance": 0.778,
+          "exp_points": 3.91,
           "finish_probs": {
-            "1": 0.19585,
-            "2": 0.4055,
-            "3": 0.2863,
-            "4": 0.11235
+            "1": 0.2008,
+            "2": 0.39445,
+            "3": 0.28685,
+            "4": 0.1179
           },
-          "p_win_group_pct": 19.6,
-          "p_top2_pct": 60.1,
-          "p_advance_pct": 78.1,
+          "p_win_group_pct": 20.1,
+          "p_top2_pct": 59.5,
+          "p_advance_pct": 77.8,
           "finish_probs_pct": {
-            "1": 19.6,
-            "2": 40.6,
-            "3": 28.6,
-            "4": 11.2
+            "1": 20.1,
+            "2": 39.4,
+            "3": 28.7,
+            "4": 11.8
           }
         },
         {
@@ -5167,24 +5059,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.04125,
-          "p_top2": 0.2772,
-          "p_advance": 0.4895,
-          "exp_points": 2.85,
+          "p_win_group": 0.0437,
+          "p_top2": 0.27815,
+          "p_advance": 0.4898,
+          "exp_points": 2.87,
           "finish_probs": {
-            "1": 0.04125,
-            "2": 0.23595,
-            "3": 0.3171,
-            "4": 0.4057
+            "1": 0.0437,
+            "2": 0.23445,
+            "3": 0.31725,
+            "4": 0.4046
           },
-          "p_win_group_pct": 4.1,
-          "p_top2_pct": 27.7,
-          "p_advance_pct": 48.9,
+          "p_win_group_pct": 4.4,
+          "p_top2_pct": 27.8,
+          "p_advance_pct": 49.0,
           "finish_probs_pct": {
-            "1": 4.1,
-            "2": 23.6,
+            "1": 4.4,
+            "2": 23.4,
             "3": 31.7,
-            "4": 40.6
+            "4": 40.5
           }
         },
         {
@@ -5193,24 +5085,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.0416,
-          "p_top2": 0.20785,
-          "p_advance": 0.44985,
-          "exp_points": 2.65,
+          "p_win_group": 0.04355,
+          "p_top2": 0.21545,
+          "p_advance": 0.45515,
+          "exp_points": 2.66,
           "finish_probs": {
-            "1": 0.0416,
-            "2": 0.16625,
-            "3": 0.32755,
-            "4": 0.4646
+            "1": 0.04355,
+            "2": 0.1719,
+            "3": 0.3243,
+            "4": 0.46025
           },
-          "p_win_group_pct": 4.2,
-          "p_top2_pct": 20.8,
-          "p_advance_pct": 45.0,
+          "p_win_group_pct": 4.4,
+          "p_top2_pct": 21.5,
+          "p_advance_pct": 45.5,
           "finish_probs_pct": {
-            "1": 4.2,
-            "2": 16.6,
-            "3": 32.8,
-            "4": 46.5
+            "1": 4.4,
+            "2": 17.2,
+            "3": 32.4,
+            "4": 46.0
           }
         }
       ]
@@ -5226,23 +5118,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.24685,
-          "p_top2": 0.75235,
-          "p_advance": 0.9922,
-          "exp_points": 5.44,
+          "p_win_group": 0.25365,
+          "p_top2": 0.7627,
+          "p_advance": 0.9931,
+          "exp_points": 5.49,
           "finish_probs": {
-            "1": 0.24685,
-            "2": 0.5055,
-            "3": 0.24625,
-            "4": 0.0014
+            "1": 0.25365,
+            "2": 0.50905,
+            "3": 0.23585,
+            "4": 0.00145
           },
-          "p_win_group_pct": 24.7,
-          "p_top2_pct": 75.2,
-          "p_advance_pct": 99.2,
+          "p_win_group_pct": 25.4,
+          "p_top2_pct": 76.3,
+          "p_advance_pct": 99.3,
           "finish_probs_pct": {
-            "1": 24.7,
-            "2": 50.5,
-            "3": 24.6,
+            "1": 25.4,
+            "2": 50.9,
+            "3": 23.6,
             "4": 0.1
           }
         },
@@ -5252,24 +5144,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.7342,
-          "p_top2": 0.9784,
-          "p_advance": 0.999,
-          "exp_points": 7.55,
+          "p_win_group": 0.73055,
+          "p_top2": 0.97965,
+          "p_advance": 0.9993,
+          "exp_points": 7.56,
           "finish_probs": {
-            "1": 0.7342,
-            "2": 0.2442,
-            "3": 0.02075,
-            "4": 0.00085
+            "1": 0.73055,
+            "2": 0.2491,
+            "3": 0.0199,
+            "4": 0.00045
           },
-          "p_win_group_pct": 73.4,
-          "p_top2_pct": 97.8,
+          "p_win_group_pct": 73.1,
+          "p_top2_pct": 98.0,
           "p_advance_pct": 99.9,
           "finish_probs_pct": {
-            "1": 73.4,
-            "2": 24.4,
-            "3": 2.1,
-            "4": 0.1
+            "1": 73.1,
+            "2": 24.9,
+            "3": 2.0,
+            "4": 0.0
           }
         },
         {
@@ -5278,24 +5170,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.01845,
-          "p_top2": 0.26445,
-          "p_advance": 0.7786,
-          "exp_points": 3.58,
+          "p_win_group": 0.01545,
+          "p_top2": 0.25355,
+          "p_advance": 0.78085,
+          "exp_points": 3.55,
           "finish_probs": {
-            "1": 0.01845,
-            "2": 0.246,
-            "3": 0.64905,
-            "4": 0.0865
+            "1": 0.01545,
+            "2": 0.2381,
+            "3": 0.65985,
+            "4": 0.0866
           },
-          "p_win_group_pct": 1.8,
-          "p_top2_pct": 26.4,
-          "p_advance_pct": 77.9,
+          "p_win_group_pct": 1.5,
+          "p_top2_pct": 25.4,
+          "p_advance_pct": 78.1,
           "finish_probs_pct": {
-            "1": 1.8,
-            "2": 24.6,
-            "3": 64.9,
-            "4": 8.6
+            "1": 1.5,
+            "2": 23.8,
+            "3": 66.0,
+            "4": 8.7
           }
         },
         {
@@ -5304,21 +5196,21 @@
           "played": 1,
           "points": 0,
           "goal_diff": -3,
-          "p_win_group": 0.0005,
-          "p_top2": 0.0048,
-          "p_advance": 0.05375,
-          "exp_points": 0.64,
+          "p_win_group": 0.00035,
+          "p_top2": 0.0041,
+          "p_advance": 0.05545,
+          "exp_points": 0.62,
           "finish_probs": {
-            "1": 0.0005,
-            "2": 0.0043,
-            "3": 0.08395,
-            "4": 0.91125
+            "1": 0.00035,
+            "2": 0.00375,
+            "3": 0.0844,
+            "4": 0.9115
           },
-          "p_win_group_pct": 0.1,
-          "p_top2_pct": 0.5,
-          "p_advance_pct": 5.4,
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 0.4,
+          "p_advance_pct": 5.5,
           "finish_probs_pct": {
-            "1": 0.1,
+            "1": 0.0,
             "2": 0.4,
             "3": 8.4,
             "4": 91.1
@@ -5337,23 +5229,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.83055,
-          "p_top2": 0.98315,
-          "p_advance": 0.99895,
-          "exp_points": 7.58,
+          "p_win_group": 0.83495,
+          "p_top2": 0.98455,
+          "p_advance": 0.99875,
+          "exp_points": 7.59,
           "finish_probs": {
-            "1": 0.83055,
-            "2": 0.1526,
-            "3": 0.01595,
-            "4": 0.0009
+            "1": 0.83495,
+            "2": 0.1496,
+            "3": 0.0144,
+            "4": 0.00105
           },
-          "p_win_group_pct": 83.1,
-          "p_top2_pct": 98.3,
+          "p_win_group_pct": 83.5,
+          "p_top2_pct": 98.5,
           "p_advance_pct": 99.9,
           "finish_probs_pct": {
-            "1": 83.1,
-            "2": 15.3,
-            "3": 1.6,
+            "1": 83.5,
+            "2": 15.0,
+            "3": 1.4,
             "4": 0.1
           }
         },
@@ -5363,24 +5255,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.15435,
-          "p_top2": 0.7496,
-          "p_advance": 0.973,
+          "p_win_group": 0.15075,
+          "p_top2": 0.7502,
+          "p_advance": 0.97455,
           "exp_points": 5.16,
           "finish_probs": {
-            "1": 0.15435,
-            "2": 0.59525,
-            "3": 0.24275,
-            "4": 0.00765
+            "1": 0.15075,
+            "2": 0.59945,
+            "3": 0.24255,
+            "4": 0.00725
           },
-          "p_win_group_pct": 15.4,
+          "p_win_group_pct": 15.1,
           "p_top2_pct": 75.0,
-          "p_advance_pct": 97.3,
+          "p_advance_pct": 97.5,
           "finish_probs_pct": {
-            "1": 15.4,
-            "2": 59.5,
+            "1": 15.1,
+            "2": 59.9,
             "3": 24.3,
-            "4": 0.8
+            "4": 0.7
           }
         },
         {
@@ -5390,23 +5282,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.00245,
-          "p_top2": 0.0245,
-          "p_advance": 0.14345,
+          "p_top2": 0.02445,
+          "p_advance": 0.1421,
           "exp_points": 1.06,
           "finish_probs": {
             "1": 0.00245,
-            "2": 0.02205,
-            "3": 0.21055,
-            "4": 0.76495
+            "2": 0.022,
+            "3": 0.21175,
+            "4": 0.7638
           },
           "p_win_group_pct": 0.2,
-          "p_top2_pct": 2.5,
-          "p_advance_pct": 14.3,
+          "p_top2_pct": 2.4,
+          "p_advance_pct": 14.2,
           "finish_probs_pct": {
             "1": 0.2,
             "2": 2.2,
-            "3": 21.1,
-            "4": 76.5
+            "3": 21.2,
+            "4": 76.4
           }
         },
         {
@@ -5415,24 +5307,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -3,
-          "p_win_group": 0.01265,
-          "p_top2": 0.24275,
-          "p_advance": 0.63045,
-          "exp_points": 3.29,
+          "p_win_group": 0.01185,
+          "p_top2": 0.2408,
+          "p_advance": 0.63105,
+          "exp_points": 3.28,
           "finish_probs": {
-            "1": 0.01265,
-            "2": 0.2301,
-            "3": 0.53075,
-            "4": 0.2265
+            "1": 0.01185,
+            "2": 0.22895,
+            "3": 0.5313,
+            "4": 0.2279
           },
-          "p_win_group_pct": 1.3,
-          "p_top2_pct": 24.3,
-          "p_advance_pct": 63.0,
+          "p_win_group_pct": 1.2,
+          "p_top2_pct": 24.1,
+          "p_advance_pct": 63.1,
           "finish_probs_pct": {
-            "1": 1.3,
-            "2": 23.0,
+            "1": 1.2,
+            "2": 22.9,
             "3": 53.1,
-            "4": 22.7
+            "4": 22.8
           }
         }
       ]
@@ -5448,24 +5340,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.5101,
-          "p_top2": 0.86245,
-          "p_advance": 0.9908,
+          "p_win_group": 0.5112,
+          "p_top2": 0.8618,
+          "p_advance": 0.9894,
           "exp_points": 6.2,
           "finish_probs": {
-            "1": 0.5101,
-            "2": 0.35235,
-            "3": 0.13145,
-            "4": 0.0061
+            "1": 0.5112,
+            "2": 0.3506,
+            "3": 0.13055,
+            "4": 0.00765
           },
-          "p_win_group_pct": 51.0,
+          "p_win_group_pct": 51.1,
           "p_top2_pct": 86.2,
-          "p_advance_pct": 99.1,
+          "p_advance_pct": 98.9,
           "finish_probs_pct": {
-            "1": 51.0,
-            "2": 35.2,
+            "1": 51.1,
+            "2": 35.1,
             "3": 13.1,
-            "4": 0.6
+            "4": 0.8
           }
         },
         {
@@ -5474,24 +5366,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.4208,
-          "p_top2": 0.82245,
-          "p_advance": 0.93655,
-          "exp_points": 5.19,
+          "p_win_group": 0.41665,
+          "p_top2": 0.82,
+          "p_advance": 0.9381,
+          "exp_points": 5.18,
           "finish_probs": {
-            "1": 0.4208,
-            "2": 0.40165,
-            "3": 0.1429,
-            "4": 0.03465
+            "1": 0.41665,
+            "2": 0.40335,
+            "3": 0.14705,
+            "4": 0.03295
           },
-          "p_win_group_pct": 42.1,
-          "p_top2_pct": 82.2,
-          "p_advance_pct": 93.7,
+          "p_win_group_pct": 41.7,
+          "p_top2_pct": 82.0,
+          "p_advance_pct": 93.8,
           "finish_probs_pct": {
-            "1": 42.1,
-            "2": 40.2,
-            "3": 14.3,
-            "4": 3.5
+            "1": 41.7,
+            "2": 40.3,
+            "3": 14.7,
+            "4": 3.3
           }
         },
         {
@@ -5500,24 +5392,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.06185,
-          "p_top2": 0.26375,
-          "p_advance": 0.6107,
-          "exp_points": 3.25,
+          "p_win_group": 0.066,
+          "p_top2": 0.2692,
+          "p_advance": 0.62135,
+          "exp_points": 3.29,
           "finish_probs": {
-            "1": 0.06185,
-            "2": 0.2019,
-            "3": 0.47245,
-            "4": 0.2638
+            "1": 0.066,
+            "2": 0.2032,
+            "3": 0.47625,
+            "4": 0.25455
           },
-          "p_win_group_pct": 6.2,
-          "p_top2_pct": 26.4,
-          "p_advance_pct": 61.1,
+          "p_win_group_pct": 6.6,
+          "p_top2_pct": 26.9,
+          "p_advance_pct": 62.1,
           "finish_probs_pct": {
-            "1": 6.2,
-            "2": 20.2,
-            "3": 47.2,
-            "4": 26.4
+            "1": 6.6,
+            "2": 20.3,
+            "3": 47.6,
+            "4": 25.5
           }
         },
         {
@@ -5526,24 +5418,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.00725,
-          "p_top2": 0.05135,
-          "p_advance": 0.23725,
-          "exp_points": 1.46,
+          "p_win_group": 0.00615,
+          "p_top2": 0.049,
+          "p_advance": 0.2316,
+          "exp_points": 1.43,
           "finish_probs": {
-            "1": 0.00725,
-            "2": 0.0441,
-            "3": 0.2532,
-            "4": 0.69545
+            "1": 0.00615,
+            "2": 0.04285,
+            "3": 0.24615,
+            "4": 0.70485
           },
-          "p_win_group_pct": 0.7,
-          "p_top2_pct": 5.1,
-          "p_advance_pct": 23.7,
+          "p_win_group_pct": 0.6,
+          "p_top2_pct": 4.9,
+          "p_advance_pct": 23.2,
           "finish_probs_pct": {
-            "1": 0.7,
-            "2": 4.4,
-            "3": 25.3,
-            "4": 69.5
+            "1": 0.6,
+            "2": 4.3,
+            "3": 24.6,
+            "4": 70.5
           }
         }
       ]
@@ -5559,23 +5451,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.9222,
-          "p_top2": 0.9866,
-          "p_advance": 0.998,
-          "exp_points": 7.93,
+          "p_win_group": 0.92655,
+          "p_top2": 0.9871,
+          "p_advance": 0.9981,
+          "exp_points": 7.94,
           "finish_probs": {
-            "1": 0.9222,
-            "2": 0.0644,
-            "3": 0.0116,
+            "1": 0.92655,
+            "2": 0.06055,
+            "3": 0.0111,
             "4": 0.0018
           },
-          "p_win_group_pct": 92.2,
+          "p_win_group_pct": 92.7,
           "p_top2_pct": 98.7,
           "p_advance_pct": 99.8,
           "finish_probs_pct": {
-            "1": 92.2,
-            "2": 6.4,
-            "3": 1.2,
+            "1": 92.7,
+            "2": 6.1,
+            "3": 1.1,
             "4": 0.2
           }
         },
@@ -5585,24 +5477,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 1,
-          "p_win_group": 0.0439,
-          "p_top2": 0.3524,
-          "p_advance": 0.8029,
+          "p_win_group": 0.04125,
+          "p_top2": 0.3502,
+          "p_advance": 0.81165,
           "exp_points": 4.1,
           "finish_probs": {
-            "1": 0.0439,
-            "2": 0.3085,
-            "3": 0.57325,
-            "4": 0.07435
+            "1": 0.04125,
+            "2": 0.30895,
+            "3": 0.57655,
+            "4": 0.07325
           },
-          "p_win_group_pct": 4.4,
-          "p_top2_pct": 35.2,
-          "p_advance_pct": 80.3,
+          "p_win_group_pct": 4.1,
+          "p_top2_pct": 35.0,
+          "p_advance_pct": 81.2,
           "finish_probs_pct": {
-            "1": 4.4,
+            "1": 4.1,
             "2": 30.9,
-            "3": 57.3,
-            "4": 7.4
+            "3": 57.7,
+            "4": 7.3
           }
         },
         {
@@ -5611,24 +5503,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -1,
-          "p_win_group": 0.0038,
-          "p_top2": 0.0509,
-          "p_advance": 0.15095,
-          "exp_points": 1.08,
+          "p_win_group": 0.0034,
+          "p_top2": 0.05035,
+          "p_advance": 0.1496,
+          "exp_points": 1.07,
           "finish_probs": {
-            "1": 0.0038,
-            "2": 0.0471,
-            "3": 0.14015,
-            "4": 0.80895
+            "1": 0.0034,
+            "2": 0.04695,
+            "3": 0.1382,
+            "4": 0.81145
           },
-          "p_win_group_pct": 0.4,
-          "p_top2_pct": 5.1,
-          "p_advance_pct": 15.1,
+          "p_win_group_pct": 0.3,
+          "p_top2_pct": 5.0,
+          "p_advance_pct": 15.0,
           "finish_probs_pct": {
-            "1": 0.4,
+            "1": 0.3,
             "2": 4.7,
-            "3": 14.0,
-            "4": 80.9
+            "3": 13.8,
+            "4": 81.1
           }
         },
         {
@@ -5637,24 +5529,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.0301,
-          "p_top2": 0.6101,
-          "p_advance": 0.8153,
-          "exp_points": 4.12,
+          "p_win_group": 0.0288,
+          "p_top2": 0.61235,
+          "p_advance": 0.8139,
+          "exp_points": 4.11,
           "finish_probs": {
-            "1": 0.0301,
-            "2": 0.58,
-            "3": 0.275,
-            "4": 0.1149
+            "1": 0.0288,
+            "2": 0.58355,
+            "3": 0.27415,
+            "4": 0.1135
           },
-          "p_win_group_pct": 3.0,
-          "p_top2_pct": 61.0,
-          "p_advance_pct": 81.5,
+          "p_win_group_pct": 2.9,
+          "p_top2_pct": 61.2,
+          "p_advance_pct": 81.4,
           "finish_probs_pct": {
-            "1": 3.0,
-            "2": 58.0,
-            "3": 27.5,
-            "4": 11.5
+            "1": 2.9,
+            "2": 58.4,
+            "3": 27.4,
+            "4": 11.3
           }
         }
       ]

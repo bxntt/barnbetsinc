@@ -1,33 +1,12 @@
 {
-  "generated_at": "2026-06-20T16:03:49.038008+00:00",
+  "generated_at": "2026-06-20T19:59:47.328270+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 40,
-  "affected_games": 13,
-  "total_absences": 14,
+  "game_count": 39,
+  "affected_games": 12,
+  "total_absences": 13,
   "games": [
-    {
-      "match_id": "4f0c518545b0096c68326daf25bffc1e",
-      "group": "F",
-      "commence_time": "2026-06-20T17:00:00Z",
-      "home": "Netherlands",
-      "away": "Sweden",
-      "home_absences": [
-        {
-          "player": "Frenkie de Jong",
-          "position": "MF",
-          "status": "Out",
-          "reason": "Lower-leg injury",
-          "expected_starter": true,
-          "impact": 1.5,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
     {
       "match_id": "f1ab0f69832972a329243522ceaa7804",
       "group": "E",
