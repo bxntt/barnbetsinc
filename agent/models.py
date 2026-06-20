@@ -6,13 +6,15 @@ Normalized shape (provider-agnostic):
       └── markets: { "h2h" | "spreads" | "totals" -> [BookOdds, ...] }
                                                         └── outcomes: [Outcome, ...]
 
-A `BestBet` is what the engine emits: a single recommended wager at the target
-book, with the math and a plain-English rationale attached.
+A `Prediction` is what the engine emits: for one bet market of one game, the most
+likely outcome and the probability it hits, from a team-strength model blended
+with the market consensus. No sportsbook is singled out — we predict what will
+happen, not where a price is best.
 """
 from __future__ import annotations
 
 from dataclasses import dataclass, field, asdict
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from .odds_math import american_to_decimal, american_to_implied, format_american
 
@@ -61,51 +63,60 @@ class Game:
 
 
 @dataclass
-class BestBet:
-    """A recommended +EV wager at the target book."""
+class Prediction:
+    """A model call for one bet market of one game.
+
+    The model assigns a probability to each outcome of the market; `pick` is the
+    most likely and `prob` is the (model + market consensus blended) chance it
+    hits. Model-only and market-only probabilities are kept alongside so the site
+    can show where the model and the market agree or diverge.
+    """
     game_id: str
     sport_key: str
     sport_title: str
     commence_time: str
     home_team: str
     away_team: str
-    market: str                    # "h2h" | "spreads" | "totals"
-    selection: str                 # outcome name being recommended
-    point: Optional[float]
+    market: str                      # "h2h" | "spreads" | "totals"
+    pick: str                        # human label, e.g. "Lakers ML", "Over 8.5"
+    selection: str                   # gradeable outcome: team name / "Over" / "Under"
+    point: Optional[float]           # spread/total line of the pick (None for h2h)
 
-    target_book: str
-    price_american: int            # target book's price for the selection
-    fair_prob: float               # no-vig fair probability (0..1)
-    ev_pct: float                  # expected value, in % (e.g. 5.4)
-    confidence: float              # 0..1 quality weight
-
-    reference_book: str            # which sharp ref produced the fair line ("consensus" if blended)
-    market_vig: float              # hold of the reference market (0..1)
-    movement: Optional[dict] = None    # line-movement summary, if available
-    context: Optional[dict] = None     # injuries / weather chips, if available
+    prob: float                      # blended probability the pick hits (0..1)
+    confidence: float                # 0..1 trust in this probability
+    model_prob: Optional[float]      # model-only probability for the pick, if modeled
+    market_prob: Optional[float]     # market-consensus probability for the pick
+    outcomes: List[Tuple[str, float]] = field(default_factory=list)  # (label, prob), desc
+    context: Optional[dict] = None   # injuries / weather chips, if available
     rationale: str = ""
-
-    # ----- enrichment from the upgraded engine (all optional, default-safe) -----
-    method_spread: float = 0.0         # de-vig method disagreement on this side (0..1)
-    interpolated: bool = False         # fair prob shifted from a different sharp line
-    reach: float = 0.0                 # points shifted during interpolation
-    longshot: bool = False             # fair_prob below the longshot threshold
-    kelly_frac: float = 0.0            # full-Kelly fraction of bankroll
-    kelly_pct: float = 0.0             # recommended stake as % of bankroll (fractional, capped)
-    model_prob: Optional[float] = None # independent model (Elo) win prob, if available
-    model_flag: Optional[str] = None   # "agree" | "disagree" vs the market, if modeled
-
-    @property
-    def price_display(self) -> str:
-        return format_american(self.price_american)
 
     @property
     def fair_price_american(self) -> int:
         from .odds_math import implied_to_american
-        return implied_to_american(self.fair_prob)
+        return implied_to_american(self.prob)
 
     def to_dict(self) -> dict:
-        d = asdict(self)
-        d["price_display"] = self.price_display
-        d["fair_price_american"] = self.fair_price_american
-        return d
+        return {
+            "game_id": self.game_id,
+            "sport_key": self.sport_key,
+            "sport_title": self.sport_title,
+            "commence_time": self.commence_time,
+            "home_team": self.home_team,
+            "away_team": self.away_team,
+            "market": self.market,
+            "pick": self.pick,
+            "selection": self.selection,
+            "point": self.point,
+            "prob": round(self.prob, 4),
+            "prob_pct": round(self.prob * 100, 1),
+            "confidence": round(self.confidence, 2),
+            "model_prob_pct": (None if self.model_prob is None
+                               else round(self.model_prob * 100, 1)),
+            "market_prob_pct": (None if self.market_prob is None
+                                else round(self.market_prob * 100, 1)),
+            "fair_price_american": self.fair_price_american,
+            "outcomes": [{"label": lbl, "prob_pct": round(p * 100, 1)}
+                         for lbl, p in self.outcomes],
+            "context": self.context,
+            "rationale": self.rationale,
+        }

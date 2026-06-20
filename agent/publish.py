@@ -1,4 +1,9 @@
-"""Serialize ranked best bets + metadata to site/data.json for the website."""
+"""Serialize ranked predictions + metadata to site/data.json for the website.
+
+The payload mirrors the World Cup feed (site/worldcup.json): a flat list of
+per-game, per-market predictions ranked most-likely-to-hit first, plus a
+calibration block (the honest check on whether our probabilities hold up).
+"""
 from __future__ import annotations
 
 import json
@@ -7,42 +12,23 @@ from pathlib import Path
 from typing import List
 
 from .config import ROOT
-from .models import BestBet
-from .rank import selection_label
+from .models import Prediction
 
 SITE_DATA = ROOT / "site" / "data.json"
 
 
 def build_payload(
-    bets: List[BestBet],
-    track_record: dict,
-    target_book: str,
+    predictions: List[Prediction],
     calibration: dict = None,
 ) -> dict:
-    items = []
-    for b in bets:
-        d = b.to_dict()
-        d["label"] = selection_label(b.market, b.selection, b.point)
-        d["ev_pct"] = round(b.ev_pct, 2)
-        d["fair_prob_pct"] = round(b.fair_prob * 100, 1)   # estimated chance to hit
-        d["chance_pct"] = round(b.fair_prob * 100, 1)
-        d["confidence"] = round(b.confidence, 2)
-        d["market_vig_pct"] = round(b.market_vig * 100, 2)
-        d["kelly_pct"] = round(b.kelly_pct, 2)
-        d["method_spread_pct"] = round(b.method_spread * 100, 1)
-        d["model_prob_pct"] = None if b.model_prob is None else round(b.model_prob * 100, 1)
-        items.append(d)
-
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "target_book": target_book,
-        "count": len(items),
-        "track_record": track_record,
+        "count": len(predictions),
+        "predictions": [p.to_dict() for p in predictions],
         "calibration": calibration or {},
-        "bets": items,
         "disclaimer": (
-            "Informational only. Not financial advice. For 21+ where legal. "
-            "Edges are estimates; sportsbooks may limit winning accounts."
+            "Model-driven predictions from team strength and market consensus. "
+            "Estimates, not certainties. Informational only, 21+ where legal."
         ),
     }
 

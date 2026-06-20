@@ -9,10 +9,10 @@ from __future__ import annotations
 from typing import List
 
 from ..config import Config
-from ..models import BestBet
+from ..models import Prediction
 
 
-def enrich(bets: List[BestBet], config: Config) -> None:
+def enrich(bets: List[Prediction], config: Config) -> None:
     if not bets:
         return
     if config.context.injuries:

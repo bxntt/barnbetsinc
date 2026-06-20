@@ -11,7 +11,7 @@ from typing import Dict, List, Optional
 
 import requests
 
-from ..models import BestBet
+from ..models import Prediction
 
 # Canonical sport_key -> ESPN scoreboard path.
 _ESPN_PATHS = {
@@ -50,7 +50,7 @@ def _note_for(events: List[dict], home: str, away: str) -> Optional[str]:
     return None
 
 
-def annotate(bets: List[BestBet]) -> None:
+def annotate(bets: List[Prediction]) -> None:
     cache: Dict[str, List[dict]] = {}
     for b in bets:
         if b.sport_key not in cache:

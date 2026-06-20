@@ -12,10 +12,11 @@ Three methods are supported (config `strategy.devig_method`):
 When the methods *disagree* on an outcome (which happens most on longshots), that
 disagreement is itself a useful uncertainty signal, exposed as `spread_by_key`.
 
-The reference fair line is taken from the sharpest available book (Pinnacle by
-preference). If no configured sharp book is present, we blend the other books
-into a *weighted* consensus (tighter / sharper books get more weight). The target
-book (Hard Rock) is never used as its own reference.
+The predictor calls `reference_fair` with no sharp-book preference and no excluded
+book, so it returns a no-vig **consensus across every book** — the crowd's
+prediction, weighted so tighter/sharper books count more. (The optional
+sharp-book / excluded-book arguments are retained for callers that want a single
+reference line, but the prediction engine doesn't single out any book.)
 """
 from __future__ import annotations
 

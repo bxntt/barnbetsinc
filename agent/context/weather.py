@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Tuple
 
 import requests
 
-from ..models import BestBet
+from ..models import Prediction
 
 # Populate as needed, keyed by home_team name -> (lat, lon).
 VENUE_COORDS: Dict[str, Tuple[float, float]] = {}
@@ -32,7 +32,7 @@ def _forecast(lat: float, lon: float) -> Optional[dict]:
     return resp.json().get("current")
 
 
-def annotate(bets: List[BestBet]) -> None:
+def annotate(bets: List[Prediction]) -> None:
     for b in bets:
         if b.market != "totals" or b.sport_key not in _OUTDOOR_SPORTS:
             continue

@@ -1,23 +1,14 @@
 # ----------------------------------------------------------------------------
-# Hard Rock Bet "Best Bets" edge finder — configuration
+# US-sports predictor — configuration
 # ----------------------------------------------------------------------------
+# For each game we predict the most likely outcome in each market (moneyline /
+# spread / total) from a team-strength model blended with the market consensus.
+# No single sportsbook is judged and no price is "shopped" — we predict what
+# will happen, then fold the de-vigged consensus in as one more signal.
 
 # Which odds provider to use: mock | odds_api_io | the_odds_api
-# `mock` needs no API key and ships with a planted +EV bet so the whole
-# pipeline + website run out of the box.
+# `mock` needs no API key so the whole pipeline + website run out of the box.
 provider: the_odds_api
-
-# The book we can actually bet at (Florida). The engine evaluates *this* book's
-# prices against the sharp/consensus fair line.
-target_book: hardrockbet
-
-# Books treated as the "sharp" reference, in priority order. The first one
-# present in a market is used to compute the no-vig fair line; if none are
-# present we fall back to a consensus de-vig across all available books.
-sharp_books:
-  - pinnacle
-  - circa
-  - betonlineag
 
 # Sports to pull. Keys are the canonical sport keys used by the providers
 # (The Odds API style). The mock provider ignores this list.
@@ -29,71 +20,42 @@ sports:
   - americanfootball_ncaaf
   - basketball_ncaab
 
-# Markets to evaluate.
+# Markets to predict.
 markets:
-  - h2h        # moneyline
-  - spreads
-  - totals
+  - h2h        # moneyline (winner)
+  - spreads    # who covers
+  - totals     # over / under
 
-# The Odds API regions to request. "us" includes Hard Rock; add "eu" to include
-# Pinnacle (the best sharp reference). Cost on The Odds API = markets x regions
-# per sport per call, so "us,eu" with 3 markets = 6 credits/sport/call.
-# Kept at "us" to protect the free-tier budget (Circa + BetOnline as sharp refs);
-# add "eu" for Pinnacle if you upgrade the plan.
+# The Odds API regions to request. Cost = markets x regions per sport per call,
+# so "us" with 3 markets = 3 credits/sport/call. The consensus is built from
+# whatever books these regions return; more books = a steadier consensus signal.
 the_odds_api_regions: us
 
-# Hard Rock engine is LOWER priority than the World Cup on the free tier. With a
-# live provider it runs at most once per this many hours (~3 credits/run for MLB).
+# US-sports predictor is LOWER priority than the World Cup on the free tier. With
+# a live provider it runs at most once per this many hours.
 engine_min_interval_hours: 24
 engine_credit_reserve: 20
 
-# ----- Strategy thresholds -----
-# Minimum edge (in %) for a bet to be recommended. 2.0 = +2% EV.
-min_ev_pct: 2.0
-
-# Confidence weighting. Markets with a wider sharp price (more vig / more
-# disagreement) are less trustworthy and get down-weighted.
-confidence:
-  # Vig above this (as a fraction, e.g. 0.06 = 6% hold) is treated as a wide,
-  # low-trust market and heavily discounted.
-  max_trusted_vig: 0.06
-  # Recommendations within this many minutes of kickoff are down-weighted
-  # (late info, stale comparisons).
-  min_minutes_to_start: 30
-
-# ----- Value engine (de-vig accuracy, guardrails, sizing, model) -----
+# ----- Prediction engine (consensus blend + team-strength model) -----
 strategy:
-  # De-vig method used to turn reference prices into fair probabilities.
+  # De-vig method used to turn book prices into no-vig consensus probabilities.
   # power (default) corrects favorite-longshot bias without overcorrecting;
   # shin corrects it most aggressively; multiplicative is the simple baseline.
   devig_method: power
-  # Weighted consensus: sharper books count more when no single sharp book is present.
+  # Weighted consensus: sharper/tighter books count more in the blend.
   book_weights:
     pinnacle: 3.0
     circa: 3.0
     betonlineag: 2.0
-  # Price Hard Rock's alternate spread/total lines off the nearest sharp line
-  # (Normal model), reach-limited and confidence-penalized.
-  interpolate: true
-  interp_max_reach: 2.0       # never shift a line more than this many points
-  interp_conf_penalty: 0.5    # confidence cut at full reach (0..1)
-  # Favorite-longshot guardrail: discount value found on heavy underdogs, where
-  # book vig is heaviest and multiplicative de-vig overstates the fair price.
-  longshot_prob: 0.30         # fair prob below this is treated as a longshot
-  longshot_penalty: 0.5       # confidence floor for extreme longshots
-  # De-vig method disagreement beyond this fully discounts confidence.
-  method_spread_tol: 0.04
-  # Fractional-Kelly stake sizing (shown per bet; quarter-Kelly, hard-capped).
-  kelly_fraction: 0.25
-  kelly_cap: 0.05             # max suggested stake as a fraction of bankroll
-  # Independent Elo cross-check (flags moneyline bets where a model disagrees).
-  model_enabled: true
-  model_disagree: 0.10        # |model - market| beyond this is flagged
-  model_min_games: 30         # min graded games before Elo is trusted
+  # Cap on how much the market consensus can pull the model-first blend (0..1).
+  # The team-strength model always keeps at least (1 - this) weight once warm.
+  max_market_weight: 0.50
+  # Min games seen before a team is modeled (else that game leans on consensus).
+  model_min_games: 3
   # Probability calibration loop (predicted vs realized hit rate from results).
   calibration_enabled: true
 
-# How many best bets to publish to the site (overall). 0 = unlimited.
+# How many games to publish to the site (all market calls per game kept). 0 = all.
 max_published: 50
 
 # ----- Context enrichment (free, no key) -----

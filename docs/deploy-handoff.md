@@ -53,6 +53,42 @@ On `main`, already pushed:
    - [ ] No browser/visual check has been done yet — data contracts, JS syntax,
          and the pipeline run were verified, but nobody has opened it in a browser.
 
+## Injuries page — before it goes live (action items)
+
+The Injuries page is wired and deploys automatically (it's under `site/`, which
+the Pages artifact uploads wholesale, and `agent/worldcup/pipeline.py` writes
+`site/injuries.json` every tick). But two things should be checked before it's
+treated as real:
+
+1. **Review the seed absence data — it's illustrative, not verified.** The
+   absences come from a hand-maintained snapshot, `CURATED_ABSENCES` in
+   `agent/worldcup/injuries.py` (same pattern as `STANDINGS_2026` in
+   `fixtures.py`). The seeded entries (Neymar, Frenkie de Jong, etc.) are
+   placeholders to prove the page works — **edit them to reflect real team news
+   and bump `AS_OF`** (currently `2026-06-19`) before relying on it. The page
+   footer and JSON `note` already say "verify against official team news," so an
+   un-curated state is disclosed, not misleading.
+2. **Absences only attach to teams that resolve via `fixtures.canonical_team`.**
+   A curated/ESPN team name that doesn't map to a canonical name (see
+   `STANDINGS_2026` + `_ALIASES`) silently shows zero absences for that side. If
+   a team you added absences for isn't appearing, add an alias in `fixtures.py`.
+
+Optional, off by default:
+
+- **Live ESPN enrichment.** `worldcup.injuries_espn` (config.yaml) is `false`.
+  Set it `true` to also pull ESPN's free public feed (no key) and merge it with
+  the snapshot. It's best-effort and fully fail-safe; left off because ESPN
+  carries no real 2026 WC data yet and to keep ticks dependency-light. No new
+  odds credits either way — injuries never touch the paid odds path.
+
+Verify on the live page (in addition to the checklist above):
+
+- [ ] Games **with** absences sort to the top; status pills (Out=red,
+      Doubtful/Suspended) and the ★ expected-starter marker render.
+- [ ] Games **without** absences show "✓ Squad as expected — no reported
+      absences" (complete by-game picture, not just the affected ones).
+- [ ] Header line reads "<n> absences across <m> games · snapshot <date>".
+
 ## Coordination for the consolidation push
 
 - **`git pull --rebase` before pushing** — several sessions are committing to

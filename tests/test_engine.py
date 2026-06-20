@@ -1,13 +1,12 @@
-"""Unit tests for the odds math, de-vig, EV, and ranking engine."""
+"""Unit tests for the odds math, de-vig consensus, and the prediction engine."""
 from __future__ import annotations
 
 import math
 
-import pytest
-
 from agent.config import Config, StrategyConfig
 from agent.engine.devig import fair_from_book, reference_fair
-from agent.engine.ev import evaluate_game
+from agent.engine.predict import predict_game
+from agent.engine.ratings import TeamModel
 from agent.models import BookOdds, Game, Outcome
 from agent.odds_math import (
     american_to_decimal,
@@ -15,7 +14,7 @@ from agent.odds_math import (
     decimal_to_american,
     implied_to_american,
 )
-from agent.rank import rank_bets, selection_label
+from agent.rank import rank_predictions, selection_label
 
 
 # ---------------------------------------------------------------- odds math ---
@@ -33,117 +32,88 @@ def test_known_conversions():
 
 # -------------------------------------------------------------------- devig ---
 def test_fair_from_book_removes_vig():
-    # -110 / -110 market: each implies ~52.38%, total ~104.76% (4.76% vig).
-    book = BookOdds(book="pinnacle", outcomes=[
-        Outcome("A", -110), Outcome("B", -110),
-    ])
+    book = BookOdds(book="pinnacle", outcomes=[Outcome("A", -110), Outcome("B", -110)])
     fair, vig = fair_from_book(book)
     assert math.isclose(vig, 0.04762, rel_tol=1e-3)
-    # Symmetric market -> fair is 50/50 and sums to 1.
     assert math.isclose(fair[("A", None)], 0.5, rel_tol=1e-9)
     assert math.isclose(sum(fair.values()), 1.0, rel_tol=1e-12)
 
 
-def test_reference_prefers_configured_sharp_book():
+def test_reference_consensus_blends_all_books():
+    # With no sharp book named, the reference is a consensus across every book.
     game = Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
                 "Home", "Away", markets={"h2h": [
-                    BookOdds("hardrockbet", [Outcome("Away", -110), Outcome("Home", -110)]),
-                    BookOdds("pinnacle", [Outcome("Away", -130), Outcome("Home", 110)]),
-                ]})
-    ref = reference_fair(game, "h2h", ["pinnacle"], "hardrockbet")
-    assert ref.book == "pinnacle"
-
-
-def test_reference_consensus_fallback_excludes_target():
-    # No sharp book present -> consensus of the non-target books.
-    game = Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
-                "Home", "Away", markets={"h2h": [
-                    BookOdds("hardrockbet", [Outcome("Away", 200), Outcome("Home", -250)]),
                     BookOdds("draftkings", [Outcome("Away", -120), Outcome("Home", 100)]),
                     BookOdds("fanduel", [Outcome("Away", -125), Outcome("Home", 105)]),
                 ]})
-    ref = reference_fair(game, "h2h", ["pinnacle"], "hardrockbet")
+    ref = reference_fair(game, "h2h", [], "")
     assert ref.book == "consensus"
-    # Consensus must not be skewed by Hard Rock's outlier price.
-    assert ref.fair_by_key[("Away", None)] > 0.5
+    assert ref.fair_by_key[("Away", None)] > 0.5  # Away is the favorite here
 
 
-# ----------------------------------------------------------------------- EV ---
+# ----------------------------------------------------------- prediction engine ---
 def _cfg(**kw) -> Config:
-    base = dict(provider="mock", target_book="hardrockbet", sharp_books=["pinnacle"],
-                sports=[], markets=["h2h"], min_ev_pct=2.0)
+    base = dict(provider="mock", sports=[], markets=["h2h"])
     base.update(kw)
     return Config(**base)
 
 
-def test_positive_ev_detected_and_negative_ignored():
-    # Pinnacle implies Away fair ~55.3%; Hard Rock pays -110 (decimal 1.909)
-    # -> EV = 0.553*1.909 - 1 ~= +5.5%. The Home side is clearly -EV.
-    # Pinned to multiplicative de-vig so the documented arithmetic is exact.
-    game = Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
+def _h2h_game(away_price, home_price):
+    return Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
                 "Home", "Away", markets={"h2h": [
-                    BookOdds("pinnacle", [Outcome("Away", -128), Outcome("Home", 120)]),
-                    BookOdds("hardrockbet", [Outcome("Away", -110), Outcome("Home", -110)]),
+                    BookOdds("draftkings", [Outcome("Away", away_price), Outcome("Home", home_price)]),
+                    BookOdds("fanduel", [Outcome("Away", away_price), Outcome("Home", home_price)]),
                 ]})
-    bets = evaluate_game(game, _cfg(strategy=StrategyConfig(devig_method="multiplicative")))
-    assert len(bets) == 1
-    bet = bets[0]
-    assert bet.selection == "Away"
-    assert 5.0 < bet.ev_pct < 6.0
-    assert math.isclose(bet.fair_prob, 0.5526, rel_tol=1e-3)
-    # Fractional-Kelly stake is attached and positive for a +EV bet.
-    assert bet.kelly_pct > 0.0
 
 
-def test_no_bet_when_hardrock_is_worse_than_market():
-    game = Game("g", "basketball_nba", "NBA", "2099-01-01T00:00:00+00:00",
-                "Home", "Away", markets={"h2h": [
-                    BookOdds("pinnacle", [Outcome("Away", -150), Outcome("Home", 134)]),
-                    BookOdds("hardrockbet", [Outcome("Away", -170), Outcome("Home", 120)]),
-                ]})
-    assert evaluate_game(game, _cfg()) == []
+def test_predict_picks_the_market_favorite_when_model_cold():
+    # No results -> model is cold -> prediction is the de-vigged consensus.
+    game = _h2h_game(-200, 170)  # Away is the heavy favorite
+    preds = predict_game(game, TeamModel(), _cfg())
+    assert len(preds) == 1
+    p = preds[0]
+    assert p.market == "h2h"
+    assert p.pick == "Away ML" and p.selection == "Away"
+    assert p.prob > 0.6
+    assert p.model_prob is None          # cold start: market carries it
+    assert p.market_prob is not None
+    # Outcomes form a distribution.
+    assert math.isclose(sum(pr for _, pr in p.outcomes), 1.0, abs_tol=0.01)
 
 
-def test_spread_interpolates_mismatched_point():
-    # Hard Rock's line (-2.5) differs from the reference (-3.5). With interpolation
-    # on (default), the fair prob is shifted to HR's number and the bet is graded.
-    game = Game("g", "americanfootball_nfl", "NFL", "2099-01-01T00:00:00+00:00",
-                "Home", "Away", markets={"spreads": [
-                    BookOdds("pinnacle", [Outcome("Away", -110, -3.5), Outcome("Home", -110, 3.5)]),
-                    BookOdds("hardrockbet", [Outcome("Away", 120, -2.5), Outcome("Home", -140, 2.5)]),
-                ]})
-    bets = evaluate_game(game, _cfg(markets=["spreads"]))
-    away = [b for b in bets if b.selection == "Away"]
-    assert away and away[0].interpolated
-    assert away[0].reach == 1.0
-    # A shorter spread (-2.5 vs -3.5) is easier to cover -> fair prob above 50%.
-    assert away[0].fair_prob > 0.5
+def test_model_pulls_prediction_toward_team_strength():
+    # Build a model where Home has thrashed everyone; it should lift Home's prob
+    # above the pick-em market consensus.
+    results = []
+    for i in range(6):
+        results.append({"sport_key": "basketball_nba", "home": "Home", "away": f"Patsy{i}",
+                        "home_score": 120, "away_score": 90, "completed_at": f"2026-01-0{i+1}"})
+        results.append({"sport_key": "basketball_nba", "home": f"Patsy{i}", "away": "Away",
+                        "home_score": 110, "away_score": 105, "completed_at": f"2026-02-0{i+1}"})
+    from agent.engine.ratings import build_team_model
+    model = build_team_model(results, min_team_games=3)
+    game = _h2h_game(-110, -110)  # market: coin flip
+    p = next(x for x in predict_game(game, model, _cfg()) if x.market == "h2h")
+    assert p.model_prob is not None          # model is warm for both teams
+    assert p.pick == "Home ML"               # model favors the stronger Home side
+    assert p.prob > 0.5
 
 
-def test_interpolation_can_be_disabled():
-    game = Game("g", "americanfootball_nfl", "NFL", "2099-01-01T00:00:00+00:00",
-                "Home", "Away", markets={"spreads": [
-                    BookOdds("pinnacle", [Outcome("Away", -110, -3.5), Outcome("Home", -110, 3.5)]),
-                    BookOdds("hardrockbet", [Outcome("Away", 120, -2.5), Outcome("Home", -140, 2.5)]),
-                ]})
-    cfg = _cfg(markets=["spreads"], strategy=StrategyConfig(interpolate=False))
-    assert evaluate_game(game, cfg) == []
-
-
-# --------------------------------------------------------------------- rank ---
-def test_ranking_weights_confidence():
-    # Two bets: lower raw EV but high confidence should beat higher EV/low conf.
-    from agent.models import BestBet
-    high_ev_low_conf = BestBet("g1", "nba", "NBA", "2099-01-01T00:00:00+00:00",
-                               "H", "A", "h2h", "A", None, "hardrockbet",
-                               -110, 0.55, ev_pct=6.0, confidence=0.3,
-                               reference_book="consensus", market_vig=0.08)
-    low_ev_high_conf = BestBet("g2", "nba", "NBA", "2099-01-01T00:00:00+00:00",
-                               "H", "A", "h2h", "A", None, "hardrockbet",
-                               -110, 0.55, ev_pct=4.0, confidence=1.0,
-                               reference_book="pinnacle", market_vig=0.02)
-    ranked = rank_bets([high_ev_low_conf, low_ev_high_conf])
-    assert ranked[0].ev_pct == 4.0  # confidence-weighted winner
+def test_rank_predictions_orders_and_keeps_games_whole():
+    strong = _h2h_game(-300, 240)
+    strong.id = "g_strong"
+    even = _h2h_game(-110, -110)
+    even.id = "g_even"
+    even.markets = {**even.markets, "totals": [
+        BookOdds("draftkings", [Outcome("Over", -110, 210.5), Outcome("Under", -110, 210.5)]),
+        BookOdds("fanduel", [Outcome("Over", -110, 210.5), Outcome("Under", -110, 210.5)]),
+    ]}
+    preds = predict_game(strong, TeamModel(), _cfg()) + \
+        predict_game(even, TeamModel(), _cfg(markets=["h2h", "totals"]))
+    ranked = rank_predictions(preds)
+    assert ranked[0].prob >= ranked[-1].prob          # most likely first
+    one = rank_predictions(preds, max_games=1)
+    assert len({p.game_id for p in one}) == 1          # whole-game cap
 
 
 def test_selection_label():
