@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0f14" />
+  <meta name="theme-color" content="#000000" />
   <title>Justification · Barn Betting Inc.</title>
-  <meta name="description" content="Short summaries of how Barn Betting Inc. arrives at each World Cup prediction and Hard Rock +EV bet." />
+  <meta name="description" content="Short summaries of how Barn Betting Inc. arrives at each World Cup prediction and US-sports pick." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,6 +14,7 @@
       <h1>Barn Betting <span class="accent">Inc.</span></h1>
       <nav class="nav" aria-label="Pages">
         <a class="nav-link" href="index.html">Picks</a>
+        <a class="nav-link" href="groups.html">Groups</a>
         <a class="nav-link" href="injuries.html">Injuries</a>
         <a class="nav-link" href="justification.html" aria-current="page">Justification</a>
       </nav>
@@ -21,42 +22,22 @@
   </header>
 
   <main class="wrap page">
-    <!-- How it works -->
-    <section class="block">
-      <h2 class="block-title">How we get the numbers</h2>
-      <div class="card method">
-        <h3>🎰 Hard Rock +EV bets</h3>
-        <p>We take the lines at <strong>sharp</strong> sportsbooks (Pinnacle and peers), strip
-        out the bookmaker's margin to estimate the <strong>true probability</strong>, then compare
-        that fair value to Hard Rock's price. When Hard Rock pays more than the bet is truly worth,
-        the gap is the <strong>edge (+EV)</strong>. Stake suggestions use quarter-Kelly, and an Elo
-        cross-check flags moneylines where our model disagrees with the market.</p>
-      </div>
-      <div class="card method">
-        <h3>⚽ World Cup predictions</h3>
-        <p>Team strengths come from the <strong>current standings and form</strong>, blended with
-        live market odds when available, and feed a goal-scoring model that turns into win / total /
-        both-teams-to-score / handicap probabilities. <strong>Who advances</strong> is a
-        20,000-run Monte Carlo over the remaining group matches using FIFA tiebreakers.</p>
-      </div>
-    </section>
-
     <!-- World Cup rationales -->
     <section class="block">
       <h2 class="block-title">⚽ Why each World Cup call</h2>
       <div id="wcWhy" class="stack" aria-live="polite"></div>
     </section>
 
-    <!-- Hard Rock rationales -->
+    <!-- US-sports rationales -->
     <section class="block">
-      <h2 class="block-title">🎰 Why each Hard Rock bet</h2>
-      <div id="betsWhy" class="stack" aria-live="polite"></div>
+      <h2 class="block-title">🏀 Why each US-sports pick</h2>
+      <div id="usWhy" class="stack" aria-live="polite"></div>
     </section>
   </main>
 
   <footer class="footer wrap">
     <p>Back to the <a href="index.html">picks</a>.</p>
-    <p class="fine">Edges are estimates; sportsbooks may limit winning accounts. Not financial advice. 21+.</p>
+    <p class="fine">Predictions are estimates, not certainties. Not financial advice. 21+.</p>
   </footer>
 
   <script src="common.js"></script>

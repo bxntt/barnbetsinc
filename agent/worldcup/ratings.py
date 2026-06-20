@@ -100,7 +100,19 @@ def form_delta(standing: Dict[str, int]) -> float:
 
 
 def effective_rating(name: str, standing: Dict[str, int] = None) -> float:
-    """Strength prior adjusted by live form, when standings are available."""
+    """Strength rating for a match: results-adjusted Elo, else prior + live form.
+
+    Once a team has a settled result, `elo.py` has folded the actual outcome into a
+    self-correcting rating; that already integrates form, so we use it directly and
+    do *not* also add the standings nudge (which would double-count the same games).
+    Before any result settles we fall back to the static prior plus a small
+    form_delta from the live table.
+    """
+    from . import elo  # lazy: elo imports ratings, so avoid a load-time cycle
+
+    rated = elo.rating_for(name)
+    if rated is not None:
+        return rated
     r = base_rating(name)
     if standing:
         r += form_delta(standing)
@@ -112,14 +124,25 @@ def lambdas(
     rating_away: float,
     mean_goals: float = BASE_GOALS,
     home_advantage: float = HOME_ADVANTAGE,
+    *,
+    home_attack_adj: float = 0.0,
+    home_defense_adj: float = 0.0,
+    away_attack_adj: float = 0.0,
+    away_defense_adj: float = 0.0,
 ) -> Tuple[float, float]:
     """Goal expectancies (lambda_home, lambda_away) from two ratings.
 
     supremacy = (R_home - R_away)/RATING_SCALE + home_advantage, split around the
     baseline goal total. The single source of the rating->goals mapping (the mock
     provider and the simulator's no-market fallback both use this).
+
+    The four ``*_adj`` arguments are goal-unit tilts (see factors.py) that move a
+    single side's scoring without touching overall supremacy — so an injury to a
+    striker lowers only that team's goals, while an injury to a defense raises only
+    the *opponent's*. A positive ``defense_adj`` is a stronger defense, so it is
+    *subtracted* from the opponent's rate. Both rates floor at 0.15.
     """
     supremacy = (rating_home - rating_away) / RATING_SCALE + home_advantage
-    lh = max(0.18, (mean_goals + supremacy) / 2.0)
-    la = max(0.18, (mean_goals - supremacy) / 2.0)
-    return lh, la
+    lh = (mean_goals + supremacy) / 2.0 + home_attack_adj - away_defense_adj
+    la = (mean_goals - supremacy) / 2.0 + away_attack_adj - home_defense_adj
+    return max(0.15, lh), max(0.15, la)

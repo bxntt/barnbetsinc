@@ -4,8 +4,9 @@ from __future__ import annotations
 import math
 
 from agent.models import BookOdds, Game, Outcome
-from agent.worldcup import fixtures, injuries, ratings
+from agent.worldcup import calibration, factors, fixtures, injuries, ratings
 from agent.worldcup.devig import consensus_fair
+from agent.worldcup.injuries import Absence
 from agent.worldcup.models import Match
 from agent.worldcup.poisson import fit_lambdas, outcome_probs, score_matrix
 from agent.worldcup.predict import predict_match, predict_all, rank_predictions
@@ -90,6 +91,18 @@ def test_score_matrix_is_a_distribution():
     grid = score_matrix(1.6, 1.1)
     total = sum(cell for row in grid for cell in row)
     assert math.isclose(total, 1.0, rel_tol=1e-4)
+
+
+def test_dixon_coles_lifts_draws_and_stays_a_distribution():
+    lh = la = 1.2
+    indep = score_matrix(lh, la, rho=0.0)        # plain independent Poisson
+    dc = score_matrix(lh, la)                    # default negative rho
+    draw = lambda grid: sum(grid[i][i] for i in range(len(grid)))
+    assert draw(dc) > draw(indep)                # the known draw understatement is corrected
+    assert math.isclose(sum(c for row in dc for c in row), 1.0, rel_tol=1e-9)
+    # Lift comes from the two draws; the one-goal wins are trimmed.
+    assert dc[0][0] > indep[0][0] and dc[1][1] > indep[1][1]
+    assert dc[1][0] < indep[1][0] and dc[0][1] < indep[0][1]
 
 
 # -------------------------------------------------------------- predictions ---
@@ -280,3 +293,141 @@ def test_injury_payload_counts_match_games():
     assert payload["affected_games"] == 1        # both sides carry absences
     assert payload["total_absences"] == payload["games"][0]["total"]
     assert payload["as_of"] == injuries.AS_OF
+
+
+def test_team_absences_map_keys_canonical_and_skips_unknown():
+    mp = injuries.team_absences_map(["Brazil", "Korea Republic", "Atlantis"])
+    assert mp["Brazil"]                          # curated entries present
+    assert "South Korea" in mp                   # alias resolved to canonical
+    assert "Atlantis" not in mp                  # unknown teams dropped
+
+
+# ----------------------------------------- factor layer (injuries/form/venue) ---
+def test_injury_impact_splits_by_position():
+    # A striker hurts only attack; a keeper only defense.
+    fw = factors.injury_impact([Absence("Striker", "FW", "Out", expected_starter=True)])
+    assert fw.attack_elo > 0 and fw.defense_elo == 0
+    gk = factors.injury_impact([Absence("Keeper", "GK", "Out", expected_starter=True)])
+    assert gk.defense_elo > 0 and gk.attack_elo == 0
+
+
+def test_injury_impact_weights_severity_and_role_and_caps():
+    out = factors.injury_impact([Absence("X", "FW", "Out", expected_starter=True)]).attack_elo
+    doubt = factors.injury_impact([Absence("X", "FW", "Doubtful", expected_starter=True)]).attack_elo
+    depth = factors.injury_impact([Absence("X", "FW", "Out")]).attack_elo  # not a starter
+    assert doubt < out and depth < out           # doubts and depth pieces count less
+    # Even a decimated squad is dampened, not deleted.
+    many = [Absence(f"P{i}", "FW", "Out", expected_starter=True, impact=3.0) for i in range(10)]
+    cap = factors._MAX_INJURY_GOALS * ratings.RATING_SCALE
+    assert factors.injury_impact(many).attack_elo <= cap + 1e-6
+
+
+def test_venue_edge_only_for_hosts():
+    assert factors.venue_edge("Mexico", "Brazil") > 0       # host at home
+    assert factors.venue_edge("Brazil", "United States") < 0  # host listed 'away'
+    assert factors.venue_edge("Brazil", "Argentina") == 0   # neutral fixture
+
+
+def test_momentum_tilt_rewards_scoring_and_is_capped():
+    atk, _ = factors.momentum_tilt({"points": 3, "gd": 4, "gf": 5, "played": 1})
+    assert atk > 0                                          # banging goals in -> totals nudge up
+    assert factors.momentum_tilt({"points": 0, "gd": 0, "gf": 0, "played": 0}) == (0.0, 0.0)
+    big, _ = factors.momentum_tilt({"points": 3, "gd": 7, "gf": 7, "played": 1})
+    assert big <= factors._MAX_FORM_GOALS + 1e-9            # one blowout can't run away
+
+
+def test_lambdas_attack_defense_adjustments_move_one_side():
+    lh0, la0 = ratings.lambdas(1800, 1800, home_advantage=0.0)
+    lh_inj, la_inj = ratings.lambdas(1800, 1800, home_advantage=0.0, home_attack_adj=-0.3)
+    assert lh_inj < lh0 and abs(la_inj - la0) < 1e-9       # only home scoring drops
+    lh_def, _ = ratings.lambdas(1800, 1800, home_advantage=0.0, away_defense_adj=-0.3)
+    assert lh_def > lh0                                     # weaker away defense -> home scores more
+
+
+def test_predict_factors_in_injuries():
+    game = Game("m", "soccer_fifa_world_cup", "World Cup", _future(),
+                "Brazil", "Haiti", markets={})
+    m = Match(game=game, group="C", matchday=2)
+    base = next(p for p in predict_match(m) if p.market == "result")
+    hurt = next(p for p in predict_match(
+        m, home_absences=[Absence("Neymar", "FW", "Out", expected_starter=True, impact=2.0)])
+        if p.market == "result")
+    assert hurt.prob < base.prob                            # losing a talisman lowers the favorite
+    assert "Neymar" in hurt.rationale                       # and the reasoning is surfaced
+
+
+def test_predict_gives_hosts_their_home_edge():
+    # USA is the feed's 'away' team but still plays at home in 2026.
+    game = Game("m", "soccer_fifa_world_cup", "World Cup", _future(),
+                "Paraguay", "United States", markets={})
+    result = next(p for p in predict_match(Match(game=game, group="D", matchday=2))
+                  if p.market == "result")
+    assert result.pick == "United States win"
+    assert "home soil" in result.rationale
+
+
+# ----------------------------------------------- grading loop (RPS/log loss) ---
+def test_rps_is_ordinal_and_zero_when_perfect():
+    assert calibration.rps([1.0, 0.0, 0.0], 0) == 0.0
+    home = [0.7, 0.2, 0.1]                       # a home-win call...
+    assert calibration.rps(home, 1) < calibration.rps(home, 2)  # ...is less wrong on a draw than an away win
+
+
+def test_log_loss_rewards_confidence_in_the_truth():
+    assert calibration.log_loss(1.0) < calibration.log_loss(0.5) < calibration.log_loss(0.01)
+
+
+def _logged(market, pick, prob, outcomes, home="Brazil", away="Haiti"):
+    return {"match_id": "g1", "group": "C", "commence_time": "", "home": home,
+            "away": away, "market": market, "pick": pick, "prob": prob,
+            "outcomes": outcomes}
+
+
+def test_grade_scores_each_market_with_the_right_metric():
+    preds = [
+        _logged("result", "Brazil win", 0.8,
+                [["Brazil win", 0.8], ["Draw", 0.12], ["Haiti win", 0.08]]),
+        _logged("total", "Over 2.5", 0.55, [["Over 2.5", 0.55], ["Under 2.5", 0.45]]),
+        _logged("btts", "BTTS: No", 0.6, [["BTTS: Yes", 0.4], ["BTTS: No", 0.6]]),
+        _logged("handicap", "Brazil -1.5", 0.55,
+                [["Brazil -1.5", 0.55], ["Haiti +1.5", 0.45]]),
+    ]
+    results = [{"date": "2026-06-21", "home": "Brazil", "away": "Haiti",
+                "home_score": 3, "away_score": 0}]
+    g = calibration.grade(preds, results)
+    assert g["result"]["n"] == 1
+    assert abs(g["result"]["rps"] - 0.0232) < 1e-3      # closed-form RPS for this call
+    assert g["graded_total"] == 4
+    # Brazil 3-0: over (3>2.5), BTTS No, and -1.5 all hit, so Brier = (prob-1)^2.
+    assert abs(g["binary"]["total"]["brier"] - (0.55 - 1) ** 2) < 1e-9
+    assert abs(g["binary"]["handicap"]["brier"] - (0.55 - 1) ** 2) < 1e-9
+
+
+def test_grade_orients_score_to_the_predictions_home_away():
+    preds = [_logged("result", "Brazil win", 0.8,
+                     [["Brazil win", 0.8], ["Draw", 0.12], ["Haiti win", 0.08]])]
+    # Feed lists the same match the other way round — must still grade as a Brazil win.
+    results = [{"date": "", "home": "Haiti", "away": "Brazil",
+                "home_score": 0, "away_score": 3}]
+    g = calibration.grade(preds, results)
+    assert g["result"]["n"] == 1 and g["result"]["rps"] < 0.05
+
+
+def test_grade_handles_no_history():
+    g = calibration.grade([], [])
+    assert g["graded_total"] == 0 and g["result"]["n"] == 0
+
+
+def test_log_predictions_dedupes_by_match_and_market(tmp_path, monkeypatch):
+    from agent.worldcup.models import Prediction
+    monkeypatch.setattr(calibration, "PRED_LOG", tmp_path / "preds.jsonl")
+    early = Prediction("g1", "C", "", "Brazil", "Haiti", "result", "Brazil win",
+                       0.70, 0.9, 0.70, None,
+                       [("Brazil win", 0.70), ("Draw", 0.20), ("Haiti win", 0.10)])
+    late = Prediction("g1", "C", "", "Brazil", "Haiti", "result", "Brazil win",
+                      0.82, 0.9, 0.82, None,
+                      [("Brazil win", 0.82), ("Draw", 0.12), ("Haiti win", 0.06)])
+    calibration.log_predictions([early])
+    calibration.log_predictions([late])
+    loaded = calibration.load_predictions()
+    assert len(loaded) == 1 and loaded[0]["prob"] == 0.82   # latest pre-kickoff call wins

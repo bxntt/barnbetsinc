@@ -1,11 +1,10 @@
 """Mock odds provider.
 
-Generates a realistic, fixed slate of games across sports with Hard Rock,
-Pinnacle, and a couple of consensus books. At least one game (the NBA opener)
-contains a deliberately *planted* +EV bet at Hard Rock so the full pipeline and
-website demonstrate a real recommendation with no API key.
+Generates a realistic, fixed slate of games across sports, each priced by a few
+books (Pinnacle plus a couple of US books) so the de-vig consensus has something
+to blend. Lets the full pipeline and website run with no API key.
 
-Numbers are chosen so the planted edges land in the realistic 2-6% range.
+Prices vary modestly book-to-book, as they do in the real market.
 """
 from __future__ import annotations
 
@@ -36,7 +35,7 @@ class MockProvider(OddsProvider):
     def fetch_odds(self) -> List[Game]:
         games: List[Game] = []
 
-        # --- Game A: NBA, PLANTED +EV (~+5.5%) on Lakers ML at Hard Rock ---
+        # --- Game A: NBA moneyline, Lakers a slight consensus favorite ---
         games.append(Game(
             id="mock-nba-lal-bos",
             sport_key="basketball_nba",
@@ -46,19 +45,17 @@ class MockProvider(OddsProvider):
             away_team="Los Angeles Lakers",
             markets={
                 "h2h": [
-                    # Sharp ref: implies fair Lakers ~55.3%
                     _book("pinnacle", [("Los Angeles Lakers", -128, None),
                                        ("Boston Celtics", 120, None)]),
-                    # Hard Rock pays MORE than fair on the Lakers -> +EV
-                    _book("hardrockbet", [("Los Angeles Lakers", -110, None),
-                                          ("Boston Celtics", -110, None)]),
+                    _book("caesars", [("Los Angeles Lakers", -110, None),
+                                      ("Boston Celtics", -110, None)]),
                     _book("draftkings", [("Los Angeles Lakers", -125, None),
                                          ("Boston Celtics", 105, None)]),
                 ],
             },
         ))
 
-        # --- Game B: NFL spread, modest +EV (~+4.3%) on Eagles -2.5 at Hard Rock ---
+        # --- Game B: NFL spread, Eagles favored to cover -2.5 ---
         games.append(Game(
             id="mock-nfl-phi-dal",
             sport_key="americanfootball_nfl",
@@ -70,15 +67,15 @@ class MockProvider(OddsProvider):
                 "spreads": [
                     _book("pinnacle", [("Philadelphia Eagles", -120, -2.5),
                                        ("Dallas Cowboys", 100, 2.5)]),
-                    _book("hardrockbet", [("Philadelphia Eagles", 100, -2.5),
-                                          ("Dallas Cowboys", -120, 2.5)]),
+                    _book("betmgm", [("Philadelphia Eagles", 100, -2.5),
+                                     ("Dallas Cowboys", -120, 2.5)]),
                     _book("fanduel", [("Philadelphia Eagles", -115, -2.5),
                                       ("Dallas Cowboys", -105, 2.5)]),
                 ],
             },
         ))
 
-        # --- Game C: MLB totals, NO edge (Hard Rock matches the market) ---
+        # --- Game C: MLB totals, books tightly agree on a coin-flip 8.5 ---
         games.append(Game(
             id="mock-mlb-nyy-bos",
             sport_key="baseball_mlb",
@@ -89,13 +86,13 @@ class MockProvider(OddsProvider):
             markets={
                 "totals": [
                     _book("pinnacle", [("Over", -105, 8.5), ("Under", -105, 8.5)]),
-                    _book("hardrockbet", [("Over", -110, 8.5), ("Under", -110, 8.5)]),
+                    _book("caesars", [("Over", -110, 8.5), ("Under", -110, 8.5)]),
                     _book("betmgm", [("Over", -108, 8.5), ("Under", -108, 8.5)]),
                 ],
             },
         ))
 
-        # --- Game D: NHL moneyline, small +EV (~+3.5%) on Oilers at Hard Rock ---
+        # --- Game D: NHL moneyline, Avalanche favored at home ---
         games.append(Game(
             id="mock-nhl-edm-col",
             sport_key="icehockey_nhl",
@@ -107,13 +104,13 @@ class MockProvider(OddsProvider):
                 "h2h": [
                     _book("pinnacle", [("Edmonton Oilers", 112, None),
                                        ("Colorado Avalanche", -122, None)]),
-                    _book("hardrockbet", [("Edmonton Oilers", 124, None),
-                                          ("Colorado Avalanche", -136, None)]),
+                    _book("draftkings", [("Edmonton Oilers", 124, None),
+                                         ("Colorado Avalanche", -136, None)]),
                 ],
             },
         ))
 
-        # --- Game E: NBA, Hard Rock WORSE than market everywhere (no bets) ---
+        # --- Game E: NBA moneyline, Warriors a clear road favorite ---
         games.append(Game(
             id="mock-nba-gsw-mia",
             sport_key="basketball_nba",
@@ -125,8 +122,8 @@ class MockProvider(OddsProvider):
                 "h2h": [
                     _book("pinnacle", [("Golden State Warriors", -150, None),
                                        ("Miami Heat", 134, None)]),
-                    _book("hardrockbet", [("Golden State Warriors", -170, None),
-                                          ("Miami Heat", 120, None)]),
+                    _book("fanduel", [("Golden State Warriors", -170, None),
+                                      ("Miami Heat", 120, None)]),
                 ],
             },
         ))

@@ -30,7 +30,7 @@
         }
       ],
       "context": null,
-      "rationale": "The market consensus makes Golden State Warriors the 59% pick to win \u2014 a lean."
+      "rationale": "Golden State Warriors is the 59% pick to win \u2014 a lean."
     },
     {
       "game_id": "mock-nhl-edm-col",
@@ -60,7 +60,7 @@
         }
       ],
       "context": null,
-      "rationale": "The market consensus makes Colorado Avalanche the 55% pick to win \u2014 a lean."
+      "rationale": "Colorado Avalanche is the 55% pick to win \u2014 a lean."
     },
     {
       "game_id": "mock-nba-lal-bos",
@@ -90,7 +90,7 @@
         }
       ],
       "context": null,
-      "rationale": "The market consensus makes Los Angeles Lakers the 54% pick to win \u2014 a lean."
+      "rationale": "Los Angeles Lakers is the 54% pick to win \u2014 a lean."
     },
     {
       "game_id": "mock-nfl-phi-dal",
@@ -120,7 +120,7 @@
         }
       ],
       "context": null,
-      "rationale": "Consensus makes Philadelphia Eagles -2.5 the 51% side to cover."
+      "rationale": "Philadelphia Eagles -2.5 is the 51% side to cover."
     },
     {
       "game_id": "mock-mlb-nyy-bos",
@@ -152,7 +152,7 @@
       "context": {
         "notes": "ESPN: game is Final."
       },
-      "rationale": "Consensus makes Over 8.5 the 50% call. ESPN: game is Final."
+      "rationale": "Over 8.5 is the 50% call. ESPN: game is Final."
     }
   ],
   "calibration": {
@@ -161,5 +161,5 @@
     "bins": [],
     "note": "Calibration builds as graded results accumulate."
   },
-  "disclaimer": "Model-driven predictions from team strength and market consensus. Estimates, not certainties. Informational only, 21+ where legal."
+  "disclaimer": "Predictions are estimates, not certainties. Informational only, 21+ where legal."
 }

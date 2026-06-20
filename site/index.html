@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0f14" />
+  <meta name="theme-color" content="#000000" />
   <title>Barn Betting Inc.</title>
-  <meta name="description" content="World Cup match predictions and +EV best bets at Hard Rock — the essentials, on one page." />
+  <meta name="description" content="World Cup match predictions and US-sports model picks — ranked by how likely each call is to hit." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,6 +14,7 @@
       <h1>Barn Betting <span class="accent">Inc.</span></h1>
       <nav class="nav" aria-label="Pages">
         <a class="nav-link" href="index.html" aria-current="page">Picks</a>
+        <a class="nav-link" href="groups.html">Groups</a>
         <a class="nav-link" href="injuries.html">Injuries</a>
         <a class="nav-link" href="justification.html">Justification</a>
       </nav>
@@ -28,16 +29,10 @@
       <div id="wcPredictions" class="stack" aria-live="polite"></div>
     </section>
 
-    <!-- World Cup group simulator -->
+    <!-- US-sports predictions -->
     <section class="block">
-      <h2 class="block-title">⚽ Who advances</h2>
-      <div id="wcGroups" class="stack" aria-live="polite"></div>
-    </section>
-
-    <!-- Hard Rock +EV bets -->
-    <section class="block">
-      <h2 class="block-title">🎰 Hard Rock — +EV bets</h2>
-      <div id="bets" class="stack" aria-live="polite"></div>
+      <h2 class="block-title">🏀 US sports — predictions</h2>
+      <div id="usPredictions" class="stack" aria-live="polite"></div>
     </section>
   </main>
 

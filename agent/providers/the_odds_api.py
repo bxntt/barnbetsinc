@@ -1,7 +1,7 @@
 """The Odds API (the-odds-api.com) provider — the recommended real data source.
 
-Free tier: 500 credits/mo. One call per sport returns every bookmaker (including
-Hard Rock as `hardrockbet` in the US region, and Pinnacle as `pinnacle` in EU).
+Free tier: 500 credits/mo. One call per sport returns every bookmaker (US books in
+the `us` region, and Pinnacle as `pinnacle` in EU), which feed the consensus blend.
 Cost per call = (#markets x #regions). Tune `sports`, `markets`, and
 `the_odds_api_regions` in config.yaml to stay within budget.
 

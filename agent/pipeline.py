@@ -35,7 +35,7 @@ def _grade_results(config: Config) -> list:
 
 
 def _engine_due(config: Config, remaining: int = None) -> bool:
-    """Low-priority throttle: with a live provider, run the paid Hard Rock engine
+    """Low-priority throttle: with a live provider, run the paid US-sports predictor
     at most once per `engine_min_interval_hours` so the World Cup keeps the budget.
     The mock provider is free, so it always runs. `remaining` is the live credit
     balance (read for free by the World Cup /events call)."""
@@ -98,7 +98,7 @@ def main() -> int:
     config = Config.load()
 
     # World Cup runs FIRST: its free /events call reads the live credit balance,
-    # which the (lower-priority) Hard Rock engine gate then reuses. WC has its own
+    # which the (lower-priority) US-sports predictor gate then reuses. WC has its own
     # window gate + budget guard, so it only spends credits during match windows.
     remaining = None
     if config.worldcup.enabled:

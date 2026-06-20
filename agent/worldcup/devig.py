@@ -1,7 +1,6 @@
 """No-vig fair lines for soccer markets, blended across every book.
 
-The Hard Rock engine de-vigs ONE sharp book and judges Hard Rock against it. Here
-there is no target book: we de-vig *each* book multiplicatively, then average the
+There is no target book: we de-vig *each* book multiplicatively, then average the
 fair probabilities across books into a consensus. This works for any number of
 outcomes, so it covers 1X2 (home / draw / away) as cleanly as a 2-way total.
 

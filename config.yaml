@@ -64,7 +64,7 @@ context:
   weather: false     # Open-Meteo, for outdoor-sport totals (off by default)
 
 # ----------------------------------------------------------------------------
-# World Cup predictor — MODEL-DRIVEN (separate from the Hard Rock engine).
+# World Cup predictor — MODEL-DRIVEN (separate from the US-sports predictor).
 # For each game we predict what will happen across every bet type (result,
 # total, both-teams-to-score, handicap) from team strength + live form, blended
 # with market consensus when odds are available. Output -> site/worldcup.json.

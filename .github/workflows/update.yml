@@ -1,4 +1,4 @@
-name: Update best bets & deploy
+name: Update predictions & deploy
 
 # Refreshes site/data.json on a schedule and deploys the site to GitHub Pages.
 # The default `mock` provider needs no secrets, so this works the moment Pages
@@ -14,12 +14,12 @@ on:
     - cron: "*/15 * * * *"
 
 permissions:
-  contents: write             # commit history snapshots back (for movement + CLV)
+  contents: write             # commit history snapshots back (for calibration grading)
   pages: write
   id-token: write
 
 concurrency:
-  group: best-bets
+  group: predictions
   cancel-in-progress: false
 
 jobs:
@@ -57,12 +57,12 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Persist history (for line movement & CLV)
+      - name: Persist history (for calibration grading)
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh best bets [skip ci]"
+          git commit -m "chore: refresh predictions [skip ci]"
           git push
 
       # Deploy when data changed, or on any manual run (so the first deploy and

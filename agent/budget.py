@@ -185,7 +185,7 @@ def decide_engine_poll(
     min_interval_hours: int,
     reserve: int,
 ) -> Tuple[bool, str]:
-    """Low-priority gate for the Hard Rock engine: at most once per interval."""
+    """Low-priority gate for the US-sports predictor: at most once per interval."""
     if remaining <= reserve:
         return False, f"credit reserve ({remaining} left)"
     last = _parse_iso(state.get("last_engine_poll") or "")

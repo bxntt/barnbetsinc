@@ -19,11 +19,11 @@ On `main`, already pushed:
 
 ## What's already done (no action needed)
 
-- `site/index.html` — the World Cup / Hard Rock **tabs are gone**; one scrolling
+- `site/index.html` — the World Cup / US-sports **tabs are gone**; one scrolling
   page with three sections: WC predictions (compact `market · pick · %` lines),
-  who-advances table (`team · pts · advance%`), Hard Rock +EV bets
-  (`label · edge · price · % to hit`). Rationale text, confidence bars, and tag
-  rows were removed to cut clutter.
+  who-advances table (`team · pts · advance%`), US-sports predictions (same
+  compact `market · pick · %` lines, grouped per game). Rationale text, confidence
+  bars, and tag rows were removed to cut clutter.
 - `site/justification.html` + `justification.js` — methodology blurb + per-pick
   "how we got here" summaries, read from the same JSON feeds (auto-syncs).
 - `site/common.js` — shared fetch/format helpers used by every page.
@@ -37,7 +37,7 @@ On `main`, already pushed:
    on `schedule` (cron `*/15`) and `workflow_dispatch`. So pushing alone does
    nothing visible. Either:
    - wait for the next 15-min cron tick (it regenerates JSON and deploys), or
-   - Actions tab → **"Update best bets & deploy"** → *Run workflow* for an
+   - Actions tab → **"Update predictions & deploy"** → *Run workflow* for an
      immediate deploy.
 2. **Confirm the CI run is green.** The job runs `python -m agent.pipeline`,
    which now also runs the worldcup pipeline → regenerates `worldcup.json` +
@@ -47,7 +47,7 @@ On `main`, already pushed:
 3. **Verify the live site** (bxntt.github.io/barnbetsinc):
    - [ ] `index.html` is one page, three sections, no leftover tab toggle.
    - [ ] Nav links Picks / Injuries / Justification all load (no 404).
-   - [ ] Justification page shows rationales for both WC and Hard Rock.
+   - [ ] Justification page shows rationales for both WC and US sports.
    - [ ] Injuries page populates (depends on `injuries.json` in the artifact).
    - [ ] Mobile width (≤620px) looks clean.
    - [ ] No browser/visual check has been done yet — data contracts, JS syntax,

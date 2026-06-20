@@ -38,7 +38,7 @@ class Outcome:
 @dataclass
 class BookOdds:
     """One book's offering for one market of one game."""
-    book: str                      # canonical key, e.g. "hardrockbet", "pinnacle"
+    book: str                      # canonical key, e.g. "draftkings", "pinnacle"
     outcomes: List[Outcome]
     last_update: Optional[str] = None  # ISO8601, if the provider supplies it
 

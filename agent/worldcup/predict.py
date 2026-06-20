@@ -20,14 +20,18 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import List, Optional, Tuple
 
-from . import ratings
+from . import factors, ratings
 from .devig import consensus_fair
 from .models import Match, Prediction
-from .poisson import fit_lambdas, score_matrix
+from .poisson import fit_lambdas, mean_from_total_over, score_matrix
 
 # Market blend: how much weight the (sharp) market can take from the model when
 # odds are deep and tight. The model keeps at least (1 - MAX_MARKET_WEIGHT).
-MAX_MARKET_WEIGHT = 0.60
+# The closing consensus is the single best predictor of what actually happens, so
+# for a *likelihood* engine we let it lead when the line is deep and tight (the
+# model still anchors thin/loose markets). Calibration (RPS/Brier) arbitrates the
+# level — raise/lower here and watch site/worldcup_calibration.json.
+MAX_MARKET_WEIGHT = 0.75
 
 
 def _minutes_to_start(commence_time: str) -> Optional[float]:
@@ -108,6 +112,32 @@ def _market_result(match: Match) -> Optional[Tuple[float, float, float, float, i
     return ph / s, pd / s, pa / s, fair.vig, fair.n_books
 
 
+def _market_total(match: Match) -> Optional[Tuple[float, float, float, float, int]]:
+    """No-vig consensus over/under as (line, p_over, p_under, vig, n_books), or None.
+
+    Reads the `totals` market we already poll (and were, until now, discarding in
+    the per-game calls): the modal line plus its de-vigged over/under split.
+    """
+    fair = consensus_fair(match.game.markets.get("totals", []))
+    if fair is None:
+        return None
+    over = under = line = None
+    for (name, point), p in fair.fair_by_key.items():
+        nl = (name or "").lower()
+        if nl.startswith("over"):
+            over, line = p, point
+        elif nl.startswith("under"):
+            under = p
+            if line is None:
+                line = point
+    if over is None or under is None or line is None:
+        return None
+    s = over + under
+    if s <= 0:
+        return None
+    return float(line), over / s, under / s, fair.vig, fair.n_books
+
+
 def _market_weight(vig: float, n_books: int) -> float:
     """How much to trust the market in the blend (0..MAX_MARKET_WEIGHT)."""
     depth = max(0.0, min(1.0, n_books / 5.0))
@@ -127,11 +157,12 @@ def _total_line(lh: float, la: float) -> float:
 
 # --------------------------------------------------------------- builder ---
 def _confidence(model_market_gap: Optional[float], minutes: Optional[float],
-                rated: bool) -> float:
+                rated: bool, injury_uncertainty: float = 0.0) -> float:
     """Trust weight for a prediction.
 
     Higher when the model and market agree (small gap), the game isn't imminent,
-    and at least one side has a real rating (not the default fallback).
+    and at least one side has a real rating (not the default fallback). Lower when a
+    doubtful key player leaves the team sheet genuinely uncertain.
     """
     # Agreement: full trust at a perfect match, decaying to 0.5 at a 25pt gap.
     if model_market_gap is None:
@@ -147,7 +178,8 @@ def _confidence(model_market_gap: Optional[float], minutes: Optional[float],
     else:
         time_factor = 0.6 + 0.4 * (minutes / 60.0)
     rated_factor = 1.0 if rated else 0.7
-    return max(0.0, min(1.0, agree * time_factor * rated_factor))
+    sheet_factor = 1.0 - 0.5 * max(0.0, min(1.0, injury_uncertainty))
+    return max(0.0, min(1.0, agree * time_factor * rated_factor * sheet_factor))
 
 
 def _argmax(outcomes: List[Tuple[str, float]]) -> Tuple[str, float]:
@@ -155,8 +187,14 @@ def _argmax(outcomes: List[Tuple[str, float]]) -> Tuple[str, float]:
 
 
 def predict_match(match: Match, standing_home: dict = None,
-                  standing_away: dict = None) -> List[Prediction]:
-    """All bet-type calls for one upcoming match. Empty for played matches."""
+                  standing_away: dict = None, home_absences=None,
+                  away_absences=None) -> List[Prediction]:
+    """All bet-type calls for one upcoming match. Empty for played matches.
+
+    `standing_*` form-adjusts each side's rating (points/GD momentum); `*_absences`
+    are injuries.Absence lists that, with attacking/defensive form and host venue,
+    are folded into the goal model by `factors.compute`.
+    """
     if match.played:
         return []
 
@@ -164,7 +202,12 @@ def predict_match(match: Match, standing_home: dict = None,
     ra = ratings.effective_rating(match.away, standing_away)
     rated = (ratings.base_rating(match.home) != ratings.DEFAULT_RATING
              or ratings.base_rating(match.away) != ratings.DEFAULT_RATING)
-    lh, la = ratings.lambdas(rh, ra)
+    mf = factors.compute(match.home, match.away, standing_home, standing_away,
+                         home_absences, away_absences)
+    lh, la = ratings.lambdas(
+        rh, ra, mean_goals=ratings.BASE_GOALS, home_advantage=mf.home_advantage,
+        home_attack_adj=mf.home_attack_adj, home_defense_adj=mf.home_defense_adj,
+        away_attack_adj=mf.away_attack_adj, away_defense_adj=mf.away_defense_adj)
     grid = score_matrix(lh, la)
 
     minutes = _minutes_to_start(match.commence_time)
@@ -189,17 +232,35 @@ def predict_match(match: Match, standing_home: dict = None,
     else:
         ph, pd, pa = m_ph, m_pd, m_pa
 
+    # --- Totals: fold the market over/under into the goal mean. Until now the
+    #     totals odds we pay for were unused in the per-game calls; here they
+    #     sharpen the total AND the derived BTTS/handicap, since shifting the mean
+    #     (while preserving supremacy lh-la, so the 1X2 blend above is untouched)
+    #     reshapes the whole grid. ---
+    market_total_line = None
+    market_over_prob = market_under_prob = None
+    mt = _market_total(match)
+    if mt is not None:
+        market_total_line, market_over_prob, market_under_prob, t_vig, t_books = mt
+        mu_model = lh + la
+        mu_mkt = mean_from_total_over(market_total_line, market_over_prob)
+        w_t = _market_weight(t_vig, t_books)
+        delta = ((1 - w_t) * mu_model + w_t * mu_mkt - mu_model) / 2.0
+        lh, la = max(0.15, lh + delta), max(0.15, la + delta)
+        grid = score_matrix(lh, la)
+
     preds: List[Prediction] = []
+    suffix = mf.rationale_suffix(match.home, match.away)
 
     def add(market, pick, prob, model_prob, market_prob, outcomes, rationale):
         preds.append(Prediction(
             match_id=match.game.id, group=match.group,
             commence_time=match.commence_time, home=match.home, away=match.away,
             market=market, pick=pick, prob=prob,
-            confidence=_confidence(gap, minutes, rated),
+            confidence=_confidence(gap, minutes, rated, mf.injury_uncertainty),
             model_prob=model_prob, market_prob=market_prob,
             outcomes=sorted(outcomes, key=lambda o: o[1], reverse=True),
-            rationale=rationale,
+            rationale=rationale + suffix,
         ))
 
     # Result
@@ -212,14 +273,18 @@ def predict_match(match: Match, standing_home: dict = None,
     add("result", pick, prob, res_model[pick], mkt_p, res_out,
         _result_rationale(match, pick, prob, lh, la))
 
-    # Total goals
-    line = _total_line(lh, la)
+    # Total goals — priced at the market's quoted line when we have one (a real
+    # bettable number), else the model's central line.
+    line = market_total_line if market_total_line is not None else _total_line(lh, la)
     p_over = _total_over(grid, line)
     p_under = 1.0 - p_over
     tot_out = [(f"Over {line:g}", p_over), (f"Under {line:g}", p_under)]
     pick, prob = _argmax(tot_out)
-    add("total", pick, prob, prob, None, tot_out,
-        f"Model expects ~{lh + la:.1f} goals ({match.home} {lh:.2f}, "
+    tot_mkt_p = None
+    if market_over_prob is not None:
+        tot_mkt_p = market_over_prob if pick.lower().startswith("over") else market_under_prob
+    add("total", pick, prob, prob, tot_mkt_p, tot_out,
+        f"Expected ~{lh + la:.1f} goals ({match.home} {lh:.2f}, "
         f"{match.away} {la:.2f}); {pick.lower()} is the {prob*100:.0f}% side.")
 
     # Both teams to score
@@ -251,27 +316,36 @@ def predict_match(match: Match, standing_home: dict = None,
 def _result_rationale(match: Match, pick: str, prob: float, lh: float, la: float) -> str:
     edge = "a clear favorite" if prob >= 0.55 else "a slight edge" if prob >= 0.4 else "a toss-up"
     if pick == "Draw":
-        return (f"Evenly matched on our model ({match.home} {lh:.2f} vs "
+        return (f"Evenly matched ({match.home} {lh:.2f} vs "
                 f"{match.away} {la:.2f} expected goals) — a draw is the "
                 f"{prob*100:.0f}% most-likely result.")
-    return (f"Our model gives {pick.replace(' win','')} {prob*100:.0f}% — {edge} "
+    return (f"{pick.replace(' win','')} is the {prob*100:.0f}% pick — {edge} "
             f"(expected goals {match.home} {lh:.2f}, {match.away} {la:.2f}).")
 
 
 def predict_all(matches: List[Match],
-                standings: dict = None) -> List[Prediction]:
+                standings: dict = None, absences: dict = None) -> List[Prediction]:
     """Predictions for every upcoming match, flattened.
 
     `standings` is the fixtures.group_standings() map {group: {team: {...}}} used
     to form-adjust ratings; pass None to predict from the strength prior alone.
+    `absences` is the injuries.team_absences_map() {canonical_team: [Absence,...]}
+    used to injury-adjust the goal model; None disables the injury signal.
     """
+    from .fixtures import canonical_team
+
+    def team_abs(name: str):
+        if not absences:
+            return None
+        return absences.get(canonical_team(name) or name) or absences.get(name)
+
     out: List[Prediction] = []
     for m in matches:
         sh = sa = None
         if standings and m.group in standings:
             g = standings[m.group]
             sh, sa = g.get(m.home), g.get(m.away)
-        out.extend(predict_match(m, sh, sa))
+        out.extend(predict_match(m, sh, sa, team_abs(m.home), team_abs(m.away)))
     return out
 
 

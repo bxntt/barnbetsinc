@@ -45,6 +45,7 @@ class Absence:
     status: str = "Out"          # Out | Doubtful | Suspended | Questionable
     reason: str = ""             # injury / suspension detail
     expected_starter: bool = False  # was a likely first-XI pick (bigger impact)
+    impact: float = 1.0          # talisman multiplier on the engine's Elo penalty
     note: str = ""
     source: str = "snapshot"     # snapshot | espn
 
@@ -55,6 +56,7 @@ class Absence:
             "status": self.status,
             "reason": self.reason,
             "expected_starter": self.expected_starter,
+            "impact": self.impact,
             "note": self.note,
             "source": self.source,
         }
@@ -74,12 +76,12 @@ class Absence:
 CURATED_ABSENCES: Dict[str, List[Absence]] = {
     "Brazil": [
         Absence("Neymar", "FW", "Out", "Knee — ruled out of the tournament",
-                expected_starter=True),
+                expected_starter=True, impact=2.0),
         Absence("Éder Militão", "DF", "Doubtful", "Match-fitness, late call"),
     ],
     "France": [
         Absence("Aurélien Tchouaméni", "MF", "Suspended", "Yellow-card accumulation",
-                expected_starter=True),
+                expected_starter=True, impact=1.3),
     ],
     "England": [
         Absence("John Stones", "DF", "Doubtful", "Hamstring tightness",
@@ -96,7 +98,7 @@ CURATED_ABSENCES: Dict[str, List[Absence]] = {
     ],
     "Netherlands": [
         Absence("Frenkie de Jong", "MF", "Out", "Lower-leg injury",
-                expected_starter=True),
+                expected_starter=True, impact=1.5),
     ],
 }
 
@@ -188,6 +190,23 @@ class GameInjuries:
             "away_absences": [a.to_dict() for a in self.away_absences],
             "total": self.total,
         }
+
+
+def team_absences_map(teams: List[str], use_espn: bool = False) -> Dict[str, List[Absence]]:
+    """Canonical-team -> merged absences, for feeding the prediction engine.
+
+    Same curated-snapshot (+ optional ESPN) data that powers the page, keyed by
+    canonical team name so predict.py / simulate.py can look up either side of a
+    match. Teams with nothing reported map to an empty list.
+    """
+    live = espn_absences() if use_espn else {}
+    out: Dict[str, List[Absence]] = {}
+    for team in teams:
+        canon = canonical_team(team)
+        if not canon or canon in out:
+            continue
+        out[canon] = _merge(_curated_absences(canon), live.get(canon, []))
+    return out
 
 
 def build_report(matches: List[Match], use_espn: bool = False) -> List[GameInjuries]:

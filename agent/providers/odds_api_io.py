@@ -42,7 +42,7 @@ _MARKET_ALIASES = {
 
 
 def _normalize_book(name: str) -> str:
-    """Canonicalize a bookmaker label, e.g. 'Hard Rock Bet' -> 'hardrockbet'."""
+    """Canonicalize a bookmaker label, e.g. 'DraftKings' -> 'draftkings'."""
     return "".join(ch for ch in name.lower() if ch.isalnum())
 
 

@@ -27,8 +27,8 @@ def build_payload(
         "predictions": [p.to_dict() for p in predictions],
         "calibration": calibration or {},
         "disclaimer": (
-            "Model-driven predictions from team strength and market consensus. "
-            "Estimates, not certainties. Informational only, 21+ where legal."
+            "Predictions are estimates, not certainties. "
+            "Informational only, 21+ where legal."
         ),
     }
 

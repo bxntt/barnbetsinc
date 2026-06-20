@@ -1,20 +1,25 @@
 :root {
-  --bg: #0b0f14;
-  --panel: #131a23;
-  --panel-2: #1a2330;
-  --line: #243040;
-  --text: #e8edf2;
-  --muted: #93a1b1;
-  --accent: #ffd23f;       /* Hard Rock gold-ish */
-  --wc: #36c2ff;           /* World Cup blue */
+  /* True-black OLED base: #000 pixels switch fully off — power saved,
+     infinite contrast, and saturated accents pop against the void. */
+  --bg: #000000;
+  --panel: #0b0e13;        /* cards: near-black, barely lifted */
+  --panel-2: #161b22;      /* tracks / wells */
+  --line: rgba(255,255,255,0.09);   /* hairline borders read better than dark-blue on true black */
+  --hair: rgba(255,255,255,0.06);   /* even softer internal dividers */
+  --text: #f1f5f9;         /* soft white, not #fff (avoids OLED halo / eye strain) */
+  --muted: #8b97a6;
+  --accent: #ffd23f;       /* brand gold */
+  --wc: #3ccbff;           /* World Cup blue — nudged brighter for true black */
   --green: #2fbf71;
-  --green-strong: #19e27a;
-  --amber: #f5a623;
-  --red: #ef5350;
+  --green-strong: #1fe884;
+  --amber: #ffb22e;
+  --red: #ff5d57;
   --radius: 14px;
 }
 
 * { box-sizing: border-box; }
+
+html { color-scheme: dark; }
 
 html, body {
   margin: 0;
@@ -29,16 +34,19 @@ a { color: var(--wc); }
 .wrap { width: 100%; max-width: 620px; margin: 0 auto; padding: 0 16px; }
 
 /* Header + nav -------------------------------------------------------------- */
+/* Soft gold halo fading to transparent over true black — premium on OLED,
+   and fading to transparent avoids the dark-gradient banding OLED is prone to. */
 .header { padding: 22px 0 14px; border-bottom: 1px solid var(--line);
-  background: linear-gradient(180deg, #10161e, var(--bg)); }
+  background: radial-gradient(130% 120% at 50% -30%, rgba(255,210,63,0.10), transparent 62%), var(--bg); }
 .header h1 { margin: 0; font-size: 1.5rem; letter-spacing: -0.02em; }
-.accent { color: var(--accent); }
+.accent { color: var(--accent); text-shadow: 0 0 22px rgba(255,210,63,0.35); }
 
-.nav { display: flex; gap: 8px; margin-top: 12px; }
+.nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .nav-link { flex: 0 0 auto; text-decoration: none; color: var(--muted);
   border: 1px solid var(--line); background: var(--panel); border-radius: 999px;
   padding: 7px 16px; font-size: 0.85rem; font-weight: 700; }
-.nav-link[aria-current="page"] { color: #04222e; background: var(--wc); border-color: var(--wc); }
+.nav-link[aria-current="page"] { color: #04222e; background: var(--wc); border-color: var(--wc);
+  box-shadow: 0 0 20px rgba(60,203,255,0.4); }
 
 .updated { color: var(--muted); font-size: 0.76rem; margin: 12px 0 0; }
 
@@ -50,8 +58,11 @@ a { color: var(--wc); }
 .stack { display: flex; flex-direction: column; gap: 12px; }
 
 /* Card shell ---------------------------------------------------------------- */
+/* Hairline border + faint inset top highlight gives depth without flooding
+   pixels with light — the OLED-native way to render a "raised" surface. */
 .card { background: var(--panel); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 14px 16px; }
+  border-radius: var(--radius); padding: 14px 16px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04); }
 .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .matchup { font-weight: 700; font-size: 1.02rem; }
 .meta { display: block; color: var(--muted); font-size: 0.76rem; margin-top: 3px; }
@@ -59,61 +70,53 @@ a { color: var(--wc); }
 /* World Cup prediction lines ------------------------------------------------ */
 .lines { margin-top: 10px; display: flex; flex-direction: column; }
 .line { display: flex; align-items: baseline; gap: 10px; padding: 7px 0;
-  border-top: 1px solid rgba(36,48,64,0.55); }
+  border-top: 1px solid var(--hair); }
 .line:first-child { border-top: none; }
 .line-mkt { flex: 0 0 64px; font-size: 0.64rem; text-transform: uppercase;
   letter-spacing: 0.05em; color: var(--muted); }
 .line-pick { flex: 1; font-size: 0.92rem; font-weight: 600; }
 .line-pct { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1rem; }
-.line-pct.p-strong { color: var(--green-strong); }
-.line-pct.p-good { color: var(--wc); }
+/* Glow scales with conviction — the brightest calls literally light up on OLED. */
+.line-pct.p-strong { color: var(--green-strong); text-shadow: 0 0 16px rgba(31,232,132,0.5); }
+.line-pct.p-good { color: var(--wc); text-shadow: 0 0 14px rgba(60,203,255,0.4); }
 .line-pct.p-lean { color: var(--muted); }
 
 /* Group simulator table ----------------------------------------------------- */
-.gtable { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 10px; }
+/* Fixed layout so the four columns never overflow narrow phones — the team
+   name (col 1) absorbs the slack and wraps; the rest stay put. */
+.gtable { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 0.9rem; margin-top: 10px; }
+.gtable td:nth-child(2), .gtable th:nth-child(2) { width: 34px; }
+.gtable td:nth-child(3), .gtable th:nth-child(3) { width: 56px; }
+.gtable td:nth-child(4), .gtable th:nth-child(4) { width: 122px; }
 .gtable th { text-align: right; font-size: 0.62rem; color: var(--muted);
   text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;
   padding: 4px 6px; border-bottom: 1px solid var(--line); }
 .gtable th:first-child { text-align: left; }
-.gtable td { padding: 9px 6px; border-bottom: 1px solid rgba(36,48,64,0.5); }
+.gtable td { padding: 9px 6px; border-bottom: 1px solid var(--hair); }
 .gtable tbody tr:last-child td { border-bottom: none; }
 .gtable .team { font-weight: 600; }
 .gtable .num { text-align: right; font-variant-numeric: tabular-nums; }
+.gtable .win { color: var(--muted); font-size: 0.82rem; }
 .gtable tr.adv-in .team { color: var(--green-strong); }
 .gtable tr.adv-edge .team { color: var(--amber); }
 .gtable tr.adv-out .team { color: var(--muted); }
 .gtable tr.adv-in { box-shadow: inset 3px 0 0 var(--green-strong); }
 .gtable tr.adv-edge { box-shadow: inset 3px 0 0 var(--amber); }
 
-.advc { display: flex; align-items: center; gap: 8px; min-width: 110px; }
+.advc { display: flex; align-items: center; gap: 8px; }
 .advbar { flex: 1; height: 7px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
-.advfill { height: 100%; background: linear-gradient(90deg, var(--wc), var(--green-strong)); }
+.advfill { height: 100%; background: linear-gradient(90deg, var(--wc), var(--green-strong));
+  box-shadow: 0 0 12px rgba(60,203,255,0.45); }
 .advnum { font-size: 0.76rem; font-variant-numeric: tabular-nums; min-width: 40px; text-align: right; }
-
-/* Hard Rock bet ------------------------------------------------------------- */
-.bet-label { font-size: 1.12rem; font-weight: 700; line-height: 1.2; }
-.ev-badge { text-align: center; flex: 0 0 auto; border-radius: 12px; padding: 7px 12px;
-  min-width: 72px; background: var(--panel-2); }
-.ev-badge .ev { font-size: 1.32rem; font-weight: 800; line-height: 1; }
-.ev-badge .ev-k { font-size: 0.6rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-.ev-strong .ev { color: var(--green-strong); }
-.ev-good .ev { color: var(--green); }
-.ev-lean .ev { color: var(--amber); }
-
-.prices { display: flex; gap: 10px; margin-top: 12px; }
-.price-box { flex: 1; background: var(--panel-2); border: 1px solid var(--line);
-  border-radius: 10px; padding: 9px 12px; }
-.price-box .k { font-size: 0.64rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-.price-box .v { font-size: 1.1rem; font-weight: 700; margin-top: 2px; }
-.price-box.hr .v { color: var(--accent); }
+.sim-note { color: var(--muted); font-size: 0.74rem; line-height: 1.5; margin: 16px 0 0; }
 
 /* Justification page -------------------------------------------------------- */
 .method h3 { margin: 0 0 8px; font-size: 1rem; }
 .method p { margin: 0; }
-.rationale { font-size: 0.88rem; line-height: 1.5; color: #cbd5e1; margin: 8px 0 0; }
+.rationale { font-size: 0.88rem; line-height: 1.5; color: #c3ccd6; margin: 8px 0 0; }
 .rationale strong, .method strong { color: var(--text); font-weight: 600; }
 .whys { display: flex; flex-direction: column; gap: 14px; margin-top: 10px; }
-.why-row { border-top: 1px solid rgba(36,48,64,0.55); padding-top: 12px; }
+.why-row { border-top: 1px solid var(--hair); padding-top: 12px; }
 .why-row:first-child { border-top: none; padding-top: 0; }
 .why-head { display: flex; align-items: baseline; gap: 10px; }
 
@@ -127,7 +130,7 @@ a { color: var(--wc); }
 .clean-note.small { font-size: 0.76rem; margin: 4px 0 0; }
 
 .teams { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
-.team-block { border-top: 1px solid rgba(36,48,64,0.55); padding-top: 10px; }
+.team-block { border-top: 1px solid var(--hair); padding-top: 10px; }
 .team-block:first-child { border-top: none; padding-top: 0; }
 .team-name { font-weight: 700; font-size: 0.92rem; margin-bottom: 8px; }
 
@@ -140,11 +143,13 @@ a { color: var(--wc); }
 .status { flex: 0 0 auto; font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.04em; padding: 3px 8px; border-radius: 6px; min-width: 74px;
   text-align: center; border: 1px solid transparent; }
-.status.st-out { color: var(--red); background: rgba(239,83,80,0.12); border-color: rgba(239,83,80,0.3); }
-.status.st-doubt { color: var(--amber); background: rgba(245,166,35,0.12); border-color: rgba(245,166,35,0.3); }
+.status.st-out { color: var(--red); background: rgba(255,93,87,0.14); border-color: rgba(255,93,87,0.32); }
+.status.st-doubt { color: var(--amber); background: rgba(255,178,46,0.14); border-color: rgba(255,178,46,0.32); }
 
 /* Misc ---------------------------------------------------------------------- */
 .empty { text-align: center; color: var(--muted); padding: 40px 16px; }
 .footer { padding: 22px 16px 40px; color: var(--muted); border-top: 1px solid var(--line); }
 .footer p { font-size: 0.78rem; line-height: 1.5; margin: 6px 0; }
 .footer .fine { color: #6b7785; }
+</content>
+</invoke>

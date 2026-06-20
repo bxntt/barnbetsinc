@@ -119,24 +119,58 @@ def run(config: Config = None) -> dict:
 
     grouped = [m for m in matches if m.group]
 
-    # 0) Availability report (who was expected to play but isn't), by game.
-    from .injuries import run as run_injuries
-    injuries = run_injuries(grouped if grouped else matches, use_espn=wc.injuries_espn)
+    # 0) Availability report (who was expected to play but isn't), by game, plus a
+    #    canonical team -> absences map that the predictor and simulator consume so
+    #    injuries actually move the numbers (not just the Injuries page).
+    from .injuries import run as run_injuries, team_absences_map
+    match_pool = grouped if grouped else matches
+    injuries = run_injuries(match_pool, use_espn=wc.injuries_espn)
     print(f"[worldcup] injuries: {injuries['total_absences']} absences across "
           f"{injuries['affected_games']}/{injuries['game_count']} games -> site/injuries.json")
+    teams = {name for m in match_pool for name in (m.home, m.away) if name}
+    absences = team_absences_map(sorted(teams), use_espn=wc.injuries_espn)
 
-    # 1) Per-game predictions (model + optional market blend).
-    preds = predict_all(grouped if grouped else matches, standings)
+    # 0b) Settle finals + self-correct ratings (live only) BEFORE predicting, so
+    #     this tick's calls use the freshest team strength. Finals come from the
+    #     free ESPN scoreboard (no odds credits) and are decoupled from
+    #     injuries_espn — they fund both the Elo loop and the grading loop below.
+    if wc.provider == "the_odds_api":
+        from . import calibration, elo
+        calibration.save_results(calibration.espn_results_range())
+        elo_summary = elo.update_from_results(calibration.load_results())
+        if elo_summary.get("applied"):
+            print(f"[worldcup] elo: folded {elo_summary['applied']} new result(s) -> "
+                  f"{elo_summary['rated']} teams now results-adjusted "
+                  f"(data/history/worldcup_elo.json)")
+
+    # 1) Per-game predictions (model + injuries/form/venue + optional market blend).
+    preds = predict_all(match_pool, standings, absences)
     predictions = rank_predictions(preds, wc.max_published)
+
+    # 1b) Grading loop (live only): log these calls, then settle past calls against
+    #     the finals already fetched above -> RPS/log loss/Brier. Never gates publishing.
+    if wc.provider == "the_odds_api":
+        calibration.log_predictions(predictions)
+        calib = calibration.run(use_espn=False)  # finals already saved in step 0b
+        res = calib.get("result", {})
+        if res.get("n"):
+            print(f"[worldcup] calibration: result RPS={res['rps']} "
+                  f"log_loss={res['log_loss']} over {res['n']} graded "
+                  f"({calib['graded_total']} calls total) -> site/worldcup_calibration.json")
+        else:
+            print(f"[worldcup] calibration: {calib.get('graded_total', 0)} calls "
+                  f"graded so far (builds as results settle)")
 
     # 2) Group-stage Monte Carlo.
     group_projections = []
     if standings:
         upcoming = [m for m in grouped if not m.played]
         group_projections = simulate(
-            upcoming, sims=wc.sims, seed=wc.seed, seed_standings=standings)
+            upcoming, sims=wc.sims, seed=wc.seed, seed_standings=standings,
+            absences=absences)
     elif grouped:
-        group_projections = simulate(grouped, sims=wc.sims, seed=wc.seed)
+        group_projections = simulate(grouped, sims=wc.sims, seed=wc.seed,
+                                     absences=absences)
         sim_note = ("Each remaining match is played out thousands of times from "
                     "the team-strength model (sharpened by market odds where quoted).")
 
@@ -157,8 +191,8 @@ def _build_payload(predictions, group_projections, sim_note, wc) -> dict:
         "groups": [g.to_dict() for g in group_projections],
         "sim_note": sim_note,
         "disclaimer": (
-            "Model-driven predictions from team strength, live form, and market "
-            "consensus. Estimates, not certainties. Informational only, 21+ where legal."
+            "Predictions are estimates, not certainties. "
+            "Informational only, 21+ where legal."
         ),
     }
 

@@ -170,23 +170,21 @@ def _conf_phrase(prob: float) -> str:
 
 def _h2h_rationale(home, away, pick, prob, model_p) -> str:
     team = pick.replace(" ML", "")
-    src = (f"Our model and the market agree" if model_p is not None
-           else "The market consensus")
-    return (f"{src} makes {team} the {prob*100:.0f}% pick to win — {_conf_phrase(prob)}.")
+    return f"{team} is the {prob*100:.0f}% pick to win — {_conf_phrase(prob)}."
 
 
 def _spread_rationale(pick, prob, em, model_p) -> str:
     if model_p is not None and em is not None:
-        return (f"Model expects a {abs(em):.1f}-point margin; {pick} is the "
+        return (f"Expected ~{abs(em):.1f}-point margin; {pick} is the "
                 f"{prob*100:.0f}% side to cover — {_conf_phrase(prob)}.")
-    return f"Consensus makes {pick} the {prob*100:.0f}% side to cover."
+    return f"{pick} is the {prob*100:.0f}% side to cover."
 
 
 def _total_rationale(pick, prob, et, model_p) -> str:
     if model_p is not None and et is not None:
-        return (f"Model projects ~{et:.1f} combined points; {pick} is the "
+        return (f"Expected ~{et:.1f} combined points; {pick} is the "
                 f"{prob*100:.0f}% call — {_conf_phrase(prob)}.")
-    return f"Consensus makes {pick} the {prob*100:.0f}% call."
+    return f"{pick} is the {prob*100:.0f}% call."
 
 
 def predict_games(games: List[Game], model: TeamModel, config: Config) -> List[Prediction]:

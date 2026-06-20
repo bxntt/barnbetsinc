@@ -18,7 +18,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
-from . import ratings
+from . import factors, ratings
 from .devig import consensus_fair
 from .models import GroupProjection, Match, TeamProjection
 from .poisson import fit_lambdas, goal_cdf, sample_goals
@@ -64,21 +64,29 @@ def _mean_goals(match: Match) -> float:
     return 2.7
 
 
-def _build_model(match: Match, standings: Optional[Dict[str, Dict]] = None) -> _MatchModel:
+def _build_model(match: Match, standings: Optional[Dict[str, Dict]] = None,
+                 absences: Optional[Dict[str, list]] = None) -> _MatchModel:
     if match.played and match.home_goals is not None and match.away_goals is not None:
         return _MatchModel(match.home, match.away, True, match.home_goals, match.away_goals)
 
     probs = _fair_1x2(match)
     if probs is None:
-        # No market for this match -> predict from team strength + live form
-        # instead of a neutral coin flip.
+        # No market for this match -> predict from team strength + live form,
+        # injuries and host venue (same factor layer as predict.py) instead of a
+        # neutral coin flip.
         sh = sa = None
         if standings and match.group in standings:
             g = standings[match.group]
             sh, sa = g.get(match.home), g.get(match.away)
         rh = ratings.effective_rating(match.home, sh)
         ra = ratings.effective_rating(match.away, sa)
-        lh, la = ratings.lambdas(rh, ra)
+        ha = absences.get(match.home) if absences else None
+        aa = absences.get(match.away) if absences else None
+        mf = factors.compute(match.home, match.away, sh, sa, ha, aa)
+        lh, la = ratings.lambdas(
+            rh, ra, mean_goals=ratings.BASE_GOALS, home_advantage=mf.home_advantage,
+            home_attack_adj=mf.home_attack_adj, home_defense_adj=mf.home_defense_adj,
+            away_attack_adj=mf.away_attack_adj, away_defense_adj=mf.away_defense_adj)
     else:
         lh, la = fit_lambdas(*probs, mean_goals=_mean_goals(match))
     return _MatchModel(
@@ -110,6 +118,7 @@ def simulate(
     seed: int = 42,
     third_place_slots: int = THIRD_PLACE_SLOTS,
     seed_standings: Optional[Dict[str, Dict[str, Dict[str, int]]]] = None,
+    absences: Optional[Dict[str, list]] = None,
 ) -> List[GroupProjection]:
     """Run the Monte Carlo and return per-group, per-team projections.
 
@@ -135,7 +144,8 @@ def simulate(
     # with no market line fall back to the ratings model, form-adjusted from the
     # seeded standings when available.
     models: Dict[str, List[_MatchModel]] = {
-        g: [_build_model(m, seed_standings) for m in by_group[g]] for g in groups
+        g: [_build_model(m, seed_standings, absences) for m in by_group[g]]
+        for g in groups
     }
     teams_in: Dict[str, List[str]] = {}
     for g in groups:

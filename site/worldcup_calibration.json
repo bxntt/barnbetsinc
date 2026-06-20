@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-06-20T15:01:46.043799+00:00",
+  "result": {
+    "n": 0,
+    "rps": null,
+    "log_loss": null
+  },
+  "binary": {
+    "total": {
+      "n": 0,
+      "brier": null,
+      "bins": []
+    },
+    "btts": {
+      "n": 0,
+      "brier": null,
+      "bins": []
+    },
+    "handicap": {
+      "n": 0,
+      "brier": null,
+      "bins": []
+    }
+  },
+  "graded_total": 0,
+  "note": "Calibration sharpens as group-stage results settle. RPS/log loss and Brier all read lower-is-better."
+}
