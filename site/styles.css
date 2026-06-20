@@ -67,13 +67,37 @@ a { color: var(--wc); }
   border-bottom: 1px solid var(--line);
   box-shadow: 0 6px 20px rgba(0,0,0,0.55);
 }
+/* Next-gen OLED "glass chip": near-black body so pixels stay dark, with the
+   light coming only from glowing gold text, a hot live-dot, and a single bright
+   hairline on the trailing edge — the chip appears to emit toward the feed. */
 .ticker-label {
-  flex: 0 0 auto; display: flex; align-items: center; gap: 6px;
-  padding: 9px 14px; font-size: 0.66rem; font-weight: 800;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  color: #04222e; background: var(--accent);
-  box-shadow: 0 0 22px rgba(255,210,63,0.4); z-index: 1;
+  position: relative; flex: 0 0 auto; z-index: 1;
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 18px; font-size: 0.66rem; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  color: var(--accent);
+  background: linear-gradient(180deg, #14110a, #090804);
+  text-shadow: 0 0 14px rgba(255,210,63,0.45);
+  box-shadow: inset 0 1px 0 rgba(255,210,63,0.18),
+              0 0 26px rgba(255,210,63,0.14);
 }
+.ticker-label::after {
+  content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 1px;
+  background: linear-gradient(180deg, transparent, var(--accent), transparent);
+  box-shadow: 0 0 12px rgba(255,210,63,0.65);
+}
+/* Live pulse: signals the record is tracking in real time. White-hot core. */
+.rec-dot {
+  flex: 0 0 auto; width: 7px; height: 7px; border-radius: 50%;
+  background: radial-gradient(circle at 50% 40%, #fff6d8, var(--accent) 62%);
+  box-shadow: 0 0 10px rgba(255,210,63,0.9);
+  animation: rec-pulse 1.8s ease-in-out infinite;
+}
+@keyframes rec-pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 10px rgba(255,210,63,0.9); }
+  50%      { opacity: 0.4; box-shadow: 0 0 3px rgba(255,210,63,0.5); }
+}
+@media (prefers-reduced-motion: reduce) { .rec-dot { animation: none; } }
 /* Soft fade on each edge so segments melt in/out instead of clipping hard. */
 .ticker-viewport {
   flex: 1; overflow: hidden;
@@ -205,6 +229,26 @@ a { color: var(--wc); }
   text-align: center; border: 1px solid transparent; }
 .status.st-out { color: var(--red); background: rgba(255,93,87,0.14); border-color: rgba(255,93,87,0.32); }
 .status.st-doubt { color: var(--amber); background: rgba(255,178,46,0.14); border-color: rgba(255,178,46,0.32); }
+
+/* "Load more" -------------------------------------------------------------- */
+/* Reveals games starting more than 3 days out, kept tucked away so each
+   section leads with imminent matches. Sits in the .stack flow, so the 12px
+   column gap spaces it from the last visible card. */
+/* The hidden far-out block carries .stack (display:flex), which would otherwise
+   beat the UA [hidden] rule and leave it visible — keep it collapsed until the
+   button reveals it. */
+.more-games[hidden] { display: none; }
+.load-more {
+  width: 100%;
+  background: var(--panel); color: var(--muted);
+  border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 12px 16px; font: inherit; font-size: 0.82rem; font-weight: 700;
+  letter-spacing: 0.02em; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.load-more:hover { color: var(--wc); border-color: var(--wc); }
+.load-more:active { transform: translateY(1px); }
 
 /* Misc ---------------------------------------------------------------------- */
 .empty { text-align: center; color: var(--muted); padding: 40px 16px; }

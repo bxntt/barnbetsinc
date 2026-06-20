@@ -10,6 +10,11 @@ async function fetchJson(name) {
 }
 
 function loadError(err, mod) {
+  // Opened straight from disk (file://): every fetch fails for the same reason,
+  // so point at the real fix instead of the misleading "run the pipeline" note.
+  if (typeof location !== "undefined" && location.protocol === "file:") {
+    return `<div class="empty">This page has to be served over HTTP — opening it from the file system blocks data loading.<br/>From the <code>site/</code> folder run <code>python3 -m http.server</code> (or <code>python3 serve.py</code> from the repo root), then open <code>http://localhost:8000</code>.</div>`;
+  }
   const msg = err && err.message ? err.message : String(err);
   return `<div class="empty">Couldn't load (${escapeHtml(msg)}).<br/>Run <code>python -m ${mod}</code> first.</div>`;
 }

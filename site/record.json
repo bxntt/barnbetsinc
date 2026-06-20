@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T20:08:38.715707+00:00",
+  "generated_at": "2026-06-20T20:16:43.120859+00:00",
   "since": "2026-06-20",
   "overall": {
     "wins": 2,
@@ -34,7 +34,7 @@
     },
     {
       "key": "btts",
-      "label": "Both Teams to Score",
+      "label": "BTTS",
       "wins": 1,
       "losses": 0,
       "pushes": 0,

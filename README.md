@@ -49,9 +49,16 @@ against final results so we can see whether the probabilities actually hold up.
 
 ```bash
 pip install -r requirements.txt
-python -m agent.pipeline          # bundled mock data -> writes site/data.json AND site/worldcup.json
-cd site && python -m http.server  # open http://localhost:8000 on desktop or phone
+python -m agent.pipeline   # bundled mock data -> writes site/data.json AND site/worldcup.json
+python3 serve.py           # serves site/ at http://localhost:8000 (add --open to launch a browser)
 ```
+
+`serve.py` is a zero-dependency wrapper around `http.server`: it serves the
+`site/` folder from anywhere in the repo, falls back to the next free port if
+8000 is taken, and warns when the generated data files are missing. The site
+loads its data with `fetch()`, so it must be served over HTTP — opening the
+files straight from disk (`file://`) will block data loading. (`cd site &&
+python -m http.server` works too.)
 
 The bundled `mock` slate covers a handful of US games and a full 12-group World Cup
 field, so both sections of the site work offline with no API key. To run just one side:

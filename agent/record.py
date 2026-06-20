@@ -39,7 +39,7 @@ CATEGORIES: List[Tuple[str, str, Tuple[str, ...]]] = [
     ("moneyline", "Moneyline", ("h2h", "result")),
     ("spread", "Spread", ("spreads", "handicap")),
     ("total", "Total", ("totals", "total")),
-    ("btts", "Both Teams to Score", ("btts",)),
+    ("btts", "BTTS", ("btts",)),
 ]
 _MARKET_CATEGORY = {m: key for key, _, markets in CATEGORIES for m in markets}
 

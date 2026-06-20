@@ -21,6 +21,46 @@ function pickLabel(pick) {
   return String(pick).replace(/^BTTS:/, "Both Teams to Score:");
 }
 
+// Games starting within this window show up front; anything further out is
+// tucked behind a "Load more" button so the page leads with imminent matches.
+const NEAR_WINDOW_MS = 3 * 24 * 60 * 60 * 1000;
+
+/* Render a chronologically-sorted list of games (each an array of per-market
+   calls) into `el`, leading with games that start within NEAR_WINDOW_MS and
+   hiding the rest behind a "Load more" button. `cardFn` renders one game. */
+function renderGameList(el, games, cardFn, emptyMsg) {
+  if (!games.length) {
+    el.innerHTML = `<div class="empty">${emptyMsg}</div>`;
+    return;
+  }
+  const cutoff = Date.now() + NEAR_WINDOW_MS;
+  const near = [];
+  const far = [];
+  for (const g of games) {
+    (Date.parse(g[0].commence_time) <= cutoff ? near : far).push(g);
+  }
+
+  el.innerHTML = near.map(cardFn).join("");
+  if (!far.length) return;
+
+  // Far-out games render hidden; the button reveals them and removes itself.
+  const more = document.createElement("div");
+  more.className = "stack more-games";
+  more.hidden = true;
+  more.innerHTML = far.map(cardFn).join("");
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "load-more";
+  btn.textContent = `Load ${far.length} more ${far.length === 1 ? "game" : "games"} (3+ days out)`;
+  btn.addEventListener("click", () => {
+    more.hidden = false;
+    btn.remove();
+  });
+
+  el.append(more, btn);
+}
+
 async function load() {
   const [hr, wc, rec] = await Promise.allSettled([
     fetchJson("data.json"),
@@ -118,10 +158,6 @@ function pctClass(pct) {
 
 function renderWcPredictions(preds) {
   const el = document.getElementById("wcPredictions");
-  if (!preds.length) {
-    el.innerHTML = `<div class="empty">No predictions yet.</div>`;
-    return;
-  }
   // preds arrive ranked by probability; group per game, then order games
   // chronologically by kickoff.
   const byGame = new Map();
@@ -129,10 +165,9 @@ function renderWcPredictions(preds) {
     if (!byGame.has(p.match_id)) byGame.set(p.match_id, []);
     byGame.get(p.match_id).push(p);
   }
-  el.innerHTML = Array.from(byGame.values())
-    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time))
-    .map(predGameCard)
-    .join("");
+  const games = Array.from(byGame.values())
+    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time));
+  renderGameList(el, games, predGameCard, "No predictions yet.");
 }
 
 function predGameCard(calls) {
@@ -164,10 +199,6 @@ function predGameCard(calls) {
 /* ---------------------------------------------------------- US sports --- */
 function renderUsPredictions(preds) {
   const el = document.getElementById("usPredictions");
-  if (!preds.length) {
-    el.innerHTML = `<div class="empty">No predictions yet. Check back after the next refresh.</div>`;
-    return;
-  }
   // preds arrive ranked by probability; group per game, then order games
   // chronologically by start time.
   const byGame = new Map();
@@ -175,10 +206,9 @@ function renderUsPredictions(preds) {
     if (!byGame.has(p.game_id)) byGame.set(p.game_id, []);
     byGame.get(p.game_id).push(p);
   }
-  el.innerHTML = Array.from(byGame.values())
-    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time))
-    .map(usGameCard)
-    .join("");
+  const games = Array.from(byGame.values())
+    .sort((a, b) => new Date(a[0].commence_time) - new Date(b[0].commence_time));
+  renderGameList(el, games, usGameCard, "No predictions yet. Check back after the next refresh.");
 }
 
 function usGameCard(calls) {

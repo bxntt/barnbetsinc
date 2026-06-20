@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#000000" />
   <title>Barn Betting Inc.</title>
   <meta name="description" content="World Cup match predictions and US-sports model picks — ranked by how likely each call is to hit." />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <header class="header">
@@ -24,7 +24,7 @@
 
   <!-- Track record: a permanent scrolling ticker of the W-L per bet category -->
   <div class="ticker" aria-label="Track record by bet type">
-    <span class="ticker-label" aria-hidden="true">📊 Record</span>
+    <span class="ticker-label" aria-hidden="true"><span class="rec-dot"></span>Record</span>
     <div class="ticker-viewport">
       <div id="recordTicker" class="ticker-track"></div>
     </div>
@@ -50,6 +50,6 @@
   </footer>
 
   <script src="common.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
