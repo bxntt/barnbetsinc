@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T10:22:27.059675+00:00",
+  "updated_at": "2026-06-21T20:59:25.891757+00:00",
   "ratings": {
     "Mexico": 1946.09,
     "South Africa": 1721.72,
@@ -25,11 +25,11 @@
     "Ecuador": 1805.27,
     "Sweden": 1814.7,
     "Tunisia": 1685.98,
-    "Spain": 2043.42,
+    "Spain": 2056.29,
     "Cape Verde": 1706.58,
     "Belgium": 1960.83,
     "Egypt": 1829.17,
-    "Saudi Arabia": 1752.99,
+    "Saudi Arabia": 1740.12,
     "Uruguay": 1927.01,
     "Iran": 1721.76,
     "New Zealand": 1648.24,
@@ -85,6 +85,7 @@
     "Paraguay|Turkey|2026-06-20",
     "Paraguay|United States|2026-06-13",
     "Qatar|Switzerland|2026-06-13",
+    "Saudi Arabia|Spain|2026-06-21",
     "Saudi Arabia|Uruguay|2026-06-15",
     "Sweden|Tunisia|2026-06-15"
   ]
