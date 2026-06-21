@@ -1,53 +1,12 @@
 {
-  "generated_at": "2026-06-20T20:24:49.117494+00:00",
+  "generated_at": "2026-06-21T10:22:26.940421+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 39,
-  "affected_games": 12,
-  "total_absences": 13,
+  "game_count": 36,
+  "affected_games": 11,
+  "total_absences": 12,
   "games": [
-    {
-      "match_id": "f1ab0f69832972a329243522ceaa7804",
-      "group": "E",
-      "commence_time": "2026-06-20T20:00:00Z",
-      "home": "Germany",
-      "away": "Ivory Coast",
-      "home_absences": [
-        {
-          "player": "Marco Reus",
-          "position": "MF",
-          "status": "Out",
-          "reason": "Ankle",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
-    {
-      "match_id": "681895f294b670b4c7b14495dfb583bc",
-      "group": "E",
-      "commence_time": "2026-06-21T00:00:00Z",
-      "home": "Ecuador",
-      "away": "Cura\u00e7ao",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "dfc5202cf1b8ae002cf952cd04f235b9",
-      "group": "F",
-      "commence_time": "2026-06-21T04:00:00Z",
-      "home": "Tunisia",
-      "away": "Japan",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "73529a242e319a86bf3d00ddb4accc37",
       "group": "H",

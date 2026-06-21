@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-20T20:24:49.340633+00:00",
+  "generated_at": "2026-06-21T10:22:27.075301+00:00",
   "result": {
-    "n": 2,
-    "rps": 0.2478,
-    "log_loss": 0.9503
+    "n": 5,
+    "rps": 0.1674,
+    "log_loss": 0.8354
   },
   "binary": {
     "total": {
-      "n": 2,
-      "brier": 0.2767,
+      "n": 5,
+      "brier": 0.2987,
       "bins": [
         {
           "lo": 0.5,
           "hi": 0.55,
-          "n": 1,
-          "predicted_pct": 52.5,
-          "actual_pct": 100.0
+          "n": 3,
+          "predicted_pct": 51.5,
+          "actual_pct": 66.7
         },
         {
           "lo": 0.55,
@@ -23,13 +23,34 @@
           "n": 1,
           "predicted_pct": 57.2,
           "actual_pct": 0.0
+        },
+        {
+          "lo": 0.65,
+          "hi": 0.7,
+          "n": 1,
+          "predicted_pct": 66.1,
+          "actual_pct": 0.0
         }
       ]
     },
     "btts": {
-      "n": 2,
-      "brier": 0.1012,
+      "n": 5,
+      "brier": 0.1854,
       "bins": [
+        {
+          "lo": 0.5,
+          "hi": 0.55,
+          "n": 1,
+          "predicted_pct": 54.6,
+          "actual_pct": 100.0
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.6,
+          "n": 2,
+          "predicted_pct": 59.0,
+          "actual_pct": 50.0
+        },
         {
           "lo": 0.6,
           "hi": 0.65,
@@ -47,9 +68,23 @@
       ]
     },
     "handicap": {
-      "n": 2,
-      "brier": 0.2213,
+      "n": 5,
+      "brier": 0.2192,
       "bins": [
+        {
+          "lo": 0.5,
+          "hi": 0.55,
+          "n": 1,
+          "predicted_pct": 51.4,
+          "actual_pct": 0.0
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.6,
+          "n": 2,
+          "predicted_pct": 55.9,
+          "actual_pct": 100.0
+        },
         {
           "lo": 0.65,
           "hi": 0.7,
@@ -67,6 +102,6 @@
       ]
     }
   },
-  "graded_total": 8,
+  "graded_total": 20,
   "note": "Calibration sharpens as group-stage results settle. RPS/log loss and Brier all read lower-is-better."
 }
