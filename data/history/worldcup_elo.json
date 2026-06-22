@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T15:59:43.193956+00:00",
+  "updated_at": "2026-06-22T22:26:48.976213+00:00",
   "ratings": {
     "Mexico": 1946.09,
     "South Africa": 1721.72,
@@ -37,9 +37,9 @@
     "Senegal": 1869.76,
     "Iraq": 1680.21,
     "Norway": 1939.79,
-    "Argentina": 2111.16,
+    "Argentina": 2126.01,
     "Algeria": 1718.84,
-    "Austria": 1870.42,
+    "Austria": 1855.57,
     "Jordan": 1604.58,
     "Portugal": 2012.74,
     "DR Congo": 1782.26,
@@ -52,6 +52,7 @@
   },
   "applied": [
     "Algeria|Argentina|2026-06-17",
+    "Argentina|Austria|2026-06-22",
     "Australia|Turkey|2026-06-14",
     "Australia|United States|2026-06-19",
     "Austria|Jordan|2026-06-17",

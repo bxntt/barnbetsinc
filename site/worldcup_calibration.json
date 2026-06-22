@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-22T15:59:43.209570+00:00",
+  "generated_at": "2026-06-22T22:26:49.509861+00:00",
   "result": {
-    "n": 9,
-    "rps": 0.1455,
-    "log_loss": 0.8057
+    "n": 10,
+    "rps": 0.1343,
+    "log_loss": 0.7537
   },
   "binary": {
     "total": {
-      "n": 9,
-      "brier": 0.2545,
+      "n": 10,
+      "brier": 0.2385,
       "bins": [
         {
           "lo": 0.5,
@@ -27,9 +27,9 @@
         {
           "lo": 0.65,
           "hi": 0.7,
-          "n": 2,
-          "predicted_pct": 67.0,
-          "actual_pct": 50.0
+          "n": 3,
+          "predicted_pct": 67.8,
+          "actual_pct": 66.7
         },
         {
           "lo": 0.7,
@@ -41,8 +41,8 @@
       ]
     },
     "btts": {
-      "n": 9,
-      "brier": 0.2098,
+      "n": 10,
+      "brier": 0.204,
       "bins": [
         {
           "lo": 0.5,
@@ -61,9 +61,9 @@
         {
           "lo": 0.6,
           "hi": 0.65,
-          "n": 2,
-          "predicted_pct": 63.9,
-          "actual_pct": 50.0
+          "n": 3,
+          "predicted_pct": 62.9,
+          "actual_pct": 66.7
         },
         {
           "lo": 0.7,
@@ -82,15 +82,15 @@
       ]
     },
     "handicap": {
-      "n": 9,
-      "brier": 0.1929,
+      "n": 10,
+      "brier": 0.1972,
       "bins": [
         {
           "lo": 0.5,
           "hi": 0.55,
-          "n": 1,
+          "n": 2,
           "predicted_pct": 51.4,
-          "actual_pct": 0.0
+          "actual_pct": 50.0
         },
         {
           "lo": 0.55,
@@ -123,6 +123,6 @@
       ]
     }
   },
-  "graded_total": 36,
+  "graded_total": 40,
   "note": "Calibration sharpens as group-stage results settle. RPS/log loss and Brier all read lower-is-better."
 }
