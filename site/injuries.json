@@ -1,42 +1,12 @@
 {
-  "generated_at": "2026-06-21T20:59:25.571404+00:00",
+  "generated_at": "2026-06-22T15:59:42.962036+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 35,
+  "game_count": 32,
   "affected_games": 10,
   "total_absences": 11,
   "games": [
-    {
-      "match_id": "5f92f257386ec5bf7c6e2498a21f3a61",
-      "group": "G",
-      "commence_time": "2026-06-21T19:00:00Z",
-      "home": "Belgium",
-      "away": "Iran",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "852a3abe6d46820720febc0fedebff9a",
-      "group": "H",
-      "commence_time": "2026-06-21T22:00:00Z",
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "c1ec9a65f4b4cf74477b368a7d6282de",
-      "group": "G",
-      "commence_time": "2026-06-22T01:00:00Z",
-      "home": "New Zealand",
-      "away": "Egypt",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "be6c63f416c67bca1300a98f5b89c3af",
       "group": "J",
