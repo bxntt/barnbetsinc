@@ -1,28 +1,18 @@
 {
-  "generated_at": "2026-06-24T17:32:03.207717+00:00",
+  "generated_at": "2026-06-24T22:42:32.328468+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 24,
+  "game_count": 22,
   "affected_games": 7,
   "total_absences": 8,
   "games": [
     {
-      "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
-      "group": "B",
-      "commence_time": "2026-06-24T19:00:00Z",
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "c9ef5822ee64fd5275f7c73251bb56c7",
-      "group": "B",
-      "commence_time": "2026-06-24T19:00:00Z",
-      "home": "Switzerland",
-      "away": "Canada",
+      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
+      "group": "C",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "home": "Morocco",
+      "away": "Haiti",
       "home_absences": [],
       "away_absences": [],
       "total": 0
@@ -30,7 +20,7 @@
     {
       "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
       "group": "C",
-      "commence_time": "2026-06-24T22:00:00Z",
+      "commence_time": "2026-06-24T22:01:00Z",
       "home": "Scotland",
       "away": "Brazil",
       "home_absences": [],
@@ -57,16 +47,6 @@
         }
       ],
       "total": 2
-    },
-    {
-      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
-      "group": "C",
-      "commence_time": "2026-06-24T22:00:00Z",
-      "home": "Morocco",
-      "away": "Haiti",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
     },
     {
       "match_id": "5993bd5196ca09f83990f0c3261e442e",
