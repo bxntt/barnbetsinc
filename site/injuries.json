@@ -1,32 +1,12 @@
 {
-  "generated_at": "2026-06-23T22:20:55.173445+00:00",
+  "generated_at": "2026-06-24T10:30:06.192299+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 26,
+  "game_count": 24,
   "affected_games": 7,
   "total_absences": 8,
   "games": [
-    {
-      "match_id": "c1bc8c26480cd42b89a0de5329581314",
-      "group": "L",
-      "commence_time": "2026-06-23T23:00:00Z",
-      "home": "Panama",
-      "away": "Croatia",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "68bfc965eb267508e04d8e8d75c1a0ae",
-      "group": "K",
-      "commence_time": "2026-06-24T02:00:00Z",
-      "home": "Colombia",
-      "away": "DR Congo",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "512ac18beb5aa936a59f7ea3e497ada2",
       "group": "B",
