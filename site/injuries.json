@@ -1,73 +1,12 @@
 {
-  "generated_at": "2026-06-24T22:42:32.328468+00:00",
+  "generated_at": "2026-06-25T10:23:08.691342+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 22,
-  "affected_games": 7,
-  "total_absences": 8,
+  "game_count": 18,
+  "affected_games": 6,
+  "total_absences": 6,
   "games": [
-    {
-      "match_id": "d1279ce7f33136a33e99ad442fc855e8",
-      "group": "C",
-      "commence_time": "2026-06-24T22:00:00Z",
-      "home": "Morocco",
-      "away": "Haiti",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "885ba95805db310a7bcc3fb1a7a6dd28",
-      "group": "C",
-      "commence_time": "2026-06-24T22:01:00Z",
-      "home": "Scotland",
-      "away": "Brazil",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "Neymar",
-          "position": "FW",
-          "status": "Out",
-          "reason": "Knee \u2014 ruled out of the tournament",
-          "expected_starter": true,
-          "impact": 2.0,
-          "note": "",
-          "source": "snapshot"
-        },
-        {
-          "player": "\u00c9der Milit\u00e3o",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Match-fitness, late call",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 2
-    },
-    {
-      "match_id": "5993bd5196ca09f83990f0c3261e442e",
-      "group": "A",
-      "commence_time": "2026-06-25T01:00:00Z",
-      "home": "Czechia",
-      "away": "Mexico",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "c0355dfc6e26ec327e379b6ef5824a5f",
-      "group": "A",
-      "commence_time": "2026-06-25T01:00:00Z",
-      "home": "South Africa",
-      "away": "South Korea",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "a5a0b544a984ab16e564264f3e859b43",
       "group": "E",
