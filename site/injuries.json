@@ -1,43 +1,12 @@
 {
-  "generated_at": "2026-06-26T17:18:56.867428+00:00",
+  "generated_at": "2026-06-26T21:51:28.085766+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 12,
-  "affected_games": 4,
-  "total_absences": 4,
+  "game_count": 10,
+  "affected_games": 3,
+  "total_absences": 3,
   "games": [
-    {
-      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Norway",
-      "away": "France",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "Aur\u00e9lien Tchouam\u00e9ni",
-          "position": "MF",
-          "status": "Suspended",
-          "reason": "Yellow-card accumulation",
-          "expected_starter": true,
-          "impact": 1.3,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
       "group": "H",

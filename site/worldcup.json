@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-26T17:18:58.089795+00:00",
+  "generated_at": "2026-06-26T21:51:29.301909+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 48,
+  "prediction_count": 40,
   "predictions": [
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -304,32 +304,6 @@
       "rationale": "England wins by 2+ goals 73% of the time; the 73% call is England -1.5."
     },
     {
-      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Norway",
-      "away": "France",
-      "market": "handicap",
-      "pick": "Norway +1.5",
-      "prob": 0.7094,
-      "prob_pct": 70.9,
-      "confidence": 0.8,
-      "model_prob_pct": 70.9,
-      "market_prob_pct": null,
-      "fair_price_american": -244,
-      "outcomes": [
-        {
-          "label": "Norway +1.5",
-          "prob_pct": 70.9
-        },
-        {
-          "label": "France -1.5",
-          "prob_pct": 29.1
-        }
-      ],
-      "rationale": "France wins by 2+ goals 29% of the time; the 71% call is Norway +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
       "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
       "group": "G",
       "commence_time": "2026-06-27T03:00:00Z",
@@ -412,32 +386,6 @@
       "rationale": "DR Congo is the 68% pick \u2014 a clear favorite (expected goals DR Congo 2.03, Uzbekistan 0.70)."
     },
     {
-      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Norway",
-      "away": "France",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.6739,
-      "prob_pct": 67.4,
-      "confidence": 0.8,
-      "model_prob_pct": 67.4,
-      "market_prob_pct": null,
-      "fair_price_american": -207,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 67.4
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 32.6
-        }
-      ],
-      "rationale": "Expected ~2.9 goals (Norway 1.12, France 1.76); under 3 is the 67% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
       "group": "J",
       "commence_time": "2026-06-28T02:00:00Z",
@@ -494,32 +442,6 @@
       "rationale": "Spain wins by 2+ goals 33% of the time; the 67% call is Uruguay +1.5."
     },
     {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.6607,
-      "prob_pct": 66.1,
-      "confidence": 0.8,
-      "model_prob_pct": 66.1,
-      "market_prob_pct": null,
-      "fair_price_american": -195,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 66.1
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 33.9
-        }
-      ],
-      "rationale": "Expected ~2.9 goals (Senegal 2.05, Iraq 0.89); under 3 is the 66% side."
-    },
-    {
       "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
       "group": "L",
       "commence_time": "2026-06-27T21:00:00Z",
@@ -546,36 +468,6 @@
       "rationale": "Expected ~2.9 goals (Panama 0.15, England 2.79); under 3 is the 66% side."
     },
     {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "result",
-      "pick": "Senegal win",
-      "prob": 0.6354,
-      "prob_pct": 63.5,
-      "confidence": 0.8,
-      "model_prob_pct": 63.5,
-      "market_prob_pct": null,
-      "fair_price_american": -174,
-      "outcomes": [
-        {
-          "label": "Senegal win",
-          "prob_pct": 63.5
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 21.5
-        },
-        {
-          "label": "Iraq win",
-          "prob_pct": 14.9
-        }
-      ],
-      "rationale": "Senegal is the 64% pick \u2014 a clear favorite (expected goals Senegal 2.05, Iraq 0.89)."
-    },
-    {
       "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
       "group": "G",
       "commence_time": "2026-06-27T03:00:00Z",
@@ -600,32 +492,6 @@
         }
       ],
       "rationale": "Belgium wins by 2+ goals 61% of the time; the 61% call is Belgium -1.5."
-    },
-    {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "handicap",
-      "pick": "Iraq +1.5",
-      "prob": 0.6011,
-      "prob_pct": 60.1,
-      "confidence": 0.8,
-      "model_prob_pct": 60.1,
-      "market_prob_pct": null,
-      "fair_price_american": -151,
-      "outcomes": [
-        {
-          "label": "Iraq +1.5",
-          "prob_pct": 60.1
-        },
-        {
-          "label": "Senegal -1.5",
-          "prob_pct": 39.9
-        }
-      ],
-      "rationale": "Senegal wins by 2+ goals 40% of the time; the 60% call is Iraq +1.5."
     },
     {
       "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
@@ -788,32 +654,6 @@
       "rationale": "DR Congo wins by 2+ goals 44% of the time; the 56% call is Uzbekistan +1.5."
     },
     {
-      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Norway",
-      "away": "France",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5642,
-      "prob_pct": 56.4,
-      "confidence": 0.8,
-      "model_prob_pct": 56.4,
-      "market_prob_pct": null,
-      "fair_price_american": -129,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 56.4
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 43.6
-        }
-      ],
-      "rationale": "With scoring rates of 1.12 and 1.76, both teams scoring is a 56% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
       "match_id": "67ae5751c401a98409b8566ae4897069",
       "group": "K",
       "commence_time": "2026-06-27T23:30:00Z",
@@ -974,32 +814,6 @@
       "rationale": "With scoring rates of 0.77 and 2.06, both teams scoring is a 48% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "7e6aee294ea1a4792c59558791084528",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Senegal",
-      "away": "Iraq",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5201,
-      "prob_pct": 52.0,
-      "confidence": 0.8,
-      "model_prob_pct": 52.0,
-      "market_prob_pct": null,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 52.0
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 48.0
-        }
-      ],
-      "rationale": "With scoring rates of 2.05 and 0.89, both teams scoring is a 52% chance \u2014 BTTS: Yes."
-    },
-    {
       "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
       "group": "H",
       "commence_time": "2026-06-27T00:00:00Z",
@@ -1050,36 +864,6 @@
         }
       ],
       "rationale": "Expected ~3.6 goals (Jordan 0.15, Argentina 3.44); under 3.5 is the 52% side."
-    },
-    {
-      "match_id": "b86b4d60f773e9e3c46c00e9a6496e79",
-      "group": "I",
-      "commence_time": "2026-06-26T19:00:00Z",
-      "home": "Norway",
-      "away": "France",
-      "market": "result",
-      "pick": "France win",
-      "prob": 0.5181,
-      "prob_pct": 51.8,
-      "confidence": 0.8,
-      "model_prob_pct": 51.8,
-      "market_prob_pct": null,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "France win",
-          "prob_pct": 51.8
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 24.8
-        },
-        {
-          "label": "Norway win",
-          "prob_pct": 23.4
-        }
-      ],
-      "rationale": "France is the 52% pick \u2014 a slight edge (expected goals Norway 1.12, France 1.76). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "537c0997cd899394f47f16545b7068b2",
@@ -1368,7 +1152,7 @@
           "goal_diff": -1,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.98565,
+          "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
@@ -1378,7 +1162,7 @@
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 98.6,
+          "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
@@ -1479,7 +1263,7 @@
           "goal_diff": -3,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.23535,
+          "p_advance": 0.8599,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
@@ -1489,7 +1273,7 @@
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 23.5,
+          "p_advance_pct": 86.0,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
@@ -1563,22 +1347,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.49715,
+          "p_top2": 0.49955,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.49715,
-            "3": 0.50285,
+            "2": 0.49955,
+            "3": 0.50045,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 49.7,
+          "p_top2_pct": 50.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 49.7,
-            "3": 50.3,
+            "2": 50.0,
+            "3": 50.0,
             "4": 0.0
           }
         },
@@ -1589,22 +1373,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.50285,
+          "p_top2": 0.50045,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.50285,
-            "3": 0.49715,
+            "2": 0.50045,
+            "3": 0.49955,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 50.3,
+          "p_top2_pct": 50.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 50.3,
-            "3": 49.7,
+            "2": 50.0,
+            "3": 50.0,
             "4": 0.0
           }
         },
@@ -1812,7 +1596,7 @@
           "goal_diff": -1,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.0,
+          "p_advance": 0.1516,
           "exp_points": 0.0,
           "finish_probs": {
             "1": 0.0,
@@ -1822,7 +1606,7 @@
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 0.0,
+          "p_advance_pct": 15.2,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
@@ -1896,22 +1680,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.4953,
+          "p_top2": 0.5044,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.4953,
-            "3": 0.5047,
+            "2": 0.5044,
+            "3": 0.4956,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 49.5,
+          "p_top2_pct": 50.4,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 49.5,
-            "3": 50.5,
+            "2": 50.4,
+            "3": 49.6,
             "4": 0.0
           }
         },
@@ -1922,22 +1706,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.5047,
+          "p_top2": 0.4956,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.5047,
-            "3": 0.4953,
+            "2": 0.4956,
+            "3": 0.5044,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 50.5,
+          "p_top2_pct": 49.6,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 50.5,
-            "3": 49.5,
+            "2": 49.6,
+            "3": 50.4,
             "4": 0.0
           }
         },
@@ -1980,24 +1764,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.5837,
-          "p_top2": 0.8417,
-          "p_advance": 0.96125,
-          "exp_points": 3.64,
+          "p_win_group": 0.58345,
+          "p_top2": 0.84285,
+          "p_advance": 0.96045,
+          "exp_points": 3.65,
           "finish_probs": {
-            "1": 0.5837,
-            "2": 0.258,
-            "3": 0.11985,
-            "4": 0.03845
+            "1": 0.58345,
+            "2": 0.2594,
+            "3": 0.1176,
+            "4": 0.03955
           },
-          "p_win_group_pct": 58.4,
-          "p_top2_pct": 84.2,
-          "p_advance_pct": 96.1,
+          "p_win_group_pct": 58.3,
+          "p_top2_pct": 84.3,
+          "p_advance_pct": 96.0,
           "finish_probs_pct": {
-            "1": 58.4,
-            "2": 25.8,
-            "3": 12.0,
-            "4": 3.8
+            "1": 58.3,
+            "2": 25.9,
+            "3": 11.8,
+            "4": 4.0
           }
         },
         {
@@ -2006,24 +1790,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.26485,
-          "p_top2": 0.5519,
-          "p_advance": 0.88655,
-          "exp_points": 2.86,
+          "p_win_group": 0.27065,
+          "p_top2": 0.56215,
+          "p_advance": 0.8989,
+          "exp_points": 2.89,
           "finish_probs": {
-            "1": 0.26485,
-            "2": 0.28705,
-            "3": 0.3417,
-            "4": 0.1064
+            "1": 0.27065,
+            "2": 0.2915,
+            "3": 0.3376,
+            "4": 0.10025
           },
-          "p_win_group_pct": 26.5,
-          "p_top2_pct": 55.2,
-          "p_advance_pct": 88.7,
+          "p_win_group_pct": 27.1,
+          "p_top2_pct": 56.2,
+          "p_advance_pct": 89.9,
           "finish_probs_pct": {
-            "1": 26.5,
-            "2": 28.7,
-            "3": 34.2,
-            "4": 10.6
+            "1": 27.1,
+            "2": 29.1,
+            "3": 33.8,
+            "4": 10.0
           }
         },
         {
@@ -2032,24 +1816,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.1243,
-          "p_top2": 0.45555,
-          "p_advance": 0.74055,
-          "exp_points": 1.91,
+          "p_win_group": 0.11895,
+          "p_top2": 0.44445,
+          "p_advance": 0.7545,
+          "exp_points": 1.88,
           "finish_probs": {
-            "1": 0.1243,
-            "2": 0.33125,
-            "3": 0.306,
-            "4": 0.23845
+            "1": 0.11895,
+            "2": 0.3255,
+            "3": 0.31285,
+            "4": 0.2427
           },
-          "p_win_group_pct": 12.4,
-          "p_top2_pct": 45.6,
-          "p_advance_pct": 74.1,
+          "p_win_group_pct": 11.9,
+          "p_top2_pct": 44.4,
+          "p_advance_pct": 75.4,
           "finish_probs_pct": {
-            "1": 12.4,
-            "2": 33.1,
-            "3": 30.6,
-            "4": 23.8
+            "1": 11.9,
+            "2": 32.6,
+            "3": 31.3,
+            "4": 24.3
           }
         },
         {
@@ -2058,24 +1842,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.02715,
-          "p_top2": 0.15085,
-          "p_advance": 0.3675,
+          "p_win_group": 0.02695,
+          "p_top2": 0.15055,
+          "p_advance": 0.3799,
           "exp_points": 1.23,
           "finish_probs": {
-            "1": 0.02715,
-            "2": 0.1237,
-            "3": 0.23245,
-            "4": 0.6167
+            "1": 0.02695,
+            "2": 0.1236,
+            "3": 0.23195,
+            "4": 0.6175
           },
           "p_win_group_pct": 2.7,
           "p_top2_pct": 15.1,
-          "p_advance_pct": 36.8,
+          "p_advance_pct": 38.0,
           "finish_probs_pct": {
             "1": 2.7,
             "2": 12.4,
             "3": 23.2,
-            "4": 61.7
+            "4": 61.8
           }
         }
       ]
@@ -2091,24 +1875,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.3942,
-          "p_top2": 0.6132,
-          "p_advance": 0.86435,
-          "exp_points": 3.05,
+          "p_win_group": 0.39205,
+          "p_top2": 0.6188,
+          "p_advance": 0.8639,
+          "exp_points": 3.06,
           "finish_probs": {
-            "1": 0.3942,
-            "2": 0.219,
-            "3": 0.2538,
-            "4": 0.133
+            "1": 0.39205,
+            "2": 0.22675,
+            "3": 0.2451,
+            "4": 0.1361
           },
-          "p_win_group_pct": 39.4,
-          "p_top2_pct": 61.3,
+          "p_win_group_pct": 39.2,
+          "p_top2_pct": 61.9,
           "p_advance_pct": 86.4,
           "finish_probs_pct": {
-            "1": 39.4,
-            "2": 21.9,
-            "3": 25.4,
-            "4": 13.3
+            "1": 39.2,
+            "2": 22.7,
+            "3": 24.5,
+            "4": 13.6
           }
         },
         {
@@ -2117,24 +1901,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.29055,
-          "p_top2": 0.6456,
-          "p_advance": 0.80655,
+          "p_win_group": 0.2928,
+          "p_top2": 0.6516,
+          "p_advance": 0.81595,
           "exp_points": 2.42,
           "finish_probs": {
-            "1": 0.29055,
-            "2": 0.35505,
-            "3": 0.16795,
-            "4": 0.18645
+            "1": 0.2928,
+            "2": 0.3588,
+            "3": 0.1648,
+            "4": 0.1836
           },
-          "p_win_group_pct": 29.1,
-          "p_top2_pct": 64.6,
-          "p_advance_pct": 80.7,
+          "p_win_group_pct": 29.3,
+          "p_top2_pct": 65.2,
+          "p_advance_pct": 81.6,
           "finish_probs_pct": {
-            "1": 29.1,
-            "2": 35.5,
-            "3": 16.8,
-            "4": 18.6
+            "1": 29.3,
+            "2": 35.9,
+            "3": 16.5,
+            "4": 18.4
           }
         },
         {
@@ -2143,24 +1927,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.18945,
-          "p_top2": 0.3562,
-          "p_advance": 0.7093,
-          "exp_points": 2.3,
+          "p_win_group": 0.18695,
+          "p_top2": 0.3521,
+          "p_advance": 0.71805,
+          "exp_points": 2.29,
           "finish_probs": {
-            "1": 0.18945,
-            "2": 0.16675,
-            "3": 0.36125,
-            "4": 0.28255
+            "1": 0.18695,
+            "2": 0.16515,
+            "3": 0.3668,
+            "4": 0.2811
           },
-          "p_win_group_pct": 18.9,
-          "p_top2_pct": 35.6,
-          "p_advance_pct": 70.9,
+          "p_win_group_pct": 18.7,
+          "p_top2_pct": 35.2,
+          "p_advance_pct": 71.8,
           "finish_probs_pct": {
-            "1": 18.9,
-            "2": 16.7,
-            "3": 36.1,
-            "4": 28.3
+            "1": 18.7,
+            "2": 16.5,
+            "3": 36.7,
+            "4": 28.1
           }
         },
         {
@@ -2169,24 +1953,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.1258,
-          "p_top2": 0.385,
-          "p_advance": 0.58985,
+          "p_win_group": 0.1282,
+          "p_top2": 0.3775,
+          "p_advance": 0.5994,
           "exp_points": 1.7,
           "finish_probs": {
-            "1": 0.1258,
-            "2": 0.2592,
-            "3": 0.217,
-            "4": 0.398
+            "1": 0.1282,
+            "2": 0.2493,
+            "3": 0.2233,
+            "4": 0.3992
           },
-          "p_win_group_pct": 12.6,
-          "p_top2_pct": 38.5,
-          "p_advance_pct": 59.0,
+          "p_win_group_pct": 12.8,
+          "p_top2_pct": 37.8,
+          "p_advance_pct": 59.9,
           "finish_probs_pct": {
-            "1": 12.6,
-            "2": 25.9,
-            "3": 21.7,
-            "4": 39.8
+            "1": 12.8,
+            "2": 24.9,
+            "3": 22.3,
+            "4": 39.9
           }
         }
       ]
@@ -2202,23 +1986,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.47105,
-          "p_top2": 0.9167,
+          "p_win_group": 1.0,
+          "p_top2": 1.0,
           "p_advance": 1.0,
-          "exp_points": 3.95,
+          "exp_points": 3.0,
           "finish_probs": {
-            "1": 0.47105,
-            "2": 0.44565,
-            "3": 0.0833,
+            "1": 1.0,
+            "2": 0.0,
+            "3": 0.0,
             "4": 0.0
           },
-          "p_win_group_pct": 47.1,
-          "p_top2_pct": 91.7,
+          "p_win_group_pct": 100.0,
+          "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 47.1,
-            "2": 44.6,
-            "3": 8.3,
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0,
             "4": 0.0
           }
         },
@@ -2228,23 +2012,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.52895,
-          "p_top2": 0.93805,
+          "p_win_group": 0.0,
+          "p_top2": 1.0,
           "p_advance": 1.0,
-          "exp_points": 4.82,
+          "exp_points": 3.0,
           "finish_probs": {
-            "1": 0.52895,
-            "2": 0.4091,
-            "3": 0.06195,
+            "1": 0.0,
+            "2": 1.0,
+            "3": 0.0,
             "4": 0.0
           },
-          "p_win_group_pct": 52.9,
-          "p_top2_pct": 93.8,
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 52.9,
-            "2": 40.9,
-            "3": 6.2,
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0,
             "4": 0.0
           }
         },
@@ -2255,23 +2039,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 0.1406,
-          "p_advance": 0.8287,
-          "exp_points": 2.13,
+          "p_top2": 0.0,
+          "p_advance": 0.0,
+          "exp_points": 0.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.1406,
-            "3": 0.70475,
-            "4": 0.15465
+            "2": 0.0,
+            "3": 1.0,
+            "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 14.1,
-          "p_advance_pct": 82.9,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 0.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 14.1,
-            "3": 70.5,
-            "4": 15.5
+            "2": 0.0,
+            "3": 100.0,
+            "4": 0.0
           }
         },
         {
@@ -2281,23 +2065,23 @@
           "points": 0,
           "goal_diff": -3,
           "p_win_group": 0.0,
-          "p_top2": 0.00465,
-          "p_advance": 0.15465,
-          "exp_points": 0.67,
+          "p_top2": 0.0,
+          "p_advance": 0.0,
+          "exp_points": 0.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.00465,
-            "3": 0.15,
-            "4": 0.84535
+            "2": 0.0,
+            "3": 0.0,
+            "4": 1.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.5,
-          "p_advance_pct": 15.5,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 0.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 0.5,
-            "3": 15.0,
-            "4": 84.5
+            "2": 0.0,
+            "3": 0.0,
+            "4": 100.0
           }
         }
       ]
@@ -2313,22 +2097,22 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.8426,
-          "p_top2": 0.9999,
+          "p_win_group": 0.8507,
+          "p_top2": 1.0,
           "p_advance": 1.0,
-          "exp_points": 5.89,
+          "exp_points": 5.9,
           "finish_probs": {
-            "1": 0.8426,
-            "2": 0.1573,
-            "3": 0.0001,
+            "1": 0.8507,
+            "2": 0.1493,
+            "3": 0.0,
             "4": 0.0
           },
-          "p_win_group_pct": 84.3,
+          "p_win_group_pct": 85.1,
           "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 84.3,
-            "2": 15.7,
+            "1": 85.1,
+            "2": 14.9,
             "3": 0.0,
             "4": 0.0
           }
@@ -2339,23 +2123,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.1574,
-          "p_top2": 0.99295,
+          "p_win_group": 0.1493,
+          "p_top2": 0.99105,
           "p_advance": 1.0,
-          "exp_points": 5.21,
+          "exp_points": 5.2,
           "finish_probs": {
-            "1": 0.1574,
-            "2": 0.83555,
-            "3": 0.00705,
+            "1": 0.1493,
+            "2": 0.84175,
+            "3": 0.00895,
             "4": 0.0
           },
-          "p_win_group_pct": 15.7,
-          "p_top2_pct": 99.3,
+          "p_win_group_pct": 14.9,
+          "p_top2_pct": 99.1,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 15.7,
-            "2": 83.6,
-            "3": 0.7,
+            "1": 14.9,
+            "2": 84.2,
+            "3": 0.9,
             "4": 0.0
           }
         },
@@ -2366,23 +2150,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 0.0001,
-          "p_advance": 0.0224,
+          "p_top2": 5e-05,
+          "p_advance": 0.0414,
           "exp_points": 0.06,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.0001,
-            "3": 0.3734,
-            "4": 0.6265
+            "2": 5e-05,
+            "3": 0.3681,
+            "4": 0.63185
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 2.2,
+          "p_advance_pct": 4.1,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
-            "3": 37.3,
-            "4": 62.6
+            "3": 36.8,
+            "4": 63.2
           }
         },
         {
@@ -2392,23 +2176,23 @@
           "points": 0,
           "goal_diff": -3,
           "p_win_group": 0.0,
-          "p_top2": 0.00705,
-          "p_advance": 0.13795,
+          "p_top2": 0.0089,
+          "p_advance": 0.19725,
           "exp_points": 0.59,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.00705,
-            "3": 0.61945,
-            "4": 0.3735
+            "2": 0.0089,
+            "3": 0.62295,
+            "4": 0.36815
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.7,
-          "p_advance_pct": 13.8,
+          "p_top2_pct": 0.9,
+          "p_advance_pct": 19.7,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 0.7,
-            "3": 61.9,
-            "4": 37.4
+            "2": 0.9,
+            "3": 62.3,
+            "4": 36.8
           }
         }
       ]
@@ -2424,23 +2208,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.5019,
-          "p_top2": 0.69985,
+          "p_win_group": 0.5072,
+          "p_top2": 0.7006,
           "p_advance": 1.0,
-          "exp_points": 4.22,
+          "exp_points": 4.23,
           "finish_probs": {
-            "1": 0.5019,
-            "2": 0.19795,
-            "3": 0.30015,
+            "1": 0.5072,
+            "2": 0.1934,
+            "3": 0.2994,
             "4": 0.0
           },
-          "p_win_group_pct": 50.2,
-          "p_top2_pct": 70.0,
+          "p_win_group_pct": 50.7,
+          "p_top2_pct": 70.1,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 50.2,
-            "2": 19.8,
-            "3": 30.0,
+            "1": 50.7,
+            "2": 19.3,
+            "3": 29.9,
             "4": 0.0
           }
         },
@@ -2450,24 +2234,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.2574,
-          "p_top2": 0.45365,
-          "p_advance": 0.92635,
-          "exp_points": 2.53,
+          "p_win_group": 0.25195,
+          "p_top2": 0.44825,
+          "p_advance": 0.9511,
+          "exp_points": 2.52,
           "finish_probs": {
-            "1": 0.2574,
-            "2": 0.19625,
-            "3": 0.5056,
-            "4": 0.04075
+            "1": 0.25195,
+            "2": 0.1963,
+            "3": 0.5081,
+            "4": 0.04365
           },
-          "p_win_group_pct": 25.7,
-          "p_top2_pct": 45.4,
-          "p_advance_pct": 92.6,
+          "p_win_group_pct": 25.2,
+          "p_top2_pct": 44.8,
+          "p_advance_pct": 95.1,
           "finish_probs_pct": {
-            "1": 25.7,
+            "1": 25.2,
             "2": 19.6,
-            "3": 50.6,
-            "4": 4.1
+            "3": 50.8,
+            "4": 4.4
           }
         },
         {
@@ -2476,24 +2260,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.2407,
-          "p_top2": 0.7721,
-          "p_advance": 0.9058,
+          "p_win_group": 0.24085,
+          "p_top2": 0.7743,
+          "p_advance": 0.90625,
           "exp_points": 3.26,
           "finish_probs": {
-            "1": 0.2407,
-            "2": 0.5314,
-            "3": 0.1345,
-            "4": 0.0934
+            "1": 0.24085,
+            "2": 0.53345,
+            "3": 0.132,
+            "4": 0.0937
           },
           "p_win_group_pct": 24.1,
-          "p_top2_pct": 77.2,
+          "p_top2_pct": 77.4,
           "p_advance_pct": 90.6,
           "finish_probs_pct": {
             "1": 24.1,
-            "2": 53.1,
-            "3": 13.5,
-            "4": 9.3
+            "2": 53.3,
+            "3": 13.2,
+            "4": 9.4
           }
         },
         {
@@ -2503,23 +2287,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 0.0744,
-          "p_advance": 0.13275,
+          "p_top2": 0.07685,
+          "p_advance": 0.13735,
           "exp_points": 0.54,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.0744,
-            "3": 0.05975,
-            "4": 0.86585
+            "2": 0.07685,
+            "3": 0.0605,
+            "4": 0.86265
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 7.4,
-          "p_advance_pct": 13.3,
+          "p_top2_pct": 7.7,
+          "p_advance_pct": 13.7,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 7.4,
+            "2": 7.7,
             "3": 6.0,
-            "4": 86.6
+            "4": 86.3
           }
         }
       ]
@@ -2535,23 +2319,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.9648,
-          "p_top2": 0.9993,
+          "p_win_group": 0.9646,
+          "p_top2": 0.99965,
           "p_advance": 1.0,
-          "exp_points": 5.81,
+          "exp_points": 5.82,
           "finish_probs": {
-            "1": 0.9648,
-            "2": 0.0345,
-            "3": 0.0007,
+            "1": 0.9646,
+            "2": 0.03505,
+            "3": 0.00035,
             "4": 0.0
           },
           "p_win_group_pct": 96.5,
-          "p_top2_pct": 99.9,
+          "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 96.5,
             "2": 3.5,
-            "3": 0.1,
+            "3": 0.0,
             "4": 0.0
           }
         },
@@ -2561,24 +2345,24 @@
           "played": 1,
           "points": 3,
           "goal_diff": 1,
-          "p_win_group": 0.0338,
-          "p_top2": 0.73995,
-          "p_advance": 0.9964,
-          "exp_points": 4.02,
+          "p_win_group": 0.03415,
+          "p_top2": 0.74375,
+          "p_advance": 0.9972,
+          "exp_points": 4.03,
           "finish_probs": {
-            "1": 0.0338,
-            "2": 0.70615,
-            "3": 0.25645,
-            "4": 0.0036
+            "1": 0.03415,
+            "2": 0.7096,
+            "3": 0.25345,
+            "4": 0.0028
           },
           "p_win_group_pct": 3.4,
-          "p_top2_pct": 74.0,
-          "p_advance_pct": 99.6,
+          "p_top2_pct": 74.4,
+          "p_advance_pct": 99.7,
           "finish_probs_pct": {
             "1": 3.4,
-            "2": 70.6,
-            "3": 25.6,
-            "4": 0.4
+            "2": 71.0,
+            "3": 25.3,
+            "4": 0.3
           }
         },
         {
@@ -2588,23 +2372,23 @@
           "points": 0,
           "goal_diff": -1,
           "p_win_group": 0.00015,
-          "p_top2": 0.0016,
-          "p_advance": 0.0473,
+          "p_top2": 0.0012,
+          "p_advance": 0.04895,
           "exp_points": 0.11,
           "finish_probs": {
             "1": 0.00015,
-            "2": 0.00145,
-            "3": 0.1249,
-            "4": 0.8735
+            "2": 0.00105,
+            "3": 0.1261,
+            "4": 0.8727
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.2,
-          "p_advance_pct": 4.7,
+          "p_top2_pct": 0.1,
+          "p_advance_pct": 4.9,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.1,
-            "3": 12.5,
-            "4": 87.4
+            "3": 12.6,
+            "4": 87.3
           }
         },
         {
@@ -2613,24 +2397,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.00125,
-          "p_top2": 0.25915,
-          "p_advance": 0.7008,
-          "exp_points": 1.73,
+          "p_win_group": 0.0011,
+          "p_top2": 0.2554,
+          "p_advance": 0.71795,
+          "exp_points": 1.72,
           "finish_probs": {
-            "1": 0.00125,
-            "2": 0.2579,
-            "3": 0.61795,
-            "4": 0.1229
+            "1": 0.0011,
+            "2": 0.2543,
+            "3": 0.6201,
+            "4": 0.1245
           },
           "p_win_group_pct": 0.1,
-          "p_top2_pct": 25.9,
-          "p_advance_pct": 70.1,
+          "p_top2_pct": 25.5,
+          "p_advance_pct": 71.8,
           "finish_probs_pct": {
             "1": 0.1,
-            "2": 25.8,
-            "3": 61.8,
-            "4": 12.3
+            "2": 25.4,
+            "3": 62.0,
+            "4": 12.4
           }
         }
       ]
