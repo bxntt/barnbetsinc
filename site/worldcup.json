@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-26T21:51:29.301909+00:00",
+  "generated_at": "2026-06-27T08:11:56.571090+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 40,
+  "prediction_count": 24,
   "predictions": [
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -118,62 +118,6 @@
       "rationale": "With scoring rates of 0.15 and 3.44, both teams scoring is a 14% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "result",
-      "pick": "Belgium win",
-      "prob": 0.8365,
-      "prob_pct": 83.6,
-      "confidence": 0.8,
-      "model_prob_pct": 83.6,
-      "market_prob_pct": null,
-      "fair_price_american": -512,
-      "outcomes": [
-        {
-          "label": "Belgium win",
-          "prob_pct": 83.6
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 13.2
-        },
-        {
-          "label": "New Zealand win",
-          "prob_pct": 3.2
-        }
-      ],
-      "rationale": "Belgium is the 84% pick \u2014 a clear favorite (expected goals New Zealand 0.32, Belgium 2.41)."
-    },
-    {
-      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "market": "handicap",
-      "pick": "Cape Verde +1.5",
-      "prob": 0.8349,
-      "prob_pct": 83.5,
-      "confidence": 0.8,
-      "model_prob_pct": 83.5,
-      "market_prob_pct": null,
-      "fair_price_american": -506,
-      "outcomes": [
-        {
-          "label": "Cape Verde +1.5",
-          "prob_pct": 83.5
-        },
-        {
-          "label": "Saudi Arabia -1.5",
-          "prob_pct": 16.5
-        }
-      ],
-      "rationale": "Saudi Arabia wins by 2+ goals 17% of the time; the 83% call is Cape Verde +1.5."
-    },
-    {
       "match_id": "54697f453437ab26276d773be1d72e9b",
       "group": "J",
       "commence_time": "2026-06-28T02:00:00Z",
@@ -226,32 +170,6 @@
       "rationale": "Portugal wins by 2+ goals 20% of the time; the 80% call is Colombia +1.5."
     },
     {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.7484,
-      "prob_pct": 74.8,
-      "confidence": 0.8,
-      "model_prob_pct": 74.8,
-      "market_prob_pct": null,
-      "fair_price_american": -297,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 74.8
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 25.2
-        }
-      ],
-      "rationale": "With scoring rates of 0.32 and 2.41, both teams scoring is a 25% chance \u2014 BTTS: No."
-    },
-    {
       "match_id": "537c0997cd899394f47f16545b7068b2",
       "group": "L",
       "commence_time": "2026-06-27T21:00:00Z",
@@ -302,32 +220,6 @@
         }
       ],
       "rationale": "England wins by 2+ goals 73% of the time; the 73% call is England -1.5."
-    },
-    {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "handicap",
-      "pick": "Iran +1.5",
-      "prob": 0.6991,
-      "prob_pct": 69.9,
-      "confidence": 0.8,
-      "model_prob_pct": 69.9,
-      "market_prob_pct": null,
-      "fair_price_american": -232,
-      "outcomes": [
-        {
-          "label": "Iran +1.5",
-          "prob_pct": 69.9
-        },
-        {
-          "label": "Egypt -1.5",
-          "prob_pct": 30.1
-        }
-      ],
-      "rationale": "Egypt wins by 2+ goals 30% of the time; the 70% call is Iran +1.5."
     },
     {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
@@ -416,32 +308,6 @@
       "rationale": "Austria is the 67% pick \u2014 a clear favorite (expected goals Algeria 0.77, Austria 2.06)."
     },
     {
-      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Uruguay",
-      "away": "Spain",
-      "market": "handicap",
-      "pick": "Uruguay +1.5",
-      "prob": 0.6652,
-      "prob_pct": 66.5,
-      "confidence": 0.8,
-      "model_prob_pct": 66.5,
-      "market_prob_pct": null,
-      "fair_price_american": -199,
-      "outcomes": [
-        {
-          "label": "Uruguay +1.5",
-          "prob_pct": 66.5
-        },
-        {
-          "label": "Spain -1.5",
-          "prob_pct": 33.5
-        }
-      ],
-      "rationale": "Spain wins by 2+ goals 33% of the time; the 67% call is Uruguay +1.5."
-    },
-    {
       "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
       "group": "L",
       "commence_time": "2026-06-27T21:00:00Z",
@@ -466,140 +332,6 @@
         }
       ],
       "rationale": "Expected ~2.9 goals (Panama 0.15, England 2.79); under 3 is the 66% side."
-    },
-    {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "handicap",
-      "pick": "Belgium -1.5",
-      "prob": 0.6135,
-      "prob_pct": 61.3,
-      "confidence": 0.8,
-      "model_prob_pct": 61.3,
-      "market_prob_pct": null,
-      "fair_price_american": -159,
-      "outcomes": [
-        {
-          "label": "Belgium -1.5",
-          "prob_pct": 61.3
-        },
-        {
-          "label": "New Zealand +1.5",
-          "prob_pct": 38.7
-        }
-      ],
-      "rationale": "Belgium wins by 2+ goals 61% of the time; the 61% call is Belgium -1.5."
-    },
-    {
-      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Uruguay",
-      "away": "Spain",
-      "market": "result",
-      "pick": "Spain win",
-      "prob": 0.5972,
-      "prob_pct": 59.7,
-      "confidence": 0.8,
-      "model_prob_pct": 59.7,
-      "market_prob_pct": null,
-      "fair_price_american": -148,
-      "outcomes": [
-        {
-          "label": "Spain win",
-          "prob_pct": 59.7
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 25.6
-        },
-        {
-          "label": "Uruguay win",
-          "prob_pct": 14.7
-        }
-      ],
-      "rationale": "Spain is the 60% pick \u2014 a clear favorite (expected goals Uruguay 0.68, Spain 1.64)."
-    },
-    {
-      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Uruguay",
-      "away": "Spain",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5938,
-      "prob_pct": 59.4,
-      "confidence": 0.8,
-      "model_prob_pct": 59.4,
-      "market_prob_pct": null,
-      "fair_price_american": -146,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 59.4
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 40.6
-        }
-      ],
-      "rationale": "With scoring rates of 0.68 and 1.64, both teams scoring is a 41% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Uruguay",
-      "away": "Spain",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5897,
-      "prob_pct": 59.0,
-      "confidence": 0.8,
-      "model_prob_pct": 59.0,
-      "market_prob_pct": null,
-      "fair_price_american": -144,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 59.0
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 41.0
-        }
-      ],
-      "rationale": "Expected ~2.3 goals (Uruguay 0.68, Spain 1.64); under 2.5 is the 59% side."
-    },
-    {
-      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5881,
-      "prob_pct": 58.8,
-      "confidence": 0.8,
-      "model_prob_pct": 58.8,
-      "market_prob_pct": null,
-      "fair_price_american": -143,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 58.8
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 41.2
-        }
-      ],
-      "rationale": "Expected ~2.3 goals (Cape Verde 1.12, Saudi Arabia 1.21); under 2.5 is the 59% side."
     },
     {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
@@ -732,62 +464,6 @@
       "rationale": "With scoring rates of 1.62 and 1.12, both teams scoring is a 55% chance \u2014 BTTS: Yes."
     },
     {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "result",
-      "pick": "Egypt win",
-      "prob": 0.5369,
-      "prob_pct": 53.7,
-      "confidence": 0.8,
-      "model_prob_pct": 53.7,
-      "market_prob_pct": null,
-      "fair_price_american": -116,
-      "outcomes": [
-        {
-          "label": "Egypt win",
-          "prob_pct": 53.7
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 25.1
-        },
-        {
-          "label": "Iran win",
-          "prob_pct": 21.2
-        }
-      ],
-      "rationale": "Egypt is the 54% pick \u2014 a slight edge (expected goals Egypt 1.73, Iran 1.00)."
-    },
-    {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5274,
-      "prob_pct": 52.7,
-      "confidence": 0.8,
-      "model_prob_pct": 52.7,
-      "market_prob_pct": null,
-      "fair_price_american": -112,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 52.7
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 47.3
-        }
-      ],
-      "rationale": "With scoring rates of 1.73 and 1.00, both teams scoring is a 53% chance \u2014 BTTS: Yes."
-    },
-    {
       "match_id": "8756200e539155e571557c4f2e0d7f05",
       "group": "J",
       "commence_time": "2026-06-28T02:00:00Z",
@@ -812,32 +488,6 @@
         }
       ],
       "rationale": "With scoring rates of 0.77 and 2.06, both teams scoring is a 48% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5194,
-      "prob_pct": 51.9,
-      "confidence": 0.8,
-      "model_prob_pct": 51.9,
-      "market_prob_pct": null,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 51.9
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 48.1
-        }
-      ],
-      "rationale": "With scoring rates of 1.12 and 1.21, both teams scoring is a 48% chance \u2014 BTTS: No."
     },
     {
       "match_id": "54697f453437ab26276d773be1d72e9b",
@@ -918,32 +568,6 @@
       "rationale": "Expected ~2.7 goals (Colombia 1.26, Portugal 1.47); over 2.5 is the 51% side."
     },
     {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5137,
-      "prob_pct": 51.4,
-      "confidence": 0.8,
-      "model_prob_pct": 51.4,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "rationale": "Expected ~2.7 goals (Egypt 1.73, Iran 1.00); over 2.5 is the 51% side."
-    },
-    {
       "match_id": "13eab94a136b9c264ba974cf437a5f71",
       "group": "K",
       "commence_time": "2026-06-27T23:30:00Z",
@@ -968,32 +592,6 @@
         }
       ],
       "rationale": "Expected ~2.7 goals (DR Congo 2.03, Uzbekistan 0.70); over 2.5 is the 51% side."
-    },
-    {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5137,
-      "prob_pct": 51.4,
-      "confidence": 0.8,
-      "model_prob_pct": 51.4,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "rationale": "Expected ~2.7 goals (New Zealand 0.32, Belgium 2.41); over 2.5 is the 51% side."
     },
     {
       "match_id": "537c0997cd899394f47f16545b7068b2",
@@ -1054,36 +652,6 @@
         }
       ],
       "rationale": "Portugal is the 41% pick \u2014 a slight edge (expected goals Colombia 1.26, Portugal 1.47)."
-    },
-    {
-      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "market": "result",
-      "pick": "Saudi Arabia win",
-      "prob": 0.3756,
-      "prob_pct": 37.6,
-      "confidence": 0.8,
-      "model_prob_pct": 37.6,
-      "market_prob_pct": null,
-      "fair_price_american": 166,
-      "outcomes": [
-        {
-          "label": "Saudi Arabia win",
-          "prob_pct": 37.6
-        },
-        {
-          "label": "Cape Verde win",
-          "prob_pct": 32.7
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 29.7
-        }
-      ],
-      "rationale": "Saudi Arabia is the 38% pick \u2014 a toss-up (expected goals Cape Verde 1.12, Saudi Arabia 1.21)."
     }
   ],
   "groups": [
@@ -1263,7 +831,7 @@
           "goal_diff": -3,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.8599,
+          "p_advance": 0.8494,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
@@ -1273,7 +841,7 @@
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 86.0,
+          "p_advance_pct": 84.9,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
@@ -1347,22 +915,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.49955,
+          "p_top2": 0.5041,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.49955,
-            "3": 0.50045,
+            "2": 0.5041,
+            "3": 0.4959,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 50.0,
+          "p_top2_pct": 50.4,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 50.0,
-            "3": 50.0,
+            "2": 50.4,
+            "3": 49.6,
             "4": 0.0
           }
         },
@@ -1373,22 +941,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.50045,
+          "p_top2": 0.4959,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.50045,
-            "3": 0.49955,
+            "2": 0.4959,
+            "3": 0.5041,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 50.0,
+          "p_top2_pct": 49.6,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 50.0,
-            "3": 50.0,
+            "2": 49.6,
+            "3": 50.4,
             "4": 0.0
           }
         },
@@ -1596,7 +1164,7 @@
           "goal_diff": -1,
           "p_win_group": 0.0,
           "p_top2": 0.0,
-          "p_advance": 0.1516,
+          "p_advance": 0.15605,
           "exp_points": 0.0,
           "finish_probs": {
             "1": 0.0,
@@ -1606,7 +1174,7 @@
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 15.2,
+          "p_advance_pct": 15.6,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
@@ -1680,22 +1248,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.5044,
+          "p_top2": 0.5001,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.5044,
-            "3": 0.4956,
+            "2": 0.5001,
+            "3": 0.4999,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 50.4,
+          "p_top2_pct": 50.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 50.4,
-            "3": 49.6,
+            "2": 50.0,
+            "3": 50.0,
             "4": 0.0
           }
         },
@@ -1706,22 +1274,22 @@
           "points": 1,
           "goal_diff": 0,
           "p_win_group": 0.0,
-          "p_top2": 0.4956,
+          "p_top2": 0.4999,
           "p_advance": 1.0,
           "exp_points": 1.0,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.4956,
-            "3": 0.5044,
+            "2": 0.4999,
+            "3": 0.5001,
             "4": 0.0
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 49.6,
+          "p_top2_pct": 50.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 49.6,
-            "3": 50.4,
+            "2": 50.0,
+            "3": 50.0,
             "4": 0.0
           }
         },
@@ -1759,81 +1327,29 @@
       "matches_total": 6,
       "teams": [
         {
-          "team": "Belgium",
-          "group": "G",
-          "played": 1,
-          "points": 1,
-          "goal_diff": 0,
-          "p_win_group": 0.58345,
-          "p_top2": 0.84285,
-          "p_advance": 0.96045,
-          "exp_points": 3.65,
-          "finish_probs": {
-            "1": 0.58345,
-            "2": 0.2594,
-            "3": 0.1176,
-            "4": 0.03955
-          },
-          "p_win_group_pct": 58.3,
-          "p_top2_pct": 84.3,
-          "p_advance_pct": 96.0,
-          "finish_probs_pct": {
-            "1": 58.3,
-            "2": 25.9,
-            "3": 11.8,
-            "4": 4.0
-          }
-        },
-        {
-          "team": "Egypt",
-          "group": "G",
-          "played": 1,
-          "points": 1,
-          "goal_diff": 0,
-          "p_win_group": 0.27065,
-          "p_top2": 0.56215,
-          "p_advance": 0.8989,
-          "exp_points": 2.89,
-          "finish_probs": {
-            "1": 0.27065,
-            "2": 0.2915,
-            "3": 0.3376,
-            "4": 0.10025
-          },
-          "p_win_group_pct": 27.1,
-          "p_top2_pct": 56.2,
-          "p_advance_pct": 89.9,
-          "finish_probs_pct": {
-            "1": 27.1,
-            "2": 29.1,
-            "3": 33.8,
-            "4": 10.0
-          }
-        },
-        {
           "team": "Iran",
           "group": "G",
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.11895,
-          "p_top2": 0.44445,
-          "p_advance": 0.7545,
-          "exp_points": 1.88,
+          "p_win_group": 0.4967,
+          "p_top2": 1.0,
+          "p_advance": 1.0,
+          "exp_points": 1.0,
           "finish_probs": {
-            "1": 0.11895,
-            "2": 0.3255,
-            "3": 0.31285,
-            "4": 0.2427
+            "1": 0.4967,
+            "2": 0.5033,
+            "3": 0.0,
+            "4": 0.0
           },
-          "p_win_group_pct": 11.9,
-          "p_top2_pct": 44.4,
-          "p_advance_pct": 75.4,
+          "p_win_group_pct": 49.7,
+          "p_top2_pct": 100.0,
+          "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 11.9,
-            "2": 32.6,
-            "3": 31.3,
-            "4": 24.3
+            "1": 49.7,
+            "2": 50.3,
+            "3": 0.0,
+            "4": 0.0
           }
         },
         {
@@ -1842,24 +1358,76 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.02695,
-          "p_top2": 0.15055,
-          "p_advance": 0.3799,
-          "exp_points": 1.23,
+          "p_win_group": 0.5033,
+          "p_top2": 1.0,
+          "p_advance": 1.0,
+          "exp_points": 1.0,
           "finish_probs": {
-            "1": 0.02695,
-            "2": 0.1236,
-            "3": 0.23195,
-            "4": 0.6175
+            "1": 0.5033,
+            "2": 0.4967,
+            "3": 0.0,
+            "4": 0.0
           },
-          "p_win_group_pct": 2.7,
-          "p_top2_pct": 15.1,
-          "p_advance_pct": 38.0,
+          "p_win_group_pct": 50.3,
+          "p_top2_pct": 100.0,
+          "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 2.7,
-            "2": 12.4,
-            "3": 23.2,
-            "4": 61.8
+            "1": 50.3,
+            "2": 49.7,
+            "3": 0.0,
+            "4": 0.0
+          }
+        },
+        {
+          "team": "Belgium",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "goal_diff": 0,
+          "p_win_group": 0.0,
+          "p_top2": 0.0,
+          "p_advance": 0.5049,
+          "exp_points": 1.0,
+          "finish_probs": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.5049,
+            "4": 0.4951
+          },
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 50.5,
+          "finish_probs_pct": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 50.5,
+            "4": 49.5
+          }
+        },
+        {
+          "team": "Egypt",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "goal_diff": 0,
+          "p_win_group": 0.0,
+          "p_top2": 0.0,
+          "p_advance": 0.4951,
+          "exp_points": 1.0,
+          "finish_probs": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.4951,
+            "4": 0.5049
+          },
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 49.5,
+          "finish_probs_pct": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 49.5,
+            "4": 50.5
           }
         }
       ]
@@ -1870,81 +1438,29 @@
       "matches_total": 6,
       "teams": [
         {
-          "team": "Spain",
-          "group": "H",
-          "played": 1,
-          "points": 1,
-          "goal_diff": 0,
-          "p_win_group": 0.39205,
-          "p_top2": 0.6188,
-          "p_advance": 0.8639,
-          "exp_points": 3.06,
-          "finish_probs": {
-            "1": 0.39205,
-            "2": 0.22675,
-            "3": 0.2451,
-            "4": 0.1361
-          },
-          "p_win_group_pct": 39.2,
-          "p_top2_pct": 61.9,
-          "p_advance_pct": 86.4,
-          "finish_probs_pct": {
-            "1": 39.2,
-            "2": 22.7,
-            "3": 24.5,
-            "4": 13.6
-          }
-        },
-        {
           "team": "Saudi Arabia",
           "group": "H",
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.2928,
-          "p_top2": 0.6516,
-          "p_advance": 0.81595,
-          "exp_points": 2.42,
+          "p_win_group": 0.49855,
+          "p_top2": 1.0,
+          "p_advance": 1.0,
+          "exp_points": 1.0,
           "finish_probs": {
-            "1": 0.2928,
-            "2": 0.3588,
-            "3": 0.1648,
-            "4": 0.1836
+            "1": 0.49855,
+            "2": 0.50145,
+            "3": 0.0,
+            "4": 0.0
           },
-          "p_win_group_pct": 29.3,
-          "p_top2_pct": 65.2,
-          "p_advance_pct": 81.6,
+          "p_win_group_pct": 49.9,
+          "p_top2_pct": 100.0,
+          "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 29.3,
-            "2": 35.9,
-            "3": 16.5,
-            "4": 18.4
-          }
-        },
-        {
-          "team": "Cape Verde",
-          "group": "H",
-          "played": 1,
-          "points": 1,
-          "goal_diff": 0,
-          "p_win_group": 0.18695,
-          "p_top2": 0.3521,
-          "p_advance": 0.71805,
-          "exp_points": 2.29,
-          "finish_probs": {
-            "1": 0.18695,
-            "2": 0.16515,
-            "3": 0.3668,
-            "4": 0.2811
-          },
-          "p_win_group_pct": 18.7,
-          "p_top2_pct": 35.2,
-          "p_advance_pct": 71.8,
-          "finish_probs_pct": {
-            "1": 18.7,
-            "2": 16.5,
-            "3": 36.7,
-            "4": 28.1
+            "1": 49.9,
+            "2": 50.1,
+            "3": 0.0,
+            "4": 0.0
           }
         },
         {
@@ -1953,24 +1469,76 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.1282,
-          "p_top2": 0.3775,
-          "p_advance": 0.5994,
-          "exp_points": 1.7,
+          "p_win_group": 0.50145,
+          "p_top2": 1.0,
+          "p_advance": 1.0,
+          "exp_points": 1.0,
           "finish_probs": {
-            "1": 0.1282,
-            "2": 0.2493,
-            "3": 0.2233,
-            "4": 0.3992
+            "1": 0.50145,
+            "2": 0.49855,
+            "3": 0.0,
+            "4": 0.0
           },
-          "p_win_group_pct": 12.8,
-          "p_top2_pct": 37.8,
-          "p_advance_pct": 59.9,
+          "p_win_group_pct": 50.1,
+          "p_top2_pct": 100.0,
+          "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 12.8,
-            "2": 24.9,
-            "3": 22.3,
-            "4": 39.9
+            "1": 50.1,
+            "2": 49.9,
+            "3": 0.0,
+            "4": 0.0
+          }
+        },
+        {
+          "team": "Cape Verde",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "goal_diff": 0,
+          "p_win_group": 0.0,
+          "p_top2": 0.0,
+          "p_advance": 0.50315,
+          "exp_points": 1.0,
+          "finish_probs": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.50315,
+            "4": 0.49685
+          },
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 50.3,
+          "finish_probs_pct": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 50.3,
+            "4": 49.7
+          }
+        },
+        {
+          "team": "Spain",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "goal_diff": 0,
+          "p_win_group": 0.0,
+          "p_top2": 0.0,
+          "p_advance": 0.49685,
+          "exp_points": 1.0,
+          "finish_probs": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.49685,
+            "4": 0.50315
+          },
+          "p_win_group_pct": 0.0,
+          "p_top2_pct": 0.0,
+          "p_advance_pct": 49.7,
+          "finish_probs_pct": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 49.7,
+            "4": 50.3
           }
         }
       ]
@@ -2097,22 +1665,22 @@
           "played": 1,
           "points": 3,
           "goal_diff": 3,
-          "p_win_group": 0.8507,
+          "p_win_group": 0.8476,
           "p_top2": 1.0,
           "p_advance": 1.0,
-          "exp_points": 5.9,
+          "exp_points": 5.89,
           "finish_probs": {
-            "1": 0.8507,
-            "2": 0.1493,
+            "1": 0.8476,
+            "2": 0.1524,
             "3": 0.0,
             "4": 0.0
           },
-          "p_win_group_pct": 85.1,
+          "p_win_group_pct": 84.8,
           "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 85.1,
-            "2": 14.9,
+            "1": 84.8,
+            "2": 15.2,
             "3": 0.0,
             "4": 0.0
           }
@@ -2123,23 +1691,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.1493,
-          "p_top2": 0.99105,
+          "p_win_group": 0.1524,
+          "p_top2": 0.99225,
           "p_advance": 1.0,
-          "exp_points": 5.2,
+          "exp_points": 5.21,
           "finish_probs": {
-            "1": 0.1493,
-            "2": 0.84175,
-            "3": 0.00895,
+            "1": 0.1524,
+            "2": 0.83985,
+            "3": 0.00775,
             "4": 0.0
           },
-          "p_win_group_pct": 14.9,
-          "p_top2_pct": 99.1,
+          "p_win_group_pct": 15.2,
+          "p_top2_pct": 99.2,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 14.9,
-            "2": 84.2,
-            "3": 0.9,
+            "1": 15.2,
+            "2": 84.0,
+            "3": 0.8,
             "4": 0.0
           }
         },
@@ -2150,23 +1718,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 5e-05,
-          "p_advance": 0.0414,
+          "p_top2": 0.0,
+          "p_advance": 0.0443,
           "exp_points": 0.06,
           "finish_probs": {
             "1": 0.0,
-            "2": 5e-05,
-            "3": 0.3681,
-            "4": 0.63185
+            "2": 0.0,
+            "3": 0.366,
+            "4": 0.634
           },
           "p_win_group_pct": 0.0,
           "p_top2_pct": 0.0,
-          "p_advance_pct": 4.1,
+          "p_advance_pct": 4.4,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.0,
-            "3": 36.8,
-            "4": 63.2
+            "3": 36.6,
+            "4": 63.4
           }
         },
         {
@@ -2176,23 +1744,23 @@
           "points": 0,
           "goal_diff": -3,
           "p_win_group": 0.0,
-          "p_top2": 0.0089,
-          "p_advance": 0.19725,
+          "p_top2": 0.00775,
+          "p_advance": 0.1963,
           "exp_points": 0.59,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.0089,
-            "3": 0.62295,
-            "4": 0.36815
+            "2": 0.00775,
+            "3": 0.62625,
+            "4": 0.366
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.9,
-          "p_advance_pct": 19.7,
+          "p_top2_pct": 0.8,
+          "p_advance_pct": 19.6,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 0.9,
-            "3": 62.3,
-            "4": 36.8
+            "2": 0.8,
+            "3": 62.6,
+            "4": 36.6
           }
         }
       ]
@@ -2208,23 +1776,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.5072,
-          "p_top2": 0.7006,
+          "p_win_group": 0.50675,
+          "p_top2": 0.7024,
           "p_advance": 1.0,
           "exp_points": 4.23,
           "finish_probs": {
-            "1": 0.5072,
-            "2": 0.1934,
-            "3": 0.2994,
+            "1": 0.50675,
+            "2": 0.19565,
+            "3": 0.2976,
             "4": 0.0
           },
           "p_win_group_pct": 50.7,
-          "p_top2_pct": 70.1,
+          "p_top2_pct": 70.2,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
             "1": 50.7,
-            "2": 19.3,
-            "3": 29.9,
+            "2": 19.6,
+            "3": 29.8,
             "4": 0.0
           }
         },
@@ -2234,24 +1802,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.25195,
-          "p_top2": 0.44825,
-          "p_advance": 0.9511,
+          "p_win_group": 0.25285,
+          "p_top2": 0.45045,
+          "p_advance": 0.9518,
           "exp_points": 2.52,
           "finish_probs": {
-            "1": 0.25195,
-            "2": 0.1963,
-            "3": 0.5081,
-            "4": 0.04365
+            "1": 0.25285,
+            "2": 0.1976,
+            "3": 0.5061,
+            "4": 0.04345
           },
-          "p_win_group_pct": 25.2,
-          "p_top2_pct": 44.8,
-          "p_advance_pct": 95.1,
+          "p_win_group_pct": 25.3,
+          "p_top2_pct": 45.0,
+          "p_advance_pct": 95.2,
           "finish_probs_pct": {
-            "1": 25.2,
-            "2": 19.6,
-            "3": 50.8,
-            "4": 4.4
+            "1": 25.3,
+            "2": 19.8,
+            "3": 50.6,
+            "4": 4.3
           }
         },
         {
@@ -2260,24 +1828,24 @@
           "played": 1,
           "points": 1,
           "goal_diff": 0,
-          "p_win_group": 0.24085,
-          "p_top2": 0.7743,
-          "p_advance": 0.90625,
-          "exp_points": 3.26,
+          "p_win_group": 0.2404,
+          "p_top2": 0.7689,
+          "p_advance": 0.90155,
+          "exp_points": 3.25,
           "finish_probs": {
-            "1": 0.24085,
-            "2": 0.53345,
-            "3": 0.132,
-            "4": 0.0937
+            "1": 0.2404,
+            "2": 0.5285,
+            "3": 0.1327,
+            "4": 0.0984
           },
-          "p_win_group_pct": 24.1,
-          "p_top2_pct": 77.4,
-          "p_advance_pct": 90.6,
+          "p_win_group_pct": 24.0,
+          "p_top2_pct": 76.9,
+          "p_advance_pct": 90.2,
           "finish_probs_pct": {
-            "1": 24.1,
-            "2": 53.3,
-            "3": 13.2,
-            "4": 9.4
+            "1": 24.0,
+            "2": 52.8,
+            "3": 13.3,
+            "4": 9.8
           }
         },
         {
@@ -2287,23 +1855,23 @@
           "points": 0,
           "goal_diff": -2,
           "p_win_group": 0.0,
-          "p_top2": 0.07685,
-          "p_advance": 0.13735,
-          "exp_points": 0.54,
+          "p_top2": 0.07825,
+          "p_advance": 0.14185,
+          "exp_points": 0.56,
           "finish_probs": {
             "1": 0.0,
-            "2": 0.07685,
-            "3": 0.0605,
-            "4": 0.86265
+            "2": 0.07825,
+            "3": 0.0636,
+            "4": 0.85815
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 7.7,
-          "p_advance_pct": 13.7,
+          "p_top2_pct": 7.8,
+          "p_advance_pct": 14.2,
           "finish_probs_pct": {
             "1": 0.0,
-            "2": 7.7,
-            "3": 6.0,
-            "4": 86.3
+            "2": 7.8,
+            "3": 6.4,
+            "4": 85.8
           }
         }
       ]
@@ -2319,23 +1887,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 2,
-          "p_win_group": 0.9646,
-          "p_top2": 0.99965,
+          "p_win_group": 0.9661,
+          "p_top2": 0.9995,
           "p_advance": 1.0,
           "exp_points": 5.82,
           "finish_probs": {
-            "1": 0.9646,
-            "2": 0.03505,
-            "3": 0.00035,
+            "1": 0.9661,
+            "2": 0.0334,
+            "3": 0.0005,
             "4": 0.0
           },
-          "p_win_group_pct": 96.5,
+          "p_win_group_pct": 96.6,
           "p_top2_pct": 100.0,
           "p_advance_pct": 100.0,
           "finish_probs_pct": {
-            "1": 96.5,
-            "2": 3.5,
-            "3": 0.0,
+            "1": 96.6,
+            "2": 3.3,
+            "3": 0.1,
             "4": 0.0
           }
         },
@@ -2345,23 +1913,23 @@
           "played": 1,
           "points": 3,
           "goal_diff": 1,
-          "p_win_group": 0.03415,
-          "p_top2": 0.74375,
-          "p_advance": 0.9972,
+          "p_win_group": 0.03275,
+          "p_top2": 0.7402,
+          "p_advance": 0.9971,
           "exp_points": 4.03,
           "finish_probs": {
-            "1": 0.03415,
-            "2": 0.7096,
-            "3": 0.25345,
-            "4": 0.0028
+            "1": 0.03275,
+            "2": 0.70745,
+            "3": 0.2569,
+            "4": 0.0029
           },
-          "p_win_group_pct": 3.4,
-          "p_top2_pct": 74.4,
+          "p_win_group_pct": 3.3,
+          "p_top2_pct": 74.0,
           "p_advance_pct": 99.7,
           "finish_probs_pct": {
-            "1": 3.4,
-            "2": 71.0,
-            "3": 25.3,
+            "1": 3.3,
+            "2": 70.7,
+            "3": 25.7,
             "4": 0.3
           }
         },
@@ -2371,24 +1939,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -1,
-          "p_win_group": 0.00015,
-          "p_top2": 0.0012,
-          "p_advance": 0.04895,
+          "p_win_group": 0.0001,
+          "p_top2": 0.00155,
+          "p_advance": 0.0484,
           "exp_points": 0.11,
           "finish_probs": {
-            "1": 0.00015,
-            "2": 0.00105,
-            "3": 0.1261,
-            "4": 0.8727
+            "1": 0.0001,
+            "2": 0.00145,
+            "3": 0.1213,
+            "4": 0.87715
           },
           "p_win_group_pct": 0.0,
-          "p_top2_pct": 0.1,
-          "p_advance_pct": 4.9,
+          "p_top2_pct": 0.2,
+          "p_advance_pct": 4.8,
           "finish_probs_pct": {
             "1": 0.0,
             "2": 0.1,
-            "3": 12.6,
-            "4": 87.3
+            "3": 12.1,
+            "4": 87.7
           }
         },
         {
@@ -2397,24 +1965,24 @@
           "played": 1,
           "points": 0,
           "goal_diff": -2,
-          "p_win_group": 0.0011,
-          "p_top2": 0.2554,
-          "p_advance": 0.71795,
+          "p_win_group": 0.00105,
+          "p_top2": 0.25875,
+          "p_advance": 0.71325,
           "exp_points": 1.72,
           "finish_probs": {
-            "1": 0.0011,
-            "2": 0.2543,
-            "3": 0.6201,
-            "4": 0.1245
+            "1": 0.00105,
+            "2": 0.2577,
+            "3": 0.6213,
+            "4": 0.11995
           },
           "p_win_group_pct": 0.1,
-          "p_top2_pct": 25.5,
-          "p_advance_pct": 71.8,
+          "p_top2_pct": 25.9,
+          "p_advance_pct": 71.3,
           "finish_probs_pct": {
             "1": 0.1,
-            "2": 25.4,
-            "3": 62.0,
-            "4": 12.4
+            "2": 25.8,
+            "3": 62.1,
+            "4": 12.0
           }
         }
       ]

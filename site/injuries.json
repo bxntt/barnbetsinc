@@ -1,63 +1,12 @@
 {
-  "generated_at": "2026-06-26T21:51:28.085766+00:00",
+  "generated_at": "2026-06-27T08:11:55.541870+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 10,
-  "affected_games": 3,
-  "total_absences": 3,
+  "game_count": 6,
+  "affected_games": 2,
+  "total_absences": 2,
   "games": [
-    {
-      "match_id": "e07b1926be5a4d515c7eb108dbcee9c5",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "dcff2e31c0bce001a4db5caaf4fa8822",
-      "group": "H",
-      "commence_time": "2026-06-27T00:00:00Z",
-      "home": "Uruguay",
-      "away": "Spain",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "Gavi",
-          "position": "MF",
-          "status": "Doubtful",
-          "reason": "Knock, assessed before kickoff",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "match_id": "581691da05dcd75b5c6d3be91ee9d2ab",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "3e3b5fa2b3c963e74cf044c60db0b573",
-      "group": "G",
-      "commence_time": "2026-06-27T03:00:00Z",
-      "home": "Egypt",
-      "away": "Iran",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "537c0997cd899394f47f16545b7068b2",
       "group": "L",
