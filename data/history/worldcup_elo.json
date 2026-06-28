@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T08:11:55.799142+00:00",
+  "updated_at": "2026-06-28T00:17:58.238343+00:00",
   "ratings": {
     "Mexico": 1968.06,
     "South Africa": 1765.09,
@@ -43,10 +43,10 @@
     "Jordan": 1584.95,
     "Portugal": 2019.18,
     "DR Congo": 1766.45,
-    "England": 2063.57,
-    "Croatia": 1933.2,
-    "Ghana": 1825.4,
-    "Panama": 1667.83,
+    "England": 2068.6,
+    "Croatia": 1953.41,
+    "Ghana": 1805.19,
+    "Panama": 1662.8,
     "Uzbekistan": 1595.96,
     "Colombia": 1958.41
   },
@@ -75,6 +75,7 @@
     "Colombia|DR Congo|2026-06-24",
     "Colombia|Uzbekistan|2026-06-18",
     "Croatia|England|2026-06-17",
+    "Croatia|Ghana|2026-06-27",
     "Croatia|Panama|2026-06-23",
     "Cura\u00e7ao|Ecuador|2026-06-21",
     "Cura\u00e7ao|Germany|2026-06-14",
@@ -88,6 +89,7 @@
     "Egypt|Iran|2026-06-27",
     "Egypt|New Zealand|2026-06-22",
     "England|Ghana|2026-06-23",
+    "England|Panama|2026-06-27",
     "France|Iraq|2026-06-22",
     "France|Norway|2026-06-26",
     "France|Senegal|2026-06-16",

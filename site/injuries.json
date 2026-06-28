@@ -1,43 +1,12 @@
 {
-  "generated_at": "2026-06-27T20:40:56.659636+00:00",
+  "generated_at": "2026-06-28T00:17:58.124128+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 6,
-  "affected_games": 2,
-  "total_absences": 2,
+  "game_count": 4,
+  "affected_games": 1,
+  "total_absences": 1,
   "games": [
-    {
-      "match_id": "537c0997cd899394f47f16545b7068b2",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Croatia",
-      "away": "Ghana",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "4be17c8e1ccfecb0f2a5ef79e045c415",
-      "group": "L",
-      "commence_time": "2026-06-27T21:00:00Z",
-      "home": "Panama",
-      "away": "England",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "John Stones",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Hamstring tightness",
-          "expected_starter": true,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 1
-    },
     {
       "match_id": "67ae5751c401a98409b8566ae4897069",
       "group": "K",
