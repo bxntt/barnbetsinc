@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-28T19:59:24.165024+00:00",
+  "generated_at": "2026-06-28T23:55:23.295380+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 64,
+  "prediction_count": 60,
   "predictions": [
     {
       "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
@@ -13,53 +13,53 @@
       "away": "Cape Verde",
       "market": "result",
       "pick": "Argentina win",
-      "prob": 0.8513,
-      "prob_pct": 85.1,
-      "confidence": 0.73,
+      "prob": 0.8977,
+      "prob_pct": 89.8,
+      "confidence": 0.8,
       "model_prob_pct": 89.8,
-      "market_prob_pct": 83.0,
-      "fair_price_american": -572,
+      "market_prob_pct": null,
+      "fair_price_american": -878,
       "outcomes": [
         {
           "label": "Argentina win",
-          "prob_pct": 85.1
+          "prob_pct": 89.8
         },
         {
           "label": "Draw",
-          "prob_pct": 11.1
+          "prob_pct": 9.2
         },
         {
           "label": "Cape Verde win",
-          "prob_pct": 3.8
+          "prob_pct": 1.1
         }
       ],
-      "rationale": "Argentina is the 85% pick \u2014 a clear favorite (expected goals Argentina 2.80, Cape Verde 0.62)."
+      "rationale": "Argentina is the 90% pick \u2014 a clear favorite (expected goals Argentina 2.63, Cape Verde 0.15)."
     },
     {
-      "match_id": "def55b09ef3d6854e3c01e74b5c63415",
+      "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "group": "",
-      "commence_time": "2026-06-28T19:00:00Z",
-      "home": "South Africa",
-      "away": "Canada",
-      "market": "handicap",
-      "pick": "South Africa +1.5",
-      "prob": 0.8493,
-      "prob_pct": 84.9,
-      "confidence": 0.2,
-      "model_prob_pct": 84.9,
+      "commence_time": "2026-07-03T22:00:00Z",
+      "home": "Argentina",
+      "away": "Cape Verde",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.8692,
+      "prob_pct": 86.9,
+      "confidence": 0.8,
+      "model_prob_pct": 86.9,
       "market_prob_pct": null,
-      "fair_price_american": -564,
+      "fair_price_american": -665,
       "outcomes": [
         {
-          "label": "South Africa +1.5",
-          "prob_pct": 84.9
+          "label": "BTTS: No",
+          "prob_pct": 86.9
         },
         {
-          "label": "Canada -1.5",
-          "prob_pct": 15.1
+          "label": "BTTS: Yes",
+          "prob_pct": 13.1
         }
       ],
-      "rationale": "Canada wins by 2+ goals 15% of the time; the 85% call is South Africa +1.5. Factoring in Canada on home soil."
+      "rationale": "With scoring rates of 2.63 and 0.15, both teams scoring is a 13% chance \u2014 BTTS: No."
     },
     {
       "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
@@ -69,49 +69,23 @@
       "away": "Egypt",
       "market": "handicap",
       "pick": "Australia +1.5",
-      "prob": 0.836,
-      "prob_pct": 83.6,
-      "confidence": 0.71,
-      "model_prob_pct": 83.6,
+      "prob": 0.8323,
+      "prob_pct": 83.2,
+      "confidence": 0.8,
+      "model_prob_pct": 83.2,
       "market_prob_pct": null,
-      "fair_price_american": -510,
+      "fair_price_american": -496,
       "outcomes": [
         {
           "label": "Australia +1.5",
-          "prob_pct": 83.6
+          "prob_pct": 83.2
         },
         {
           "label": "Egypt -1.5",
-          "prob_pct": 16.4
+          "prob_pct": 16.8
         }
       ],
-      "rationale": "Egypt wins by 2+ goals 16% of the time; the 84% call is Australia +1.5."
-    },
-    {
-      "match_id": "f58c55a9da96af562c31b7c5cca40187",
-      "group": "",
-      "commence_time": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "market": "handicap",
-      "pick": "Ecuador +1.5",
-      "prob": 0.8075,
-      "prob_pct": 80.7,
-      "confidence": 0.5,
-      "model_prob_pct": 80.7,
-      "market_prob_pct": null,
-      "fair_price_american": -419,
-      "outcomes": [
-        {
-          "label": "Ecuador +1.5",
-          "prob_pct": 80.7
-        },
-        {
-          "label": "Mexico -1.5",
-          "prob_pct": 19.3
-        }
-      ],
-      "rationale": "Mexico wins by 2+ goals 19% of the time; the 81% call is Ecuador +1.5. Factoring in Mexico on home soil."
+      "rationale": "Egypt wins by 2+ goals 17% of the time; the 83% call is Australia +1.5."
     },
     {
       "match_id": "5a34afe2de99513ba48360b983cfe80c",
@@ -121,127 +95,23 @@
       "away": "Morocco",
       "market": "handicap",
       "pick": "Morocco +1.5",
-      "prob": 0.8074,
-      "prob_pct": 80.7,
-      "confidence": 0.76,
-      "model_prob_pct": 80.7,
+      "prob": 0.8179,
+      "prob_pct": 81.8,
+      "confidence": 0.8,
+      "model_prob_pct": 81.8,
       "market_prob_pct": null,
-      "fair_price_american": -419,
+      "fair_price_american": -449,
       "outcomes": [
         {
           "label": "Morocco +1.5",
-          "prob_pct": 80.7
+          "prob_pct": 81.8
         },
         {
           "label": "Netherlands -1.5",
-          "prob_pct": 19.3
+          "prob_pct": 18.2
         }
       ],
-      "rationale": "Netherlands wins by 2+ goals 19% of the time; the 81% call is Morocco +1.5. Factoring in Netherlands missing Frenkie de Jong."
-    },
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "handicap",
-      "pick": "Senegal +1.5",
-      "prob": 0.7824,
-      "prob_pct": 78.2,
-      "confidence": 0.83,
-      "model_prob_pct": 78.2,
-      "market_prob_pct": null,
-      "fair_price_american": -360,
-      "outcomes": [
-        {
-          "label": "Senegal +1.5",
-          "prob_pct": 78.2
-        },
-        {
-          "label": "Belgium -1.5",
-          "prob_pct": 21.8
-        }
-      ],
-      "rationale": "Belgium wins by 2+ goals 22% of the time; the 78% call is Senegal +1.5."
-    },
-    {
-      "match_id": "def55b09ef3d6854e3c01e74b5c63415",
-      "group": "",
-      "commence_time": "2026-06-28T19:00:00Z",
-      "home": "South Africa",
-      "away": "Canada",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.7694,
-      "prob_pct": 76.9,
-      "confidence": 0.2,
-      "model_prob_pct": 76.9,
-      "market_prob_pct": null,
-      "fair_price_american": -334,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 76.9
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 23.1
-        }
-      ],
-      "rationale": "With scoring rates of 0.49 and 0.87, both teams scoring is a 23% chance \u2014 BTTS: No. Factoring in Canada on home soil."
-    },
-    {
-      "match_id": "ce017bea1a26252278053ce759e2416b",
-      "group": "",
-      "commence_time": "2026-06-30T17:00:00Z",
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "market": "handicap",
-      "pick": "Ivory Coast +1.5",
-      "prob": 0.7658,
-      "prob_pct": 76.6,
-      "confidence": 0.7,
-      "model_prob_pct": 76.6,
-      "market_prob_pct": null,
-      "fair_price_american": -327,
-      "outcomes": [
-        {
-          "label": "Ivory Coast +1.5",
-          "prob_pct": 76.6
-        },
-        {
-          "label": "Norway -1.5",
-          "prob_pct": 23.4
-        }
-      ],
-      "rationale": "Norway wins by 2+ goals 23% of the time; the 77% call is Ivory Coast +1.5."
-    },
-    {
-      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
-      "group": "",
-      "commence_time": "2026-07-03T03:00:00Z",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "market": "handicap",
-      "pick": "Algeria +1.5",
-      "prob": 0.764,
-      "prob_pct": 76.4,
-      "confidence": 0.5,
-      "model_prob_pct": 76.4,
-      "market_prob_pct": null,
-      "fair_price_american": -324,
-      "outcomes": [
-        {
-          "label": "Algeria +1.5",
-          "prob_pct": 76.4
-        },
-        {
-          "label": "Switzerland -1.5",
-          "prob_pct": 23.6
-        }
-      ],
-      "rationale": "Switzerland wins by 2+ goals 24% of the time; the 76% call is Algeria +1.5."
+      "rationale": "Netherlands wins by 2+ goals 18% of the time; the 82% call is Morocco +1.5. Factoring in Netherlands missing Frenkie de Jong."
     },
     {
       "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
@@ -251,143 +121,27 @@
       "away": "Sweden",
       "market": "result",
       "pick": "France win",
-      "prob": 0.7618,
-      "prob_pct": 76.2,
-      "confidence": 0.85,
+      "prob": 0.782,
+      "prob_pct": 78.2,
+      "confidence": 0.8,
       "model_prob_pct": 78.2,
-      "market_prob_pct": 75.1,
-      "fair_price_american": -320,
+      "market_prob_pct": null,
+      "fair_price_american": -359,
       "outcomes": [
         {
           "label": "France win",
-          "prob_pct": 76.2
+          "prob_pct": 78.2
         },
         {
           "label": "Draw",
-          "prob_pct": 16.1
+          "prob_pct": 16.6
         },
         {
           "label": "Sweden win",
-          "prob_pct": 7.7
+          "prob_pct": 5.2
         }
       ],
-      "rationale": "France is the 76% pick \u2014 a clear favorite (expected goals France 2.60, Sweden 0.90). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "5ff7744314f224c18d1604ee9cc19263",
-      "group": "",
-      "commence_time": "2026-07-01T16:00:00Z",
-      "home": "England",
-      "away": "DR Congo",
-      "market": "result",
-      "pick": "England win",
-      "prob": 0.7609,
-      "prob_pct": 76.1,
-      "confidence": 0.88,
-      "model_prob_pct": 77.2,
-      "market_prob_pct": 75.5,
-      "fair_price_american": -318,
-      "outcomes": [
-        {
-          "label": "England win",
-          "prob_pct": 76.1
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 16.9
-        },
-        {
-          "label": "DR Congo win",
-          "prob_pct": 7.0
-        }
-      ],
-      "rationale": "England is the 76% pick \u2014 a clear favorite (expected goals England 2.17, DR Congo 0.53)."
-    },
-    {
-      "match_id": "a518ac20df8f5c732b881e213ae0c230",
-      "group": "",
-      "commence_time": "2026-07-02T19:00:00Z",
-      "home": "Spain",
-      "away": "Austria",
-      "market": "result",
-      "pick": "Spain win",
-      "prob": 0.7331,
-      "prob_pct": 73.3,
-      "confidence": 0.91,
-      "model_prob_pct": 71.8,
-      "market_prob_pct": 74.1,
-      "fair_price_american": -275,
-      "outcomes": [
-        {
-          "label": "Spain win",
-          "prob_pct": 73.3
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 18.4
-        },
-        {
-          "label": "Austria win",
-          "prob_pct": 8.3
-        }
-      ],
-      "rationale": "Spain is the 73% pick \u2014 a clear favorite (expected goals Spain 2.12, Austria 0.56)."
-    },
-    {
-      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
-      "group": "",
-      "commence_time": "2026-07-02T23:00:00Z",
-      "home": "Portugal",
-      "away": "Croatia",
-      "market": "handicap",
-      "pick": "Croatia +1.5",
-      "prob": 0.7235,
-      "prob_pct": 72.4,
-      "confidence": 0.7,
-      "model_prob_pct": 72.4,
-      "market_prob_pct": null,
-      "fair_price_american": -262,
-      "outcomes": [
-        {
-          "label": "Croatia +1.5",
-          "prob_pct": 72.4
-        },
-        {
-          "label": "Portugal -1.5",
-          "prob_pct": 27.6
-        }
-      ],
-      "rationale": "Portugal wins by 2+ goals 28% of the time; the 72% call is Croatia +1.5."
-    },
-    {
-      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
-      "group": "",
-      "commence_time": "2026-06-29T20:30:00Z",
-      "home": "Germany",
-      "away": "Paraguay",
-      "market": "result",
-      "pick": "Germany win",
-      "prob": 0.7126,
-      "prob_pct": 71.3,
-      "confidence": 0.91,
-      "model_prob_pct": 70.0,
-      "market_prob_pct": 71.8,
-      "fair_price_american": -248,
-      "outcomes": [
-        {
-          "label": "Germany win",
-          "prob_pct": 71.3
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 18.7
-        },
-        {
-          "label": "Paraguay win",
-          "prob_pct": 10.0
-        }
-      ],
-      "rationale": "Germany is the 71% pick \u2014 a clear favorite (expected goals Germany 2.20, Paraguay 0.70)."
+      "rationale": "France is the 78% pick \u2014 a clear favorite (expected goals France 2.18, Sweden 0.41). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "4f3d72fba877939d36a5315618184093",
@@ -397,105 +151,23 @@
       "away": "Japan",
       "market": "handicap",
       "pick": "Japan +1.5",
-      "prob": 0.6974,
-      "prob_pct": 69.7,
-      "confidence": 0.61,
-      "model_prob_pct": 69.7,
+      "prob": 0.7767,
+      "prob_pct": 77.7,
+      "confidence": 0.8,
+      "model_prob_pct": 77.7,
       "market_prob_pct": null,
-      "fair_price_american": -230,
+      "fair_price_american": -348,
       "outcomes": [
         {
           "label": "Japan +1.5",
-          "prob_pct": 69.7
+          "prob_pct": 77.7
         },
         {
           "label": "Brazil -1.5",
-          "prob_pct": 30.3
+          "prob_pct": 22.3
         }
       ],
-      "rationale": "Brazil wins by 2+ goals 30% of the time; the 70% call is Japan +1.5. Factoring in Brazil missing Neymar."
-    },
-    {
-      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
-      "group": "",
-      "commence_time": "2026-07-04T01:30:00Z",
-      "home": "Colombia",
-      "away": "Ghana",
-      "market": "handicap",
-      "pick": "Ghana +1.5",
-      "prob": 0.6611,
-      "prob_pct": 66.1,
-      "confidence": 0.95,
-      "model_prob_pct": 66.1,
-      "market_prob_pct": null,
-      "fair_price_american": -195,
-      "outcomes": [
-        {
-          "label": "Ghana +1.5",
-          "prob_pct": 66.1
-        },
-        {
-          "label": "Colombia -1.5",
-          "prob_pct": 33.9
-        }
-      ],
-      "rationale": "Colombia wins by 2+ goals 34% of the time; the 66% call is Ghana +1.5."
-    },
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "result",
-      "pick": "USA win",
-      "prob": 0.6593,
-      "prob_pct": 65.9,
-      "confidence": 0.5,
-      "model_prob_pct": 56.4,
-      "market_prob_pct": 70.5,
-      "fair_price_american": -194,
-      "outcomes": [
-        {
-          "label": "USA win",
-          "prob_pct": 65.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 21.0
-        },
-        {
-          "label": "Bosnia & Herzegovina win",
-          "prob_pct": 13.1
-        }
-      ],
-      "rationale": "USA is the 66% pick \u2014 a clear favorite (expected goals USA 2.08, Bosnia & Herzegovina 0.66)."
-    },
-    {
-      "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
-      "group": "",
-      "commence_time": "2026-07-03T18:00:00Z",
-      "home": "Australia",
-      "away": "Egypt",
-      "market": "total",
-      "pick": "Under 2",
-      "prob": 0.6583,
-      "prob_pct": 65.8,
-      "confidence": 0.71,
-      "model_prob_pct": 65.8,
-      "market_prob_pct": 53.6,
-      "fair_price_american": -193,
-      "outcomes": [
-        {
-          "label": "Under 2",
-          "prob_pct": 65.8
-        },
-        {
-          "label": "Over 2",
-          "prob_pct": 34.2
-        }
-      ],
-      "rationale": "Expected ~2.1 goals (Australia 0.94, Egypt 1.12); under 2 is the 66% side."
+      "rationale": "Brazil wins by 2+ goals 22% of the time; the 78% call is Japan +1.5. Factoring in Brazil missing Neymar."
     },
     {
       "match_id": "5ff7744314f224c18d1604ee9cc19263",
@@ -503,25 +175,137 @@
       "commence_time": "2026-07-01T16:00:00Z",
       "home": "England",
       "away": "DR Congo",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.6304,
-      "prob_pct": 63.0,
-      "confidence": 0.88,
-      "model_prob_pct": 63.0,
+      "market": "result",
+      "pick": "England win",
+      "prob": 0.7722,
+      "prob_pct": 77.2,
+      "confidence": 0.75,
+      "model_prob_pct": 77.2,
       "market_prob_pct": null,
-      "fair_price_american": -171,
+      "fair_price_american": -339,
       "outcomes": [
         {
-          "label": "BTTS: No",
-          "prob_pct": 63.0
+          "label": "England win",
+          "prob_pct": 77.2
         },
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 37.0
+          "label": "Draw",
+          "prob_pct": 16.6
+        },
+        {
+          "label": "DR Congo win",
+          "prob_pct": 6.2
         }
       ],
-      "rationale": "With scoring rates of 2.17 and 0.53, both teams scoring is a 37% chance \u2014 BTTS: No."
+      "rationale": "England is the 77% pick \u2014 a clear favorite (expected goals England 2.26, DR Congo 0.49)."
+    },
+    {
+      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
+      "group": "",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "home": "Portugal",
+      "away": "Croatia",
+      "market": "handicap",
+      "pick": "Croatia +1.5",
+      "prob": 0.7659,
+      "prob_pct": 76.6,
+      "confidence": 0.8,
+      "model_prob_pct": 76.6,
+      "market_prob_pct": null,
+      "fair_price_american": -327,
+      "outcomes": [
+        {
+          "label": "Croatia +1.5",
+          "prob_pct": 76.6
+        },
+        {
+          "label": "Portugal -1.5",
+          "prob_pct": 23.4
+        }
+      ],
+      "rationale": "Portugal wins by 2+ goals 23% of the time; the 77% call is Croatia +1.5."
+    },
+    {
+      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
+      "group": "",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "home": "Belgium",
+      "away": "Senegal",
+      "market": "handicap",
+      "pick": "Senegal +1.5",
+      "prob": 0.7466,
+      "prob_pct": 74.7,
+      "confidence": 0.8,
+      "model_prob_pct": 74.7,
+      "market_prob_pct": null,
+      "fair_price_american": -295,
+      "outcomes": [
+        {
+          "label": "Senegal +1.5",
+          "prob_pct": 74.7
+        },
+        {
+          "label": "Belgium -1.5",
+          "prob_pct": 25.3
+        }
+      ],
+      "rationale": "Belgium wins by 2+ goals 25% of the time; the 75% call is Senegal +1.5."
+    },
+    {
+      "match_id": "a518ac20df8f5c732b881e213ae0c230",
+      "group": "",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "home": "Spain",
+      "away": "Austria",
+      "market": "result",
+      "pick": "Spain win",
+      "prob": 0.7181,
+      "prob_pct": 71.8,
+      "confidence": 0.8,
+      "model_prob_pct": 71.8,
+      "market_prob_pct": null,
+      "fair_price_american": -255,
+      "outcomes": [
+        {
+          "label": "Spain win",
+          "prob_pct": 71.8
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 19.5
+        },
+        {
+          "label": "Austria win",
+          "prob_pct": 8.7
+        }
+      ],
+      "rationale": "Spain is the 72% pick \u2014 a clear favorite (expected goals Spain 2.07, Austria 0.58)."
+    },
+    {
+      "match_id": "5ff7744314f224c18d1604ee9cc19263",
+      "group": "",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "home": "England",
+      "away": "DR Congo",
+      "market": "total",
+      "pick": "Under 3",
+      "prob": 0.7026,
+      "prob_pct": 70.3,
+      "confidence": 0.75,
+      "model_prob_pct": 70.3,
+      "market_prob_pct": null,
+      "fair_price_american": -236,
+      "outcomes": [
+        {
+          "label": "Under 3",
+          "prob_pct": 70.3
+        },
+        {
+          "label": "Over 3",
+          "prob_pct": 29.7
+        }
+      ],
+      "rationale": "Expected ~2.8 goals (England 2.26, DR Congo 0.49); under 3 is the 70% side."
     },
     {
       "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
@@ -531,365 +315,105 @@
       "away": "Cape Verde",
       "market": "handicap",
       "pick": "Argentina -1.5",
-      "prob": 0.6259,
-      "prob_pct": 62.6,
-      "confidence": 0.73,
-      "model_prob_pct": 62.6,
+      "prob": 0.7021,
+      "prob_pct": 70.2,
+      "confidence": 0.8,
+      "model_prob_pct": 70.2,
       "market_prob_pct": null,
-      "fair_price_american": -167,
+      "fair_price_american": -236,
       "outcomes": [
         {
           "label": "Argentina -1.5",
-          "prob_pct": 62.6
+          "prob_pct": 70.2
         },
         {
           "label": "Cape Verde +1.5",
-          "prob_pct": 37.4
+          "prob_pct": 29.8
         }
       ],
-      "rationale": "Argentina wins by 2+ goals 63% of the time; the 63% call is Argentina -1.5."
+      "rationale": "Argentina wins by 2+ goals 70% of the time; the 70% call is Argentina -1.5."
     },
     {
-      "match_id": "f58c55a9da96af562c31b7c5cca40187",
+      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
       "group": "",
-      "commence_time": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "market": "total",
-      "pick": "Under 2",
-      "prob": 0.6249,
-      "prob_pct": 62.5,
-      "confidence": 0.5,
-      "model_prob_pct": 62.5,
-      "market_prob_pct": 54.0,
-      "fair_price_american": -167,
-      "outcomes": [
-        {
-          "label": "Under 2",
-          "prob_pct": 62.5
-        },
-        {
-          "label": "Over 2",
-          "prob_pct": 37.5
-        }
-      ],
-      "rationale": "Expected ~2.2 goals (Mexico 1.25, Ecuador 0.95); under 2 is the 62% side. Factoring in Mexico on home soil."
-    },
-    {
-      "match_id": "a518ac20df8f5c732b881e213ae0c230",
-      "group": "",
-      "commence_time": "2026-07-02T19:00:00Z",
-      "home": "Spain",
-      "away": "Austria",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.6183,
-      "prob_pct": 61.8,
-      "confidence": 0.91,
-      "model_prob_pct": 61.8,
-      "market_prob_pct": null,
-      "fair_price_american": -162,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 61.8
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 38.2
-        }
-      ],
-      "rationale": "With scoring rates of 2.12 and 0.56, both teams scoring is a 38% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
-      "group": "",
-      "commence_time": "2026-07-04T01:30:00Z",
-      "home": "Colombia",
-      "away": "Ghana",
+      "commence_time": "2026-06-29T20:30:00Z",
+      "home": "Germany",
+      "away": "Paraguay",
       "market": "result",
-      "pick": "Colombia win",
-      "prob": 0.6145,
-      "prob_pct": 61.5,
-      "confidence": 0.95,
-      "model_prob_pct": 61.8,
-      "market_prob_pct": 61.2,
-      "fair_price_american": -159,
+      "pick": "Germany win",
+      "prob": 0.6997,
+      "prob_pct": 70.0,
+      "confidence": 0.8,
+      "model_prob_pct": 70.0,
+      "market_prob_pct": null,
+      "fair_price_american": -233,
       "outcomes": [
         {
-          "label": "Colombia win",
-          "prob_pct": 61.5
+          "label": "Germany win",
+          "prob_pct": 70.0
         },
         {
           "label": "Draw",
-          "prob_pct": 24.1
+          "prob_pct": 20.3
         },
         {
-          "label": "Ghana win",
-          "prob_pct": 14.4
+          "label": "Paraguay win",
+          "prob_pct": 9.7
         }
       ],
-      "rationale": "Colombia is the 61% pick \u2014 a clear favorite (expected goals Colombia 1.63, Ghana 0.65)."
+      "rationale": "Germany is the 70% pick \u2014 a clear favorite (expected goals Germany 2.02, Paraguay 0.61)."
     },
     {
-      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
+      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "group": "",
-      "commence_time": "2026-07-04T01:30:00Z",
-      "home": "Colombia",
-      "away": "Ghana",
+      "commence_time": "2026-06-30T21:00:00Z",
+      "home": "France",
+      "away": "Sweden",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.6097,
-      "prob_pct": 61.0,
-      "confidence": 0.95,
-      "model_prob_pct": 61.0,
+      "prob": 0.6987,
+      "prob_pct": 69.9,
+      "confidence": 0.8,
+      "model_prob_pct": 69.9,
       "market_prob_pct": null,
-      "fair_price_american": -156,
+      "fair_price_american": -232,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 61.0
+          "prob_pct": 69.9
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 39.0
+          "prob_pct": 30.1
         }
       ],
-      "rationale": "With scoring rates of 1.63 and 0.65, both teams scoring is a 39% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 2.18 and 0.41, both teams scoring is a 30% chance \u2014 BTTS: No. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
-      "match_id": "5a34afe2de99513ba48360b983cfe80c",
+      "match_id": "ce017bea1a26252278053ce759e2416b",
       "group": "",
-      "commence_time": "2026-06-30T01:00:00Z",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.6072,
-      "prob_pct": 60.7,
-      "confidence": 0.76,
-      "model_prob_pct": 60.7,
-      "market_prob_pct": 56.3,
-      "fair_price_american": -155,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 60.7
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 39.3
-        }
-      ],
-      "rationale": "Expected ~2.3 goals (Netherlands 1.27, Morocco 0.99); under 2.5 is the 61% side. Factoring in Netherlands missing Frenkie de Jong."
-    },
-    {
-      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
-      "group": "",
-      "commence_time": "2026-07-04T01:30:00Z",
-      "home": "Colombia",
-      "away": "Ghana",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.6019,
-      "prob_pct": 60.2,
-      "confidence": 0.95,
-      "model_prob_pct": 60.2,
-      "market_prob_pct": 57.8,
-      "fair_price_american": -151,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 60.2
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 39.8
-        }
-      ],
-      "rationale": "Expected ~2.3 goals (Colombia 1.63, Ghana 0.65); under 2.5 is the 60% side."
-    },
-    {
-      "match_id": "def55b09ef3d6854e3c01e74b5c63415",
-      "group": "",
-      "commence_time": "2026-06-28T19:00:00Z",
-      "home": "South Africa",
-      "away": "Canada",
-      "market": "total",
-      "pick": "Under 1.5",
-      "prob": 0.6006,
-      "prob_pct": 60.1,
-      "confidence": 0.2,
-      "model_prob_pct": 60.1,
-      "market_prob_pct": 58.7,
-      "fair_price_american": -150,
-      "outcomes": [
-        {
-          "label": "Under 1.5",
-          "prob_pct": 60.1
-        },
-        {
-          "label": "Over 1.5",
-          "prob_pct": 39.9
-        }
-      ],
-      "rationale": "Expected ~1.4 goals (South Africa 0.49, Canada 0.87); under 1.5 is the 60% side. Factoring in Canada on home soil."
-    },
-    {
-      "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
-      "group": "",
-      "commence_time": "2026-07-03T18:00:00Z",
-      "home": "Australia",
-      "away": "Egypt",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5796,
-      "prob_pct": 58.0,
-      "confidence": 0.71,
-      "model_prob_pct": 58.0,
+      "commence_time": "2026-06-30T17:00:00Z",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "market": "handicap",
+      "pick": "Ivory Coast +1.5",
+      "prob": 0.6968,
+      "prob_pct": 69.7,
+      "confidence": 0.8,
+      "model_prob_pct": 69.7,
       "market_prob_pct": null,
-      "fair_price_american": -138,
+      "fair_price_american": -230,
       "outcomes": [
         {
-          "label": "BTTS: No",
-          "prob_pct": 58.0
+          "label": "Ivory Coast +1.5",
+          "prob_pct": 69.7
         },
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 42.0
+          "label": "Norway -1.5",
+          "prob_pct": 30.3
         }
       ],
-      "rationale": "With scoring rates of 0.94 and 1.12, both teams scoring is a 42% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
-      "group": "",
-      "commence_time": "2026-07-02T23:00:00Z",
-      "home": "Portugal",
-      "away": "Croatia",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5786,
-      "prob_pct": 57.9,
-      "confidence": 0.7,
-      "model_prob_pct": 57.9,
-      "market_prob_pct": 55.1,
-      "fair_price_american": -137,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 57.9
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 42.1
-        }
-      ],
-      "rationale": "Expected ~2.4 goals (Portugal 1.52, Croatia 0.84); under 2.5 is the 58% side."
-    },
-    {
-      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
-      "group": "",
-      "commence_time": "2026-07-03T03:00:00Z",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5781,
-      "prob_pct": 57.8,
-      "confidence": 0.5,
-      "model_prob_pct": 57.8,
-      "market_prob_pct": 54.1,
-      "fair_price_american": -137,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 57.8
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 42.2
-        }
-      ],
-      "rationale": "Expected ~2.4 goals (Switzerland 1.42, Algeria 0.94); under 2.5 is the 58% side."
-    },
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5709,
-      "prob_pct": 57.1,
-      "confidence": 0.5,
-      "model_prob_pct": 57.1,
-      "market_prob_pct": null,
-      "fair_price_american": -133,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 57.1
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 42.9
-        }
-      ],
-      "rationale": "With scoring rates of 2.08 and 0.66, both teams scoring is a 43% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-      "group": "",
-      "commence_time": "2026-07-03T22:00:00Z",
-      "home": "Argentina",
-      "away": "Cape Verde",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5642,
-      "prob_pct": 56.4,
-      "confidence": 0.73,
-      "model_prob_pct": 56.4,
-      "market_prob_pct": null,
-      "fair_price_american": -129,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 56.4
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 43.6
-        }
-      ],
-      "rationale": "With scoring rates of 2.80 and 0.62, both teams scoring is a 44% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "f58c55a9da96af562c31b7c5cca40187",
-      "group": "",
-      "commence_time": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5564,
-      "prob_pct": 55.6,
-      "confidence": 0.5,
-      "model_prob_pct": 55.6,
-      "market_prob_pct": null,
-      "fair_price_american": -125,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 55.6
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 44.4
-        }
-      ],
-      "rationale": "With scoring rates of 1.25 and 0.95, both teams scoring is a 44% chance \u2014 BTTS: No. Factoring in Mexico on home soil."
+      "rationale": "Norway wins by 2+ goals 30% of the time; the 70% call is Ivory Coast +1.5."
     },
     {
       "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
@@ -899,183 +423,23 @@
       "away": "Cape Verde",
       "market": "total",
       "pick": "Under 3",
-      "prob": 0.5554,
-      "prob_pct": 55.5,
-      "confidence": 0.73,
-      "model_prob_pct": 55.5,
-      "market_prob_pct": 52.4,
-      "fair_price_american": -125,
+      "prob": 0.6956,
+      "prob_pct": 69.6,
+      "confidence": 0.8,
+      "model_prob_pct": 69.6,
+      "market_prob_pct": null,
+      "fair_price_american": -228,
       "outcomes": [
         {
           "label": "Under 3",
-          "prob_pct": 55.5
+          "prob_pct": 69.6
         },
         {
           "label": "Over 3",
-          "prob_pct": 44.5
+          "prob_pct": 30.4
         }
       ],
-      "rationale": "Expected ~3.4 goals (Argentina 2.80, Cape Verde 0.62); under 3 is the 56% side."
-    },
-    {
-      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
-      "group": "",
-      "commence_time": "2026-06-29T20:30:00Z",
-      "home": "Germany",
-      "away": "Paraguay",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5545,
-      "prob_pct": 55.4,
-      "confidence": 0.91,
-      "model_prob_pct": 55.4,
-      "market_prob_pct": 56.2,
-      "fair_price_american": -124,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 55.4
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 44.6
-        }
-      ],
-      "rationale": "Expected ~2.9 goals (Germany 2.20, Paraguay 0.70); over 2.5 is the 55% side."
-    },
-    {
-      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
-      "group": "",
-      "commence_time": "2026-06-30T21:00:00Z",
-      "home": "France",
-      "away": "Sweden",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.554,
-      "prob_pct": 55.4,
-      "confidence": 0.85,
-      "model_prob_pct": 55.4,
-      "market_prob_pct": null,
-      "fair_price_american": -124,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 55.4
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 44.6
-        }
-      ],
-      "rationale": "With scoring rates of 2.60 and 0.90, both teams scoring is a 55% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "4f3d72fba877939d36a5315618184093",
-      "group": "",
-      "commence_time": "2026-06-29T17:00:00Z",
-      "home": "Brazil",
-      "away": "Japan",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5495,
-      "prob_pct": 54.9,
-      "confidence": 0.61,
-      "model_prob_pct": 54.9,
-      "market_prob_pct": 53.2,
-      "fair_price_american": -122,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 54.9
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 45.1
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Brazil 1.63, Japan 0.85); under 2.5 is the 55% side. Factoring in Brazil missing Neymar."
-    },
-    {
-      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
-      "group": "",
-      "commence_time": "2026-07-02T23:00:00Z",
-      "home": "Portugal",
-      "away": "Croatia",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5474,
-      "prob_pct": 54.7,
-      "confidence": 0.7,
-      "model_prob_pct": 54.7,
-      "market_prob_pct": null,
-      "fair_price_american": -121,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 54.7
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 45.3
-        }
-      ],
-      "rationale": "With scoring rates of 1.52 and 0.84, both teams scoring is a 45% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
-      "group": "",
-      "commence_time": "2026-06-29T20:30:00Z",
-      "home": "Germany",
-      "away": "Paraguay",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5468,
-      "prob_pct": 54.7,
-      "confidence": 0.91,
-      "model_prob_pct": 54.7,
-      "market_prob_pct": null,
-      "fair_price_american": -121,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 54.7
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 45.3
-        }
-      ],
-      "rationale": "With scoring rates of 2.20 and 0.70, both teams scoring is a 45% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
-      "group": "",
-      "commence_time": "2026-07-03T03:00:00Z",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "market": "result",
-      "pick": "Switzerland win",
-      "prob": 0.5453,
-      "prob_pct": 54.5,
-      "confidence": 0.5,
-      "model_prob_pct": 67.0,
-      "market_prob_pct": 48.0,
-      "fair_price_american": -120,
-      "outcomes": [
-        {
-          "label": "Switzerland win",
-          "prob_pct": 54.5
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 26.1
-        },
-        {
-          "label": "Algeria win",
-          "prob_pct": 19.3
-        }
-      ],
-      "rationale": "Switzerland is the 55% pick \u2014 a slight edge (expected goals Switzerland 1.42, Algeria 0.94)."
+      "rationale": "Expected ~2.8 goals (Argentina 2.63, Cape Verde 0.15); under 3 is the 70% side."
     },
     {
       "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
@@ -1085,157 +449,23 @@
       "away": "Bosnia & Herzegovina",
       "market": "handicap",
       "pick": "Bosnia & Herzegovina +1.5",
-      "prob": 0.545,
-      "prob_pct": 54.5,
-      "confidence": 0.5,
-      "model_prob_pct": 54.5,
+      "prob": 0.6791,
+      "prob_pct": 67.9,
+      "confidence": 0.8,
+      "model_prob_pct": 67.9,
       "market_prob_pct": null,
-      "fair_price_american": -120,
+      "fair_price_american": -212,
       "outcomes": [
         {
           "label": "Bosnia & Herzegovina +1.5",
-          "prob_pct": 54.5
+          "prob_pct": 67.9
         },
         {
           "label": "USA -1.5",
-          "prob_pct": 45.5
+          "prob_pct": 32.1
         }
       ],
-      "rationale": "USA wins by 2+ goals 46% of the time; the 54% call is Bosnia & Herzegovina +1.5."
-    },
-    {
-      "match_id": "5a34afe2de99513ba48360b983cfe80c",
-      "group": "",
-      "commence_time": "2026-06-30T01:00:00Z",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5406,
-      "prob_pct": 54.1,
-      "confidence": 0.76,
-      "model_prob_pct": 54.1,
-      "market_prob_pct": null,
-      "fair_price_american": -118,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 54.1
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 45.9
-        }
-      ],
-      "rationale": "With scoring rates of 1.27 and 0.99, both teams scoring is a 46% chance \u2014 BTTS: No. Factoring in Netherlands missing Frenkie de Jong."
-    },
-    {
-      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
-      "group": "",
-      "commence_time": "2026-06-30T21:00:00Z",
-      "home": "France",
-      "away": "Sweden",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.5362,
-      "prob_pct": 53.6,
-      "confidence": 0.85,
-      "model_prob_pct": 53.6,
-      "market_prob_pct": 46.3,
-      "fair_price_american": -116,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 53.6
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 46.4
-        }
-      ],
-      "rationale": "Expected ~3.5 goals (France 2.60, Sweden 0.90); under 3 is the 54% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "total",
-      "pick": "Under 2",
-      "prob": 0.5356,
-      "prob_pct": 53.6,
-      "confidence": 0.83,
-      "model_prob_pct": 53.6,
-      "market_prob_pct": 43.7,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "Under 2",
-          "prob_pct": 53.6
-        },
-        {
-          "label": "Over 2",
-          "prob_pct": 46.4
-        }
-      ],
-      "rationale": "Expected ~2.5 goals (Belgium 1.44, Senegal 1.10); under 2 is the 54% side."
-    },
-    {
-      "match_id": "4f3d72fba877939d36a5315618184093",
-      "group": "",
-      "commence_time": "2026-06-29T17:00:00Z",
-      "home": "Brazil",
-      "away": "Japan",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5331,
-      "prob_pct": 53.3,
-      "confidence": 0.61,
-      "model_prob_pct": 53.3,
-      "market_prob_pct": null,
-      "fair_price_american": -114,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 53.3
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 46.7
-        }
-      ],
-      "rationale": "With scoring rates of 1.63 and 0.85, both teams scoring is a 47% chance \u2014 BTTS: No. Factoring in Brazil missing Neymar."
-    },
-    {
-      "match_id": "4f3d72fba877939d36a5315618184093",
-      "group": "",
-      "commence_time": "2026-06-29T17:00:00Z",
-      "home": "Brazil",
-      "away": "Japan",
-      "market": "result",
-      "pick": "Brazil win",
-      "prob": 0.5288,
-      "prob_pct": 52.9,
-      "confidence": 0.61,
-      "model_prob_pct": 46.4,
-      "market_prob_pct": 56.1,
-      "fair_price_american": -112,
-      "outcomes": [
-        {
-          "label": "Brazil win",
-          "prob_pct": 52.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 26.7
-        },
-        {
-          "label": "Japan win",
-          "prob_pct": 20.4
-        }
-      ],
-      "rationale": "Brazil is the 53% pick \u2014 a slight edge (expected goals Brazil 1.63, Japan 0.85). Factoring in Brazil missing Neymar."
+      "rationale": "USA wins by 2+ goals 32% of the time; the 68% call is Bosnia & Herzegovina +1.5."
     },
     {
       "match_id": "c17fe2e46190d7ab6af01504ff240e82",
@@ -1243,375 +473,137 @@
       "commence_time": "2026-07-03T03:00:00Z",
       "home": "Switzerland",
       "away": "Algeria",
+      "market": "result",
+      "pick": "Switzerland win",
+      "prob": 0.6701,
+      "prob_pct": 67.0,
+      "confidence": 0.8,
+      "model_prob_pct": 67.0,
+      "market_prob_pct": null,
+      "fair_price_american": -203,
+      "outcomes": [
+        {
+          "label": "Switzerland win",
+          "prob_pct": 67.0
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 21.5
+        },
+        {
+          "label": "Algeria win",
+          "prob_pct": 11.5
+        }
+      ],
+      "rationale": "Switzerland is the 67% pick \u2014 a clear favorite (expected goals Switzerland 1.96, Algeria 0.69)."
+    },
+    {
+      "match_id": "5ff7744314f224c18d1604ee9cc19263",
+      "group": "",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "home": "England",
+      "away": "DR Congo",
       "market": "btts",
       "pick": "BTTS: No",
-      "prob": 0.5286,
-      "prob_pct": 52.9,
-      "confidence": 0.5,
-      "model_prob_pct": 52.9,
+      "prob": 0.6462,
+      "prob_pct": 64.6,
+      "confidence": 0.75,
+      "model_prob_pct": 64.6,
       "market_prob_pct": null,
-      "fair_price_american": -112,
+      "fair_price_american": -183,
       "outcomes": [
         {
           "label": "BTTS: No",
-          "prob_pct": 52.9
+          "prob_pct": 64.6
         },
         {
           "label": "BTTS: Yes",
-          "prob_pct": 47.1
+          "prob_pct": 35.4
         }
       ],
-      "rationale": "With scoring rates of 1.42 and 0.94, both teams scoring is a 47% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 2.26 and 0.49, both teams scoring is a 35% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "ce017bea1a26252278053ce759e2416b",
+      "match_id": "f58c55a9da96af562c31b7c5cca40187",
       "group": "",
-      "commence_time": "2026-06-30T17:00:00Z",
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.526,
-      "prob_pct": 52.6,
-      "confidence": 0.7,
-      "model_prob_pct": 52.6,
-      "market_prob_pct": 48.7,
-      "fair_price_american": -111,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 52.6
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 47.4
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Ivory Coast 1.08, Norway 1.50); under 2.5 is the 53% side."
-    },
-    {
-      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
-      "group": "",
-      "commence_time": "2026-06-29T20:30:00Z",
-      "home": "Germany",
-      "away": "Paraguay",
+      "commence_time": "2026-07-01T01:00:00Z",
+      "home": "Mexico",
+      "away": "Ecuador",
       "market": "handicap",
-      "pick": "Paraguay +1.5",
-      "prob": 0.5242,
-      "prob_pct": 52.4,
-      "confidence": 0.91,
-      "model_prob_pct": 52.4,
+      "pick": "Ecuador +1.5",
+      "prob": 0.6337,
+      "prob_pct": 63.4,
+      "confidence": 0.8,
+      "model_prob_pct": 63.4,
       "market_prob_pct": null,
-      "fair_price_american": -110,
+      "fair_price_american": -173,
       "outcomes": [
         {
-          "label": "Paraguay +1.5",
-          "prob_pct": 52.4
+          "label": "Ecuador +1.5",
+          "prob_pct": 63.4
         },
         {
-          "label": "Germany -1.5",
-          "prob_pct": 47.6
+          "label": "Mexico -1.5",
+          "prob_pct": 36.6
         }
       ],
-      "rationale": "Germany wins by 2+ goals 48% of the time; the 52% call is Paraguay +1.5."
+      "rationale": "Mexico wins by 2+ goals 37% of the time; the 63% call is Ecuador +1.5. Factoring in Mexico on home soil."
     },
     {
-      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
+      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
       "group": "",
-      "commence_time": "2026-06-30T21:00:00Z",
-      "home": "France",
-      "away": "Sweden",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "home": "Colombia",
+      "away": "Ghana",
       "market": "handicap",
-      "pick": "France -1.5",
-      "prob": 0.5241,
-      "prob_pct": 52.4,
-      "confidence": 0.85,
-      "model_prob_pct": 52.4,
+      "pick": "Ghana +1.5",
+      "prob": 0.6301,
+      "prob_pct": 63.0,
+      "confidence": 0.8,
+      "model_prob_pct": 63.0,
       "market_prob_pct": null,
-      "fair_price_american": -110,
+      "fair_price_american": -170,
       "outcomes": [
         {
-          "label": "France -1.5",
-          "prob_pct": 52.4
+          "label": "Ghana +1.5",
+          "prob_pct": 63.0
         },
         {
-          "label": "Sweden +1.5",
-          "prob_pct": 47.6
+          "label": "Colombia -1.5",
+          "prob_pct": 37.0
         }
       ],
-      "rationale": "France wins by 2+ goals 52% of the time; the 52% call is France -1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "Colombia wins by 2+ goals 37% of the time; the 63% call is Ghana +1.5."
     },
     {
-      "match_id": "ce017bea1a26252278053ce759e2416b",
+      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
       "group": "",
-      "commence_time": "2026-06-30T17:00:00Z",
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5184,
-      "prob_pct": 51.8,
-      "confidence": 0.7,
-      "model_prob_pct": 51.8,
-      "market_prob_pct": null,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 51.8
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 48.2
-        }
-      ],
-      "rationale": "With scoring rates of 1.08 and 1.50, both teams scoring is a 52% chance \u2014 BTTS: Yes."
-    },
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5171,
-      "prob_pct": 51.7,
-      "confidence": 0.5,
-      "model_prob_pct": 51.7,
-      "market_prob_pct": 52.4,
-      "fair_price_american": -107,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 51.7
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 48.3
-        }
-      ],
-      "rationale": "Expected ~2.7 goals (USA 2.08, Bosnia & Herzegovina 0.66); over 2.5 is the 52% side."
-    },
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5149,
-      "prob_pct": 51.5,
-      "confidence": 0.83,
-      "model_prob_pct": 51.5,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 51.5
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 48.5
-        }
-      ],
-      "rationale": "With scoring rates of 1.44 and 1.10, both teams scoring is a 51% chance \u2014 BTTS: Yes."
-    },
-    {
-      "match_id": "a518ac20df8f5c732b881e213ae0c230",
-      "group": "",
-      "commence_time": "2026-07-02T19:00:00Z",
-      "home": "Spain",
-      "away": "Austria",
-      "market": "handicap",
-      "pick": "Austria +1.5",
-      "prob": 0.513,
-      "prob_pct": 51.3,
-      "confidence": 0.91,
-      "model_prob_pct": 51.3,
-      "market_prob_pct": null,
-      "fair_price_american": -105,
-      "outcomes": [
-        {
-          "label": "Austria +1.5",
-          "prob_pct": 51.3
-        },
-        {
-          "label": "Spain -1.5",
-          "prob_pct": 48.7
-        }
-      ],
-      "rationale": "Spain wins by 2+ goals 49% of the time; the 51% call is Austria +1.5."
-    },
-    {
-      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
-      "group": "",
-      "commence_time": "2026-07-02T23:00:00Z",
-      "home": "Portugal",
-      "away": "Croatia",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "home": "Colombia",
+      "away": "Ghana",
       "market": "result",
-      "pick": "Portugal win",
-      "prob": 0.5072,
-      "prob_pct": 50.7,
-      "confidence": 0.7,
-      "model_prob_pct": 45.8,
-      "market_prob_pct": 53.3,
-      "fair_price_american": -103,
+      "pick": "Colombia win",
+      "prob": 0.6182,
+      "prob_pct": 61.8,
+      "confidence": 0.8,
+      "model_prob_pct": 61.8,
+      "market_prob_pct": null,
+      "fair_price_american": -162,
       "outcomes": [
         {
-          "label": "Portugal win",
-          "prob_pct": 50.7
+          "label": "Colombia win",
+          "prob_pct": 61.8
         },
         {
           "label": "Draw",
-          "prob_pct": 26.9
+          "prob_pct": 23.3
         },
         {
-          "label": "Croatia win",
-          "prob_pct": 22.4
+          "label": "Ghana win",
+          "prob_pct": 14.9
         }
       ],
-      "rationale": "Portugal is the 51% pick \u2014 a slight edge (expected goals Portugal 1.52, Croatia 0.84)."
-    },
-    {
-      "match_id": "5ff7744314f224c18d1604ee9cc19263",
-      "group": "",
-      "commence_time": "2026-07-01T16:00:00Z",
-      "home": "England",
-      "away": "DR Congo",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5069,
-      "prob_pct": 50.7,
-      "confidence": 0.88,
-      "model_prob_pct": 50.7,
-      "market_prob_pct": 51.0,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 49.3
-        }
-      ],
-      "rationale": "Expected ~2.7 goals (England 2.17, DR Congo 0.53); over 2.5 is the 51% side."
-    },
-    {
-      "match_id": "5ff7744314f224c18d1604ee9cc19263",
-      "group": "",
-      "commence_time": "2026-07-01T16:00:00Z",
-      "home": "England",
-      "away": "DR Congo",
-      "market": "handicap",
-      "pick": "England -1.5",
-      "prob": 0.5063,
-      "prob_pct": 50.6,
-      "confidence": 0.88,
-      "model_prob_pct": 50.6,
-      "market_prob_pct": null,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "England -1.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "DR Congo +1.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "rationale": "England wins by 2+ goals 51% of the time; the 51% call is England -1.5."
-    },
-    {
-      "match_id": "a518ac20df8f5c732b881e213ae0c230",
-      "group": "",
-      "commence_time": "2026-07-02T19:00:00Z",
-      "home": "Spain",
-      "away": "Austria",
-      "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.501,
-      "prob_pct": 50.1,
-      "confidence": 0.91,
-      "model_prob_pct": 50.1,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Over 2.5",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "Under 2.5",
-          "prob_pct": 49.9
-        }
-      ],
-      "rationale": "Expected ~2.7 goals (Spain 2.12, Austria 0.56); over 2.5 is the 50% side."
-    },
-    {
-      "match_id": "ce017bea1a26252278053ce759e2416b",
-      "group": "",
-      "commence_time": "2026-06-30T17:00:00Z",
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "market": "result",
-      "pick": "Norway win",
-      "prob": 0.4939,
-      "prob_pct": 49.4,
-      "confidence": 0.7,
-      "model_prob_pct": 54.3,
-      "market_prob_pct": 46.8,
-      "fair_price_american": 102,
-      "outcomes": [
-        {
-          "label": "Norway win",
-          "prob_pct": 49.4
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 26.6
-        },
-        {
-          "label": "Ivory Coast win",
-          "prob_pct": 24.0
-        }
-      ],
-      "rationale": "Norway is the 49% pick \u2014 a slight edge (expected goals Ivory Coast 1.08, Norway 1.50)."
-    },
-    {
-      "match_id": "def55b09ef3d6854e3c01e74b5c63415",
-      "group": "",
-      "commence_time": "2026-06-28T19:00:00Z",
-      "home": "South Africa",
-      "away": "Canada",
-      "market": "result",
-      "pick": "Canada win",
-      "prob": 0.4883,
-      "prob_pct": 48.8,
-      "confidence": 0.2,
-      "model_prob_pct": 54.1,
-      "market_prob_pct": 42.3,
-      "fair_price_american": 105,
-      "outcomes": [
-        {
-          "label": "Canada win",
-          "prob_pct": 48.8
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 31.4
-        },
-        {
-          "label": "South Africa win",
-          "prob_pct": 19.8
-        }
-      ],
-      "rationale": "Canada is the 49% pick \u2014 a slight edge (expected goals South Africa 0.49, Canada 0.87). Factoring in Canada on home soil."
+      "rationale": "Colombia is the 62% pick \u2014 a clear favorite (expected goals Colombia 1.85, Ghana 0.80)."
     },
     {
       "match_id": "f58c55a9da96af562c31b7c5cca40187",
@@ -1621,27 +613,867 @@
       "away": "Ecuador",
       "market": "result",
       "pick": "Mexico win",
-      "prob": 0.4881,
-      "prob_pct": 48.8,
-      "confidence": 0.5,
+      "prob": 0.6143,
+      "prob_pct": 61.4,
+      "confidence": 0.8,
       "model_prob_pct": 61.4,
-      "market_prob_pct": 42.2,
-      "fair_price_american": 105,
+      "market_prob_pct": null,
+      "fair_price_american": -159,
       "outcomes": [
         {
           "label": "Mexico win",
-          "prob_pct": 48.8
+          "prob_pct": 61.4
         },
         {
           "label": "Draw",
-          "prob_pct": 29.0
+          "prob_pct": 23.4
         },
         {
           "label": "Ecuador win",
-          "prob_pct": 22.2
+          "prob_pct": 15.2
         }
       ],
-      "rationale": "Mexico is the 49% pick \u2014 a slight edge (expected goals Mexico 1.25, Ecuador 0.95). Factoring in Mexico on home soil."
+      "rationale": "Mexico is the 61% pick \u2014 a clear favorite (expected goals Mexico 1.85, Ecuador 0.80). Factoring in Mexico on home soil."
+    },
+    {
+      "match_id": "4f3d72fba877939d36a5315618184093",
+      "group": "",
+      "commence_time": "2026-06-29T17:00:00Z",
+      "home": "Brazil",
+      "away": "Japan",
+      "market": "total",
+      "pick": "Under 2",
+      "prob": 0.6139,
+      "prob_pct": 61.4,
+      "confidence": 0.8,
+      "model_prob_pct": 61.4,
+      "market_prob_pct": null,
+      "fair_price_american": -159,
+      "outcomes": [
+        {
+          "label": "Under 2",
+          "prob_pct": 61.4
+        },
+        {
+          "label": "Over 2",
+          "prob_pct": 38.6
+        }
+      ],
+      "rationale": "Expected ~2.2 goals (Brazil 1.34, Japan 0.89); under 2 is the 61% side. Factoring in Brazil missing Neymar."
+    },
+    {
+      "match_id": "a518ac20df8f5c732b881e213ae0c230",
+      "group": "",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "home": "Spain",
+      "away": "Austria",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.6115,
+      "prob_pct": 61.2,
+      "confidence": 0.8,
+      "model_prob_pct": 61.2,
+      "market_prob_pct": null,
+      "fair_price_american": -157,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 61.2
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 38.8
+        }
+      ],
+      "rationale": "With scoring rates of 2.07 and 0.58, both teams scoring is a 39% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
+      "group": "",
+      "commence_time": "2026-06-29T20:30:00Z",
+      "home": "Germany",
+      "away": "Paraguay",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5962,
+      "prob_pct": 59.6,
+      "confidence": 0.8,
+      "model_prob_pct": 59.6,
+      "market_prob_pct": null,
+      "fair_price_american": -148,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 59.6
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 40.4
+        }
+      ],
+      "rationale": "With scoring rates of 2.02 and 0.61, both teams scoring is a 40% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
+      "group": "",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "market": "handicap",
+      "pick": "Algeria +1.5",
+      "prob": 0.5799,
+      "prob_pct": 58.0,
+      "confidence": 0.8,
+      "model_prob_pct": 58.0,
+      "market_prob_pct": null,
+      "fair_price_american": -138,
+      "outcomes": [
+        {
+          "label": "Algeria +1.5",
+          "prob_pct": 58.0
+        },
+        {
+          "label": "Switzerland -1.5",
+          "prob_pct": 42.0
+        }
+      ],
+      "rationale": "Switzerland wins by 2+ goals 42% of the time; the 58% call is Algeria +1.5."
+    },
+    {
+      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
+      "group": "",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5675,
+      "prob_pct": 56.8,
+      "confidence": 0.8,
+      "model_prob_pct": 56.8,
+      "market_prob_pct": null,
+      "fair_price_american": -131,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 56.8
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 43.2
+        }
+      ],
+      "rationale": "With scoring rates of 1.96 and 0.69, both teams scoring is a 43% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+      "group": "",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "home": "USA",
+      "away": "Bosnia & Herzegovina",
+      "market": "result",
+      "pick": "USA win",
+      "prob": 0.5639,
+      "prob_pct": 56.4,
+      "confidence": 0.8,
+      "model_prob_pct": 56.4,
+      "market_prob_pct": null,
+      "fair_price_american": -129,
+      "outcomes": [
+        {
+          "label": "USA win",
+          "prob_pct": 56.4
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 24.9
+        },
+        {
+          "label": "Bosnia & Herzegovina win",
+          "prob_pct": 18.8
+        }
+      ],
+      "rationale": "USA is the 56% pick \u2014 a clear favorite (expected goals USA 1.74, Bosnia & Herzegovina 0.91)."
+    },
+    {
+      "match_id": "4f3d72fba877939d36a5315618184093",
+      "group": "",
+      "commence_time": "2026-06-29T17:00:00Z",
+      "home": "Brazil",
+      "away": "Japan",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5567,
+      "prob_pct": 55.7,
+      "confidence": 0.8,
+      "model_prob_pct": 55.7,
+      "market_prob_pct": null,
+      "fair_price_american": -126,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 55.7
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 44.3
+        }
+      ],
+      "rationale": "With scoring rates of 1.34 and 0.89, both teams scoring is a 44% chance \u2014 BTTS: No. Factoring in Brazil missing Neymar."
+    },
+    {
+      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
+      "group": "",
+      "commence_time": "2026-06-29T20:30:00Z",
+      "home": "Germany",
+      "away": "Paraguay",
+      "market": "handicap",
+      "pick": "Paraguay +1.5",
+      "prob": 0.5505,
+      "prob_pct": 55.0,
+      "confidence": 0.8,
+      "model_prob_pct": 55.0,
+      "market_prob_pct": null,
+      "fair_price_american": -122,
+      "outcomes": [
+        {
+          "label": "Paraguay +1.5",
+          "prob_pct": 55.0
+        },
+        {
+          "label": "Germany -1.5",
+          "prob_pct": 45.0
+        }
+      ],
+      "rationale": "Germany wins by 2+ goals 45% of the time; the 55% call is Paraguay +1.5."
+    },
+    {
+      "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
+      "group": "",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "home": "Australia",
+      "away": "Egypt",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5465,
+      "prob_pct": 54.6,
+      "confidence": 0.8,
+      "model_prob_pct": 54.6,
+      "market_prob_pct": null,
+      "fair_price_american": -120,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 54.6
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 45.4
+        }
+      ],
+      "rationale": "With scoring rates of 1.32 and 1.33, both teams scoring is a 55% chance \u2014 BTTS: Yes."
+    },
+    {
+      "match_id": "ce017bea1a26252278053ce759e2416b",
+      "group": "",
+      "commence_time": "2026-06-30T17:00:00Z",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "market": "result",
+      "pick": "Norway win",
+      "prob": 0.5434,
+      "prob_pct": 54.3,
+      "confidence": 0.8,
+      "model_prob_pct": 54.3,
+      "market_prob_pct": null,
+      "fair_price_american": -119,
+      "outcomes": [
+        {
+          "label": "Norway win",
+          "prob_pct": 54.3
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 25.4
+        },
+        {
+          "label": "Ivory Coast win",
+          "prob_pct": 20.3
+        }
+      ],
+      "rationale": "Norway is the 54% pick \u2014 a slight edge (expected goals Ivory Coast 0.95, Norway 1.70)."
+    },
+    {
+      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
+      "group": "",
+      "commence_time": "2026-06-30T21:00:00Z",
+      "home": "France",
+      "away": "Sweden",
+      "market": "handicap",
+      "pick": "France -1.5",
+      "prob": 0.5379,
+      "prob_pct": 53.8,
+      "confidence": 0.8,
+      "model_prob_pct": 53.8,
+      "market_prob_pct": null,
+      "fair_price_american": -116,
+      "outcomes": [
+        {
+          "label": "France -1.5",
+          "prob_pct": 53.8
+        },
+        {
+          "label": "Sweden +1.5",
+          "prob_pct": 46.2
+        }
+      ],
+      "rationale": "France wins by 2+ goals 54% of the time; the 54% call is France -1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
+      "group": "",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "home": "Portugal",
+      "away": "Croatia",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5357,
+      "prob_pct": 53.6,
+      "confidence": 0.8,
+      "model_prob_pct": 53.6,
+      "market_prob_pct": null,
+      "fair_price_american": -115,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 53.6
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 46.4
+        }
+      ],
+      "rationale": "With scoring rates of 1.53 and 1.12, both teams scoring is a 54% chance \u2014 BTTS: Yes."
+    },
+    {
+      "match_id": "5ff7744314f224c18d1604ee9cc19263",
+      "group": "",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "home": "England",
+      "away": "DR Congo",
+      "market": "handicap",
+      "pick": "England -1.5",
+      "prob": 0.5356,
+      "prob_pct": 53.6,
+      "confidence": 0.75,
+      "model_prob_pct": 53.6,
+      "market_prob_pct": null,
+      "fair_price_american": -115,
+      "outcomes": [
+        {
+          "label": "England -1.5",
+          "prob_pct": 53.6
+        },
+        {
+          "label": "DR Congo +1.5",
+          "prob_pct": 46.4
+        }
+      ],
+      "rationale": "England wins by 2+ goals 54% of the time; the 54% call is England -1.5."
+    },
+    {
+      "match_id": "5a34afe2de99513ba48360b983cfe80c",
+      "group": "",
+      "commence_time": "2026-06-30T01:00:00Z",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5322,
+      "prob_pct": 53.2,
+      "confidence": 0.8,
+      "model_prob_pct": 53.2,
+      "market_prob_pct": null,
+      "fair_price_american": -114,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 53.2
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 46.8
+        }
+      ],
+      "rationale": "With scoring rates of 1.35 and 1.23, both teams scoring is a 53% chance \u2014 BTTS: Yes. Factoring in Netherlands missing Frenkie de Jong."
+    },
+    {
+      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
+      "group": "",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "home": "Colombia",
+      "away": "Ghana",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5308,
+      "prob_pct": 53.1,
+      "confidence": 0.8,
+      "model_prob_pct": 53.1,
+      "market_prob_pct": null,
+      "fair_price_american": -113,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 53.1
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 46.9
+        }
+      ],
+      "rationale": "With scoring rates of 1.85 and 0.80, both teams scoring is a 47% chance \u2014 BTTS: No."
+    },
+    {
+      "match_id": "a518ac20df8f5c732b881e213ae0c230",
+      "group": "",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "home": "Spain",
+      "away": "Austria",
+      "market": "handicap",
+      "pick": "Austria +1.5",
+      "prob": 0.5306,
+      "prob_pct": 53.1,
+      "confidence": 0.8,
+      "model_prob_pct": 53.1,
+      "market_prob_pct": null,
+      "fair_price_american": -113,
+      "outcomes": [
+        {
+          "label": "Austria +1.5",
+          "prob_pct": 53.1
+        },
+        {
+          "label": "Spain -1.5",
+          "prob_pct": 46.9
+        }
+      ],
+      "rationale": "Spain wins by 2+ goals 47% of the time; the 53% call is Austria +1.5."
+    },
+    {
+      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
+      "group": "",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "home": "Belgium",
+      "away": "Senegal",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5294,
+      "prob_pct": 52.9,
+      "confidence": 0.8,
+      "model_prob_pct": 52.9,
+      "market_prob_pct": null,
+      "fair_price_american": -112,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 52.9
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 47.1
+        }
+      ],
+      "rationale": "With scoring rates of 1.58 and 1.07, both teams scoring is a 53% chance \u2014 BTTS: Yes."
+    },
+    {
+      "match_id": "f58c55a9da96af562c31b7c5cca40187",
+      "group": "",
+      "commence_time": "2026-07-01T01:00:00Z",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5285,
+      "prob_pct": 52.8,
+      "confidence": 0.8,
+      "model_prob_pct": 52.8,
+      "market_prob_pct": null,
+      "fair_price_american": -112,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 52.8
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 47.2
+        }
+      ],
+      "rationale": "With scoring rates of 1.85 and 0.80, both teams scoring is a 47% chance \u2014 BTTS: No. Factoring in Mexico on home soil."
+    },
+    {
+      "match_id": "5a34afe2de99513ba48360b983cfe80c",
+      "group": "",
+      "commence_time": "2026-06-30T01:00:00Z",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.523,
+      "prob_pct": 52.3,
+      "confidence": 0.8,
+      "model_prob_pct": 52.3,
+      "market_prob_pct": null,
+      "fair_price_american": -110,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 52.3
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 47.7
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Netherlands 1.35, Morocco 1.23); under 2.5 is the 52% side. Factoring in Netherlands missing Frenkie de Jong."
+    },
+    {
+      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
+      "group": "",
+      "commence_time": "2026-06-30T21:00:00Z",
+      "home": "France",
+      "away": "Sweden",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5207,
+      "prob_pct": 52.1,
+      "confidence": 0.8,
+      "model_prob_pct": 52.1,
+      "market_prob_pct": null,
+      "fair_price_american": -109,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 52.1
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 47.9
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (France 2.18, Sweden 0.41); under 2.5 is the 52% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
+      "group": "",
+      "commence_time": "2026-06-29T20:30:00Z",
+      "home": "Germany",
+      "away": "Paraguay",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5097,
+      "prob_pct": 51.0,
+      "confidence": 0.8,
+      "model_prob_pct": 51.0,
+      "market_prob_pct": null,
+      "fair_price_american": -104,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 51.0
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.0
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Germany 2.02, Paraguay 0.61); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "ce017bea1a26252278053ce759e2416b",
+      "group": "",
+      "commence_time": "2026-06-30T17:00:00Z",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5081,
+      "prob_pct": 50.8,
+      "confidence": 0.8,
+      "model_prob_pct": 50.8,
+      "market_prob_pct": null,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 50.8
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 49.2
+        }
+      ],
+      "rationale": "With scoring rates of 0.95 and 1.70, both teams scoring is a 51% chance \u2014 BTTS: Yes."
+    },
+    {
+      "match_id": "a518ac20df8f5c732b881e213ae0c230",
+      "group": "",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "home": "Spain",
+      "away": "Austria",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5074,
+      "prob_pct": 50.7,
+      "confidence": 0.8,
+      "model_prob_pct": 50.7,
+      "market_prob_pct": null,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.7
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.3
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Spain 2.07, Austria 0.58); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
+      "group": "",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Switzerland 1.96, Algeria 0.69); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
+      "group": "",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "home": "Colombia",
+      "away": "Ghana",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Colombia 1.85, Ghana 0.80); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "f58c55a9da96af562c31b7c5cca40187",
+      "group": "",
+      "commence_time": "2026-07-01T01:00:00Z",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Mexico 1.85, Ecuador 0.80); under 2.5 is the 51% side. Factoring in Mexico on home soil."
+    },
+    {
+      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+      "group": "",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "home": "USA",
+      "away": "Bosnia & Herzegovina",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (USA 1.74, Bosnia & Herzegovina 0.91); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "ce017bea1a26252278053ce759e2416b",
+      "group": "",
+      "commence_time": "2026-06-30T17:00:00Z",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Ivory Coast 0.95, Norway 1.70); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
+      "group": "",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "home": "Belgium",
+      "away": "Senegal",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Belgium 1.58, Senegal 1.07); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
+      "group": "",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "home": "Portugal",
+      "away": "Croatia",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Portugal 1.53, Croatia 1.12); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
+      "group": "",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "home": "Australia",
+      "away": "Egypt",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Australia 1.32, Egypt 1.33); under 2.5 is the 51% side."
+    },
+    {
+      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+      "group": "",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "home": "USA",
+      "away": "Bosnia & Herzegovina",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5011,
+      "prob_pct": 50.1,
+      "confidence": 0.8,
+      "model_prob_pct": 50.1,
+      "market_prob_pct": null,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 50.1
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 49.9
+        }
+      ],
+      "rationale": "With scoring rates of 1.74 and 0.91, both teams scoring is a 50% chance \u2014 BTTS: No."
     },
     {
       "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
@@ -1651,27 +1483,87 @@
       "away": "Senegal",
       "market": "result",
       "pick": "Belgium win",
-      "prob": 0.455,
-      "prob_pct": 45.5,
-      "confidence": 0.83,
+      "prob": 0.4825,
+      "prob_pct": 48.3,
+      "confidence": 0.8,
       "model_prob_pct": 48.3,
-      "market_prob_pct": 44.0,
-      "fair_price_american": 120,
+      "market_prob_pct": null,
+      "fair_price_american": 107,
       "outcomes": [
         {
           "label": "Belgium win",
-          "prob_pct": 45.5
+          "prob_pct": 48.3
         },
         {
           "label": "Draw",
-          "prob_pct": 28.6
+          "prob_pct": 26.6
         },
         {
           "label": "Senegal win",
-          "prob_pct": 25.9
+          "prob_pct": 25.2
         }
       ],
-      "rationale": "Belgium is the 45% pick \u2014 a slight edge (expected goals Belgium 1.44, Senegal 1.10)."
+      "rationale": "Belgium is the 48% pick \u2014 a slight edge (expected goals Belgium 1.58, Senegal 1.07)."
+    },
+    {
+      "match_id": "4f3d72fba877939d36a5315618184093",
+      "group": "",
+      "commence_time": "2026-06-29T17:00:00Z",
+      "home": "Brazil",
+      "away": "Japan",
+      "market": "result",
+      "pick": "Brazil win",
+      "prob": 0.4645,
+      "prob_pct": 46.4,
+      "confidence": 0.8,
+      "model_prob_pct": 46.4,
+      "market_prob_pct": null,
+      "fair_price_american": 115,
+      "outcomes": [
+        {
+          "label": "Brazil win",
+          "prob_pct": 46.4
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 29.5
+        },
+        {
+          "label": "Japan win",
+          "prob_pct": 24.1
+        }
+      ],
+      "rationale": "Brazil is the 46% pick \u2014 a slight edge (expected goals Brazil 1.34, Japan 0.89). Factoring in Brazil missing Neymar."
+    },
+    {
+      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
+      "group": "",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "home": "Portugal",
+      "away": "Croatia",
+      "market": "result",
+      "pick": "Portugal win",
+      "prob": 0.4576,
+      "prob_pct": 45.8,
+      "confidence": 0.8,
+      "model_prob_pct": 45.8,
+      "market_prob_pct": null,
+      "fair_price_american": 119,
+      "outcomes": [
+        {
+          "label": "Portugal win",
+          "prob_pct": 45.8
+        },
+        {
+          "label": "Croatia win",
+          "prob_pct": 27.3
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 26.9
+        }
+      ],
+      "rationale": "Portugal is the 46% pick \u2014 a slight edge (expected goals Portugal 1.53, Croatia 1.12)."
     },
     {
       "match_id": "5a34afe2de99513ba48360b983cfe80c",
@@ -1681,27 +1573,27 @@
       "away": "Morocco",
       "market": "result",
       "pick": "Netherlands win",
-      "prob": 0.4107,
-      "prob_pct": 41.1,
-      "confidence": 0.76,
+      "prob": 0.3889,
+      "prob_pct": 38.9,
+      "confidence": 0.8,
       "model_prob_pct": 38.9,
-      "market_prob_pct": 42.2,
-      "fair_price_american": 143,
+      "market_prob_pct": null,
+      "fair_price_american": 157,
       "outcomes": [
         {
           "label": "Netherlands win",
-          "prob_pct": 41.1
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 29.8
+          "prob_pct": 38.9
         },
         {
           "label": "Morocco win",
-          "prob_pct": 29.2
+          "prob_pct": 33.2
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 27.9
         }
       ],
-      "rationale": "Netherlands is the 41% pick \u2014 a slight edge (expected goals Netherlands 1.27, Morocco 0.99). Factoring in Netherlands missing Frenkie de Jong."
+      "rationale": "Netherlands is the 39% pick \u2014 a toss-up (expected goals Netherlands 1.35, Morocco 1.23). Factoring in Netherlands missing Frenkie de Jong."
     },
     {
       "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
@@ -1711,27 +1603,27 @@
       "away": "Egypt",
       "market": "result",
       "pick": "Egypt win",
-      "prob": 0.3785,
-      "prob_pct": 37.9,
-      "confidence": 0.71,
+      "prob": 0.3648,
+      "prob_pct": 36.5,
+      "confidence": 0.8,
       "model_prob_pct": 36.5,
-      "market_prob_pct": 38.5,
-      "fair_price_american": 164,
+      "market_prob_pct": null,
+      "fair_price_american": 174,
       "outcomes": [
         {
           "label": "Egypt win",
-          "prob_pct": 37.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 31.1
+          "prob_pct": 36.5
         },
         {
           "label": "Australia win",
-          "prob_pct": 31.1
+          "prob_pct": 35.9
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 27.6
         }
       ],
-      "rationale": "Egypt is the 38% pick \u2014 a toss-up (expected goals Australia 0.94, Egypt 1.12)."
+      "rationale": "Egypt is the 36% pick \u2014 a toss-up (expected goals Australia 1.32, Egypt 1.33)."
     }
   ],
   "groups": [

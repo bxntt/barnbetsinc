@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-06-28T19:59:24.203738+00:00",
+  "generated_at": "2026-06-28T23:55:23.328449+00:00",
   "since": "2026-06-20",
   "overall": {
-    "wins": 99,
+    "wins": 103,
     "losses": 68,
     "pushes": 1,
-    "win_pct": 59.3
+    "win_pct": 60.2
   },
   "categories": [
     {
       "key": "moneyline",
       "label": "Moneyline",
-      "wins": 28,
+      "wins": 29,
       "losses": 14,
       "pushes": 0,
-      "win_pct": 66.7
+      "win_pct": 67.4
     },
     {
       "key": "spread",
       "label": "Spread",
-      "wins": 28,
+      "wins": 29,
       "losses": 15,
       "pushes": 0,
-      "win_pct": 65.1
+      "win_pct": 65.9
     },
     {
       "key": "total",
       "label": "Total",
-      "wins": 17,
+      "wins": 18,
       "losses": 25,
       "pushes": 1,
-      "win_pct": 40.5
+      "win_pct": 41.9
     },
     {
       "key": "btts",
       "label": "BTTS",
-      "wins": 26,
+      "wins": 27,
       "losses": 14,
       "pushes": 0,
-      "win_pct": 65.0
+      "win_pct": 65.9
     }
   ],
   "note": "Win-loss record of the published pick in each game, settled against final scores. Pushes are excluded from win %."
