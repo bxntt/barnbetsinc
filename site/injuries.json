@@ -1,43 +1,12 @@
 {
-  "generated_at": "2026-06-29T14:51:29.298913+00:00",
+  "generated_at": "2026-06-29T21:11:04.519619+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 15,
-  "affected_games": 7,
-  "total_absences": 8,
+  "game_count": 14,
+  "affected_games": 6,
+  "total_absences": 6,
   "games": [
-    {
-      "match_id": "4f3d72fba877939d36a5315618184093",
-      "group": "",
-      "commence_time": "2026-06-29T17:00:00Z",
-      "home": "Brazil",
-      "away": "Japan",
-      "home_absences": [
-        {
-          "player": "Neymar",
-          "position": "FW",
-          "status": "Out",
-          "reason": "Knee \u2014 ruled out of the tournament",
-          "expected_starter": true,
-          "impact": 2.0,
-          "note": "",
-          "source": "snapshot"
-        },
-        {
-          "player": "\u00c9der Milit\u00e3o",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Match-fitness, late call",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 2
-    },
     {
       "match_id": "4930db8e83436874d09e59bd0e29c1a5",
       "group": "",
