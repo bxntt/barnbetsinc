@@ -1,54 +1,12 @@
 {
-  "generated_at": "2026-06-29T21:11:04.519619+00:00",
+  "generated_at": "2026-06-30T08:48:02.954791+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 14,
-  "affected_games": 6,
-  "total_absences": 6,
+  "game_count": 13,
+  "affected_games": 4,
+  "total_absences": 4,
   "games": [
-    {
-      "match_id": "4930db8e83436874d09e59bd0e29c1a5",
-      "group": "",
-      "commence_time": "2026-06-29T20:30:00Z",
-      "home": "Germany",
-      "away": "Paraguay",
-      "home_absences": [
-        {
-          "player": "Marco Reus",
-          "position": "MF",
-          "status": "Out",
-          "reason": "Ankle",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
-    {
-      "match_id": "5a34afe2de99513ba48360b983cfe80c",
-      "group": "",
-      "commence_time": "2026-06-30T01:00:00Z",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "home_absences": [
-        {
-          "player": "Frenkie de Jong",
-          "position": "MF",
-          "status": "Out",
-          "reason": "Lower-leg injury",
-          "expected_starter": true,
-          "impact": 1.5,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
     {
       "match_id": "ce017bea1a26252278053ce759e2416b",
       "group": "",
@@ -209,6 +167,16 @@
       "commence_time": "2026-07-04T01:30:00Z",
       "home": "Colombia",
       "away": "Ghana",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "9c7073ae2c29ee4881bb695f92168c68",
+      "group": "",
+      "commence_time": "2026-07-04T17:00:00Z",
+      "home": "Canada",
+      "away": "Morocco",
       "home_absences": [],
       "away_absences": [],
       "total": 0
