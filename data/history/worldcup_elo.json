@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T08:48:03.147289+00:00",
+  "updated_at": "2026-06-30T22:02:55.534677+00:00",
   "ratings": {
     "Mexico": 1968.06,
     "South Africa": 1745.2,
@@ -21,7 +21,7 @@
     "Cura\u00e7ao": 1623.25,
     "Netherlands": 2030.31,
     "Japan": 1905.64,
-    "Ivory Coast": 1820.8,
+    "Ivory Coast": 1801.01,
     "Ecuador": 1853.64,
     "Sweden": 1825.48,
     "Tunisia": 1679.74,
@@ -36,7 +36,7 @@
     "France": 2135.9,
     "Senegal": 1876.0,
     "Iraq": 1644.93,
-    "Norway": 1933.17,
+    "Norway": 1952.96,
     "Argentina": 2129.28,
     "Algeria": 1749.07,
     "Austria": 1844.97,
@@ -107,6 +107,7 @@
     "Iran|New Zealand|2026-06-16",
     "Iraq|Norway|2026-06-16",
     "Iraq|Senegal|2026-06-26",
+    "Ivory Coast|Norway|2026-06-30",
     "Japan|Netherlands|2026-06-14",
     "Japan|Sweden|2026-06-25",
     "Japan|Tunisia|2026-06-21",
