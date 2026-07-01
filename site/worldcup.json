@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-01T18:24:54.340975+00:00",
+  "generated_at": "2026-07-01T22:51:05.885336+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 48,
+  "prediction_count": 44,
   "predictions": [
     {
       "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
@@ -220,32 +220,6 @@
         }
       ],
       "rationale": "Portugal wins by 2+ goals 23% of the time; the 77% call is Croatia +1.5."
-    },
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "handicap",
-      "pick": "Senegal +1.5",
-      "prob": 0.7466,
-      "prob_pct": 74.7,
-      "confidence": 0.8,
-      "model_prob_pct": 74.7,
-      "market_prob_pct": null,
-      "fair_price_american": -295,
-      "outcomes": [
-        {
-          "label": "Senegal +1.5",
-          "prob_pct": 74.7
-        },
-        {
-          "label": "Belgium -1.5",
-          "prob_pct": 25.3
-        }
-      ],
-      "rationale": "Belgium wins by 2+ goals 25% of the time; the 75% call is Senegal +1.5."
     },
     {
       "match_id": "9c7073ae2c29ee4881bb695f92168c68",
@@ -810,32 +784,6 @@
       "rationale": "Spain wins by 2+ goals 47% of the time; the 53% call is Austria +1.5."
     },
     {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5294,
-      "prob_pct": 52.9,
-      "confidence": 0.8,
-      "model_prob_pct": 52.9,
-      "market_prob_pct": null,
-      "fair_price_american": -112,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 52.9
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 47.1
-        }
-      ],
-      "rationale": "With scoring rates of 1.58 and 1.07, both teams scoring is a 53% chance \u2014 BTTS: Yes."
-    },
-    {
       "match_id": "9c7073ae2c29ee4881bb695f92168c68",
       "group": "",
       "commence_time": "2026-07-04T17:00:00Z",
@@ -1018,32 +966,6 @@
       "rationale": "Expected ~2.6 goals (Canada 1.07, Morocco 1.58); under 2.5 is the 51% side. Factoring in Canada on home soil."
     },
     {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.506,
-      "prob_pct": 50.6,
-      "confidence": 0.8,
-      "model_prob_pct": 50.6,
-      "market_prob_pct": null,
-      "fair_price_american": -102,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Belgium 1.58, Senegal 1.07); under 2.5 is the 51% side."
-    },
-    {
       "match_id": "852b4baf0be4b9eef2a30596a8d39249",
       "group": "",
       "commence_time": "2026-07-02T23:00:00Z",
@@ -1150,36 +1072,6 @@
         }
       ],
       "rationale": "Morocco is the 49% pick \u2014 a slight edge (expected goals Canada 1.07, Morocco 1.58). Factoring in Canada on home soil."
-    },
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "market": "result",
-      "pick": "Belgium win",
-      "prob": 0.4825,
-      "prob_pct": 48.3,
-      "confidence": 0.8,
-      "model_prob_pct": 48.3,
-      "market_prob_pct": null,
-      "fair_price_american": 107,
-      "outcomes": [
-        {
-          "label": "Belgium win",
-          "prob_pct": 48.3
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 26.6
-        },
-        {
-          "label": "Senegal win",
-          "prob_pct": 25.2
-        }
-      ],
-      "rationale": "Belgium is the 48% pick \u2014 a slight edge (expected goals Belgium 1.58, Senegal 1.07)."
     },
     {
       "match_id": "852b4baf0be4b9eef2a30596a8d39249",

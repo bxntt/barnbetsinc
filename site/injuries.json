@@ -1,22 +1,12 @@
 {
-  "generated_at": "2026-07-01T18:24:53.231071+00:00",
+  "generated_at": "2026-07-01T22:51:04.806130+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 12,
+  "game_count": 11,
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
-      "group": "",
-      "commence_time": "2026-07-01T20:00:00Z",
-      "home": "Belgium",
-      "away": "Senegal",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "group": "",
