@@ -1,43 +1,12 @@
 {
-  "generated_at": "2026-06-30T22:02:55.413797+00:00",
+  "generated_at": "2026-07-01T10:56:56.342274+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 13,
+  "game_count": 12,
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "0b5491529142c9bcc3f88bf45ccb0a7b",
-      "group": "",
-      "commence_time": "2026-06-30T21:00:00Z",
-      "home": "France",
-      "away": "Sweden",
-      "home_absences": [
-        {
-          "player": "Aur\u00e9lien Tchouam\u00e9ni",
-          "position": "MF",
-          "status": "Suspended",
-          "reason": "Yellow-card accumulation",
-          "expected_starter": true,
-          "impact": 1.3,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
-    {
-      "match_id": "f58c55a9da96af562c31b7c5cca40187",
-      "group": "",
-      "commence_time": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "5ff7744314f224c18d1604ee9cc19263",
       "group": "",
@@ -170,6 +139,27 @@
       "home_absences": [],
       "away_absences": [],
       "total": 0
+    },
+    {
+      "match_id": "c798a1ffdeda28e82d930e7145a8ff10",
+      "group": "",
+      "commence_time": "2026-07-04T21:00:00Z",
+      "home": "Paraguay",
+      "away": "France",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Aur\u00e9lien Tchouam\u00e9ni",
+          "position": "MF",
+          "status": "Suspended",
+          "reason": "Yellow-card accumulation",
+          "expected_starter": true,
+          "impact": 1.3,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
     },
     {
       "match_id": "a4634eae056c18d705e3feffb347163f",
