@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T10:56:56.443183+00:00",
+  "updated_at": "2026-07-01T18:24:53.405184+00:00",
   "ratings": {
     "Mexico": 1992.24,
     "South Africa": 1745.2,
@@ -42,8 +42,8 @@
     "Austria": 1844.97,
     "Jordan": 1581.68,
     "Portugal": 2013.56,
-    "DR Congo": 1788.94,
-    "England": 2068.6,
+    "DR Congo": 1781.46,
+    "England": 2076.08,
     "Croatia": 1953.41,
     "Ghana": 1805.19,
     "Panama": 1662.8,
@@ -88,6 +88,7 @@
     "Czechia|Mexico|2026-06-25",
     "Czechia|South Africa|2026-06-18",
     "Czechia|South Korea|2026-06-12",
+    "DR Congo|England|2026-07-01",
     "DR Congo|Portugal|2026-06-17",
     "DR Congo|Uzbekistan|2026-06-27",
     "Ecuador|Germany|2026-06-25",
