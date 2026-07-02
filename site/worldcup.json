@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:51:05.885336+00:00",
+  "generated_at": "2026-07-02T10:16:09.230080+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
@@ -168,6 +168,32 @@
         }
       ],
       "rationale": "England wins by 2+ goals 20% of the time; the 80% call is Mexico +1.5. Factoring in Mexico on home soil."
+    },
+    {
+      "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "group": "",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "market": "handicap",
+      "pick": "USA +1.5",
+      "prob": 0.7929,
+      "prob_pct": 79.3,
+      "confidence": 0.8,
+      "model_prob_pct": 79.3,
+      "market_prob_pct": null,
+      "fair_price_american": -383,
+      "outcomes": [
+        {
+          "label": "USA +1.5",
+          "prob_pct": 79.3
+        },
+        {
+          "label": "Belgium -1.5",
+          "prob_pct": 20.7
+        }
+      ],
+      "rationale": "Belgium wins by 2+ goals 21% of the time; the 79% call is USA +1.5."
     },
     {
       "match_id": "a4634eae056c18d705e3feffb347163f",
@@ -354,32 +380,6 @@
         }
       ],
       "rationale": "Expected ~2.8 goals (Argentina 2.63, Cape Verde 0.15); under 3 is the 70% side."
-    },
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "handicap",
-      "pick": "Bosnia & Herzegovina +1.5",
-      "prob": 0.6791,
-      "prob_pct": 67.9,
-      "confidence": 0.8,
-      "model_prob_pct": 67.9,
-      "market_prob_pct": null,
-      "fair_price_american": -212,
-      "outcomes": [
-        {
-          "label": "Bosnia & Herzegovina +1.5",
-          "prob_pct": 67.9
-        },
-        {
-          "label": "USA -1.5",
-          "prob_pct": 32.1
-        }
-      ],
-      "rationale": "USA wins by 2+ goals 32% of the time; the 68% call is Bosnia & Herzegovina +1.5."
     },
     {
       "match_id": "c17fe2e46190d7ab6af01504ff240e82",
@@ -598,36 +598,6 @@
       "rationale": "With scoring rates of 1.96 and 0.69, both teams scoring is a 43% chance \u2014 BTTS: No."
     },
     {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "result",
-      "pick": "USA win",
-      "prob": 0.5639,
-      "prob_pct": 56.4,
-      "confidence": 0.8,
-      "model_prob_pct": 56.4,
-      "market_prob_pct": null,
-      "fair_price_american": -129,
-      "outcomes": [
-        {
-          "label": "USA win",
-          "prob_pct": 56.4
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 24.9
-        },
-        {
-          "label": "Bosnia & Herzegovina win",
-          "prob_pct": 18.8
-        }
-      ],
-      "rationale": "USA is the 56% pick \u2014 a clear favorite (expected goals USA 1.74, Bosnia & Herzegovina 0.91)."
-    },
-    {
       "match_id": "e61a7b471cadc8e3849158ed59d49cab",
       "group": "",
       "commence_time": "2026-07-06T00:00:00Z",
@@ -704,6 +674,32 @@
         }
       ],
       "rationale": "With scoring rates of 1.32 and 1.33, both teams scoring is a 55% chance \u2014 BTTS: Yes."
+    },
+    {
+      "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "group": "",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "market": "btts",
+      "pick": "BTTS: Yes",
+      "prob": 0.5423,
+      "prob_pct": 54.2,
+      "confidence": 0.8,
+      "model_prob_pct": 54.2,
+      "market_prob_pct": null,
+      "fair_price_american": -118,
+      "outcomes": [
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 54.2
+        },
+        {
+          "label": "BTTS: No",
+          "prob_pct": 45.8
+        }
+      ],
+      "rationale": "With scoring rates of 1.20 and 1.45, both teams scoring is a 54% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "852b4baf0be4b9eef2a30596a8d39249",
@@ -914,32 +910,6 @@
       "rationale": "Expected ~2.6 goals (Colombia 1.85, Ghana 0.80); under 2.5 is the 51% side."
     },
     {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.506,
-      "prob_pct": 50.6,
-      "confidence": 0.8,
-      "model_prob_pct": 50.6,
-      "market_prob_pct": null,
-      "fair_price_american": -102,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (USA 1.74, Bosnia & Herzegovina 0.91); under 2.5 is the 51% side."
-    },
-    {
       "match_id": "9c7073ae2c29ee4881bb695f92168c68",
       "group": "",
       "commence_time": "2026-07-04T17:00:00Z",
@@ -992,6 +962,32 @@
       "rationale": "Expected ~2.6 goals (Portugal 1.53, Croatia 1.12); under 2.5 is the 51% side."
     },
     {
+      "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "group": "",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.506,
+      "prob_pct": 50.6,
+      "confidence": 0.8,
+      "model_prob_pct": 50.6,
+      "market_prob_pct": null,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (USA 1.20, Belgium 1.45); under 2.5 is the 51% side."
+    },
+    {
       "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
       "group": "",
       "commence_time": "2026-07-03T18:00:00Z",
@@ -1016,32 +1012,6 @@
         }
       ],
       "rationale": "Expected ~2.6 goals (Australia 1.32, Egypt 1.33); under 2.5 is the 51% side."
-    },
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5011,
-      "prob_pct": 50.1,
-      "confidence": 0.8,
-      "model_prob_pct": 50.1,
-      "market_prob_pct": null,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 49.9
-        }
-      ],
-      "rationale": "With scoring rates of 1.74 and 0.91, both teams scoring is a 50% chance \u2014 BTTS: No."
     },
     {
       "match_id": "9c7073ae2c29ee4881bb695f92168c68",
@@ -1132,6 +1102,36 @@
         }
       ],
       "rationale": "Brazil is the 44% pick \u2014 a slight edge (expected goals Brazil 1.30, Norway 0.93). Factoring in Brazil missing Neymar."
+    },
+    {
+      "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "group": "",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "market": "result",
+      "pick": "Belgium win",
+      "prob": 0.4213,
+      "prob_pct": 42.1,
+      "confidence": 0.8,
+      "model_prob_pct": 42.1,
+      "market_prob_pct": null,
+      "fair_price_american": 137,
+      "outcomes": [
+        {
+          "label": "Belgium win",
+          "prob_pct": 42.1
+        },
+        {
+          "label": "USA win",
+          "prob_pct": 30.5
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 27.3
+        }
+      ],
+      "rationale": "Belgium is the 42% pick \u2014 a slight edge (expected goals USA 1.20, Belgium 1.45)."
     },
     {
       "match_id": "e61a7b471cadc8e3849158ed59d49cab",

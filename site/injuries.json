@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:51:04.806130+00:00",
+  "generated_at": "2026-07-02T10:16:08.076081+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
@@ -7,16 +7,6 @@
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-      "group": "",
-      "commence_time": "2026-07-02T00:00:00Z",
-      "home": "USA",
-      "away": "Bosnia & Herzegovina",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "a518ac20df8f5c732b881e213ae0c230",
       "group": "",
@@ -181,6 +171,16 @@
         }
       ],
       "total": 1
+    },
+    {
+      "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "group": "",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
     }
   ],
   "note": "Players who were expected to feature but are ruled out, doubtful, or suspended, per upcoming game. Maintained snapshot dated 2026-06-19; verify against official team news before kickoff."
