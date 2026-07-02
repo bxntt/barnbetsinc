@@ -43,3 +43,4 @@
 {"game_id": "401815949", "sport_key": "baseball_mlb", "home": "San Francisco Giants", "away": "Atlanta Braves", "home_score": 3, "away_score": 2, "completed_at": "2026-06-28T20:05Z"}
 {"game_id": "401815950", "sport_key": "baseball_mlb", "home": "San Diego Padres", "away": "Los Angeles Dodgers", "home_score": 2, "away_score": 4, "completed_at": "2026-06-28T20:10Z"}
 {"game_id": "401815939", "sport_key": "baseball_mlb", "home": "Boston Red Sox", "away": "New York Yankees", "home_score": 5, "away_score": 4, "completed_at": "2026-06-28T23:20Z"}
+{"game_id": "401815994", "sport_key": "baseball_mlb", "home": "Philadelphia Phillies", "away": "Pittsburgh Pirates", "home_score": 1, "away_score": 6, "completed_at": "2026-07-02T16:35Z"}
