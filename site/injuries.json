@@ -1,53 +1,12 @@
 {
-  "generated_at": "2026-07-02T20:45:51.447374+00:00",
+  "generated_at": "2026-07-03T08:38:39.701831+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 11,
+  "game_count": 9,
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "a518ac20df8f5c732b881e213ae0c230",
-      "group": "",
-      "commence_time": "2026-07-02T19:00:00Z",
-      "home": "Spain",
-      "away": "Austria",
-      "home_absences": [
-        {
-          "player": "Gavi",
-          "position": "MF",
-          "status": "Doubtful",
-          "reason": "Knock, assessed before kickoff",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
-    {
-      "match_id": "852b4baf0be4b9eef2a30596a8d39249",
-      "group": "",
-      "commence_time": "2026-07-02T23:00:00Z",
-      "home": "Portugal",
-      "away": "Croatia",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "c17fe2e46190d7ab6af01504ff240e82",
-      "group": "",
-      "commence_time": "2026-07-03T03:00:00Z",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
       "group": "",
@@ -165,6 +124,27 @@
           "status": "Doubtful",
           "reason": "Hamstring tightness",
           "expected_starter": true,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "match_id": "16ed3adcf661b3a9bea39871a2d204df",
+      "group": "",
+      "commence_time": "2026-07-06T19:00:00Z",
+      "home": "Portugal",
+      "away": "Spain",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "Gavi",
+          "position": "MF",
+          "status": "Doubtful",
+          "reason": "Knock, assessed before kickoff",
+          "expected_starter": false,
           "impact": 1.0,
           "note": "",
           "source": "snapshot"
