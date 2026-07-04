@@ -1,53 +1,12 @@
 {
-  "generated_at": "2026-07-03T20:34:28.944388+00:00",
+  "generated_at": "2026-07-04T07:29:21.793748+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 9,
+  "game_count": 8,
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
-      "group": "",
-      "commence_time": "2026-07-03T18:00:00Z",
-      "home": "Australia",
-      "away": "Egypt",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
-    {
-      "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-      "group": "",
-      "commence_time": "2026-07-03T22:00:00Z",
-      "home": "Argentina",
-      "away": "Cape Verde",
-      "home_absences": [
-        {
-          "player": "\u00c1ngel Di Mar\u00eda",
-          "position": "FW",
-          "status": "Doubtful",
-          "reason": "Rested / minor strain",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
-    {
-      "match_id": "88e032a2b2e5042d26db3f0da1df924a",
-      "group": "",
-      "commence_time": "2026-07-04T01:30:00Z",
-      "home": "Colombia",
-      "away": "Ghana",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "9c7073ae2c29ee4881bb695f92168c68",
       "group": "",
@@ -158,6 +117,37 @@
       "commence_time": "2026-07-07T00:00:00Z",
       "home": "USA",
       "away": "Belgium",
+      "home_absences": [],
+      "away_absences": [],
+      "total": 0
+    },
+    {
+      "match_id": "190922affd0be754bfefd71548dbf90d",
+      "group": "",
+      "commence_time": "2026-07-07T16:00:00Z",
+      "home": "Argentina",
+      "away": "Egypt",
+      "home_absences": [
+        {
+          "player": "\u00c1ngel Di Mar\u00eda",
+          "position": "FW",
+          "status": "Doubtful",
+          "reason": "Rested / minor strain",
+          "expected_starter": false,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "a6da973c5749ce60adab77d64b3664f4",
+      "group": "",
+      "commence_time": "2026-07-07T20:00:00Z",
+      "home": "Switzerland",
+      "away": "Colombia",
       "home_absences": [],
       "away_absences": [],
       "total": 0
