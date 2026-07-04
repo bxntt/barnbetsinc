@@ -1,22 +1,12 @@
 {
-  "generated_at": "2026-07-04T15:47:11.068181+00:00",
+  "generated_at": "2026-07-04T20:15:26.042485+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 8,
+  "game_count": 7,
   "affected_games": 5,
   "total_absences": 6,
   "games": [
-    {
-      "match_id": "9c7073ae2c29ee4881bb695f92168c68",
-      "group": "",
-      "commence_time": "2026-07-04T17:00:00Z",
-      "home": "Canada",
-      "away": "Morocco",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "c798a1ffdeda28e82d930e7145a8ff10",
       "group": "",
