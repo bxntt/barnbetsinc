@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T07:29:24.465178+00:00",
+  "generated_at": "2026-07-05T09:47:52.965508+00:00",
   "count": 150,
   "predictions": [
     {
@@ -425,6 +425,36 @@
       "rationale": "Miami Hurricanes is the 96% pick to win \u2014 a clear call. ESPN: Liberty Mutual Music City Kickoff."
     },
     {
+      "game_id": "36c2a063d7a55e85488fbe0e89015686",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-06T20:00:00Z",
+      "home_team": "Washington Huskies",
+      "away_team": "Washington State Cougars",
+      "market": "h2h",
+      "pick": "Washington Huskies ML",
+      "selection": "Washington Huskies",
+      "point": null,
+      "prob": 0.9477,
+      "prob_pct": 94.8,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 94.8,
+      "fair_price_american": -1810,
+      "outcomes": [
+        {
+          "label": "Washington Huskies ML",
+          "prob_pct": 94.8
+        },
+        {
+          "label": "Washington State Cougars ML",
+          "prob_pct": 5.2
+        }
+      ],
+      "context": null,
+      "rationale": "Washington Huskies is the 95% pick to win \u2014 a clear call."
+    },
+    {
       "game_id": "b460f3aa4235ec2485f25182755304d6",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -453,36 +483,6 @@
       ],
       "context": null,
       "rationale": "Notre Dame Fighting Irish is the 95% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "36c2a063d7a55e85488fbe0e89015686",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-06T20:00:00Z",
-      "home_team": "Washington Huskies",
-      "away_team": "Washington State Cougars",
-      "market": "h2h",
-      "pick": "Washington Huskies ML",
-      "selection": "Washington Huskies",
-      "point": null,
-      "prob": 0.9435,
-      "prob_pct": 94.3,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 94.3,
-      "fair_price_american": -1670,
-      "outcomes": [
-        {
-          "label": "Washington Huskies ML",
-          "prob_pct": 94.3
-        },
-        {
-          "label": "Washington State Cougars ML",
-          "prob_pct": 5.7
-        }
-      ],
-      "context": null,
-      "rationale": "Washington Huskies is the 94% pick to win \u2014 a clear call."
     },
     {
       "game_id": "185883640e8f90f283915ddadb0230a3",
