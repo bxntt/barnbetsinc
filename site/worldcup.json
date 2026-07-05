@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T18:52:59.080092+00:00",
+  "generated_at": "2026-07-05T22:35:29.912642+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 28,
+  "prediction_count": 24,
   "predictions": [
     {
       "match_id": "a6da973c5749ce60adab77d64b3664f4",
@@ -114,32 +114,6 @@
       "rationale": "Belgium wins by 2+ goals 21% of the time; the 79% call is USA +1.5."
     },
     {
-      "match_id": "a4634eae056c18d705e3feffb347163f",
-      "group": "",
-      "commence_time": "2026-07-05T20:00:00Z",
-      "home": "Brazil",
-      "away": "Norway",
-      "market": "handicap",
-      "pick": "Norway +1.5",
-      "prob": 0.7928,
-      "prob_pct": 79.3,
-      "confidence": 0.8,
-      "model_prob_pct": 79.3,
-      "market_prob_pct": null,
-      "fair_price_american": -383,
-      "outcomes": [
-        {
-          "label": "Norway +1.5",
-          "prob_pct": 79.3
-        },
-        {
-          "label": "Brazil -1.5",
-          "prob_pct": 20.7
-        }
-      ],
-      "rationale": "Brazil wins by 2+ goals 21% of the time; the 79% call is Norway +1.5. Factoring in Brazil missing Neymar."
-    },
-    {
       "match_id": "16ed3adcf661b3a9bea39871a2d204df",
       "group": "",
       "commence_time": "2026-07-06T19:00:00Z",
@@ -244,32 +218,6 @@
       "rationale": "Expected ~2.8 goals (Mexico 1.29, England 1.46); under 3 is the 70% side. Factoring in Mexico on home soil."
     },
     {
-      "match_id": "a4634eae056c18d705e3feffb347163f",
-      "group": "",
-      "commence_time": "2026-07-05T20:00:00Z",
-      "home": "Brazil",
-      "away": "Norway",
-      "market": "total",
-      "pick": "Under 2",
-      "prob": 0.6139,
-      "prob_pct": 61.4,
-      "confidence": 0.8,
-      "model_prob_pct": 61.4,
-      "market_prob_pct": null,
-      "fair_price_american": -159,
-      "outcomes": [
-        {
-          "label": "Under 2",
-          "prob_pct": 61.4
-        },
-        {
-          "label": "Over 2",
-          "prob_pct": 38.6
-        }
-      ],
-      "rationale": "Expected ~2.2 goals (Brazil 1.30, Norway 0.93); under 2 is the 61% side. Factoring in Brazil missing Neymar."
-    },
-    {
       "match_id": "190922affd0be754bfefd71548dbf90d",
       "group": "",
       "commence_time": "2026-07-07T16:00:00Z",
@@ -320,32 +268,6 @@
         }
       ],
       "rationale": "With scoring rates of 1.29 and 1.46, both teams scoring is a 56% chance \u2014 BTTS: Yes. Factoring in Mexico on home soil."
-    },
-    {
-      "match_id": "a4634eae056c18d705e3feffb347163f",
-      "group": "",
-      "commence_time": "2026-07-05T20:00:00Z",
-      "home": "Brazil",
-      "away": "Norway",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.5509,
-      "prob_pct": 55.1,
-      "confidence": 0.8,
-      "model_prob_pct": 55.1,
-      "market_prob_pct": null,
-      "fair_price_american": -123,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 55.1
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 44.9
-        }
-      ],
-      "rationale": "With scoring rates of 1.30 and 0.93, both teams scoring is a 45% chance \u2014 BTTS: No. Factoring in Brazil missing Neymar."
     },
     {
       "match_id": "a6da973c5749ce60adab77d64b3664f4",
@@ -610,36 +532,6 @@
         }
       ],
       "rationale": "Expected ~2.6 goals (Switzerland 1.26, Colombia 1.39); under 2.5 is the 51% side."
-    },
-    {
-      "match_id": "a4634eae056c18d705e3feffb347163f",
-      "group": "",
-      "commence_time": "2026-07-05T20:00:00Z",
-      "home": "Brazil",
-      "away": "Norway",
-      "market": "result",
-      "pick": "Brazil win",
-      "prob": 0.4422,
-      "prob_pct": 44.2,
-      "confidence": 0.8,
-      "model_prob_pct": 44.2,
-      "market_prob_pct": null,
-      "fair_price_american": 126,
-      "outcomes": [
-        {
-          "label": "Brazil win",
-          "prob_pct": 44.2
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 29.8
-        },
-        {
-          "label": "Norway win",
-          "prob_pct": 26.0
-        }
-      ],
-      "rationale": "Brazil is the 44% pick \u2014 a slight edge (expected goals Brazil 1.30, Norway 0.93). Factoring in Brazil missing Neymar."
     },
     {
       "match_id": "16ed3adcf661b3a9bea39871a2d204df",

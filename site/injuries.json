@@ -1,43 +1,12 @@
 {
-  "generated_at": "2026-07-05T18:52:58.023270+00:00",
+  "generated_at": "2026-07-05T22:35:28.769881+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 7,
-  "affected_games": 5,
-  "total_absences": 6,
+  "game_count": 6,
+  "affected_games": 4,
+  "total_absences": 4,
   "games": [
-    {
-      "match_id": "a4634eae056c18d705e3feffb347163f",
-      "group": "",
-      "commence_time": "2026-07-05T20:00:00Z",
-      "home": "Brazil",
-      "away": "Norway",
-      "home_absences": [
-        {
-          "player": "Neymar",
-          "position": "FW",
-          "status": "Out",
-          "reason": "Knee \u2014 ruled out of the tournament",
-          "expected_starter": true,
-          "impact": 2.0,
-          "note": "",
-          "source": "snapshot"
-        },
-        {
-          "player": "\u00c9der Milit\u00e3o",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Match-fitness, late call",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 2
-    },
     {
       "match_id": "e61a7b471cadc8e3849158ed59d49cab",
       "group": "",
