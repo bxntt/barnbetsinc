@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T09:47:52.965508+00:00",
+  "generated_at": "2026-07-06T13:01:15.169998+00:00",
   "count": 150,
   "predictions": [
     {
@@ -373,20 +373,20 @@
       "pick": "Penn State Nittany Lions ML",
       "selection": "Penn State Nittany Lions",
       "point": null,
-      "prob": 0.9593,
-      "prob_pct": 95.9,
+      "prob": 0.9597,
+      "prob_pct": 96.0,
       "confidence": 0.6,
       "model_prob_pct": null,
-      "market_prob_pct": 95.9,
-      "fair_price_american": -2354,
+      "market_prob_pct": 96.0,
+      "fair_price_american": -2382,
       "outcomes": [
         {
           "label": "Penn State Nittany Lions ML",
-          "prob_pct": 95.9
+          "prob_pct": 96.0
         },
         {
           "label": "Marshall Thundering Herd ML",
-          "prob_pct": 4.1
+          "prob_pct": 4.0
         }
       ],
       "context": null,
@@ -677,12 +677,12 @@
       "pick": "Los Angeles Chargers ML",
       "selection": "Los Angeles Chargers",
       "point": null,
-      "prob": 0.8466,
+      "prob": 0.847,
       "prob_pct": 84.7,
       "confidence": 0.6,
       "model_prob_pct": null,
       "market_prob_pct": 84.7,
-      "fair_price_american": -552,
+      "fair_price_american": -553,
       "outcomes": [
         {
           "label": "Los Angeles Chargers ML",
@@ -1285,12 +1285,12 @@
       "pick": "Jacksonville Jaguars ML",
       "selection": "Jacksonville Jaguars",
       "point": null,
-      "prob": 0.7736,
+      "prob": 0.7741,
       "prob_pct": 77.4,
       "confidence": 0.61,
       "model_prob_pct": null,
       "market_prob_pct": 77.4,
-      "fair_price_american": -342,
+      "fair_price_american": -343,
       "outcomes": [
         {
           "label": "Jacksonville Jaguars ML",
@@ -1345,12 +1345,12 @@
       "pick": "Detroit Lions ML",
       "selection": "Detroit Lions",
       "point": null,
-      "prob": 0.7607,
+      "prob": 0.7612,
       "prob_pct": 76.1,
       "confidence": 0.61,
       "model_prob_pct": null,
       "market_prob_pct": 76.1,
-      "fair_price_american": -318,
+      "fair_price_american": -319,
       "outcomes": [
         {
           "label": "Detroit Lions ML",
@@ -2029,36 +2029,6 @@
       "rationale": "Alabama Crimson Tide -26.5 is the 51% side to cover."
     },
     {
-      "game_id": "261e6183f68405cd431bbdbd0c31eefa",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T20:15:00Z",
-      "home_team": "Iowa Hawkeyes",
-      "away_team": "Northern Illinois Huskies",
-      "market": "totals",
-      "pick": "Over 43.5",
-      "selection": "Over",
-      "point": 43.5,
-      "prob": 0.5088,
-      "prob_pct": 50.9,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -104,
-      "outcomes": [
-        {
-          "label": "Over 43.5",
-          "prob_pct": 50.9
-        },
-        {
-          "label": "Under 43.5",
-          "prob_pct": 49.1
-        }
-      ],
-      "context": null,
-      "rationale": "Over 43.5 is the 51% call."
-    },
-    {
       "game_id": "b9d8d9eeb4afdebe9f91de7f8253eb07",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -2659,6 +2629,36 @@
       "rationale": "Michigan Wolverines -26.5 is the 50% side to cover."
     },
     {
+      "game_id": "261e6183f68405cd431bbdbd0c31eefa",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-05T20:15:00Z",
+      "home_team": "Iowa Hawkeyes",
+      "away_team": "Northern Illinois Huskies",
+      "market": "totals",
+      "pick": "Over 43.5",
+      "selection": "Over",
+      "point": 43.5,
+      "prob": 0.5023,
+      "prob_pct": 50.2,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Over 43.5",
+          "prob_pct": 50.2
+        },
+        {
+          "label": "Under 43.5",
+          "prob_pct": 49.8
+        }
+      ],
+      "context": null,
+      "rationale": "Over 43.5 is the 50% call."
+    },
+    {
       "game_id": "2143ade9684fd876b68a4e8cbf451f05",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
@@ -3148,8 +3148,8 @@
       "home_team": "Troy Trojans",
       "away_team": "Sam Houston State Bearkats",
       "market": "totals",
-      "pick": "Over 50.5",
-      "selection": "Over",
+      "pick": "Under 50.5",
+      "selection": "Under",
       "point": 50.5,
       "prob": 0.5008,
       "prob_pct": 50.1,
@@ -3159,16 +3159,16 @@
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "Over 50.5",
+          "label": "Under 50.5",
           "prob_pct": 50.1
         },
         {
-          "label": "Under 50.5",
+          "label": "Over 50.5",
           "prob_pct": 49.9
         }
       ],
       "context": null,
-      "rationale": "Over 50.5 is the 50% call."
+      "rationale": "Under 50.5 is the 50% call."
     },
     {
       "game_id": "b9d8d9eeb4afdebe9f91de7f8253eb07",

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T22:35:28.983085+00:00",
+  "updated_at": "2026-07-06T13:01:11.563863+00:00",
   "ratings": {
-    "Mexico": 1992.24,
+    "Mexico": 1966.1,
     "South Africa": 1745.2,
     "South Korea": 1828.21,
     "Czechia": 1763.64,
@@ -43,7 +43,7 @@
     "Jordan": 1581.68,
     "Portugal": 2038.02,
     "DR Congo": 1781.46,
-    "England": 2076.08,
+    "England": 2102.22,
     "Croatia": 1928.95,
     "Ghana": 1789.26,
     "Panama": 1662.8,
@@ -107,6 +107,7 @@
     "Egypt|Iran|2026-06-27",
     "Egypt|New Zealand|2026-06-22",
     "England|Ghana|2026-06-23",
+    "England|Mexico|2026-07-06",
     "England|Panama|2026-06-27",
     "France|Iraq|2026-06-22",
     "France|Norway|2026-06-26",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:35:28.769881+00:00",
+  "generated_at": "2026-07-06T13:01:11.087808+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
@@ -7,27 +7,6 @@
   "affected_games": 4,
   "total_absences": 4,
   "games": [
-    {
-      "match_id": "e61a7b471cadc8e3849158ed59d49cab",
-      "group": "",
-      "commence_time": "2026-07-06T00:00:00Z",
-      "home": "Mexico",
-      "away": "England",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "John Stones",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Hamstring tightness",
-          "expected_starter": true,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 1
-    },
     {
       "match_id": "16ed3adcf661b3a9bea39871a2d204df",
       "group": "",
@@ -109,6 +88,27 @@
         }
       ],
       "away_absences": [],
+      "total": 1
+    },
+    {
+      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
+      "group": "",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "home": "Norway",
+      "away": "England",
+      "home_absences": [],
+      "away_absences": [
+        {
+          "player": "John Stones",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Hamstring tightness",
+          "expected_starter": true,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
       "total": 1
     }
   ],
