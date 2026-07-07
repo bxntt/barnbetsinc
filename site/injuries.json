@@ -1,33 +1,12 @@
 {
-  "generated_at": "2026-07-07T10:41:05.857786+00:00",
+  "generated_at": "2026-07-07T18:26:34.933849+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 5,
-  "affected_games": 4,
-  "total_absences": 4,
+  "game_count": 4,
+  "affected_games": 3,
+  "total_absences": 3,
   "games": [
-    {
-      "match_id": "190922affd0be754bfefd71548dbf90d",
-      "group": "",
-      "commence_time": "2026-07-07T16:00:00Z",
-      "home": "Argentina",
-      "away": "Egypt",
-      "home_absences": [
-        {
-          "player": "\u00c1ngel Di Mar\u00eda",
-          "position": "FW",
-          "status": "Doubtful",
-          "reason": "Rested / minor strain",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
     {
       "match_id": "a6da973c5749ce60adab77d64b3664f4",
       "group": "",

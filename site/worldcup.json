@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T10:41:07.046008+00:00",
+  "generated_at": "2026-07-07T18:26:36.145510+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 20,
+  "prediction_count": 16,
   "predictions": [
     {
       "match_id": "a6da973c5749ce60adab77d64b3664f4",
@@ -32,36 +32,6 @@
       "rationale": "Colombia wins by 2+ goals 19% of the time; the 81% call is Switzerland +1.5."
     },
     {
-      "match_id": "190922affd0be754bfefd71548dbf90d",
-      "group": "",
-      "commence_time": "2026-07-07T16:00:00Z",
-      "home": "Argentina",
-      "away": "Egypt",
-      "market": "result",
-      "pick": "Argentina win",
-      "prob": 0.809,
-      "prob_pct": 80.9,
-      "confidence": 0.8,
-      "model_prob_pct": 80.9,
-      "market_prob_pct": null,
-      "fair_price_american": -424,
-      "outcomes": [
-        {
-          "label": "Argentina win",
-          "prob_pct": 80.9
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 15.1
-        },
-        {
-          "label": "Egypt win",
-          "prob_pct": 4.0
-        }
-      ],
-      "rationale": "Argentina is the 81% pick \u2014 a clear favorite (expected goals Argentina 2.27, Egypt 0.35)."
-    },
-    {
       "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
       "group": "",
       "commence_time": "2026-07-10T19:00:00Z",
@@ -86,32 +56,6 @@
         }
       ],
       "rationale": "Spain wins by 2+ goals 26% of the time; the 74% call is Belgium +1.5."
-    },
-    {
-      "match_id": "190922affd0be754bfefd71548dbf90d",
-      "group": "",
-      "commence_time": "2026-07-07T16:00:00Z",
-      "home": "Argentina",
-      "away": "Egypt",
-      "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.7312,
-      "prob_pct": 73.1,
-      "confidence": 0.8,
-      "model_prob_pct": 73.1,
-      "market_prob_pct": null,
-      "fair_price_american": -272,
-      "outcomes": [
-        {
-          "label": "BTTS: No",
-          "prob_pct": 73.1
-        },
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 26.9
-        }
-      ],
-      "rationale": "With scoring rates of 2.27 and 0.35, both teams scoring is a 27% chance \u2014 BTTS: No."
     },
     {
       "match_id": "b6e926d7f026782b9cab2fa02b823d92",
@@ -190,32 +134,6 @@
         }
       ],
       "rationale": "Expected ~2.8 goals (Norway 1.07, England 1.68); under 3 is the 70% side."
-    },
-    {
-      "match_id": "190922affd0be754bfefd71548dbf90d",
-      "group": "",
-      "commence_time": "2026-07-07T16:00:00Z",
-      "home": "Argentina",
-      "away": "Egypt",
-      "market": "handicap",
-      "pick": "Argentina -1.5",
-      "prob": 0.5719,
-      "prob_pct": 57.2,
-      "confidence": 0.8,
-      "model_prob_pct": 57.2,
-      "market_prob_pct": null,
-      "fair_price_american": -134,
-      "outcomes": [
-        {
-          "label": "Argentina -1.5",
-          "prob_pct": 57.2
-        },
-        {
-          "label": "Egypt +1.5",
-          "prob_pct": 42.8
-        }
-      ],
-      "rationale": "Argentina wins by 2+ goals 57% of the time; the 57% call is Argentina -1.5."
     },
     {
       "match_id": "a6da973c5749ce60adab77d64b3664f4",
@@ -320,32 +238,6 @@
         }
       ],
       "rationale": "Expected ~2.6 goals (France 1.60, Morocco 0.99); under 2.5 is the 52% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "190922affd0be754bfefd71548dbf90d",
-      "group": "",
-      "commence_time": "2026-07-07T16:00:00Z",
-      "home": "Argentina",
-      "away": "Egypt",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5142,
-      "prob_pct": 51.4,
-      "confidence": 0.8,
-      "model_prob_pct": 51.4,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Argentina 2.27, Egypt 0.35); under 2.5 is the 51% side."
     },
     {
       "match_id": "e66e4478b739fa0657a7a11235e1fcee",
