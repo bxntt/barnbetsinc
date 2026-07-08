@@ -1,22 +1,12 @@
 {
-  "generated_at": "2026-07-07T22:39:50.649394+00:00",
+  "generated_at": "2026-07-08T07:42:50.640207+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
   "game_count": 4,
-  "affected_games": 3,
-  "total_absences": 3,
+  "affected_games": 4,
+  "total_absences": 4,
   "games": [
-    {
-      "match_id": "a6da973c5749ce60adab77d64b3664f4",
-      "group": "",
-      "commence_time": "2026-07-07T20:00:00Z",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "home_absences": [],
-      "away_absences": [],
-      "total": 0
-    },
     {
       "match_id": "b6e926d7f026782b9cab2fa02b823d92",
       "group": "",
@@ -78,6 +68,27 @@
           "source": "snapshot"
         }
       ],
+      "total": 1
+    },
+    {
+      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "group": "",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "home_absences": [
+        {
+          "player": "\u00c1ngel Di Mar\u00eda",
+          "position": "FW",
+          "status": "Doubtful",
+          "reason": "Rested / minor strain",
+          "expected_starter": false,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [],
       "total": 1
     }
   ],

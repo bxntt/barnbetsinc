@@ -1,36 +1,10 @@
 {
-  "generated_at": "2026-07-07T22:39:51.726842+00:00",
+  "generated_at": "2026-07-08T07:42:51.716080+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
   "prediction_count": 16,
   "predictions": [
-    {
-      "match_id": "a6da973c5749ce60adab77d64b3664f4",
-      "group": "",
-      "commence_time": "2026-07-07T20:00:00Z",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "market": "handicap",
-      "pick": "Switzerland +1.5",
-      "prob": 0.8136,
-      "prob_pct": 81.4,
-      "confidence": 0.32,
-      "model_prob_pct": 81.4,
-      "market_prob_pct": null,
-      "fair_price_american": -437,
-      "outcomes": [
-        {
-          "label": "Switzerland +1.5",
-          "prob_pct": 81.4
-        },
-        {
-          "label": "Colombia -1.5",
-          "prob_pct": 18.6
-        }
-      ],
-      "rationale": "Colombia wins by 2+ goals 19% of the time; the 81% call is Switzerland +1.5."
-    },
     {
       "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
       "group": "",
@@ -136,30 +110,86 @@
       "rationale": "Expected ~2.8 goals (Norway 1.07, England 1.68); under 3 is the 70% side."
     },
     {
-      "match_id": "a6da973c5749ce60adab77d64b3664f4",
+      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
       "group": "",
-      "commence_time": "2026-07-07T20:00:00Z",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5454,
-      "prob_pct": 54.5,
-      "confidence": 0.32,
-      "model_prob_pct": 54.5,
+      "commence_time": "2026-07-12T01:00:00Z",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "market": "result",
+      "pick": "Argentina win",
+      "prob": 0.6401,
+      "prob_pct": 64.0,
+      "confidence": 0.8,
+      "model_prob_pct": 64.0,
       "market_prob_pct": null,
-      "fair_price_american": -120,
+      "fair_price_american": -178,
       "outcomes": [
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 54.5
+          "label": "Argentina win",
+          "prob_pct": 64.0
         },
         {
-          "label": "BTTS: No",
-          "prob_pct": 45.5
+          "label": "Draw",
+          "prob_pct": 22.7
+        },
+        {
+          "label": "Switzerland win",
+          "prob_pct": 13.3
         }
       ],
-      "rationale": "With scoring rates of 1.26 and 1.39, both teams scoring is a 55% chance \u2014 BTTS: Yes."
+      "rationale": "Argentina is the 64% pick \u2014 a clear favorite (expected goals Argentina 1.88, Switzerland 0.74)."
+    },
+    {
+      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "group": "",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "market": "handicap",
+      "pick": "Switzerland +1.5",
+      "prob": 0.611,
+      "prob_pct": 61.1,
+      "confidence": 0.8,
+      "model_prob_pct": 61.1,
+      "market_prob_pct": null,
+      "fair_price_american": -157,
+      "outcomes": [
+        {
+          "label": "Switzerland +1.5",
+          "prob_pct": 61.1
+        },
+        {
+          "label": "Argentina -1.5",
+          "prob_pct": 38.9
+        }
+      ],
+      "rationale": "Argentina wins by 2+ goals 39% of the time; the 61% call is Switzerland +1.5."
+    },
+    {
+      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "group": "",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5527,
+      "prob_pct": 55.3,
+      "confidence": 0.8,
+      "model_prob_pct": 55.3,
+      "market_prob_pct": null,
+      "fair_price_american": -124,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 55.3
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 44.7
+        }
+      ],
+      "rationale": "With scoring rates of 1.88 and 0.74, both teams scoring is a 45% chance \u2014 BTTS: No."
     },
     {
       "match_id": "e66e4478b739fa0657a7a11235e1fcee",
@@ -238,6 +268,32 @@
         }
       ],
       "rationale": "Expected ~2.6 goals (France 1.60, Morocco 0.99); under 2.5 is the 52% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "group": "",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5142,
+      "prob_pct": 51.4,
+      "confidence": 0.8,
+      "model_prob_pct": 51.4,
+      "market_prob_pct": null,
+      "fair_price_american": -106,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 51.4
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 48.6
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (Argentina 1.88, Switzerland 0.74); under 2.5 is the 51% side."
     },
     {
       "match_id": "e66e4478b739fa0657a7a11235e1fcee",
@@ -352,32 +408,6 @@
       "rationale": "Expected ~2.6 goals (Spain 1.60, Belgium 1.04); under 2.5 is the 51% side."
     },
     {
-      "match_id": "a6da973c5749ce60adab77d64b3664f4",
-      "group": "",
-      "commence_time": "2026-07-07T20:00:00Z",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.506,
-      "prob_pct": 50.6,
-      "confidence": 0.32,
-      "model_prob_pct": 50.6,
-      "market_prob_pct": null,
-      "fair_price_american": -102,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Switzerland 1.26, Colombia 1.39); under 2.5 is the 51% side."
-    },
-    {
       "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
       "group": "",
       "commence_time": "2026-07-10T19:00:00Z",
@@ -406,36 +436,6 @@
         }
       ],
       "rationale": "Spain is the 50% pick \u2014 a slight edge (expected goals Spain 1.60, Belgium 1.04)."
-    },
-    {
-      "match_id": "a6da973c5749ce60adab77d64b3664f4",
-      "group": "",
-      "commence_time": "2026-07-07T20:00:00Z",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "market": "result",
-      "pick": "Colombia win",
-      "prob": 0.3921,
-      "prob_pct": 39.2,
-      "confidence": 0.32,
-      "model_prob_pct": 39.2,
-      "market_prob_pct": null,
-      "fair_price_american": 155,
-      "outcomes": [
-        {
-          "label": "Colombia win",
-          "prob_pct": 39.2
-        },
-        {
-          "label": "Switzerland win",
-          "prob_pct": 33.3
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 27.5
-        }
-      ],
-      "rationale": "Colombia is the 39% pick \u2014 a toss-up (expected goals Switzerland 1.26, Colombia 1.39)."
     }
   ],
   "groups": [

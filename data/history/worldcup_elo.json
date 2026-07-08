@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T18:26:35.226906+00:00",
+  "updated_at": "2026-07-08T07:42:50.792409+00:00",
   "ratings": {
     "Mexico": 1966.1,
     "South Africa": 1745.2,
@@ -10,7 +10,7 @@
     "United States": 1883.73,
     "Paraguay": 1765.77,
     "Qatar": 1670.95,
-    "Switzerland": 1960.67,
+    "Switzerland": 1962.45,
     "Brazil": 2039.05,
     "Morocco": 2013.72,
     "Haiti": 1609.46,
@@ -48,7 +48,7 @@
     "Ghana": 1789.26,
     "Panama": 1662.8,
     "Uzbekistan": 1573.47,
-    "Colombia": 1979.96
+    "Colombia": 1978.18
   },
   "applied": [
     "Algeria|Argentina|2026-06-17",
@@ -89,6 +89,7 @@
     "Colombia|DR Congo|2026-06-24",
     "Colombia|Ghana|2026-07-04",
     "Colombia|Portugal|2026-06-27",
+    "Colombia|Switzerland|2026-07-07",
     "Colombia|Uzbekistan|2026-06-18",
     "Croatia|England|2026-06-17",
     "Croatia|Ghana|2026-06-27",
