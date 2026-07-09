@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T07:42:50.792409+00:00",
+  "updated_at": "2026-07-09T22:49:10.202125+00:00",
   "ratings": {
     "Mexico": 1966.1,
     "South Africa": 1745.2,
@@ -12,7 +12,7 @@
     "Qatar": 1670.95,
     "Switzerland": 1962.45,
     "Brazil": 2039.05,
-    "Morocco": 2013.72,
+    "Morocco": 1987.02,
     "Haiti": 1609.46,
     "Scotland": 1795.15,
     "Australia": 1838.94,
@@ -33,7 +33,7 @@
     "Uruguay": 1891.48,
     "Iran": 1751.63,
     "New Zealand": 1616.44,
-    "France": 2149.57,
+    "France": 2176.27,
     "Senegal": 1852.92,
     "Iraq": 1644.93,
     "Norway": 1994.46,
@@ -113,6 +113,7 @@
     "England|Mexico|2026-07-06",
     "England|Panama|2026-06-27",
     "France|Iraq|2026-06-22",
+    "France|Morocco|2026-07-09",
     "France|Norway|2026-06-26",
     "France|Paraguay|2026-07-04",
     "France|Senegal|2026-06-16",
