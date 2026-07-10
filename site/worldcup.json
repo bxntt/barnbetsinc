@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-10T17:24:16.199326+00:00",
+  "generated_at": "2026-07-10T21:34:28.583140+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
   "prediction_count": 12,
   "predictions": [
     {
-      "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
+      "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
       "group": "",
-      "commence_time": "2026-07-10T19:00:00Z",
-      "home": "Spain",
-      "away": "Belgium",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "home": "France",
+      "away": "Spain",
       "market": "handicap",
-      "pick": "Belgium +1.5",
-      "prob": 0.7351,
-      "prob_pct": 73.5,
+      "pick": "France +1.5",
+      "prob": 0.8355,
+      "prob_pct": 83.6,
       "confidence": 0.8,
-      "model_prob_pct": 73.5,
+      "model_prob_pct": 83.6,
       "market_prob_pct": null,
-      "fair_price_american": -278,
+      "fair_price_american": -508,
       "outcomes": [
         {
-          "label": "Belgium +1.5",
-          "prob_pct": 73.5
+          "label": "France +1.5",
+          "prob_pct": 83.6
         },
         {
           "label": "Spain -1.5",
-          "prob_pct": 26.5
+          "prob_pct": 16.4
         }
       ],
-      "rationale": "Spain wins by 2+ goals 26% of the time; the 74% call is Belgium +1.5."
+      "rationale": "Spain wins by 2+ goals 16% of the time; the 84% call is France +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "e66e4478b739fa0657a7a11235e1fcee",
@@ -192,30 +192,56 @@
       "rationale": "With scoring rates of 1.07 and 1.68, both teams scoring is a 54% chance \u2014 BTTS: Yes."
     },
     {
-      "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
+      "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
       "group": "",
-      "commence_time": "2026-07-10T19:00:00Z",
-      "home": "Spain",
-      "away": "Belgium",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "home": "France",
+      "away": "Spain",
       "market": "btts",
       "pick": "BTTS: Yes",
-      "prob": 0.5238,
-      "prob_pct": 52.4,
+      "prob": 0.5336,
+      "prob_pct": 53.4,
       "confidence": 0.8,
-      "model_prob_pct": 52.4,
+      "model_prob_pct": 53.4,
       "market_prob_pct": null,
-      "fair_price_american": -110,
+      "fair_price_american": -114,
       "outcomes": [
         {
           "label": "BTTS: Yes",
-          "prob_pct": 52.4
+          "prob_pct": 53.4
         },
         {
           "label": "BTTS: No",
-          "prob_pct": 47.6
+          "prob_pct": 46.6
         }
       ],
-      "rationale": "With scoring rates of 1.60 and 1.04, both teams scoring is a 52% chance \u2014 BTTS: Yes."
+      "rationale": "With scoring rates of 1.29 and 1.30, both teams scoring is a 53% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
+      "group": "",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "home": "France",
+      "away": "Spain",
+      "market": "total",
+      "pick": "Under 2.5",
+      "prob": 0.5225,
+      "prob_pct": 52.2,
+      "confidence": 0.8,
+      "model_prob_pct": 52.2,
+      "market_prob_pct": null,
+      "fair_price_american": -109,
+      "outcomes": [
+        {
+          "label": "Under 2.5",
+          "prob_pct": 52.2
+        },
+        {
+          "label": "Over 2.5",
+          "prob_pct": 47.8
+        }
+      ],
+      "rationale": "Expected ~2.6 goals (France 1.29, Spain 1.30); under 2.5 is the 52% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
@@ -274,60 +300,34 @@
       "rationale": "England is the 51% pick \u2014 a slight edge (expected goals Norway 1.07, England 1.68)."
     },
     {
-      "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
+      "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
       "group": "",
-      "commence_time": "2026-07-10T19:00:00Z",
-      "home": "Spain",
-      "away": "Belgium",
-      "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5074,
-      "prob_pct": 50.7,
-      "confidence": 0.8,
-      "model_prob_pct": 50.7,
-      "market_prob_pct": null,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 49.3
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Spain 1.60, Belgium 1.04); under 2.5 is the 51% side."
-    },
-    {
-      "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
-      "group": "",
-      "commence_time": "2026-07-10T19:00:00Z",
-      "home": "Spain",
-      "away": "Belgium",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "home": "France",
+      "away": "Spain",
       "market": "result",
       "pick": "Spain win",
-      "prob": 0.4972,
-      "prob_pct": 49.7,
+      "prob": 0.3628,
+      "prob_pct": 36.3,
       "confidence": 0.8,
-      "model_prob_pct": 49.7,
+      "model_prob_pct": 36.3,
       "market_prob_pct": null,
-      "fair_price_american": 101,
+      "fair_price_american": 176,
       "outcomes": [
         {
           "label": "Spain win",
-          "prob_pct": 49.7
+          "prob_pct": 36.3
+        },
+        {
+          "label": "France win",
+          "prob_pct": 35.7
         },
         {
           "label": "Draw",
-          "prob_pct": 26.4
-        },
-        {
-          "label": "Belgium win",
-          "prob_pct": 23.9
+          "prob_pct": 28.0
         }
       ],
-      "rationale": "Spain is the 50% pick \u2014 a slight edge (expected goals Spain 1.60, Belgium 1.04)."
+      "rationale": "Spain is the 36% pick \u2014 a toss-up (expected goals France 1.29, Spain 1.30). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     }
   ],
   "groups": [
