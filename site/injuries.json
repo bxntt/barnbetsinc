@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T20:28:36.342886+00:00",
+  "generated_at": "2026-07-11T23:37:15.744379+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
@@ -10,7 +10,7 @@
     {
       "match_id": "e66e4478b739fa0657a7a11235e1fcee",
       "group": "",
-      "commence_time": "2026-07-11T21:00:00Z",
+      "commence_time": "2026-07-11T21:01:00Z",
       "home": "Norway",
       "away": "England",
       "home_absences": [],
