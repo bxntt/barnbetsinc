@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T06:23:50.645916+00:00",
+  "generated_at": "2026-07-12T07:48:57.052754+00:00",
   "count": 150,
   "predictions": [
     {
@@ -679,20 +679,20 @@
       "pick": "West Virginia Mountaineers ML",
       "selection": "West Virginia Mountaineers",
       "point": null,
-      "prob": 0.9207,
-      "prob_pct": 92.1,
-      "confidence": 0.56,
+      "prob": 0.9222,
+      "prob_pct": 92.2,
+      "confidence": 0.55,
       "model_prob_pct": null,
-      "market_prob_pct": 92.1,
-      "fair_price_american": -1161,
+      "market_prob_pct": 92.2,
+      "fair_price_american": -1185,
       "outcomes": [
         {
           "label": "West Virginia Mountaineers ML",
-          "prob_pct": 92.1
+          "prob_pct": 92.2
         },
         {
           "label": "Coastal Carolina Chanticleers ML",
-          "prob_pct": 7.9
+          "prob_pct": 7.8
         }
       ],
       "context": null,
@@ -1519,36 +1519,6 @@
       "rationale": "Jacksonville Jaguars is the 77% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "3313dcc5e91f9a2dda995a5e36e55f52",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-08-29T19:00:00Z",
-      "home_team": "USC Trojans",
-      "away_team": "San Jose State Spartans",
-      "market": "totals",
-      "pick": "Over 57.5",
-      "selection": "Over",
-      "point": 57.5,
-      "prob": 0.5209,
-      "prob_pct": 52.1,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 52.1,
-      "fair_price_american": -109,
-      "outcomes": [
-        {
-          "label": "Over 57.5",
-          "prob_pct": 52.1
-        },
-        {
-          "label": "Under 57.5",
-          "prob_pct": 47.9
-        }
-      ],
-      "context": null,
-      "rationale": "Over 57.5 is the 52% call."
-    },
-    {
       "game_id": "185883640e8f90f283915ddadb0230a3",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -1729,6 +1699,36 @@
       ],
       "context": null,
       "rationale": "Over 46.5 is the 51% call."
+    },
+    {
+      "game_id": "05c2e060c97c538faeee8237a0bd60f0",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-05T00:00:00Z",
+      "home_team": "Michigan State Spartans",
+      "away_team": "Toledo Rockets",
+      "market": "spreads",
+      "pick": "Toledo Rockets +11.5",
+      "selection": "Toledo Rockets",
+      "point": 11.5,
+      "prob": 0.5116,
+      "prob_pct": 51.2,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 51.2,
+      "fair_price_american": -105,
+      "outcomes": [
+        {
+          "label": "Toledo Rockets +11.5",
+          "prob_pct": 51.2
+        },
+        {
+          "label": "Michigan State Spartans -11.5",
+          "prob_pct": 48.8
+        }
+      ],
+      "context": null,
+      "rationale": "Toledo Rockets +11.5 is the 51% side to cover."
     },
     {
       "game_id": "994c7280c9e8dcb041c260eb2c767d4d",
@@ -1945,64 +1945,34 @@
       "rationale": "Alabama Crimson Tide -26.5 is the 51% side to cover."
     },
     {
-      "game_id": "05c2e060c97c538faeee8237a0bd60f0",
+      "game_id": "247137e181f9ff51165c0283d6d56987",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T00:00:00Z",
-      "home_team": "Michigan State Spartans",
-      "away_team": "Toledo Rockets",
+      "commence_time": "2026-09-05T23:45:00Z",
+      "home_team": "Florida Gators",
+      "away_team": "Florida Atlantic Owls",
       "market": "spreads",
-      "pick": "Toledo Rockets +10.5",
-      "selection": "Toledo Rockets",
-      "point": 10.5,
-      "prob": 0.5085,
-      "prob_pct": 50.9,
+      "pick": "Florida Atlantic Owls +26.5",
+      "selection": "Florida Atlantic Owls",
+      "point": 26.5,
+      "prob": 0.5077,
+      "prob_pct": 50.8,
       "confidence": 0.59,
       "model_prob_pct": null,
-      "market_prob_pct": 50.9,
+      "market_prob_pct": 50.8,
       "fair_price_american": -103,
       "outcomes": [
         {
-          "label": "Toledo Rockets +10.5",
-          "prob_pct": 50.9
+          "label": "Florida Atlantic Owls +26.5",
+          "prob_pct": 50.8
         },
         {
-          "label": "Michigan State Spartans -11.5",
-          "prob_pct": 49.1
+          "label": "Florida Gators -26.5",
+          "prob_pct": 49.2
         }
       ],
       "context": null,
-      "rationale": "Toledo Rockets +10.5 is the 51% side to cover."
-    },
-    {
-      "game_id": "185883640e8f90f283915ddadb0230a3",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T16:00:00Z",
-      "home_team": "West Virginia Mountaineers",
-      "away_team": "Coastal Carolina Chanticleers",
-      "market": "spreads",
-      "pick": "Coastal Carolina Chanticleers +17.5",
-      "selection": "Coastal Carolina Chanticleers",
-      "point": 17.5,
-      "prob": 0.5085,
-      "prob_pct": 50.9,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Coastal Carolina Chanticleers +17.5",
-          "prob_pct": 50.9
-        },
-        {
-          "label": "West Virginia Mountaineers -18.5",
-          "prob_pct": 49.1
-        }
-      ],
-      "context": null,
-      "rationale": "Coastal Carolina Chanticleers +17.5 is the 51% side to cover."
+      "rationale": "Florida Atlantic Owls +26.5 is the 51% side to cover."
     },
     {
       "game_id": "f089e3d943a34a9c4fe1808568b96529",
@@ -2063,36 +2033,6 @@
       ],
       "context": null,
       "rationale": "Duke Blue Devils -10.5 is the 51% side to cover."
-    },
-    {
-      "game_id": "247137e181f9ff51165c0283d6d56987",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T23:45:00Z",
-      "home_team": "Florida Gators",
-      "away_team": "Florida Atlantic Owls",
-      "market": "spreads",
-      "pick": "Florida Atlantic Owls +26.5",
-      "selection": "Florida Atlantic Owls",
-      "point": 26.5,
-      "prob": 0.5065,
-      "prob_pct": 50.6,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Florida Atlantic Owls +26.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Florida Gators -26.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "context": null,
-      "rationale": "Florida Atlantic Owls +26.5 is the 51% side to cover."
     },
     {
       "game_id": "994c7280c9e8dcb041c260eb2c767d4d",
@@ -2273,6 +2213,36 @@
       ],
       "context": null,
       "rationale": "Oklahoma State Cowboys +17.5 is the 51% side to cover."
+    },
+    {
+      "game_id": "3313dcc5e91f9a2dda995a5e36e55f52",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-08-29T19:00:00Z",
+      "home_team": "USC Trojans",
+      "away_team": "San Jose State Spartans",
+      "market": "totals",
+      "pick": "Over 58.5",
+      "selection": "Over",
+      "point": 58.5,
+      "prob": 0.5055,
+      "prob_pct": 50.6,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.6,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Over 58.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Under 58.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "context": null,
+      "rationale": "Over 58.5 is the 51% call."
     },
     {
       "game_id": "e55c6fe19fce094ce214c8b0e5b504e9",
@@ -2515,6 +2485,36 @@
       "rationale": "Over 51 is the 50% call."
     },
     {
+      "game_id": "247137e181f9ff51165c0283d6d56987",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-05T23:45:00Z",
+      "home_team": "Florida Gators",
+      "away_team": "Florida Atlantic Owls",
+      "market": "totals",
+      "pick": "Under 58",
+      "selection": "Under",
+      "point": 58.0,
+      "prob": 0.5034,
+      "prob_pct": 50.3,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Under 58",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Over 58",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Under 58 is the 50% call."
+    },
+    {
       "game_id": "fb6839df368dc6724c22bd58cbe64a5d",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -2573,6 +2573,36 @@
       ],
       "context": null,
       "rationale": "Mississippi State Bulldogs -29.5 is the 50% side to cover."
+    },
+    {
+      "game_id": "b460f3aa4235ec2485f25182755304d6",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-06T23:30:00Z",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_team": "Wisconsin Badgers",
+      "market": "spreads",
+      "pick": "Wisconsin Badgers +20.5",
+      "selection": "Wisconsin Badgers",
+      "point": 20.5,
+      "prob": 0.503,
+      "prob_pct": 50.3,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Wisconsin Badgers +20.5",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Notre Dame Fighting Irish -20.5",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Wisconsin Badgers +20.5 is the 50% side to cover."
     },
     {
       "game_id": "9bb89639201454f186964f5b86365760",
@@ -3001,17 +3031,17 @@
       "rationale": "USC Trojans -23.5 is the 50% side to cover."
     },
     {
-      "game_id": "b460f3aa4235ec2485f25182755304d6",
+      "game_id": "3313dcc5e91f9a2dda995a5e36e55f52",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-09-06T23:30:00Z",
-      "home_team": "Notre Dame Fighting Irish",
-      "away_team": "Wisconsin Badgers",
+      "commence_time": "2026-08-29T19:00:00Z",
+      "home_team": "USC Trojans",
+      "away_team": "San Jose State Spartans",
       "market": "spreads",
-      "pick": "Notre Dame Fighting Irish -20.5",
-      "selection": "Notre Dame Fighting Irish",
-      "point": -20.5,
-      "prob": 0.5013,
+      "pick": "San Jose State Spartans +35.5",
+      "selection": "San Jose State Spartans",
+      "point": 35.5,
+      "prob": 0.5014,
       "prob_pct": 50.1,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -3019,46 +3049,16 @@
       "fair_price_american": -101,
       "outcomes": [
         {
-          "label": "Notre Dame Fighting Irish -20.5",
+          "label": "San Jose State Spartans +35.5",
           "prob_pct": 50.1
         },
         {
-          "label": "Wisconsin Badgers +20.5",
+          "label": "USC Trojans -35.5",
           "prob_pct": 49.9
         }
       ],
       "context": null,
-      "rationale": "Notre Dame Fighting Irish -20.5 is the 50% side to cover."
-    },
-    {
-      "game_id": "247137e181f9ff51165c0283d6d56987",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T23:45:00Z",
-      "home_team": "Florida Gators",
-      "away_team": "Florida Atlantic Owls",
-      "market": "totals",
-      "pick": "Under 57.5",
-      "selection": "Under",
-      "point": 57.5,
-      "prob": 0.5012,
-      "prob_pct": 50.1,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.1,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Under 57.5",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "Over 57.5",
-          "prob_pct": 49.9
-        }
-      ],
-      "context": null,
-      "rationale": "Under 57.5 is the 50% call."
+      "rationale": "San Jose State Spartans +35.5 is the 50% side to cover."
     },
     {
       "game_id": "932e0ced2b1a1ae5694574642bb186ae",
@@ -3089,36 +3089,6 @@
       ],
       "context": null,
       "rationale": "Texas State Bobcats +30.5 is the 50% side to cover."
-    },
-    {
-      "game_id": "3313dcc5e91f9a2dda995a5e36e55f52",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-08-29T19:00:00Z",
-      "home_team": "USC Trojans",
-      "away_team": "San Jose State Spartans",
-      "market": "spreads",
-      "pick": "San Jose State Spartans +35.5",
-      "selection": "San Jose State Spartans",
-      "point": 35.5,
-      "prob": 0.501,
-      "prob_pct": 50.1,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.1,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "San Jose State Spartans +35.5",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "USC Trojans -35.5",
-          "prob_pct": 49.9
-        }
-      ],
-      "context": null,
-      "rationale": "San Jose State Spartans +35.5 is the 50% side to cover."
     },
     {
       "game_id": "85b9f3dfd3a9deeaaa046572f9b4fbeb",
@@ -3305,6 +3275,36 @@
       "rationale": "North Texas Mean Green +40.5 is the 50% side to cover."
     },
     {
+      "game_id": "185883640e8f90f283915ddadb0230a3",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Coastal Carolina Chanticleers",
+      "market": "spreads",
+      "pick": "Coastal Carolina Chanticleers +17.5",
+      "selection": "Coastal Carolina Chanticleers",
+      "point": 17.5,
+      "prob": 0.5005,
+      "prob_pct": 50.1,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.1,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "Coastal Carolina Chanticleers +17.5",
+          "prob_pct": 50.1
+        },
+        {
+          "label": "West Virginia Mountaineers -18.5",
+          "prob_pct": 49.9
+        }
+      ],
+      "context": null,
+      "rationale": "Coastal Carolina Chanticleers +17.5 is the 50% side to cover."
+    },
+    {
       "game_id": "fb6839df368dc6724c22bd58cbe64a5d",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -3333,36 +3333,6 @@
       ],
       "context": null,
       "rationale": "Under 50.5 is the 50% call."
-    },
-    {
-      "game_id": "4289d82f1cd4747962ff68c9098c6dcc",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-09-05T16:00:00Z",
-      "home_team": "Houston Cougars",
-      "away_team": "Oregon State Beavers",
-      "market": "spreads",
-      "pick": "Oregon State Beavers +18.5",
-      "selection": "Oregon State Beavers",
-      "point": 18.5,
-      "prob": 0.5005,
-      "prob_pct": 50.1,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.1,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Oregon State Beavers +18.5",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "Houston Cougars -18.5",
-          "prob_pct": 49.9
-        }
-      ],
-      "context": null,
-      "rationale": "Oregon State Beavers +18.5 is the 50% side to cover."
     },
     {
       "game_id": "f089e3d943a34a9c4fe1808568b96529",
@@ -3545,6 +3515,36 @@
       ],
       "context": null,
       "rationale": "Oregon Ducks -24.5 is the 50% side to cover."
+    },
+    {
+      "game_id": "4289d82f1cd4747962ff68c9098c6dcc",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "home_team": "Houston Cougars",
+      "away_team": "Oregon State Beavers",
+      "market": "spreads",
+      "pick": "Houston Cougars -18.5",
+      "selection": "Houston Cougars",
+      "point": -18.5,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Houston Cougars -18.5",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Oregon State Beavers +18.5",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Houston Cougars -18.5 is the 50% side to cover."
     },
     {
       "game_id": "85b9f3dfd3a9deeaaa046572f9b4fbeb",

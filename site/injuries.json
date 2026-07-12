@@ -1,54 +1,12 @@
 {
-  "generated_at": "2026-07-11T23:37:15.744379+00:00",
+  "generated_at": "2026-07-12T07:48:54.245982+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 3,
-  "affected_games": 3,
+  "game_count": 2,
+  "affected_games": 2,
   "total_absences": 4,
   "games": [
-    {
-      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
-      "group": "",
-      "commence_time": "2026-07-11T21:01:00Z",
-      "home": "Norway",
-      "away": "England",
-      "home_absences": [],
-      "away_absences": [
-        {
-          "player": "John Stones",
-          "position": "DF",
-          "status": "Doubtful",
-          "reason": "Hamstring tightness",
-          "expected_starter": true,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
-      "group": "",
-      "commence_time": "2026-07-12T01:00:00Z",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "home_absences": [
-        {
-          "player": "\u00c1ngel Di Mar\u00eda",
-          "position": "FW",
-          "status": "Doubtful",
-          "reason": "Rested / minor strain",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [],
-      "total": 1
-    },
     {
       "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
       "group": "",
@@ -73,6 +31,38 @@
           "position": "MF",
           "status": "Doubtful",
           "reason": "Knock, assessed before kickoff",
+          "expected_starter": false,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "total": 2
+    },
+    {
+      "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
+      "group": "",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "home": "England",
+      "away": "Argentina",
+      "home_absences": [
+        {
+          "player": "John Stones",
+          "position": "DF",
+          "status": "Doubtful",
+          "reason": "Hamstring tightness",
+          "expected_starter": true,
+          "impact": 1.0,
+          "note": "",
+          "source": "snapshot"
+        }
+      ],
+      "away_absences": [
+        {
+          "player": "\u00c1ngel Di Mar\u00eda",
+          "position": "FW",
+          "status": "Doubtful",
+          "reason": "Rested / minor strain",
           "expected_starter": false,
           "impact": 1.0,
           "note": "",

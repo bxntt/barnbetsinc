@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T23:37:16.795176+00:00",
+  "generated_at": "2026-07-12T07:48:55.342565+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
-  "prediction_count": 12,
+  "prediction_count": 8,
   "predictions": [
     {
       "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
@@ -32,164 +32,56 @@
       "rationale": "Spain wins by 2+ goals 16% of the time; the 84% call is France +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
-      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
+      "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
       "group": "",
-      "commence_time": "2026-07-11T21:01:00Z",
-      "home": "Norway",
-      "away": "England",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "home": "England",
+      "away": "Argentina",
       "market": "handicap",
-      "pick": "Norway +1.5",
-      "prob": 0.72,
-      "prob_pct": 72.0,
-      "confidence": 0.3,
-      "model_prob_pct": 72.0,
+      "pick": "England +1.5",
+      "prob": 0.7761,
+      "prob_pct": 77.6,
+      "confidence": 0.75,
+      "model_prob_pct": 77.6,
       "market_prob_pct": null,
-      "fair_price_american": -257,
+      "fair_price_american": -347,
       "outcomes": [
         {
-          "label": "Norway +1.5",
-          "prob_pct": 72.0
-        },
-        {
-          "label": "England -1.5",
-          "prob_pct": 28.0
-        }
-      ],
-      "rationale": "England wins by 2+ goals 28% of the time; the 72% call is Norway +1.5."
-    },
-    {
-      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
-      "group": "",
-      "commence_time": "2026-07-11T21:01:00Z",
-      "home": "Norway",
-      "away": "England",
-      "market": "total",
-      "pick": "Under 3",
-      "prob": 0.7026,
-      "prob_pct": 70.3,
-      "confidence": 0.3,
-      "model_prob_pct": 70.3,
-      "market_prob_pct": null,
-      "fair_price_american": -236,
-      "outcomes": [
-        {
-          "label": "Under 3",
-          "prob_pct": 70.3
-        },
-        {
-          "label": "Over 3",
-          "prob_pct": 29.7
-        }
-      ],
-      "rationale": "Expected ~2.8 goals (Norway 1.07, England 1.68); under 3 is the 70% side."
-    },
-    {
-      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
-      "group": "",
-      "commence_time": "2026-07-12T01:00:00Z",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "market": "result",
-      "pick": "Argentina win",
-      "prob": 0.6401,
-      "prob_pct": 64.0,
-      "confidence": 0.8,
-      "model_prob_pct": 64.0,
-      "market_prob_pct": null,
-      "fair_price_american": -178,
-      "outcomes": [
-        {
-          "label": "Argentina win",
-          "prob_pct": 64.0
-        },
-        {
-          "label": "Draw",
-          "prob_pct": 22.7
-        },
-        {
-          "label": "Switzerland win",
-          "prob_pct": 13.3
-        }
-      ],
-      "rationale": "Argentina is the 64% pick \u2014 a clear favorite (expected goals Argentina 1.88, Switzerland 0.74)."
-    },
-    {
-      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
-      "group": "",
-      "commence_time": "2026-07-12T01:00:00Z",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "market": "handicap",
-      "pick": "Switzerland +1.5",
-      "prob": 0.611,
-      "prob_pct": 61.1,
-      "confidence": 0.8,
-      "model_prob_pct": 61.1,
-      "market_prob_pct": null,
-      "fair_price_american": -157,
-      "outcomes": [
-        {
-          "label": "Switzerland +1.5",
-          "prob_pct": 61.1
+          "label": "England +1.5",
+          "prob_pct": 77.6
         },
         {
           "label": "Argentina -1.5",
-          "prob_pct": 38.9
+          "prob_pct": 22.4
         }
       ],
-      "rationale": "Argentina wins by 2+ goals 39% of the time; the 61% call is Switzerland +1.5."
+      "rationale": "Argentina wins by 2+ goals 22% of the time; the 78% call is England +1.5."
     },
     {
-      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
       "group": "",
-      "commence_time": "2026-07-12T01:00:00Z",
-      "home": "Argentina",
-      "away": "Switzerland",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "home": "England",
+      "away": "Argentina",
       "market": "btts",
-      "pick": "BTTS: No",
+      "pick": "BTTS: Yes",
       "prob": 0.5527,
       "prob_pct": 55.3,
-      "confidence": 0.8,
+      "confidence": 0.75,
       "model_prob_pct": 55.3,
       "market_prob_pct": null,
       "fair_price_american": -124,
       "outcomes": [
         {
-          "label": "BTTS: No",
+          "label": "BTTS: Yes",
           "prob_pct": 55.3
         },
         {
-          "label": "BTTS: Yes",
+          "label": "BTTS: No",
           "prob_pct": 44.7
         }
       ],
-      "rationale": "With scoring rates of 1.88 and 0.74, both teams scoring is a 45% chance \u2014 BTTS: No."
-    },
-    {
-      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
-      "group": "",
-      "commence_time": "2026-07-11T21:01:00Z",
-      "home": "Norway",
-      "away": "England",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5414,
-      "prob_pct": 54.1,
-      "confidence": 0.3,
-      "model_prob_pct": 54.1,
-      "market_prob_pct": null,
-      "fair_price_american": -118,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 54.1
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 45.9
-        }
-      ],
-      "rationale": "With scoring rates of 1.07 and 1.68, both teams scoring is a 54% chance \u2014 BTTS: Yes."
+      "rationale": "With scoring rates of 1.20 and 1.52, both teams scoring is a 55% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
@@ -244,60 +136,60 @@
       "rationale": "Expected ~2.6 goals (France 1.29, Spain 1.30); under 2.5 is the 52% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
-      "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+      "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
       "group": "",
-      "commence_time": "2026-07-12T01:00:00Z",
-      "home": "Argentina",
-      "away": "Switzerland",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "home": "England",
+      "away": "Argentina",
       "market": "total",
-      "pick": "Under 2.5",
-      "prob": 0.5142,
-      "prob_pct": 51.4,
-      "confidence": 0.8,
-      "model_prob_pct": 51.4,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Under 2.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Over 2.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "rationale": "Expected ~2.6 goals (Argentina 1.88, Switzerland 0.74); under 2.5 is the 51% side."
-    },
-    {
-      "match_id": "e66e4478b739fa0657a7a11235e1fcee",
-      "group": "",
-      "commence_time": "2026-07-11T21:01:00Z",
-      "home": "Norway",
-      "away": "England",
-      "market": "result",
-      "pick": "England win",
-      "prob": 0.5109,
+      "pick": "Over 2.5",
+      "prob": 0.511,
       "prob_pct": 51.1,
-      "confidence": 0.3,
+      "confidence": 0.75,
       "model_prob_pct": 51.1,
       "market_prob_pct": null,
-      "fair_price_american": -104,
+      "fair_price_american": -105,
       "outcomes": [
         {
-          "label": "England win",
+          "label": "Over 2.5",
           "prob_pct": 51.1
         },
         {
-          "label": "Draw",
-          "prob_pct": 25.5
-        },
-        {
-          "label": "Norway win",
-          "prob_pct": 23.4
+          "label": "Under 2.5",
+          "prob_pct": 48.9
         }
       ],
-      "rationale": "England is the 51% pick \u2014 a slight edge (expected goals Norway 1.07, England 1.68)."
+      "rationale": "Expected ~2.7 goals (England 1.20, Argentina 1.52); over 2.5 is the 51% side."
+    },
+    {
+      "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
+      "group": "",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "home": "England",
+      "away": "Argentina",
+      "market": "result",
+      "pick": "Argentina win",
+      "prob": 0.441,
+      "prob_pct": 44.1,
+      "confidence": 0.75,
+      "model_prob_pct": 44.1,
+      "market_prob_pct": null,
+      "fair_price_american": 127,
+      "outcomes": [
+        {
+          "label": "Argentina win",
+          "prob_pct": 44.1
+        },
+        {
+          "label": "England win",
+          "prob_pct": 29.1
+        },
+        {
+          "label": "Draw",
+          "prob_pct": 26.8
+        }
+      ],
+      "rationale": "Argentina is the 44% pick \u2014 a slight edge (expected goals England 1.20, Argentina 1.52)."
     },
     {
       "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
