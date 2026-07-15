@@ -138,3 +138,4 @@
 {"game_id": "401816139", "sport_key": "baseball_mlb", "home": "San Francisco Giants", "away": "Colorado Rockies", "home_score": 3, "away_score": 1, "completed_at": "2026-07-12T20:05Z"}
 {"game_id": "401816138", "sport_key": "baseball_mlb", "home": "Los Angeles Dodgers", "away": "Arizona Diamondbacks", "home_score": 3, "away_score": 5, "completed_at": "2026-07-12T20:10Z"}
 {"game_id": "401816140", "sport_key": "baseball_mlb", "home": "San Diego Padres", "away": "Toronto Blue Jays", "home_score": 5, "away_score": 4, "completed_at": "2026-07-12T20:10Z"}
+{"game_id": "401817370", "sport_key": "baseball_mlb", "home": "National All-Stars", "away": "American All-Stars", "home_score": 0, "away_score": 4, "completed_at": "2026-07-15T00:00Z"}
