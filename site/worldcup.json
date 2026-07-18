@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:43:26.259672+00:00",
+  "generated_at": "2026-07-18T20:27:22.284693+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
@@ -12,24 +12,24 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "handicap",
-      "pick": "Spain +1.5",
-      "prob": 0.812,
-      "prob_pct": 81.2,
-      "confidence": 0.8,
-      "model_prob_pct": 81.2,
+      "pick": "Argentina +1.5",
+      "prob": 0.806,
+      "prob_pct": 80.6,
+      "confidence": 0.5,
+      "model_prob_pct": 80.6,
       "market_prob_pct": null,
-      "fair_price_american": -432,
+      "fair_price_american": -416,
       "outcomes": [
         {
-          "label": "Spain +1.5",
-          "prob_pct": 81.2
+          "label": "Argentina +1.5",
+          "prob_pct": 80.6
         },
         {
-          "label": "Argentina -1.5",
-          "prob_pct": 18.8
+          "label": "Spain -1.5",
+          "prob_pct": 19.4
         }
       ],
-      "rationale": "Argentina wins by 2+ goals 19% of the time; the 81% call is Spain +1.5."
+      "rationale": "Spain wins by 2+ goals 19% of the time; the 81% call is Argentina +1.5."
     },
     {
       "match_id": "7a49e7985534a5ff3428740d0b630fd7",
@@ -39,23 +39,23 @@
       "away": "England",
       "market": "handicap",
       "pick": "England +1.5",
-      "prob": 0.8051,
-      "prob_pct": 80.5,
-      "confidence": 0.75,
-      "model_prob_pct": 80.5,
+      "prob": 0.6788,
+      "prob_pct": 67.9,
+      "confidence": 0.38,
+      "model_prob_pct": 67.9,
       "market_prob_pct": null,
-      "fair_price_american": -413,
+      "fair_price_american": -211,
       "outcomes": [
         {
           "label": "England +1.5",
-          "prob_pct": 80.5
+          "prob_pct": 67.9
         },
         {
           "label": "France -1.5",
-          "prob_pct": 19.5
+          "prob_pct": 32.1
         }
       ],
-      "rationale": "France wins by 2+ goals 19% of the time; the 81% call is England +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "France wins by 2+ goals 32% of the time; the 68% call is England +1.5. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "7a49e7985534a5ff3428740d0b630fd7",
@@ -65,49 +65,23 @@
       "away": "England",
       "market": "btts",
       "pick": "BTTS: Yes",
-      "prob": 0.5529,
-      "prob_pct": 55.3,
-      "confidence": 0.75,
-      "model_prob_pct": 55.3,
+      "prob": 0.6221,
+      "prob_pct": 62.2,
+      "confidence": 0.38,
+      "model_prob_pct": 62.2,
       "market_prob_pct": null,
-      "fair_price_american": -124,
+      "fair_price_american": -165,
       "outcomes": [
         {
           "label": "BTTS: Yes",
-          "prob_pct": 55.3
+          "prob_pct": 62.2
         },
         {
           "label": "BTTS: No",
-          "prob_pct": 44.7
+          "prob_pct": 37.8
         }
       ],
-      "rationale": "With scoring rates of 1.43 and 1.26, both teams scoring is a 55% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
-    },
-    {
-      "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
-      "group": "",
-      "commence_time": "2026-07-19T19:00:00Z",
-      "home": "Spain",
-      "away": "Argentina",
-      "market": "btts",
-      "pick": "BTTS: Yes",
-      "prob": 0.5374,
-      "prob_pct": 53.7,
-      "confidence": 0.8,
-      "model_prob_pct": 53.7,
-      "market_prob_pct": null,
-      "fair_price_american": -116,
-      "outcomes": [
-        {
-          "label": "BTTS: Yes",
-          "prob_pct": 53.7
-        },
-        {
-          "label": "BTTS: No",
-          "prob_pct": 46.3
-        }
-      ],
-      "rationale": "With scoring rates of 1.23 and 1.38, both teams scoring is a 54% chance \u2014 BTTS: Yes."
+      "rationale": "With scoring rates of 1.99 and 1.25, both teams scoring is a 62% chance \u2014 BTTS: Yes. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -117,23 +91,23 @@
       "away": "Argentina",
       "market": "total",
       "pick": "Under 2.5",
-      "prob": 0.5157,
-      "prob_pct": 51.6,
-      "confidence": 0.8,
-      "model_prob_pct": 51.6,
-      "market_prob_pct": null,
-      "fair_price_american": -106,
+      "prob": 0.6179,
+      "prob_pct": 61.8,
+      "confidence": 0.5,
+      "model_prob_pct": 61.8,
+      "market_prob_pct": 58.0,
+      "fair_price_american": -162,
       "outcomes": [
         {
           "label": "Under 2.5",
-          "prob_pct": 51.6
+          "prob_pct": 61.8
         },
         {
           "label": "Over 2.5",
-          "prob_pct": 48.4
+          "prob_pct": 38.2
         }
       ],
-      "rationale": "Expected ~2.6 goals (Spain 1.23, Argentina 1.38); under 2.5 is the 52% side."
+      "rationale": "Expected ~2.2 goals (Spain 1.26, Argentina 0.96); under 2.5 is the 62% side."
     },
     {
       "match_id": "7a49e7985534a5ff3428740d0b630fd7",
@@ -142,24 +116,50 @@
       "home": "France",
       "away": "England",
       "market": "total",
-      "pick": "Over 2.5",
-      "prob": 0.5047,
-      "prob_pct": 50.5,
-      "confidence": 0.75,
-      "model_prob_pct": 50.5,
-      "market_prob_pct": null,
-      "fair_price_american": -102,
+      "pick": "Under 3.5",
+      "prob": 0.5932,
+      "prob_pct": 59.3,
+      "confidence": 0.38,
+      "model_prob_pct": 59.3,
+      "market_prob_pct": 55.2,
+      "fair_price_american": -146,
       "outcomes": [
         {
-          "label": "Over 2.5",
-          "prob_pct": 50.5
+          "label": "Under 3.5",
+          "prob_pct": 59.3
         },
         {
-          "label": "Under 2.5",
-          "prob_pct": 49.5
+          "label": "Over 3.5",
+          "prob_pct": 40.7
         }
       ],
-      "rationale": "Expected ~2.7 goals (France 1.43, England 1.26); over 2.5 is the 50% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "Expected ~3.2 goals (France 1.99, England 1.25); under 3.5 is the 59% side. Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+    },
+    {
+      "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
+      "group": "",
+      "commence_time": "2026-07-19T19:00:00Z",
+      "home": "Spain",
+      "away": "Argentina",
+      "market": "btts",
+      "pick": "BTTS: No",
+      "prob": 0.5505,
+      "prob_pct": 55.1,
+      "confidence": 0.5,
+      "model_prob_pct": 55.1,
+      "market_prob_pct": null,
+      "fair_price_american": -122,
+      "outcomes": [
+        {
+          "label": "BTTS: No",
+          "prob_pct": 55.1
+        },
+        {
+          "label": "BTTS: Yes",
+          "prob_pct": 44.9
+        }
+      ],
+      "rationale": "With scoring rates of 1.26 and 0.96, both teams scoring is a 45% chance \u2014 BTTS: No."
     },
     {
       "match_id": "7a49e7985534a5ff3428740d0b630fd7",
@@ -169,27 +169,27 @@
       "away": "England",
       "market": "result",
       "pick": "France win",
-      "prob": 0.4024,
-      "prob_pct": 40.2,
-      "confidence": 0.75,
+      "prob": 0.5012,
+      "prob_pct": 50.1,
+      "confidence": 0.38,
       "model_prob_pct": 40.2,
-      "market_prob_pct": null,
-      "fair_price_american": 149,
+      "market_prob_pct": 54.7,
+      "fair_price_american": -100,
       "outcomes": [
         {
           "label": "France win",
-          "prob_pct": 40.2
+          "prob_pct": 50.1
         },
         {
           "label": "England win",
-          "prob_pct": 32.5
+          "prob_pct": 25.4
         },
         {
           "label": "Draw",
-          "prob_pct": 27.2
+          "prob_pct": 24.5
         }
       ],
-      "rationale": "France is the 40% pick \u2014 a slight edge (expected goals France 1.43, England 1.26). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
+      "rationale": "France is the 50% pick \u2014 a slight edge (expected goals France 1.99, England 1.25). Factoring in France missing Aur\u00e9lien Tchouam\u00e9ni (suspended)."
     },
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -198,28 +198,28 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "result",
-      "pick": "Argentina win",
-      "prob": 0.3961,
-      "prob_pct": 39.6,
-      "confidence": 0.8,
-      "model_prob_pct": 39.6,
-      "market_prob_pct": null,
-      "fair_price_american": 152,
+      "pick": "Spain win",
+      "prob": 0.391,
+      "prob_pct": 39.1,
+      "confidence": 0.5,
+      "model_prob_pct": 32.7,
+      "market_prob_pct": 42.2,
+      "fair_price_american": 156,
       "outcomes": [
         {
-          "label": "Argentina win",
-          "prob_pct": 39.6
+          "label": "Spain win",
+          "prob_pct": 39.1
         },
         {
-          "label": "Spain win",
-          "prob_pct": 32.7
+          "label": "Argentina win",
+          "prob_pct": 30.6
         },
         {
           "label": "Draw",
-          "prob_pct": 27.7
+          "prob_pct": 30.3
         }
       ],
-      "rationale": "Argentina is the 40% pick \u2014 a toss-up (expected goals Spain 1.23, Argentina 1.38)."
+      "rationale": "Spain is the 39% pick \u2014 a toss-up (expected goals Spain 1.26, Argentina 0.96)."
     }
   ],
   "groups": [
