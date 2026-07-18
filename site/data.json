@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T16:37:06.958245+00:00",
+  "generated_at": "2026-07-18T17:43:27.943911+00:00",
   "count": 150,
   "predictions": [
     {
@@ -951,26 +951,26 @@
       "pick": "San Francisco 49ers ML",
       "selection": "San Francisco 49ers",
       "point": null,
-      "prob": 0.8287,
-      "prob_pct": 82.9,
+      "prob": 0.8247,
+      "prob_pct": 82.5,
       "confidence": 0.61,
       "model_prob_pct": null,
-      "market_prob_pct": 82.9,
-      "fair_price_american": -484,
+      "market_prob_pct": 82.5,
+      "fair_price_american": -470,
       "outcomes": [
         {
           "label": "San Francisco 49ers ML",
-          "prob_pct": 82.9
+          "prob_pct": 82.5
         },
         {
           "label": "Miami Dolphins ML",
-          "prob_pct": 17.1
+          "prob_pct": 17.5
         }
       ],
       "context": {
         "notes": "ESPN: NFL Melbourne Game."
       },
-      "rationale": "San Francisco 49ers is the 83% pick to win \u2014 a clear call. ESPN: NFL Melbourne Game."
+      "rationale": "San Francisco 49ers is the 82% pick to win \u2014 a clear call. ESPN: NFL Melbourne Game."
     },
     {
       "game_id": "2da3627714934ad966d548980bb69658",
@@ -1135,12 +1135,12 @@
       "pick": "Duke Blue Devils ML",
       "selection": "Duke Blue Devils",
       "point": null,
-      "prob": 0.8056,
+      "prob": 0.8063,
       "prob_pct": 80.6,
       "confidence": 0.56,
       "model_prob_pct": null,
       "market_prob_pct": 80.6,
-      "fair_price_american": -414,
+      "fair_price_american": -416,
       "outcomes": [
         {
           "label": "Duke Blue Devils ML",
@@ -1247,38 +1247,6 @@
       "rationale": "Los Angeles Chargers is the 79% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "32367f882fac1a0c20a6335619922025",
-      "sport_key": "americanfootball_nfl",
-      "sport_title": "NFL",
-      "commence_time": "2026-09-22T00:15:00Z",
-      "home_team": "Los Angeles Rams",
-      "away_team": "New York Giants",
-      "market": "h2h",
-      "pick": "Los Angeles Rams ML",
-      "selection": "Los Angeles Rams",
-      "point": null,
-      "prob": 0.7892,
-      "prob_pct": 78.9,
-      "confidence": 0.62,
-      "model_prob_pct": null,
-      "market_prob_pct": 78.9,
-      "fair_price_american": -374,
-      "outcomes": [
-        {
-          "label": "Los Angeles Rams ML",
-          "prob_pct": 78.9
-        },
-        {
-          "label": "New York Giants ML",
-          "prob_pct": 21.1
-        }
-      ],
-      "context": {
-        "notes": "ESPN: NFL Melbourne Game."
-      },
-      "rationale": "Los Angeles Rams is the 79% pick to win \u2014 a clear call. ESPN: NFL Melbourne Game."
-    },
-    {
       "game_id": "6b024bad1abb54f597225e4ab9b39d89",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
@@ -1337,6 +1305,38 @@
       ],
       "context": null,
       "rationale": "Michigan State Spartans is the 79% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "32367f882fac1a0c20a6335619922025",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-09-22T00:15:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "New York Giants",
+      "market": "h2h",
+      "pick": "Los Angeles Rams ML",
+      "selection": "Los Angeles Rams",
+      "point": null,
+      "prob": 0.7831,
+      "prob_pct": 78.3,
+      "confidence": 0.62,
+      "model_prob_pct": null,
+      "market_prob_pct": 78.3,
+      "fair_price_american": -361,
+      "outcomes": [
+        {
+          "label": "Los Angeles Rams ML",
+          "prob_pct": 78.3
+        },
+        {
+          "label": "New York Giants ML",
+          "prob_pct": 21.7
+        }
+      ],
+      "context": {
+        "notes": "ESPN: NFL Melbourne Game."
+      },
+      "rationale": "Los Angeles Rams is the 78% pick to win \u2014 a clear call. ESPN: NFL Melbourne Game."
     },
     {
       "game_id": "f01589b0e7e6dd4f4ac1220a1db81f53",
@@ -1429,36 +1429,6 @@
       "rationale": "Minnesota Vikings is the 78% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "2143ade9684fd876b68a4e8cbf451f05",
-      "sport_key": "americanfootball_nfl",
-      "sport_title": "NFL",
-      "commence_time": "2026-09-20T17:00:00Z",
-      "home_team": "Baltimore Ravens",
-      "away_team": "New Orleans Saints",
-      "market": "h2h",
-      "pick": "Baltimore Ravens ML",
-      "selection": "Baltimore Ravens",
-      "point": null,
-      "prob": 0.7741,
-      "prob_pct": 77.4,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 77.4,
-      "fair_price_american": -343,
-      "outcomes": [
-        {
-          "label": "Baltimore Ravens ML",
-          "prob_pct": 77.4
-        },
-        {
-          "label": "New Orleans Saints ML",
-          "prob_pct": 22.6
-        }
-      ],
-      "context": null,
-      "rationale": "Baltimore Ravens is the 77% pick to win \u2014 a clear call."
-    },
-    {
       "game_id": "e55c6fe19fce094ce214c8b0e5b504e9",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
@@ -1487,6 +1457,36 @@
       ],
       "context": null,
       "rationale": "Jacksonville Jaguars is the 77% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "2143ade9684fd876b68a4e8cbf451f05",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "New Orleans Saints",
+      "market": "h2h",
+      "pick": "Baltimore Ravens ML",
+      "selection": "Baltimore Ravens",
+      "point": null,
+      "prob": 0.7672,
+      "prob_pct": 76.7,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 76.7,
+      "fair_price_american": -330,
+      "outcomes": [
+        {
+          "label": "Baltimore Ravens ML",
+          "prob_pct": 76.7
+        },
+        {
+          "label": "New Orleans Saints ML",
+          "prob_pct": 23.3
+        }
+      ],
+      "context": null,
+      "rationale": "Baltimore Ravens is the 77% pick to win \u2014 a clear call."
     },
     {
       "game_id": "c1d3fcec25aaeb06ebd2244d33d338e0",
