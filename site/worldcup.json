@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T20:55:35.610660+00:00",
+  "generated_at": "2026-07-19T21:58:06.736807+00:00",
   "competition": "soccer_fifa_world_cup",
   "provider": "the_odds_api",
   "sims": 20000,
@@ -12,24 +12,24 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "handicap",
-      "pick": "Argentina +1.5",
-      "prob": 0.9303,
-      "prob_pct": 93.0,
-      "confidence": 0.2,
-      "model_prob_pct": 93.0,
+      "pick": "Spain +1.5",
+      "prob": 0.812,
+      "prob_pct": 81.2,
+      "confidence": 0.32,
+      "model_prob_pct": 81.2,
       "market_prob_pct": null,
-      "fair_price_american": -1335,
+      "fair_price_american": -432,
       "outcomes": [
         {
-          "label": "Argentina +1.5",
-          "prob_pct": 93.0
+          "label": "Spain +1.5",
+          "prob_pct": 81.2
         },
         {
-          "label": "Spain -1.5",
-          "prob_pct": 7.0
+          "label": "Argentina -1.5",
+          "prob_pct": 18.8
         }
       ],
-      "rationale": "Spain wins by 2+ goals 7% of the time; the 93% call is Argentina +1.5."
+      "rationale": "Argentina wins by 2+ goals 19% of the time; the 81% call is Spain +1.5."
     },
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -38,24 +38,24 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "btts",
-      "pick": "BTTS: No",
-      "prob": 0.922,
-      "prob_pct": 92.2,
-      "confidence": 0.2,
-      "model_prob_pct": 92.2,
+      "pick": "BTTS: Yes",
+      "prob": 0.5374,
+      "prob_pct": 53.7,
+      "confidence": 0.32,
+      "model_prob_pct": 53.7,
       "market_prob_pct": null,
-      "fair_price_american": -1182,
+      "fair_price_american": -116,
       "outcomes": [
         {
-          "label": "BTTS: No",
-          "prob_pct": 92.2
+          "label": "BTTS: Yes",
+          "prob_pct": 53.7
         },
         {
-          "label": "BTTS: Yes",
-          "prob_pct": 7.8
+          "label": "BTTS: No",
+          "prob_pct": 46.3
         }
       ],
-      "rationale": "With scoring rates of 0.48 and 0.22, both teams scoring is a 8% chance \u2014 BTTS: No."
+      "rationale": "With scoring rates of 1.23 and 1.38, both teams scoring is a 54% chance \u2014 BTTS: Yes."
     },
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -64,24 +64,24 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "total",
-      "pick": "Under 0.5",
-      "prob": 0.5007,
-      "prob_pct": 50.1,
-      "confidence": 0.2,
-      "model_prob_pct": 50.1,
-      "market_prob_pct": 50.1,
-      "fair_price_american": -100,
+      "pick": "Under 2.5",
+      "prob": 0.5157,
+      "prob_pct": 51.6,
+      "confidence": 0.32,
+      "model_prob_pct": 51.6,
+      "market_prob_pct": null,
+      "fair_price_american": -106,
       "outcomes": [
         {
-          "label": "Under 0.5",
-          "prob_pct": 50.1
+          "label": "Under 2.5",
+          "prob_pct": 51.6
         },
         {
-          "label": "Over 0.5",
-          "prob_pct": 49.9
+          "label": "Over 2.5",
+          "prob_pct": 48.4
         }
       ],
-      "rationale": "Expected ~0.7 goals (Spain 0.48, Argentina 0.22); under 0.5 is the 50% side."
+      "rationale": "Expected ~2.6 goals (Spain 1.23, Argentina 1.38); under 2.5 is the 52% side."
     },
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -90,28 +90,28 @@
       "home": "Spain",
       "away": "Argentina",
       "market": "result",
-      "pick": "Draw",
-      "prob": 0.3915,
-      "prob_pct": 39.2,
-      "confidence": 0.2,
-      "model_prob_pct": 27.7,
-      "market_prob_pct": 54.4,
-      "fair_price_american": 155,
+      "pick": "Argentina win",
+      "prob": 0.3961,
+      "prob_pct": 39.6,
+      "confidence": 0.32,
+      "model_prob_pct": 39.6,
+      "market_prob_pct": null,
+      "fair_price_american": 152,
       "outcomes": [
         {
-          "label": "Draw",
-          "prob_pct": 39.2
+          "label": "Argentina win",
+          "prob_pct": 39.6
         },
         {
           "label": "Spain win",
-          "prob_pct": 32.5
+          "prob_pct": 32.7
         },
         {
-          "label": "Argentina win",
-          "prob_pct": 28.4
+          "label": "Draw",
+          "prob_pct": 27.7
         }
       ],
-      "rationale": "Evenly matched (Spain 0.48 vs Argentina 0.22 expected goals) \u2014 a draw is the 39% most-likely result."
+      "rationale": "Argentina is the 40% pick \u2014 a toss-up (expected goals Spain 1.23, Argentina 1.38)."
     }
   ],
   "groups": [
