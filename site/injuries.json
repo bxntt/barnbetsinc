@@ -1,44 +1,11 @@
 {
-  "generated_at": "2026-07-19T21:58:05.961896+00:00",
+  "generated_at": "2026-07-19T23:01:28.043522+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
-  "game_count": 1,
-  "affected_games": 1,
-  "total_absences": 2,
-  "games": [
-    {
-      "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
-      "group": "",
-      "commence_time": "2026-07-19T19:05:00Z",
-      "home": "Spain",
-      "away": "Argentina",
-      "home_absences": [
-        {
-          "player": "Gavi",
-          "position": "MF",
-          "status": "Doubtful",
-          "reason": "Knock, assessed before kickoff",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "away_absences": [
-        {
-          "player": "\u00c1ngel Di Mar\u00eda",
-          "position": "FW",
-          "status": "Doubtful",
-          "reason": "Rested / minor strain",
-          "expected_starter": false,
-          "impact": 1.0,
-          "note": "",
-          "source": "snapshot"
-        }
-      ],
-      "total": 2
-    }
-  ],
+  "game_count": 0,
+  "affected_games": 0,
+  "total_absences": 0,
+  "games": [],
   "note": "Players who were expected to feature but are ruled out, doubtful, or suspended, per upcoming game. Maintained snapshot dated 2026-06-19; verify against official team news before kickoff."
 }
