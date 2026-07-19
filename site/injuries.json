@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T18:28:49.928928+00:00",
+  "generated_at": "2026-07-19T19:45:53.519206+00:00",
   "competition": "soccer_fifa_world_cup",
   "as_of": "2026-06-19",
   "source": "Maintained snapshot",
@@ -10,7 +10,7 @@
     {
       "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
       "group": "",
-      "commence_time": "2026-07-19T19:00:00Z",
+      "commence_time": "2026-07-19T19:05:00Z",
       "home": "Spain",
       "away": "Argentina",
       "home_absences": [
