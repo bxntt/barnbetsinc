@@ -158,3 +158,6 @@
 {"game_id": "401816278", "sport_key": "baseball_mlb", "home": "Texas Rangers", "away": "Seattle Mariners", "home_score": 4, "away_score": 6, "completed_at": "2026-07-26T18:35Z"}
 {"game_id": "401816279", "sport_key": "baseball_mlb", "home": "San Francisco Giants", "away": "Los Angeles Angels", "home_score": 3, "away_score": 4, "completed_at": "2026-07-26T20:05Z"}
 {"game_id": "401816288", "sport_key": "baseball_mlb", "home": "Texas Rangers", "away": "Seattle Mariners", "home_score": 7, "away_score": 3, "completed_at": "2026-07-27T18:35Z"}
+{"game_id": "401901849", "sport_key": "baseball_mlb", "home": "Cincinnati Reds", "away": "Cleveland Guardians", "home_score": 5, "away_score": 6, "completed_at": "2026-07-28T17:40Z"}
+{"game_id": "401816294", "sport_key": "baseball_mlb", "home": "Detroit Tigers", "away": "Baltimore Orioles", "home_score": 14, "away_score": 0, "completed_at": "2026-07-28T22:40Z"}
+{"game_id": "401816296", "sport_key": "baseball_mlb", "home": "Miami Marlins", "away": "Philadelphia Phillies", "home_score": 1, "away_score": 0, "completed_at": "2026-07-28T22:40Z"}
