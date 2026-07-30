@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T01:05:04.874883+00:00",
+  "generated_at": "2026-07-30T04:22:22.122920+00:00",
   "since": "2026-06-20",
   "overall": {
     "wins": 181,
@@ -19,18 +19,18 @@
     {
       "key": "spread",
       "label": "Spread",
-      "wins": 49,
-      "losses": 29,
+      "wins": 50,
+      "losses": 28,
       "pushes": 0,
-      "win_pct": 62.8
+      "win_pct": 64.1
     },
     {
       "key": "total",
       "label": "Total",
-      "wins": 36,
-      "losses": 38,
+      "wins": 35,
+      "losses": 39,
       "pushes": 4,
-      "win_pct": 48.6
+      "win_pct": 47.3
     },
     {
       "key": "btts",
