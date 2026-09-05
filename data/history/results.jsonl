@@ -264,3 +264,9 @@
 {"game_id": "401816407", "sport_key": "baseball_mlb", "home": "Kansas City Royals", "away": "Minnesota Twins", "home_score": 2, "away_score": 1, "completed_at": "2026-08-05T23:40Z"}
 {"game_id": "401816412", "sport_key": "baseball_mlb", "home": "Seattle Mariners", "away": "Detroit Tigers", "home_score": 4, "away_score": 2, "completed_at": "2026-08-06T01:40Z"}
 {"game_id": "401816413", "sport_key": "baseball_mlb", "home": "Arizona Diamondbacks", "away": "San Diego Padres", "home_score": 10, "away_score": 4, "completed_at": "2026-08-06T01:40Z"}
+{"game_id": "401864494", "sport_key": "americanfootball_ncaaf", "home": "USC Trojans", "away": "San Jos\u00e9 State Spartans", "home_score": 42, "away_score": 26, "completed_at": "2026-08-29T19:00Z"}
+{"game_id": "401856768", "sport_key": "americanfootball_ncaaf", "home": "Utah Utes", "away": "Idaho Vandals", "home_score": 66, "away_score": 14, "completed_at": "2026-09-04T01:00Z"}
+{"game_id": "401856663", "sport_key": "americanfootball_ncaaf", "home": "Missouri Tigers", "away": "Arkansas-Pine Bluff Golden Lions", "home_score": 54, "away_score": 14, "completed_at": "2026-09-04T00:00Z"}
+{"game_id": "401858206", "sport_key": "americanfootball_ncaaf", "home": "Stanford Cardinal", "away": "Miami Hurricanes", "home_score": 6, "away_score": 45, "completed_at": "2026-09-05T01:00Z"}
+{"game_id": "401856664", "sport_key": "americanfootball_ncaaf", "home": "Oklahoma Sooners", "away": "UTEP Miners", "home_score": 51, "away_score": 0, "completed_at": "2026-09-05T00:00Z"}
+{"game_id": "401858436", "sport_key": "americanfootball_ncaaf", "home": "USC Trojans", "away": "Fresno State Bulldogs", "home_score": 39, "away_score": 0, "completed_at": "2026-09-05T01:00Z"}
