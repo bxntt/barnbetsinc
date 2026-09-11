@@ -299,3 +299,6 @@
 {"game_id": "401872656", "sport_key": "americanfootball_nfl", "home": "Seattle Seahawks", "away": "New England Patriots", "home_score": 13, "away_score": 10, "completed_at": "2026-09-10T00:20Z"}
 {"game_id": "401816885", "sport_key": "baseball_mlb", "home": "Atlanta Braves", "away": "Tampa Bay Rays", "home_score": 3, "away_score": 1, "completed_at": "2026-09-10T16:15Z"}
 {"game_id": "401816884", "sport_key": "baseball_mlb", "home": "Philadelphia Phillies", "away": "Houston Astros", "home_score": 1, "away_score": 2, "completed_at": "2026-09-10T17:05Z"}
+{"game_id": "401858213", "sport_key": "americanfootball_ncaaf", "home": "Miami Hurricanes", "away": "Florida A&M Rattlers", "home_score": 77, "away_score": 7, "completed_at": "2026-09-11T00:00Z"}
+{"game_id": "401816899", "sport_key": "baseball_mlb", "home": "Chicago Cubs", "away": "Pittsburgh Pirates", "home_score": 12, "away_score": 2, "completed_at": "2026-09-11T18:20Z"}
+{"game_id": "401872657", "sport_key": "americanfootball_nfl", "home": "Los Angeles Rams", "away": "San Francisco 49ers", "home_score": 7, "away_score": 27, "completed_at": "2026-09-11T00:35Z"}
