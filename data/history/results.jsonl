@@ -342,3 +342,8 @@
 {"game_id": "401856670", "sport_key": "americanfootball_ncaaf", "home": "Utah Utes", "away": "Arkansas Razorbacks", "home_score": 43, "away_score": 10, "completed_at": "2026-09-13T02:30Z"}
 {"game_id": "401856788", "sport_key": "americanfootball_ncaaf", "home": "Iowa Hawkeyes", "away": "Iowa State Cyclones", "home_score": 16, "away_score": 13, "completed_at": "2026-09-12T23:30Z"}
 {"game_id": "401856787", "sport_key": "americanfootball_ncaaf", "home": "Houston Cougars", "away": "Southern Jaguars", "home_score": 77, "away_score": 6, "completed_at": "2026-09-12T23:00Z"}
+{"game_id": "401872928", "sport_key": "americanfootball_nfl", "home": "Las Vegas Raiders", "away": "Miami Dolphins", "home_score": 27, "away_score": 13, "completed_at": "2026-09-13T20:25Z"}
+{"game_id": "401872927", "sport_key": "americanfootball_nfl", "home": "Minnesota Vikings", "away": "Green Bay Packers", "home_score": 39, "away_score": 22, "completed_at": "2026-09-13T20:25Z"}
+{"game_id": "401872929", "sport_key": "americanfootball_nfl", "home": "Philadelphia Eagles", "away": "Washington Commanders", "home_score": 24, "away_score": 22, "completed_at": "2026-09-13T20:25Z"}
+{"game_id": "401872926", "sport_key": "americanfootball_nfl", "home": "Los Angeles Chargers", "away": "Arizona Cardinals", "home_score": 14, "away_score": 26, "completed_at": "2026-09-13T20:25Z"}
+{"game_id": "401872930", "sport_key": "americanfootball_nfl", "home": "New York Giants", "away": "Dallas Cowboys", "home_score": 28, "away_score": 20, "completed_at": "2026-09-14T00:20Z"}
