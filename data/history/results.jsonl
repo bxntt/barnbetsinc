@@ -373,3 +373,21 @@
 {"game_id": "401816978", "sport_key": "baseball_mlb", "home": "Chicago White Sox", "away": "Detroit Tigers", "home_score": 3, "away_score": 1, "completed_at": "2026-09-17T23:40Z"}
 {"game_id": "401816977", "sport_key": "baseball_mlb", "home": "Texas Rangers", "away": "Boston Red Sox", "home_score": 3, "away_score": 4, "completed_at": "2026-09-18T00:05Z"}
 {"game_id": "401816981", "sport_key": "baseball_mlb", "home": "Los Angeles Angels", "away": "Minnesota Twins", "home_score": 5, "away_score": 4, "completed_at": "2026-09-18T01:38Z"}
+{"game_id": "401816984", "sport_key": "baseball_mlb", "home": "Cincinnati Reds", "away": "Chicago Cubs", "home_score": 6, "away_score": 4, "completed_at": "2026-09-18T22:40Z"}
+{"game_id": "401816985", "sport_key": "baseball_mlb", "home": "Pittsburgh Pirates", "away": "Kansas City Royals", "home_score": 8, "away_score": 5, "completed_at": "2026-09-18T22:40Z"}
+{"game_id": "401816986", "sport_key": "baseball_mlb", "home": "Baltimore Orioles", "away": "Milwaukee Brewers", "home_score": 5, "away_score": 6, "completed_at": "2026-09-18T23:05Z"}
+{"game_id": "401816982", "sport_key": "baseball_mlb", "home": "Cleveland Guardians", "away": "Athletics", "home_score": 5, "away_score": 3, "completed_at": "2026-09-18T23:10Z"}
+{"game_id": "401816983", "sport_key": "baseball_mlb", "home": "Tampa Bay Rays", "away": "Boston Red Sox", "home_score": 2, "away_score": 4, "completed_at": "2026-09-18T23:10Z"}
+{"game_id": "401816987", "sport_key": "baseball_mlb", "home": "New York Mets", "away": "Philadelphia Phillies", "home_score": 6, "away_score": 3, "completed_at": "2026-09-18T23:10Z"}
+{"game_id": "401816989", "sport_key": "baseball_mlb", "home": "Chicago White Sox", "away": "Detroit Tigers", "home_score": 8, "away_score": 11, "completed_at": "2026-09-18T23:40Z"}
+{"game_id": "401816990", "sport_key": "baseball_mlb", "home": "Texas Rangers", "away": "Toronto Blue Jays", "home_score": 7, "away_score": 1, "completed_at": "2026-09-19T00:05Z"}
+{"game_id": "401816988", "sport_key": "baseball_mlb", "home": "Houston Astros", "away": "Atlanta Braves", "home_score": 2, "away_score": 6, "completed_at": "2026-09-19T00:10Z"}
+{"game_id": "401816992", "sport_key": "baseball_mlb", "home": "Colorado Rockies", "away": "Seattle Mariners", "home_score": 4, "away_score": 5, "completed_at": "2026-09-19T00:10Z"}
+{"game_id": "401816991", "sport_key": "baseball_mlb", "home": "St. Louis Cardinals", "away": "Washington Nationals", "home_score": 1, "away_score": 9, "completed_at": "2026-09-19T00:15Z"}
+{"game_id": "401816994", "sport_key": "baseball_mlb", "home": "Los Angeles Angels", "away": "Minnesota Twins", "home_score": 0, "away_score": 3, "completed_at": "2026-09-19T01:38Z"}
+{"game_id": "401816993", "sport_key": "baseball_mlb", "home": "San Diego Padres", "away": "Miami Marlins", "home_score": 8, "away_score": 2, "completed_at": "2026-09-19T01:40Z"}
+{"game_id": "401816995", "sport_key": "baseball_mlb", "home": "Arizona Diamondbacks", "away": "New York Yankees", "home_score": 2, "away_score": 9, "completed_at": "2026-09-19T01:40Z"}
+{"game_id": "401816996", "sport_key": "baseball_mlb", "home": "Los Angeles Dodgers", "away": "San Francisco Giants", "home_score": 8, "away_score": 2, "completed_at": "2026-09-19T02:15Z"}
+{"game_id": "401858226", "sport_key": "americanfootball_ncaaf", "home": "Wake Forest Demon Deacons", "away": "Miami Hurricanes", "home_score": 20, "away_score": 33, "completed_at": "2026-09-18T23:30Z"}
+{"game_id": "401856811", "sport_key": "americanfootball_ncaaf", "home": "Texas Tech Red Raiders", "away": "Houston Cougars", "home_score": 28, "away_score": 26, "completed_at": "2026-09-19T00:00Z"}
+{"game_id": "401858455", "sport_key": "americanfootball_ncaaf", "home": "Oregon Ducks", "away": "Portland State Vikings", "home_score": 84, "away_score": 0, "completed_at": "2026-09-19T02:30Z"}
