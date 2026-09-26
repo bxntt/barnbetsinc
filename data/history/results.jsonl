@@ -431,3 +431,22 @@
 {"game_id": "401817063", "sport_key": "baseball_mlb", "home": "Pittsburgh Pirates", "away": "St. Louis Cardinals", "home_score": 2, "away_score": 1, "completed_at": "2026-09-24T16:35Z"}
 {"game_id": "401817104", "sport_key": "baseball_mlb", "home": "Boston Red Sox", "away": "Chicago Cubs", "home_score": 4, "away_score": 3, "completed_at": "2026-09-25T17:05Z"}
 {"game_id": "401872948", "sport_key": "americanfootball_nfl", "home": "Green Bay Packers", "away": "Atlanta Falcons", "home_score": 14, "away_score": 35, "completed_at": "2026-09-25T00:15Z"}
+{"game_id": "401817091", "sport_key": "baseball_mlb", "home": "Washington Nationals", "away": "New York Mets", "home_score": 1, "away_score": 7, "completed_at": "2026-09-26T16:35Z"}
+{"game_id": "401817092", "sport_key": "baseball_mlb", "home": "Detroit Tigers", "away": "Pittsburgh Pirates", "home_score": 4, "away_score": 3, "completed_at": "2026-09-26T17:10Z"}
+{"game_id": "401817090", "sport_key": "baseball_mlb", "home": "Toronto Blue Jays", "away": "Cincinnati Reds", "home_score": 1, "away_score": 5, "completed_at": "2026-09-26T19:07Z"}
+{"game_id": "401817101", "sport_key": "baseball_mlb", "home": "San Francisco Giants", "away": "Los Angeles Dodgers", "home_score": 3, "away_score": 4, "completed_at": "2026-09-26T20:05Z"}
+{"game_id": "401817087", "sport_key": "baseball_mlb", "home": "Miami Marlins", "away": "Atlanta Braves", "home_score": 3, "away_score": 8, "completed_at": "2026-09-26T20:10Z"}
+{"game_id": "401856699", "sport_key": "americanfootball_ncaaf", "home": "Florida Gators", "away": "Ole Miss Rebels", "home_score": 52, "away_score": 28, "completed_at": "2026-09-26T19:30Z"}
+{"game_id": "401856806", "sport_key": "americanfootball_ncaaf", "home": "Georgia Southern Eagles", "away": "Houston Cougars", "home_score": 28, "away_score": 42, "completed_at": "2026-09-26T20:00Z"}
+{"game_id": "401856704", "sport_key": "americanfootball_ncaaf", "home": "Tennessee Volunteers", "away": "Texas Longhorns", "home_score": 17, "away_score": 20, "completed_at": "2026-09-26T16:00Z"}
+{"game_id": "401856700", "sport_key": "americanfootball_ncaaf", "home": "Georgia Bulldogs", "away": "Oklahoma Sooners", "home_score": 41, "away_score": 13, "completed_at": "2026-09-26T19:30Z"}
+{"game_id": "401858467", "sport_key": "americanfootball_ncaaf", "home": "Purdue Boilermakers", "away": "Notre Dame Fighting Irish", "home_score": 10, "away_score": 49, "completed_at": "2026-09-26T18:00Z"}
+{"game_id": "401858465", "sport_key": "americanfootball_ncaaf", "home": "Ohio State Buckeyes", "away": "Illinois Fighting Illini", "home_score": 42, "away_score": 19, "completed_at": "2026-09-26T16:00Z"}
+{"game_id": "401856805", "sport_key": "americanfootball_ncaaf", "home": "Texas Tech Red Raiders", "away": "Sam Houston Bearkats", "home_score": 49, "away_score": 14, "completed_at": "2026-09-26T16:00Z"}
+{"game_id": "401856816", "sport_key": "americanfootball_ncaaf", "home": "Iowa State Cyclones", "away": "Utah Utes", "home_score": 17, "away_score": 31, "completed_at": "2026-09-26T19:30Z"}
+{"game_id": "401858243", "sport_key": "americanfootball_ncaaf", "home": "Louisville Cardinals", "away": "Wake Forest Demon Deacons", "home_score": 27, "away_score": 30, "completed_at": "2026-09-26T16:00Z"}
+{"game_id": "401858463", "sport_key": "americanfootball_ncaaf", "home": "Michigan Wolverines", "away": "Iowa Hawkeyes", "home_score": 19, "away_score": 20, "completed_at": "2026-09-26T19:30Z"}
+{"game_id": "401858461", "sport_key": "americanfootball_ncaaf", "home": "Indiana Hoosiers", "away": "Northwestern Wildcats", "home_score": 29, "away_score": 23, "completed_at": "2026-09-26T00:00Z"}
+{"game_id": "401879457", "sport_key": "icehockey_nhl", "home": "Buffalo Sabres", "away": "Pittsburgh Penguins", "home_score": 1, "away_score": 3, "completed_at": "2026-09-26T19:00Z"}
+{"game_id": "401879935", "sport_key": "icehockey_nhl", "home": "Nashville Predators", "away": "Carolina Hurricanes", "home_score": 0, "away_score": 6, "completed_at": "2026-09-26T19:00Z"}
+{"game_id": "401879371", "sport_key": "icehockey_nhl", "home": "Los Angeles Kings", "away": "Anaheim Ducks", "home_score": 6, "away_score": 2, "completed_at": "2026-09-26T20:00Z"}
