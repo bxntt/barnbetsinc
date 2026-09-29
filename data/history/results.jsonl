@@ -484,3 +484,4 @@
 {"game_id": "401858466", "sport_key": "americanfootball_ncaaf", "home": "Penn State Nittany Lions", "away": "Wisconsin Badgers", "home_score": 20, "away_score": 24, "completed_at": "2026-09-26T21:00Z"}
 {"game_id": "401856703", "sport_key": "americanfootball_ncaaf", "home": "Mississippi State Bulldogs", "away": "Missouri Tigers", "home_score": 31, "away_score": 24, "completed_at": "2026-09-26T23:45Z"}
 {"game_id": "401858241", "sport_key": "americanfootball_ncaaf", "home": "SMU Mustangs", "away": "Missouri State Bears", "home_score": 34, "away_score": 24, "completed_at": "2026-09-27T01:00Z"}
+{"game_id": "401872962", "sport_key": "americanfootball_nfl", "home": "Denver Broncos", "away": "Los Angeles Rams", "home_score": 30, "away_score": 26, "completed_at": "2026-09-28T00:20Z"}
