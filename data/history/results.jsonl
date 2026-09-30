@@ -485,3 +485,12 @@
 {"game_id": "401856703", "sport_key": "americanfootball_ncaaf", "home": "Mississippi State Bulldogs", "away": "Missouri Tigers", "home_score": 31, "away_score": 24, "completed_at": "2026-09-26T23:45Z"}
 {"game_id": "401858241", "sport_key": "americanfootball_ncaaf", "home": "SMU Mustangs", "away": "Missouri State Bears", "home_score": 34, "away_score": 24, "completed_at": "2026-09-27T01:00Z"}
 {"game_id": "401872962", "sport_key": "americanfootball_nfl", "home": "Denver Broncos", "away": "Los Angeles Rams", "home_score": 30, "away_score": 26, "completed_at": "2026-09-28T00:20Z"}
+{"game_id": "401907965", "sport_key": "baseball_mlb", "home": "Atlanta Braves", "away": "Philadelphia Phillies", "home_score": 5, "away_score": 3, "completed_at": "2026-09-29T18:00Z"}
+{"game_id": "401907896", "sport_key": "baseball_mlb", "home": "Houston Astros", "away": "Chicago White Sox", "home_score": 3, "away_score": 6, "completed_at": "2026-09-29T21:00Z"}
+{"game_id": "401907924", "sport_key": "baseball_mlb", "home": "New York Yankees", "away": "Boston Red Sox", "home_score": 9, "away_score": 0, "completed_at": "2026-09-30T00:00Z"}
+{"game_id": "401907974", "sport_key": "baseball_mlb", "home": "San Diego Padres", "away": "Chicago Cubs", "home_score": 8, "away_score": 0, "completed_at": "2026-09-30T02:00Z"}
+{"game_id": "401891773", "sport_key": "icehockey_nhl", "home": "Carolina Hurricanes", "away": "Florida Panthers", "home_score": 0, "away_score": 1, "completed_at": "2026-09-29T21:00Z"}
+{"game_id": "401891827", "sport_key": "icehockey_nhl", "home": "Toronto Maple Leafs", "away": "Montreal Canadiens", "home_score": 2, "away_score": 3, "completed_at": "2026-09-29T23:00Z"}
+{"game_id": "401891774", "sport_key": "icehockey_nhl", "home": "Boston Bruins", "away": "New York Rangers", "home_score": 3, "away_score": 0, "completed_at": "2026-09-30T00:00Z"}
+{"game_id": "401891804", "sport_key": "icehockey_nhl", "home": "Edmonton Oilers", "away": "Vancouver Canucks", "home_score": 5, "away_score": 6, "completed_at": "2026-09-30T02:00Z"}
+{"game_id": "401891775", "sport_key": "icehockey_nhl", "home": "Vegas Golden Knights", "away": "Chicago Blackhawks", "home_score": 5, "away_score": 2, "completed_at": "2026-09-30T02:45Z"}
