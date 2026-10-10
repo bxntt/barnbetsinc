@@ -584,3 +584,11 @@
 {"game_id": "401906508", "sport_key": "basketball_nba", "home": "New York Knicks", "away": "Washington Wizards", "home_score": 109, "away_score": 111, "completed_at": "2026-10-08T23:30Z"}
 {"game_id": "401898394", "sport_key": "basketball_nba", "home": "San Antonio Spurs", "away": "Atlanta Hawks", "home_score": 116, "away_score": 123, "completed_at": "2026-10-09T00:00Z"}
 {"game_id": "401898717", "sport_key": "basketball_nba", "home": "Los Angeles Lakers", "away": "Sacramento Kings", "home_score": 114, "away_score": 110, "completed_at": "2026-10-09T02:45Z"}
+{"game_id": "401898395", "sport_key": "basketball_nba", "home": "Dallas Mavericks", "away": "Houston Rockets", "home_score": 117, "away_score": 135, "completed_at": "2026-10-09T12:00Z"}
+{"game_id": "401908940", "sport_key": "basketball_nba", "home": "Chicago Bulls", "away": "Memphis Grizzlies", "home_score": 100, "away_score": 104, "completed_at": "2026-10-10T00:00Z"}
+{"game_id": "401856826", "sport_key": "americanfootball_ncaaf", "home": "BYU Cougars", "away": "Iowa State Cyclones", "home_score": 24, "away_score": 10, "completed_at": "2026-10-10T02:30Z"}
+{"game_id": "401858487", "sport_key": "americanfootball_ncaaf", "home": "Washington Huskies", "away": "Iowa Hawkeyes", "home_score": 24, "away_score": 41, "completed_at": "2026-10-10T01:00Z"}
+{"game_id": "401892465", "sport_key": "icehockey_nhl", "home": "Detroit Red Wings", "away": "Seattle Kraken", "home_score": 3, "away_score": 6, "completed_at": "2026-10-09T23:00Z"}
+{"game_id": "401892466", "sport_key": "icehockey_nhl", "home": "Washington Capitals", "away": "New York Rangers", "home_score": 3, "away_score": 1, "completed_at": "2026-10-09T23:00Z"}
+{"game_id": "401892467", "sport_key": "icehockey_nhl", "home": "Columbus Blue Jackets", "away": "Pittsburgh Penguins", "home_score": 3, "away_score": 2, "completed_at": "2026-10-09T23:00Z"}
+{"game_id": "401892468", "sport_key": "icehockey_nhl", "home": "Winnipeg Jets", "away": "Anaheim Ducks", "home_score": 1, "away_score": 5, "completed_at": "2026-10-10T00:00Z"}
