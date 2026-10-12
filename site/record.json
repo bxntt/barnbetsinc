@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-12T09:38:13.914082+00:00",
+  "generated_at": "2026-10-12T19:21:11.838530+00:00",
   "since": "2026-06-20",
   "overall": {
-    "wins": 754,
-    "losses": 556,
-    "pushes": 14,
-    "win_pct": 57.6
+    "wins": 768,
+    "losses": 563,
+    "pushes": 15,
+    "win_pct": 57.7
   },
   "categories": [
     {
       "key": "moneyline",
       "label": "Moneyline",
-      "wins": 183,
-      "losses": 60,
+      "wins": 187,
+      "losses": 62,
       "pushes": 0,
-      "win_pct": 75.3
+      "win_pct": 75.1
     },
     {
       "key": "spread",
       "label": "Spread",
-      "wins": 268,
-      "losses": 226,
+      "wins": 273,
+      "losses": 229,
       "pushes": 7,
-      "win_pct": 54.3
+      "win_pct": 54.4
     },
     {
       "key": "total",
       "label": "Total",
-      "wins": 261,
-      "losses": 244,
-      "pushes": 7,
-      "win_pct": 51.7
+      "wins": 266,
+      "losses": 246,
+      "pushes": 8,
+      "win_pct": 52.0
     },
     {
       "key": "btts",
