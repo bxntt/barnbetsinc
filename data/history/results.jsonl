@@ -640,3 +640,14 @@
 {"game_id": "401872993", "sport_key": "americanfootball_nfl", "home": "Atlanta Falcons", "away": "Baltimore Ravens", "home_score": 23, "away_score": 30, "completed_at": "2026-10-12T00:20Z"}
 {"game_id": "401872994", "sport_key": "americanfootball_nfl", "home": "Los Angeles Rams", "away": "Buffalo Bills", "home_score": 34, "away_score": 37, "completed_at": "2026-10-13T00:15Z"}
 {"game_id": "401908025", "sport_key": "baseball_mlb", "home": "Cleveland Guardians", "away": "Tampa Bay Rays", "home_score": 3, "away_score": 2, "completed_at": "2026-10-15T17:00Z"}
+{"game_id": "401898406", "sport_key": "basketball_nba", "home": "Orlando Magic", "away": "Miami Heat", "home_score": 136, "away_score": 115, "completed_at": "2026-10-16T23:00Z"}
+{"game_id": "401898407", "sport_key": "basketball_nba", "home": "Philadelphia 76ers", "away": "Boston Celtics", "home_score": 120, "away_score": 125, "completed_at": "2026-10-16T23:00Z"}
+{"game_id": "401908946", "sport_key": "basketball_nba", "home": "Detroit Pistons", "away": "Toronto Raptors", "home_score": 129, "away_score": 125, "completed_at": "2026-10-16T23:00Z"}
+{"game_id": "401914126", "sport_key": "basketball_nba", "home": "Indiana Pacers", "away": "Milwaukee Bucks", "home_score": 127, "away_score": 128, "completed_at": "2026-10-16T23:00Z"}
+{"game_id": "401898408", "sport_key": "basketball_nba", "home": "Dallas Mavericks", "away": "Atlanta Hawks", "home_score": 111, "away_score": 135, "completed_at": "2026-10-17T00:00Z"}
+{"game_id": "401898843", "sport_key": "basketball_nba", "home": "San Antonio Spurs", "away": "Sacramento Kings", "home_score": 126, "away_score": 97, "completed_at": "2026-10-17T00:00Z"}
+{"game_id": "401901822", "sport_key": "basketball_nba", "home": "Memphis Grizzlies", "away": "Charlotte Hornets", "home_score": 117, "away_score": 98, "completed_at": "2026-10-17T00:00Z"}
+{"game_id": "401906509", "sport_key": "basketball_nba", "home": "New Orleans Pelicans", "away": "Washington Wizards", "home_score": 107, "away_score": 106, "completed_at": "2026-10-17T00:00Z"}
+{"game_id": "401908943", "sport_key": "basketball_nba", "home": "Chicago Bulls", "away": "Minnesota Timberwolves", "home_score": 133, "away_score": 116, "completed_at": "2026-10-17T00:00Z"}
+{"game_id": "401892517", "sport_key": "icehockey_nhl", "home": "Colorado Avalanche", "away": "Pittsburgh Penguins", "home_score": 5, "away_score": 2, "completed_at": "2026-10-17T01:00Z"}
+{"game_id": "401872995", "sport_key": "americanfootball_nfl", "home": "Denver Broncos", "away": "Seattle Seahawks", "home_score": 17, "away_score": 14, "completed_at": "2026-10-16T00:15Z"}
