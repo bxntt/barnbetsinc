@@ -773,3 +773,4 @@
 {"game_id": "401873021", "sport_key": "americanfootball_nfl", "home": "Las Vegas Raiders", "away": "Los Angeles Rams", "home_score": 21, "away_score": 35, "completed_at": "2026-10-25T20:25Z"}
 {"game_id": "401873022", "sport_key": "americanfootball_nfl", "home": "Seattle Seahawks", "away": "Kansas City Chiefs", "home_score": 20, "away_score": 3, "completed_at": "2026-10-26T00:20Z"}
 {"game_id": "401873009", "sport_key": "americanfootball_nfl", "home": "Philadelphia Eagles", "away": "Dallas Cowboys", "home_score": 21, "away_score": 38, "completed_at": "2026-10-27T00:15Z"}
+{"game_id": "401908046", "sport_key": "baseball_mlb", "home": "Tampa Bay Rays", "away": "Milwaukee Brewers", "home_score": 1, "away_score": 4, "completed_at": "2026-10-29T00:00Z"}
