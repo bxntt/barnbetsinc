@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:01:25.097583+00:00",
+  "generated_at": "2026-10-30T23:49:09.616133+00:00",
   "count": 150,
   "predictions": [
     {
@@ -13,12 +13,12 @@
       "pick": "Notre Dame Fighting Irish ML",
       "selection": "Notre Dame Fighting Irish",
       "point": null,
-      "prob": 0.985,
+      "prob": 0.9854,
       "prob_pct": 98.5,
       "confidence": 0.66,
       "model_prob_pct": null,
       "market_prob_pct": 98.5,
-      "fair_price_american": -6553,
+      "fair_price_american": -6738,
       "outcomes": [
         {
           "label": "Notre Dame Fighting Irish ML",
@@ -30,7 +30,7 @@
         }
       ],
       "context": null,
-      "rationale": "Notre Dame Fighting Irish is the 98% pick to win \u2014 a clear call."
+      "rationale": "Notre Dame Fighting Irish is the 99% pick to win \u2014 a clear call."
     },
     {
       "game_id": "c17c8f9e12ffe066cf601c96090fcb14",
@@ -43,20 +43,20 @@
       "pick": "North Dakota State Bison ML",
       "selection": "North Dakota State Bison",
       "point": null,
-      "prob": 0.9595,
-      "prob_pct": 95.9,
-      "confidence": 0.62,
+      "prob": 0.9599,
+      "prob_pct": 96.0,
+      "confidence": 0.63,
       "model_prob_pct": null,
-      "market_prob_pct": 95.9,
-      "fair_price_american": -2366,
+      "market_prob_pct": 96.0,
+      "fair_price_american": -2396,
       "outcomes": [
         {
           "label": "North Dakota State Bison ML",
-          "prob_pct": 95.9
+          "prob_pct": 96.0
         },
         {
           "label": "UTEP Miners ML",
-          "prob_pct": 4.1
+          "prob_pct": 4.0
         }
       ],
       "context": null,
@@ -73,24 +73,24 @@
       "pick": "Louisville Cardinals ML",
       "selection": "Louisville Cardinals",
       "point": null,
-      "prob": 0.9458,
-      "prob_pct": 94.6,
-      "confidence": 0.61,
+      "prob": 0.9431,
+      "prob_pct": 94.3,
+      "confidence": 0.62,
       "model_prob_pct": null,
-      "market_prob_pct": 94.6,
-      "fair_price_american": -1745,
+      "market_prob_pct": 94.3,
+      "fair_price_american": -1658,
       "outcomes": [
         {
           "label": "Louisville Cardinals ML",
-          "prob_pct": 94.6
+          "prob_pct": 94.3
         },
         {
           "label": "Stanford Cardinal ML",
-          "prob_pct": 5.4
+          "prob_pct": 5.7
         }
       ],
       "context": null,
-      "rationale": "Louisville Cardinals is the 95% pick to win \u2014 a clear call."
+      "rationale": "Louisville Cardinals is the 94% pick to win \u2014 a clear call."
     },
     {
       "game_id": "630ed6c8993fda8943e528a465e55518",
@@ -103,20 +103,20 @@
       "pick": "UCLA Bruins ML",
       "selection": "UCLA Bruins",
       "point": null,
-      "prob": 0.9448,
-      "prob_pct": 94.5,
+      "prob": 0.9421,
+      "prob_pct": 94.2,
       "confidence": 0.62,
       "model_prob_pct": null,
-      "market_prob_pct": 94.5,
-      "fair_price_american": -1711,
+      "market_prob_pct": 94.2,
+      "fair_price_american": -1628,
       "outcomes": [
         {
           "label": "UCLA Bruins ML",
-          "prob_pct": 94.5
+          "prob_pct": 94.2
         },
         {
           "label": "Nevada Wolf Pack ML",
-          "prob_pct": 5.5
+          "prob_pct": 5.8
         }
       ],
       "context": null,
@@ -133,12 +133,12 @@
       "pick": "Indiana Hoosiers ML",
       "selection": "Indiana Hoosiers",
       "point": null,
-      "prob": 0.9291,
+      "prob": 0.9288,
       "prob_pct": 92.9,
       "confidence": 0.62,
       "model_prob_pct": null,
       "market_prob_pct": 92.9,
-      "fair_price_american": -1310,
+      "fair_price_american": -1304,
       "outcomes": [
         {
           "label": "Indiana Hoosiers ML",
@@ -153,36 +153,6 @@
       "rationale": "Indiana Hoosiers is the 93% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "0540f5758ac50f3bb60beb36755f7a1e",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "James Madison Dukes",
-      "away_team": "Troy Trojans",
-      "market": "h2h",
-      "pick": "James Madison Dukes ML",
-      "selection": "James Madison Dukes",
-      "point": null,
-      "prob": 0.9167,
-      "prob_pct": 91.7,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 91.7,
-      "fair_price_american": -1101,
-      "outcomes": [
-        {
-          "label": "James Madison Dukes ML",
-          "prob_pct": 91.7
-        },
-        {
-          "label": "Troy Trojans ML",
-          "prob_pct": 8.3
-        }
-      ],
-      "context": null,
-      "rationale": "James Madison Dukes is the 92% pick to win \u2014 a clear call."
-    },
-    {
       "game_id": "509ce59dbf5e07bb4acf73cd8ecc4d3b",
       "sport_key": "basketball_ncaab",
       "sport_title": "NCAAB",
@@ -193,24 +163,54 @@
       "pick": "Iowa State Cyclones ML",
       "selection": "Iowa State Cyclones",
       "point": null,
-      "prob": 0.893,
-      "prob_pct": 89.3,
-      "confidence": 0.55,
+      "prob": 0.8991,
+      "prob_pct": 89.9,
+      "confidence": 0.57,
       "model_prob_pct": null,
-      "market_prob_pct": 89.3,
-      "fair_price_american": -834,
+      "market_prob_pct": 89.9,
+      "fair_price_american": -891,
       "outcomes": [
         {
           "label": "Iowa State Cyclones ML",
-          "prob_pct": 89.3
+          "prob_pct": 89.9
         },
         {
           "label": "Memphis Tigers ML",
-          "prob_pct": 10.7
+          "prob_pct": 10.1
         }
       ],
       "context": null,
-      "rationale": "Iowa State Cyclones is the 89% pick to win \u2014 a clear call."
+      "rationale": "Iowa State Cyclones is the 90% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:06:00Z",
+      "home_team": "Charlotte 49ers",
+      "away_team": "Tulane Green Wave",
+      "market": "h2h",
+      "pick": "Tulane Green Wave ML",
+      "selection": "Tulane Green Wave",
+      "point": null,
+      "prob": 0.8776,
+      "prob_pct": 87.8,
+      "confidence": 0.15,
+      "model_prob_pct": null,
+      "market_prob_pct": 87.8,
+      "fair_price_american": -717,
+      "outcomes": [
+        {
+          "label": "Tulane Green Wave ML",
+          "prob_pct": 87.8
+        },
+        {
+          "label": "Charlotte 49ers ML",
+          "prob_pct": 12.2
+        }
+      ],
+      "context": null,
+      "rationale": "Tulane Green Wave is the 88% pick to win \u2014 a clear call."
     },
     {
       "game_id": "b0f68c9265402a825cbbf7954b726339",
@@ -223,12 +223,12 @@
       "pick": "BYU Cougars ML",
       "selection": "BYU Cougars",
       "point": null,
-      "prob": 0.8757,
+      "prob": 0.8759,
       "prob_pct": 87.6,
-      "confidence": 0.61,
+      "confidence": 0.62,
       "model_prob_pct": null,
       "market_prob_pct": 87.6,
-      "fair_price_american": -704,
+      "fair_price_american": -705,
       "outcomes": [
         {
           "label": "BYU Cougars ML",
@@ -253,20 +253,20 @@
       "pick": "New Mexico Lobos ML",
       "selection": "New Mexico Lobos",
       "point": null,
-      "prob": 0.8586,
-      "prob_pct": 85.9,
+      "prob": 0.8611,
+      "prob_pct": 86.1,
       "confidence": 0.62,
       "model_prob_pct": null,
-      "market_prob_pct": 85.9,
-      "fair_price_american": -607,
+      "market_prob_pct": 86.1,
+      "fair_price_american": -620,
       "outcomes": [
         {
           "label": "New Mexico Lobos ML",
-          "prob_pct": 85.9
+          "prob_pct": 86.1
         },
         {
           "label": "San Jose State Spartans ML",
-          "prob_pct": 14.1
+          "prob_pct": 13.9
         }
       ],
       "context": null,
@@ -283,84 +283,24 @@
       "pick": "Miami Hurricanes ML",
       "selection": "Miami Hurricanes",
       "point": null,
-      "prob": 0.8536,
-      "prob_pct": 85.4,
+      "prob": 0.851,
+      "prob_pct": 85.1,
       "confidence": 0.61,
       "model_prob_pct": null,
-      "market_prob_pct": 85.4,
-      "fair_price_american": -583,
+      "market_prob_pct": 85.1,
+      "fair_price_american": -571,
       "outcomes": [
         {
           "label": "Miami Hurricanes ML",
-          "prob_pct": 85.4
+          "prob_pct": 85.1
         },
         {
           "label": "North Carolina Tar Heels ML",
-          "prob_pct": 14.6
+          "prob_pct": 14.9
         }
       ],
       "context": null,
       "rationale": "Miami Hurricanes is the 85% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "e5ff4a85ab3b8341184a334a390f6ba2",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "Florida International Panthers",
-      "market": "h2h",
-      "pick": "Liberty Flames ML",
-      "selection": "Liberty Flames",
-      "point": null,
-      "prob": 0.8401,
-      "prob_pct": 84.0,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 84.0,
-      "fair_price_american": -526,
-      "outcomes": [
-        {
-          "label": "Liberty Flames ML",
-          "prob_pct": 84.0
-        },
-        {
-          "label": "Florida International Panthers ML",
-          "prob_pct": 16.0
-        }
-      ],
-      "context": null,
-      "rationale": "Liberty Flames is the 84% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "North Texas Mean Green",
-      "away_team": "Florida Atlantic Owls",
-      "market": "h2h",
-      "pick": "North Texas Mean Green ML",
-      "selection": "North Texas Mean Green",
-      "point": null,
-      "prob": 0.8316,
-      "prob_pct": 83.2,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 83.2,
-      "fair_price_american": -494,
-      "outcomes": [
-        {
-          "label": "North Texas Mean Green ML",
-          "prob_pct": 83.2
-        },
-        {
-          "label": "Florida Atlantic Owls ML",
-          "prob_pct": 16.8
-        }
-      ],
-      "context": null,
-      "rationale": "North Texas Mean Green is the 83% pick to win \u2014 a clear call."
     },
     {
       "game_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
@@ -373,24 +313,54 @@
       "pick": "Western Michigan Broncos ML",
       "selection": "Western Michigan Broncos",
       "point": null,
-      "prob": 0.8283,
-      "prob_pct": 82.8,
-      "confidence": 0.61,
+      "prob": 0.8494,
+      "prob_pct": 84.9,
+      "confidence": 0.62,
       "model_prob_pct": null,
-      "market_prob_pct": 82.8,
-      "fair_price_american": -482,
+      "market_prob_pct": 84.9,
+      "fair_price_american": -564,
       "outcomes": [
         {
           "label": "Western Michigan Broncos ML",
-          "prob_pct": 82.8
+          "prob_pct": 84.9
         },
         {
           "label": "Bowling Green Falcons ML",
-          "prob_pct": 17.2
+          "prob_pct": 15.1
         }
       ],
       "context": null,
-      "rationale": "Western Michigan Broncos is the 83% pick to win \u2014 a clear call."
+      "rationale": "Western Michigan Broncos is the 85% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "e5ff4a85ab3b8341184a334a390f6ba2",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Florida International Panthers",
+      "market": "h2h",
+      "pick": "Liberty Flames ML",
+      "selection": "Liberty Flames",
+      "point": null,
+      "prob": 0.8381,
+      "prob_pct": 83.8,
+      "confidence": 0.62,
+      "model_prob_pct": null,
+      "market_prob_pct": 83.8,
+      "fair_price_american": -518,
+      "outcomes": [
+        {
+          "label": "Liberty Flames ML",
+          "prob_pct": 83.8
+        },
+        {
+          "label": "Florida International Panthers ML",
+          "prob_pct": 16.2
+        }
+      ],
+      "context": null,
+      "rationale": "Liberty Flames is the 84% pick to win \u2014 a clear call."
     },
     {
       "game_id": "09f66e3676ec3112e24cd6b9e97feb41",
@@ -403,54 +373,24 @@
       "pick": "Wake Forest Demon Deacons ML",
       "selection": "Wake Forest Demon Deacons",
       "point": null,
-      "prob": 0.8273,
-      "prob_pct": 82.7,
+      "prob": 0.8276,
+      "prob_pct": 82.8,
       "confidence": 0.61,
       "model_prob_pct": null,
-      "market_prob_pct": 82.7,
-      "fair_price_american": -479,
+      "market_prob_pct": 82.8,
+      "fair_price_american": -480,
       "outcomes": [
         {
           "label": "Wake Forest Demon Deacons ML",
-          "prob_pct": 82.7
+          "prob_pct": 82.8
         },
         {
           "label": "Virginia Cavaliers ML",
-          "prob_pct": 17.3
+          "prob_pct": 17.2
         }
       ],
       "context": null,
       "rationale": "Wake Forest Demon Deacons is the 83% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "b02a5444929be961896a4db9742a01fa",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T02:00:00Z",
-      "home_team": "Boise State Broncos",
-      "away_team": "Texas State Bobcats",
-      "market": "h2h",
-      "pick": "Boise State Broncos ML",
-      "selection": "Boise State Broncos",
-      "point": null,
-      "prob": 0.7968,
-      "prob_pct": 79.7,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 79.7,
-      "fair_price_american": -392,
-      "outcomes": [
-        {
-          "label": "Boise State Broncos ML",
-          "prob_pct": 79.7
-        },
-        {
-          "label": "Texas State Bobcats ML",
-          "prob_pct": 20.3
-        }
-      ],
-      "context": null,
-      "rationale": "Boise State Broncos is the 80% pick to win \u2014 a clear call."
     },
     {
       "game_id": "c0ddb68355a79fb70194e95b75c037ca",
@@ -463,24 +403,176 @@
       "pick": "Ohio Bobcats ML",
       "selection": "Ohio Bobcats",
       "point": null,
-      "prob": 0.7961,
-      "prob_pct": 79.6,
-      "confidence": 0.6,
+      "prob": 0.8202,
+      "prob_pct": 82.0,
+      "confidence": 0.63,
       "model_prob_pct": null,
-      "market_prob_pct": 79.6,
-      "fair_price_american": -391,
+      "market_prob_pct": 82.0,
+      "fair_price_american": -456,
       "outcomes": [
         {
           "label": "Ohio Bobcats ML",
-          "prob_pct": 79.6
+          "prob_pct": 82.0
         },
         {
           "label": "Akron Zips ML",
-          "prob_pct": 20.4
+          "prob_pct": 18.0
         }
       ],
       "context": null,
-      "rationale": "Ohio Bobcats is the 80% pick to win \u2014 a clear call."
+      "rationale": "Ohio Bobcats is the 82% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "5c712e15e1cd4b9283b4bf410fb334f4",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-30T22:08:51Z",
+      "home_team": "Vegas Golden Knights",
+      "away_team": "New Jersey Devils",
+      "market": "spreads",
+      "pick": "Vegas Golden Knights +2.5",
+      "selection": "Vegas Golden Knights",
+      "point": 2.5,
+      "prob": 0.8059,
+      "prob_pct": 80.6,
+      "confidence": 0.09,
+      "model_prob_pct": 89.7,
+      "market_prob_pct": 53.3,
+      "fair_price_american": -415,
+      "outcomes": [
+        {
+          "label": "Vegas Golden Knights +2.5",
+          "prob_pct": 80.6
+        },
+        {
+          "label": "New Jersey Devils -2.5",
+          "prob_pct": 19.4
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "Expected ~0.3-point margin; Vegas Golden Knights +2.5 is the 81% side to cover \u2014 a clear call. ESPN: game is End of Period."
+    },
+    {
+      "game_id": "b02a5444929be961896a4db9742a01fa",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-11-01T02:00:00Z",
+      "home_team": "Boise State Broncos",
+      "away_team": "Texas State Bobcats",
+      "market": "h2h",
+      "pick": "Boise State Broncos ML",
+      "selection": "Boise State Broncos",
+      "point": null,
+      "prob": 0.7983,
+      "prob_pct": 79.8,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 79.8,
+      "fair_price_american": -396,
+      "outcomes": [
+        {
+          "label": "Boise State Broncos ML",
+          "prob_pct": 79.8
+        },
+        {
+          "label": "Texas State Bobcats ML",
+          "prob_pct": 20.2
+        }
+      ],
+      "context": null,
+      "rationale": "Boise State Broncos is the 80% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "Los Angeles Kings",
+      "away_team": "Buffalo Sabres",
+      "market": "spreads",
+      "pick": "Los Angeles Kings +1.5",
+      "selection": "Los Angeles Kings",
+      "point": 1.5,
+      "prob": 0.7845,
+      "prob_pct": 78.5,
+      "confidence": 0.44,
+      "model_prob_pct": 85.1,
+      "market_prob_pct": 69.4,
+      "fair_price_american": -364,
+      "outcomes": [
+        {
+          "label": "Los Angeles Kings +1.5",
+          "prob_pct": 78.5
+        },
+        {
+          "label": "Buffalo Sabres -1.5",
+          "prob_pct": 21.5
+        }
+      ],
+      "context": null,
+      "rationale": "Expected ~0.8-point margin; Los Angeles Kings +1.5 is the 78% side to cover \u2014 a clear call."
+    },
+    {
+      "game_id": "7fd2d018fdc5930fd62188de968a901c",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home_team": "Penn State Nittany Lions",
+      "away_team": "Purdue Boilermakers",
+      "market": "h2h",
+      "pick": "Penn State Nittany Lions ML",
+      "selection": "Penn State Nittany Lions",
+      "point": null,
+      "prob": 0.7817,
+      "prob_pct": 78.2,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 78.2,
+      "fair_price_american": -358,
+      "outcomes": [
+        {
+          "label": "Penn State Nittany Lions ML",
+          "prob_pct": 78.2
+        },
+        {
+          "label": "Purdue Boilermakers ML",
+          "prob_pct": 21.8
+        }
+      ],
+      "context": null,
+      "rationale": "Penn State Nittany Lions is the 78% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "44ee19d31b9288ad402868d6df737595",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:35:14Z",
+      "home_team": "UCF Knights",
+      "away_team": "Baylor Bears",
+      "market": "totals",
+      "pick": "Over 45.5",
+      "selection": "Over",
+      "point": 45.5,
+      "prob": 0.7817,
+      "prob_pct": 78.2,
+      "confidence": 0.12,
+      "model_prob_pct": 94.2,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -358,
+      "outcomes": [
+        {
+          "label": "Over 45.5",
+          "prob_pct": 78.2
+        },
+        {
+          "label": "Under 45.5",
+          "prob_pct": 21.8
+        }
+      ],
+      "context": null,
+      "rationale": "Expected ~62.8 combined points; Over 45.5 is the 78% call \u2014 a clear call."
     },
     {
       "game_id": "2f219378e527cf1f695b814a0a4ad63c",
@@ -493,20 +585,20 @@
       "pick": "SMU Mustangs ML",
       "selection": "SMU Mustangs",
       "point": null,
-      "prob": 0.7828,
-      "prob_pct": 78.3,
+      "prob": 0.7766,
+      "prob_pct": 77.7,
       "confidence": 0.61,
       "model_prob_pct": null,
-      "market_prob_pct": 78.3,
-      "fair_price_american": -360,
+      "market_prob_pct": 77.7,
+      "fair_price_american": -348,
       "outcomes": [
         {
           "label": "SMU Mustangs ML",
-          "prob_pct": 78.3
+          "prob_pct": 77.7
         },
         {
           "label": "Syracuse Orange ML",
-          "prob_pct": 21.7
+          "prob_pct": 22.3
         }
       ],
       "context": null,
@@ -523,114 +615,86 @@
       "pick": "UNLV Rebels ML",
       "selection": "UNLV Rebels",
       "point": null,
-      "prob": 0.7629,
-      "prob_pct": 76.3,
-      "confidence": 0.43,
+      "prob": 0.7603,
+      "prob_pct": 76.0,
+      "confidence": 0.44,
       "model_prob_pct": 62.1,
-      "market_prob_pct": 95.8,
-      "fair_price_american": -322,
+      "market_prob_pct": 94.3,
+      "fair_price_american": -317,
       "outcomes": [
         {
           "label": "UNLV Rebels ML",
-          "prob_pct": 76.3
+          "prob_pct": 76.0
         },
         {
           "label": "Northern Illinois Huskies ML",
-          "prob_pct": 23.7
+          "prob_pct": 24.0
         }
       ],
       "context": null,
       "rationale": "UNLV Rebels is the 76% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "c8abddd6d4a9c96f45dcdd287f392537",
+      "game_id": "5c712e15e1cd4b9283b4bf410fb334f4",
       "sport_key": "icehockey_nhl",
       "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Anaheim Ducks",
-      "away_team": "Buffalo Sabres",
+      "commence_time": "2026-10-30T22:08:51Z",
+      "home_team": "Vegas Golden Knights",
+      "away_team": "New Jersey Devils",
+      "market": "totals",
+      "pick": "Under 8.5",
+      "selection": "Under",
+      "point": 8.5,
+      "prob": 0.7551,
+      "prob_pct": 75.5,
+      "confidence": 0.09,
+      "model_prob_pct": 83.5,
+      "market_prob_pct": 53.4,
+      "fair_price_american": -308,
+      "outcomes": [
+        {
+          "label": "Under 8.5",
+          "prob_pct": 75.5
+        },
+        {
+          "label": "Over 8.5",
+          "prob_pct": 24.5
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "Expected ~6.3 combined points; Under 8.5 is the 76% call \u2014 a clear call. ESPN: game is End of Period."
+    },
+    {
+      "game_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "San Jose Sharks",
+      "away_team": "Ottawa Senators",
       "market": "spreads",
-      "pick": "Anaheim Ducks +1.5",
-      "selection": "Anaheim Ducks",
+      "pick": "San Jose Sharks +1.5",
+      "selection": "San Jose Sharks",
       "point": 1.5,
-      "prob": 0.7623,
-      "prob_pct": 76.2,
-      "confidence": 0.45,
-      "model_prob_pct": 85.1,
-      "market_prob_pct": 65.1,
-      "fair_price_american": -321,
+      "prob": 0.7526,
+      "prob_pct": 75.3,
+      "confidence": 0.44,
+      "model_prob_pct": 81.4,
+      "market_prob_pct": 67.0,
+      "fair_price_american": -304,
       "outcomes": [
         {
-          "label": "Anaheim Ducks +1.5",
-          "prob_pct": 76.2
+          "label": "San Jose Sharks +1.5",
+          "prob_pct": 75.3
         },
         {
-          "label": "Buffalo Sabres -1.5",
-          "prob_pct": 23.8
+          "label": "Ottawa Senators -1.5",
+          "prob_pct": 24.7
         }
       ],
       "context": null,
-      "rationale": "Expected ~0.8-point margin; Anaheim Ducks +1.5 is the 76% side to cover \u2014 a clear call."
-    },
-    {
-      "game_id": "7fd2d018fdc5930fd62188de968a901c",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T20:15:00Z",
-      "home_team": "Penn State Nittany Lions",
-      "away_team": "Purdue Boilermakers",
-      "market": "h2h",
-      "pick": "Penn State Nittany Lions ML",
-      "selection": "Penn State Nittany Lions",
-      "point": null,
-      "prob": 0.7614,
-      "prob_pct": 76.1,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 76.1,
-      "fair_price_american": -319,
-      "outcomes": [
-        {
-          "label": "Penn State Nittany Lions ML",
-          "prob_pct": 76.1
-        },
-        {
-          "label": "Purdue Boilermakers ML",
-          "prob_pct": 23.9
-        }
-      ],
-      "context": null,
-      "rationale": "Penn State Nittany Lions is the 76% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:00:00Z",
-      "home_team": "Charlotte 49ers",
-      "away_team": "Tulane Green Wave",
-      "market": "h2h",
-      "pick": "Tulane Green Wave ML",
-      "selection": "Tulane Green Wave",
-      "point": null,
-      "prob": 0.76,
-      "prob_pct": 76.0,
-      "confidence": 0.6,
-      "model_prob_pct": null,
-      "market_prob_pct": 76.0,
-      "fair_price_american": -317,
-      "outcomes": [
-        {
-          "label": "Tulane Green Wave ML",
-          "prob_pct": 76.0
-        },
-        {
-          "label": "Charlotte 49ers ML",
-          "prob_pct": 24.0
-        }
-      ],
-      "context": null,
-      "rationale": "Tulane Green Wave is the 76% pick to win \u2014 a clear call."
+      "rationale": "Expected ~0.5-point margin; San Jose Sharks +1.5 is the 75% side to cover \u2014 a clear call."
     },
     {
       "game_id": "d961840cf470389306fa79cf82f5d46c",
@@ -643,116 +707,26 @@
       "pick": "High Point Panthers ML",
       "selection": "High Point Panthers",
       "point": null,
-      "prob": 0.7548,
-      "prob_pct": 75.5,
+      "prob": 0.7515,
+      "prob_pct": 75.1,
       "confidence": 0.58,
       "model_prob_pct": null,
-      "market_prob_pct": 75.5,
-      "fair_price_american": -308,
+      "market_prob_pct": 75.1,
+      "fair_price_american": -302,
       "outcomes": [
         {
           "label": "High Point Panthers ML",
-          "prob_pct": 75.5
+          "prob_pct": 75.1
         },
         {
           "label": "Liberty Flames ML",
-          "prob_pct": 24.5
+          "prob_pct": 24.9
         }
       ],
       "context": {
         "notes": "ESPN: Field of 68 Opening Day Marathon."
       },
       "rationale": "High Point Panthers is the 75% pick to win \u2014 a clear call. ESPN: Field of 68 Opening Day Marathon."
-    },
-    {
-      "game_id": "ed751626a7b1f47888222319fec01199",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Los Angeles Kings",
-      "away_team": "Ottawa Senators",
-      "market": "spreads",
-      "pick": "Los Angeles Kings +1.5",
-      "selection": "Los Angeles Kings",
-      "point": 1.5,
-      "prob": 0.7534,
-      "prob_pct": 75.3,
-      "confidence": 0.56,
-      "model_prob_pct": 79.1,
-      "market_prob_pct": 70.2,
-      "fair_price_american": -305,
-      "outcomes": [
-        {
-          "label": "Los Angeles Kings +1.5",
-          "prob_pct": 75.3
-        },
-        {
-          "label": "Ottawa Senators -1.5",
-          "prob_pct": 24.7
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~0.3-point margin; Los Angeles Kings +1.5 is the 75% side to cover \u2014 a clear call."
-    },
-    {
-      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T02:30:00Z",
-      "home_team": "Sacramento State Hornets",
-      "away_team": "Kent State Golden Flashes",
-      "market": "h2h",
-      "pick": "Kent State Golden Flashes ML",
-      "selection": "Kent State Golden Flashes",
-      "point": null,
-      "prob": 0.7502,
-      "prob_pct": 75.0,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 75.0,
-      "fair_price_american": -300,
-      "outcomes": [
-        {
-          "label": "Kent State Golden Flashes ML",
-          "prob_pct": 75.0
-        },
-        {
-          "label": "Sacramento State Hornets ML",
-          "prob_pct": 25.0
-        }
-      ],
-      "context": null,
-      "rationale": "Kent State Golden Flashes is the 75% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "South Florida Bulls",
-      "away_team": "UAB Blazers",
-      "market": "h2h",
-      "pick": "South Florida Bulls ML",
-      "selection": "South Florida Bulls",
-      "point": null,
-      "prob": 0.7441,
-      "prob_pct": 74.4,
-      "confidence": 0.62,
-      "model_prob_pct": null,
-      "market_prob_pct": 74.4,
-      "fair_price_american": -291,
-      "outcomes": [
-        {
-          "label": "South Florida Bulls ML",
-          "prob_pct": 74.4
-        },
-        {
-          "label": "UAB Blazers ML",
-          "prob_pct": 25.6
-        }
-      ],
-      "context": null,
-      "rationale": "South Florida Bulls is the 74% pick to win \u2014 a clear call."
     },
     {
       "game_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
@@ -765,54 +739,24 @@
       "pick": "Cincinnati Bengals ML",
       "selection": "Cincinnati Bengals",
       "point": null,
-      "prob": 0.7441,
-      "prob_pct": 74.4,
+      "prob": 0.751,
+      "prob_pct": 75.1,
       "confidence": 0.44,
       "model_prob_pct": 66.3,
-      "market_prob_pct": 85.5,
-      "fair_price_american": -291,
+      "market_prob_pct": 86.7,
+      "fair_price_american": -302,
       "outcomes": [
         {
           "label": "Cincinnati Bengals ML",
-          "prob_pct": 74.4
+          "prob_pct": 75.1
         },
         {
           "label": "Tennessee Titans ML",
-          "prob_pct": 25.6
+          "prob_pct": 24.9
         }
       ],
       "context": null,
-      "rationale": "Cincinnati Bengals is the 74% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "b8f3c483149e46a5f7c24ea941be8649",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-29T23:10:00Z",
-      "home_team": "Pittsburgh Penguins",
-      "away_team": "Utah Mammoth",
-      "market": "spreads",
-      "pick": "Pittsburgh Penguins +1.5",
-      "selection": "Pittsburgh Penguins",
-      "point": 1.5,
-      "prob": 0.7428,
-      "prob_pct": 74.3,
-      "confidence": 0.44,
-      "model_prob_pct": 80.7,
-      "market_prob_pct": 65.9,
-      "fair_price_american": -289,
-      "outcomes": [
-        {
-          "label": "Pittsburgh Penguins +1.5",
-          "prob_pct": 74.3
-        },
-        {
-          "label": "Utah Mammoth -1.5",
-          "prob_pct": 25.7
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~0.4-point margin; Pittsburgh Penguins +1.5 is the 74% side to cover \u2014 a clear call."
+      "rationale": "Cincinnati Bengals is the 75% pick to win \u2014 a clear call."
     },
     {
       "game_id": "5bee3fb00be225402b2d2d7842398207",
@@ -825,116 +769,150 @@
       "pick": "Villanova Wildcats ML",
       "selection": "Villanova Wildcats",
       "point": null,
-      "prob": 0.7418,
-      "prob_pct": 74.2,
-      "confidence": 0.57,
+      "prob": 0.7464,
+      "prob_pct": 74.6,
+      "confidence": 0.58,
       "model_prob_pct": null,
-      "market_prob_pct": 74.2,
-      "fair_price_american": -287,
+      "market_prob_pct": 74.6,
+      "fair_price_american": -294,
       "outcomes": [
         {
           "label": "Villanova Wildcats ML",
-          "prob_pct": 74.2
+          "prob_pct": 74.6
         },
         {
           "label": "Notre Dame Fighting Irish ML",
-          "prob_pct": 25.8
+          "prob_pct": 25.4
         }
       ],
       "context": {
         "notes": "ESPN: Eternal City Tip-Off."
       },
-      "rationale": "Villanova Wildcats is the 74% pick to win \u2014 a clear call. ESPN: Eternal City Tip-Off."
+      "rationale": "Villanova Wildcats is the 75% pick to win \u2014 a clear call. ESPN: Eternal City Tip-Off."
     },
     {
-      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T23:30:00Z",
-      "home_team": "Pittsburgh Panthers",
-      "away_team": "Georgia Tech Yellow Jackets",
+      "game_id": "c3a424e24d426af94a693e06a33e3037",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Miami Heat",
+      "away_team": "Indiana Pacers",
       "market": "h2h",
-      "pick": "Pittsburgh Panthers ML",
-      "selection": "Pittsburgh Panthers",
+      "pick": "Miami Heat ML",
+      "selection": "Miami Heat",
       "point": null,
-      "prob": 0.7417,
-      "prob_pct": 74.2,
-      "confidence": 0.62,
+      "prob": 0.7461,
+      "prob_pct": 74.6,
+      "confidence": 0.46,
       "model_prob_pct": null,
-      "market_prob_pct": 74.2,
-      "fair_price_american": -287,
+      "market_prob_pct": 74.6,
+      "fair_price_american": -294,
       "outcomes": [
         {
-          "label": "Pittsburgh Panthers ML",
-          "prob_pct": 74.2
+          "label": "Miami Heat ML",
+          "prob_pct": 74.6
         },
         {
-          "label": "Georgia Tech Yellow Jackets ML",
-          "prob_pct": 25.8
+          "label": "Indiana Pacers ML",
+          "prob_pct": 25.4
+        }
+      ],
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Miami Heat is the 75% pick to win \u2014 a clear call. ESPN: NBA Cup - Group Play."
+    },
+    {
+      "game_id": "aa15904c0f5814a899ddbe002c96406a",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "NC State Wolfpack",
+      "away_team": "California Golden Bears",
+      "market": "h2h",
+      "pick": "NC State Wolfpack ML",
+      "selection": "NC State Wolfpack",
+      "point": null,
+      "prob": 0.7448,
+      "prob_pct": 74.5,
+      "confidence": 0.62,
+      "model_prob_pct": null,
+      "market_prob_pct": 74.5,
+      "fair_price_american": -292,
+      "outcomes": [
+        {
+          "label": "NC State Wolfpack ML",
+          "prob_pct": 74.5
+        },
+        {
+          "label": "California Golden Bears ML",
+          "prob_pct": 25.5
         }
       ],
       "context": null,
-      "rationale": "Pittsburgh Panthers is the 74% pick to win \u2014 a clear call."
+      "rationale": "NC State Wolfpack is the 74% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "877d5834acad37b6142a835438c23001",
+      "game_id": "b9778d0e3a26167eb49901dcae7eeb98",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Dallas Mavericks",
+      "away_team": "Houston Rockets",
+      "market": "totals",
+      "pick": "Over 224",
+      "selection": "Over",
+      "point": 224.0,
+      "prob": 0.7419,
+      "prob_pct": 74.2,
+      "confidence": 0.31,
+      "model_prob_pct": 90.6,
+      "market_prob_pct": 50.0,
+      "fair_price_american": -287,
+      "outcomes": [
+        {
+          "label": "Over 224",
+          "prob_pct": 74.2
+        },
+        {
+          "label": "Under 224",
+          "prob_pct": 25.8
+        }
+      ],
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Expected ~245.7 combined points; Over 224 is the 74% call \u2014 a clear call. ESPN: NBA Cup - Group Play."
+    },
+    {
+      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T00:00:00Z",
-      "home_team": "Nebraska Cornhuskers",
-      "away_team": "Washington Huskies",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "South Florida Bulls",
+      "away_team": "UAB Blazers",
       "market": "h2h",
-      "pick": "Nebraska Cornhuskers ML",
-      "selection": "Nebraska Cornhuskers",
+      "pick": "South Florida Bulls ML",
+      "selection": "South Florida Bulls",
       "point": null,
-      "prob": 0.741,
+      "prob": 0.7414,
       "prob_pct": 74.1,
       "confidence": 0.62,
       "model_prob_pct": null,
       "market_prob_pct": 74.1,
-      "fair_price_american": -286,
+      "fair_price_american": -287,
       "outcomes": [
         {
-          "label": "Nebraska Cornhuskers ML",
+          "label": "South Florida Bulls ML",
           "prob_pct": 74.1
         },
         {
-          "label": "Washington Huskies ML",
+          "label": "UAB Blazers ML",
           "prob_pct": 25.9
         }
       ],
       "context": null,
-      "rationale": "Nebraska Cornhuskers is the 74% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "44ee19d31b9288ad402868d6df737595",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:30:00Z",
-      "home_team": "UCF Knights",
-      "away_team": "Baylor Bears",
-      "market": "totals",
-      "pick": "Over 48.5",
-      "selection": "Over",
-      "point": 48.5,
-      "prob": 0.7408,
-      "prob_pct": 74.1,
-      "confidence": 0.41,
-      "model_prob_pct": 90.2,
-      "market_prob_pct": 48.8,
-      "fair_price_american": -286,
-      "outcomes": [
-        {
-          "label": "Over 48.5",
-          "prob_pct": 74.1
-        },
-        {
-          "label": "Under 48.5",
-          "prob_pct": 25.9
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~62.8 combined points; Over 48.5 is the 74% call \u2014 a clear call."
+      "rationale": "South Florida Bulls is the 74% pick to win \u2014 a clear call."
     },
     {
       "game_id": "e2ffa742b36678caf388ca70fdd4878c",
@@ -947,24 +925,54 @@
       "pick": "Texas Longhorns ML",
       "selection": "Texas Longhorns",
       "point": null,
-      "prob": 0.7383,
-      "prob_pct": 73.8,
+      "prob": 0.7401,
+      "prob_pct": 74.0,
       "confidence": 0.44,
       "model_prob_pct": 59.9,
-      "market_prob_pct": 92.2,
-      "fair_price_american": -282,
+      "market_prob_pct": 92.6,
+      "fair_price_american": -285,
       "outcomes": [
         {
           "label": "Texas Longhorns ML",
-          "prob_pct": 73.8
+          "prob_pct": 74.0
         },
         {
           "label": "Mississippi State Bulldogs ML",
-          "prob_pct": 26.2
+          "prob_pct": 26.0
         }
       ],
       "context": null,
       "rationale": "Texas Longhorns is the 74% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home_team": "Pittsburgh Panthers",
+      "away_team": "Georgia Tech Yellow Jackets",
+      "market": "h2h",
+      "pick": "Pittsburgh Panthers ML",
+      "selection": "Pittsburgh Panthers",
+      "point": null,
+      "prob": 0.74,
+      "prob_pct": 74.0,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 74.0,
+      "fair_price_american": -285,
+      "outcomes": [
+        {
+          "label": "Pittsburgh Panthers ML",
+          "prob_pct": 74.0
+        },
+        {
+          "label": "Georgia Tech Yellow Jackets ML",
+          "prob_pct": 26.0
+        }
+      ],
+      "context": null,
+      "rationale": "Pittsburgh Panthers is the 74% pick to win \u2014 a clear call."
     },
     {
       "game_id": "026d37181dd4ace0df7565d9b208ce7e",
@@ -977,54 +985,54 @@
       "pick": "Calgary Flames +1.5",
       "selection": "Calgary Flames",
       "point": 1.5,
-      "prob": 0.7361,
-      "prob_pct": 73.6,
-      "confidence": 0.66,
+      "prob": 0.7376,
+      "prob_pct": 73.8,
+      "confidence": 0.48,
       "model_prob_pct": 76.3,
-      "market_prob_pct": 70.0,
-      "fair_price_american": -279,
+      "market_prob_pct": 70.3,
+      "fair_price_american": -281,
       "outcomes": [
         {
           "label": "Calgary Flames +1.5",
-          "prob_pct": 73.6
+          "prob_pct": 73.8
         },
         {
           "label": "Seattle Kraken -1.5",
-          "prob_pct": 26.4
+          "prob_pct": 26.2
         }
       ],
       "context": null,
       "rationale": "Expected ~0.1-point margin; Calgary Flames +1.5 is the 74% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "1d5b8007f5249010b9c501138e25ac74",
+      "game_id": "877d5834acad37b6142a835438c23001",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T02:30:00Z",
-      "home_team": "UNLV Rebels",
-      "away_team": "Northern Illinois Huskies",
-      "market": "spreads",
-      "pick": "Northern Illinois Huskies +24.5",
-      "selection": "Northern Illinois Huskies",
-      "point": 24.5,
-      "prob": 0.7361,
-      "prob_pct": 73.6,
-      "confidence": 0.42,
-      "model_prob_pct": 88.9,
-      "market_prob_pct": 51.4,
-      "fair_price_american": -279,
+      "commence_time": "2026-11-01T00:00:00Z",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "Washington Huskies",
+      "market": "h2h",
+      "pick": "Nebraska Cornhuskers ML",
+      "selection": "Nebraska Cornhuskers",
+      "point": null,
+      "prob": 0.7368,
+      "prob_pct": 73.7,
+      "confidence": 0.62,
+      "model_prob_pct": null,
+      "market_prob_pct": 73.7,
+      "fair_price_american": -280,
       "outcomes": [
         {
-          "label": "Northern Illinois Huskies +24.5",
-          "prob_pct": 73.6
+          "label": "Nebraska Cornhuskers ML",
+          "prob_pct": 73.7
         },
         {
-          "label": "UNLV Rebels -24.5",
-          "prob_pct": 26.4
+          "label": "Washington Huskies ML",
+          "prob_pct": 26.3
         }
       ],
       "context": null,
-      "rationale": "Expected ~4.9-point margin; Northern Illinois Huskies +24.5 is the 74% side to cover \u2014 a clear call."
+      "rationale": "Nebraska Cornhuskers is the 74% pick to win \u2014 a clear call."
     },
     {
       "game_id": "2c3f80e228a486e04f6f7a38e4f00fb4",
@@ -1057,6 +1065,36 @@
       "rationale": "Michigan Wolverines is the 73% pick to win \u2014 a clear call."
     },
     {
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-11-08T21:05:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Las Vegas Raiders",
+      "market": "h2h",
+      "pick": "San Francisco 49ers ML",
+      "selection": "San Francisco 49ers",
+      "point": null,
+      "prob": 0.7318,
+      "prob_pct": 73.2,
+      "confidence": 0.44,
+      "model_prob_pct": 64.8,
+      "market_prob_pct": 84.5,
+      "fair_price_american": -273,
+      "outcomes": [
+        {
+          "label": "San Francisco 49ers ML",
+          "prob_pct": 73.2
+        },
+        {
+          "label": "Las Vegas Raiders ML",
+          "prob_pct": 26.8
+        }
+      ],
+      "context": null,
+      "rationale": "San Francisco 49ers is the 73% pick to win \u2014 a clear call."
+    },
+    {
       "game_id": "e354e6a04b1cb9c96e549b863debb92e",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
@@ -1085,36 +1123,6 @@
       ],
       "context": null,
       "rationale": "Kansas City Chiefs is the 73% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "Memphis Grizzlies",
-      "market": "h2h",
-      "pick": "Portland Trail Blazers ML",
-      "selection": "Portland Trail Blazers",
-      "point": null,
-      "prob": 0.7279,
-      "prob_pct": 72.8,
-      "confidence": 0.62,
-      "model_prob_pct": null,
-      "market_prob_pct": 72.8,
-      "fair_price_american": -268,
-      "outcomes": [
-        {
-          "label": "Portland Trail Blazers ML",
-          "prob_pct": 72.8
-        },
-        {
-          "label": "Memphis Grizzlies ML",
-          "prob_pct": 27.2
-        }
-      ],
-      "context": null,
-      "rationale": "Portland Trail Blazers is the 73% pick to win \u2014 a clear call."
     },
     {
       "game_id": "240e23b02b1e3fef655d04a286b5a623",
@@ -1147,34 +1155,36 @@
       "rationale": "Seattle Seahawks is the 73% pick to win \u2014 a clear call."
     },
     {
-      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
-      "sport_key": "americanfootball_nfl",
-      "sport_title": "NFL",
-      "commence_time": "2026-11-08T21:05:00Z",
-      "home_team": "San Francisco 49ers",
-      "away_team": "Las Vegas Raiders",
+      "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-30T23:41:10Z",
+      "home_team": "Brooklyn Nets",
+      "away_team": "Detroit Pistons",
       "market": "h2h",
-      "pick": "San Francisco 49ers ML",
-      "selection": "San Francisco 49ers",
+      "pick": "Detroit Pistons ML",
+      "selection": "Detroit Pistons",
       "point": null,
-      "prob": 0.7267,
+      "prob": 0.7273,
       "prob_pct": 72.7,
-      "confidence": 0.44,
-      "model_prob_pct": 64.8,
-      "market_prob_pct": 83.5,
-      "fair_price_american": -266,
+      "confidence": 0.17,
+      "model_prob_pct": null,
+      "market_prob_pct": 72.7,
+      "fair_price_american": -267,
       "outcomes": [
         {
-          "label": "San Francisco 49ers ML",
+          "label": "Detroit Pistons ML",
           "prob_pct": 72.7
         },
         {
-          "label": "Las Vegas Raiders ML",
+          "label": "Brooklyn Nets ML",
           "prob_pct": 27.3
         }
       ],
-      "context": null,
-      "rationale": "San Francisco 49ers is the 73% pick to win \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Detroit Pistons is the 73% pick to win \u2014 a clear call. ESPN: game is In Progress."
     },
     {
       "game_id": "a6555e8b7252dfb32f1817fc8c59ad83",
@@ -1203,8 +1213,72 @@
           "prob_pct": 27.3
         }
       ],
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Expected ~209.9 combined points; Under 228.5 is the 73% call \u2014 a clear call. ESPN: game is In Progress."
+    },
+    {
+      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-30T23:41:10Z",
+      "home_team": "Boston Celtics",
+      "away_team": "Chicago Bulls",
+      "market": "spreads",
+      "pick": "Chicago Bulls +14",
+      "selection": "Chicago Bulls",
+      "point": 14.0,
+      "prob": 0.7241,
+      "prob_pct": 72.4,
+      "confidence": 0.11,
+      "model_prob_pct": 84.7,
+      "market_prob_pct": 49.9,
+      "fair_price_american": -262,
+      "outcomes": [
+        {
+          "label": "Chicago Bulls +14",
+          "prob_pct": 72.4
+        },
+        {
+          "label": "Boston Celtics -15.5",
+          "prob_pct": 27.6
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Expected ~3.2-point margin; Chicago Bulls +14 is the 72% side to cover \u2014 a clear call. ESPN: game is In Progress."
+    },
+    {
+      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T02:30:00Z",
+      "home_team": "Sacramento State Hornets",
+      "away_team": "Kent State Golden Flashes",
+      "market": "h2h",
+      "pick": "Kent State Golden Flashes ML",
+      "selection": "Kent State Golden Flashes",
+      "point": null,
+      "prob": 0.7238,
+      "prob_pct": 72.4,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 72.4,
+      "fair_price_american": -262,
+      "outcomes": [
+        {
+          "label": "Kent State Golden Flashes ML",
+          "prob_pct": 72.4
+        },
+        {
+          "label": "Sacramento State Hornets ML",
+          "prob_pct": 27.6
+        }
+      ],
       "context": null,
-      "rationale": "Expected ~209.9 combined points; Under 228.5 is the 73% call \u2014 a clear call."
+      "rationale": "Kent State Golden Flashes is the 72% pick to win \u2014 a clear call."
     },
     {
       "game_id": "c2784b24d84fa71e7368fd775914c37d",
@@ -1237,94 +1311,66 @@
       "rationale": "Expected ~57.9 combined points; Over 45.5 is the 72% call \u2014 a clear call."
     },
     {
-      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
+      "game_id": "7da8a99a4ae4ef2ec08b3e4fa37c2485",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T18:10:00Z",
+      "home_team": "New York Islanders",
+      "away_team": "Edmonton Oilers",
       "market": "spreads",
-      "pick": "Chicago Bulls +16.5",
-      "selection": "Chicago Bulls",
-      "point": 16.5,
-      "prob": 0.7234,
-      "prob_pct": 72.3,
-      "confidence": 0.43,
-      "model_prob_pct": 86.6,
-      "market_prob_pct": 52.0,
-      "fair_price_american": -262,
-      "outcomes": [
-        {
-          "label": "Chicago Bulls +16.5",
-          "prob_pct": 72.3
-        },
-        {
-          "label": "Boston Celtics -16.5",
-          "prob_pct": 27.7
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~3.2-point margin; Chicago Bulls +16.5 is the 72% side to cover \u2014 a clear call."
-    },
-    {
-      "game_id": "b9778d0e3a26167eb49901dcae7eeb98",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Dallas Mavericks",
-      "away_team": "Houston Rockets",
-      "market": "totals",
-      "pick": "Over 227.5",
-      "selection": "Over",
-      "point": 227.5,
-      "prob": 0.7223,
+      "pick": "New York Islanders +1.5",
+      "selection": "New York Islanders",
+      "point": 1.5,
+      "prob": 0.7217,
       "prob_pct": 72.2,
-      "confidence": 0.41,
-      "model_prob_pct": 86.5,
-      "market_prob_pct": 49.9,
-      "fair_price_american": -260,
+      "confidence": 0.57,
+      "model_prob_pct": 75.8,
+      "market_prob_pct": 67.2,
+      "fair_price_american": -259,
       "outcomes": [
         {
-          "label": "Over 227.5",
+          "label": "New York Islanders +1.5",
           "prob_pct": 72.2
         },
         {
-          "label": "Under 227.5",
+          "label": "Edmonton Oilers -1.5",
           "prob_pct": 27.8
         }
       ],
       "context": null,
-      "rationale": "Expected ~245.7 combined points; Over 227.5 is the 72% call \u2014 a clear call."
+      "rationale": "Expected ~0.0-point margin; New York Islanders +1.5 is the 72% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
-      "market": "h2h",
-      "pick": "Boston Celtics ML",
-      "selection": "Boston Celtics",
-      "point": null,
-      "prob": 0.7212,
-      "prob_pct": 72.1,
-      "confidence": 0.43,
-      "model_prob_pct": 60.6,
-      "market_prob_pct": 88.6,
-      "fair_price_american": -259,
+      "game_id": "a536736a6da269d2e10edbdb27a789bd",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-30T23:08:08Z",
+      "home_team": "Florida Panthers",
+      "away_team": "Winnipeg Jets",
+      "market": "spreads",
+      "pick": "Winnipeg Jets +1.5",
+      "selection": "Winnipeg Jets",
+      "point": 1.5,
+      "prob": 0.7196,
+      "prob_pct": 72.0,
+      "confidence": 0.1,
+      "model_prob_pct": 80.0,
+      "market_prob_pct": 51.4,
+      "fair_price_american": -257,
       "outcomes": [
         {
-          "label": "Boston Celtics ML",
-          "prob_pct": 72.1
+          "label": "Winnipeg Jets +1.5",
+          "prob_pct": 72.0
         },
         {
-          "label": "Chicago Bulls ML",
-          "prob_pct": 27.9
+          "label": "Florida Panthers -2.5",
+          "prob_pct": 28.0
         }
       ],
-      "context": null,
-      "rationale": "Boston Celtics is the 72% pick to win \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "Expected ~0.6-point margin; Winnipeg Jets +1.5 is the 72% side to cover \u2014 a clear call. ESPN: game is End of Period."
     },
     {
       "game_id": "11da04c7d3fba48caf11a5d8b66b8ccd",
@@ -1357,6 +1403,36 @@
       "rationale": "SMU Mustangs is the 72% pick to win \u2014 a clear call."
     },
     {
+      "game_id": "9c33dd628312f89764392414cbc99c86",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Utah State Aggies",
+      "away_team": "Colorado State Rams",
+      "market": "h2h",
+      "pick": "Utah State Aggies ML",
+      "selection": "Utah State Aggies",
+      "point": null,
+      "prob": 0.7173,
+      "prob_pct": 71.7,
+      "confidence": 0.62,
+      "model_prob_pct": null,
+      "market_prob_pct": 71.7,
+      "fair_price_american": -254,
+      "outcomes": [
+        {
+          "label": "Utah State Aggies ML",
+          "prob_pct": 71.7
+        },
+        {
+          "label": "Colorado State Rams ML",
+          "prob_pct": 28.3
+        }
+      ],
+      "context": null,
+      "rationale": "Utah State Aggies is the 72% pick to win \u2014 a clear call."
+    },
+    {
       "game_id": "c2784b24d84fa71e7368fd775914c37d",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -1387,6 +1463,36 @@
       "rationale": "Ohio State Buckeyes is the 72% pick to win \u2014 a clear call."
     },
     {
+      "game_id": "8480c989381049fc30c8d714be95db35",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home_team": "Cincinnati Bearcats",
+      "away_team": "Utah Utes",
+      "market": "h2h",
+      "pick": "Utah Utes ML",
+      "selection": "Utah Utes",
+      "point": null,
+      "prob": 0.715,
+      "prob_pct": 71.5,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 71.5,
+      "fair_price_american": -251,
+      "outcomes": [
+        {
+          "label": "Utah Utes ML",
+          "prob_pct": 71.5
+        },
+        {
+          "label": "Cincinnati Bearcats ML",
+          "prob_pct": 28.5
+        }
+      ],
+      "context": null,
+      "rationale": "Utah Utes is the 71% pick to win \u2014 a clear call."
+    },
+    {
       "game_id": "dea96094c29a9f24d7dc07a5d848afd7",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
@@ -1394,87 +1500,89 @@
       "home_team": "Rutgers Scarlet Knights",
       "away_team": "Michigan Wolverines",
       "market": "spreads",
-      "pick": "Rutgers Scarlet Knights +16",
+      "pick": "Rutgers Scarlet Knights +16.5",
       "selection": "Rutgers Scarlet Knights",
-      "point": 16.0,
-      "prob": 0.7144,
-      "prob_pct": 71.4,
-      "confidence": 0.41,
-      "model_prob_pct": 85.5,
-      "market_prob_pct": 50.0,
-      "fair_price_american": -250,
+      "point": 16.5,
+      "prob": 0.7147,
+      "prob_pct": 71.5,
+      "confidence": 0.42,
+      "model_prob_pct": 86.2,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -251,
       "outcomes": [
         {
-          "label": "Rutgers Scarlet Knights +16",
-          "prob_pct": 71.4
+          "label": "Rutgers Scarlet Knights +16.5",
+          "prob_pct": 71.5
         },
         {
-          "label": "Michigan Wolverines -16",
-          "prob_pct": 28.6
+          "label": "Michigan Wolverines -16.5",
+          "prob_pct": 28.5
         }
       ],
       "context": null,
-      "rationale": "Expected ~0.9-point margin; Rutgers Scarlet Knights +16 is the 71% side to cover \u2014 a clear call."
+      "rationale": "Expected ~0.9-point margin; Rutgers Scarlet Knights +16.5 is the 71% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "807f73b612ed07bda8d1835550ddbd43",
+      "game_id": "1d5b8007f5249010b9c501138e25ac74",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Duke Blue Devils",
-      "away_team": "Boston College Eagles",
-      "market": "h2h",
-      "pick": "Duke Blue Devils ML",
-      "selection": "Duke Blue Devils",
-      "point": null,
-      "prob": 0.7136,
-      "prob_pct": 71.4,
-      "confidence": 0.61,
-      "model_prob_pct": null,
-      "market_prob_pct": 71.4,
-      "fair_price_american": -249,
+      "commence_time": "2026-11-01T02:30:00Z",
+      "home_team": "UNLV Rebels",
+      "away_team": "Northern Illinois Huskies",
+      "market": "spreads",
+      "pick": "Northern Illinois Huskies +23",
+      "selection": "Northern Illinois Huskies",
+      "point": 23.0,
+      "prob": 0.7116,
+      "prob_pct": 71.2,
+      "confidence": 0.42,
+      "model_prob_pct": 85.7,
+      "market_prob_pct": 49.8,
+      "fair_price_american": -247,
       "outcomes": [
         {
-          "label": "Duke Blue Devils ML",
-          "prob_pct": 71.4
+          "label": "Northern Illinois Huskies +23",
+          "prob_pct": 71.2
         },
         {
-          "label": "Boston College Eagles ML",
-          "prob_pct": 28.6
+          "label": "UNLV Rebels -22",
+          "prob_pct": 28.8
         }
       ],
       "context": null,
-      "rationale": "Duke Blue Devils is the 71% pick to win \u2014 a clear call."
+      "rationale": "Expected ~4.9-point margin; Northern Illinois Huskies +23 is the 71% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
+      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
       "sport_key": "basketball_nba",
       "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Detroit Pistons",
+      "commence_time": "2026-10-30T23:41:10Z",
+      "home_team": "Boston Celtics",
+      "away_team": "Chicago Bulls",
       "market": "h2h",
-      "pick": "Detroit Pistons ML",
-      "selection": "Detroit Pistons",
+      "pick": "Boston Celtics ML",
+      "selection": "Boston Celtics",
       "point": null,
-      "prob": 0.7112,
+      "prob": 0.7114,
       "prob_pct": 71.1,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 71.1,
-      "fair_price_american": -246,
+      "confidence": 0.12,
+      "model_prob_pct": 60.6,
+      "market_prob_pct": 88.2,
+      "fair_price_american": -247,
       "outcomes": [
         {
-          "label": "Detroit Pistons ML",
+          "label": "Boston Celtics ML",
           "prob_pct": 71.1
         },
         {
-          "label": "Brooklyn Nets ML",
+          "label": "Chicago Bulls ML",
           "prob_pct": 28.9
         }
       ],
-      "context": null,
-      "rationale": "Detroit Pistons is the 71% pick to win \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Boston Celtics is the 71% pick to win \u2014 a clear call. ESPN: game is In Progress."
     },
     {
       "game_id": "159dbf0253dd2038eda2212f84387f0c",
@@ -1487,24 +1595,54 @@
       "pick": "Jacksonville Jaguars ML",
       "selection": "Jacksonville Jaguars",
       "point": null,
-      "prob": 0.7102,
-      "prob_pct": 71.0,
+      "prob": 0.7106,
+      "prob_pct": 71.1,
       "confidence": 0.44,
       "model_prob_pct": 63.0,
-      "market_prob_pct": 81.8,
-      "fair_price_american": -245,
+      "market_prob_pct": 81.6,
+      "fair_price_american": -246,
       "outcomes": [
         {
           "label": "Jacksonville Jaguars ML",
-          "prob_pct": 71.0
+          "prob_pct": 71.1
         },
         {
           "label": "Indianapolis Colts ML",
-          "prob_pct": 29.0
+          "prob_pct": 28.9
         }
       ],
       "context": null,
       "rationale": "Jacksonville Jaguars is the 71% pick to win \u2014 a clear call."
+    },
+    {
+      "game_id": "807f73b612ed07bda8d1835550ddbd43",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Duke Blue Devils",
+      "away_team": "Boston College Eagles",
+      "market": "h2h",
+      "pick": "Duke Blue Devils ML",
+      "selection": "Duke Blue Devils",
+      "point": null,
+      "prob": 0.7097,
+      "prob_pct": 71.0,
+      "confidence": 0.61,
+      "model_prob_pct": null,
+      "market_prob_pct": 71.0,
+      "fair_price_american": -244,
+      "outcomes": [
+        {
+          "label": "Duke Blue Devils ML",
+          "prob_pct": 71.0
+        },
+        {
+          "label": "Boston College Eagles ML",
+          "prob_pct": 29.0
+        }
+      ],
+      "context": null,
+      "rationale": "Duke Blue Devils is the 71% pick to win \u2014 a clear call."
     },
     {
       "game_id": "e2ffa742b36678caf388ca70fdd4878c",
@@ -1517,7 +1655,7 @@
       "pick": "Mississippi State Bulldogs +20.5",
       "selection": "Mississippi State Bulldogs",
       "point": 20.5,
-      "prob": 0.7073,
+      "prob": 0.7074,
       "prob_pct": 70.7,
       "confidence": 0.43,
       "model_prob_pct": 84.9,
@@ -1537,94 +1675,68 @@
       "rationale": "Expected ~4.0-point margin; Mississippi State Bulldogs +20.5 is the 71% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "cac1461f5983a88fac612685395aa897",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Los Angeles Clippers",
+      "game_id": "a536736a6da269d2e10edbdb27a789bd",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-30T23:08:08Z",
+      "home_team": "Florida Panthers",
+      "away_team": "Winnipeg Jets",
       "market": "h2h",
-      "pick": "Minnesota Timberwolves ML",
-      "selection": "Minnesota Timberwolves",
+      "pick": "Florida Panthers ML",
+      "selection": "Florida Panthers",
       "point": null,
-      "prob": 0.7067,
-      "prob_pct": 70.7,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 70.7,
-      "fair_price_american": -241,
+      "prob": 0.6649,
+      "prob_pct": 66.5,
+      "confidence": 0.1,
+      "model_prob_pct": 61.6,
+      "market_prob_pct": 77.0,
+      "fair_price_american": -198,
       "outcomes": [
         {
-          "label": "Minnesota Timberwolves ML",
-          "prob_pct": 70.7
+          "label": "Florida Panthers ML",
+          "prob_pct": 66.5
         },
         {
-          "label": "Los Angeles Clippers ML",
-          "prob_pct": 29.3
+          "label": "Winnipeg Jets ML",
+          "prob_pct": 33.5
         }
       ],
-      "context": null,
-      "rationale": "Minnesota Timberwolves is the 71% pick to win \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "Florida Panthers is the 66% pick to win \u2014 a clear call. ESPN: game is End of Period."
     },
     {
-      "game_id": "c3a424e24d426af94a693e06a33e3037",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Miami Heat",
-      "away_team": "Indiana Pacers",
-      "market": "h2h",
-      "pick": "Miami Heat ML",
-      "selection": "Miami Heat",
-      "point": null,
-      "prob": 0.7064,
-      "prob_pct": 70.6,
-      "confidence": 0.6,
-      "model_prob_pct": null,
-      "market_prob_pct": 70.6,
-      "fair_price_american": -241,
+      "game_id": "a536736a6da269d2e10edbdb27a789bd",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-30T23:08:08Z",
+      "home_team": "Florida Panthers",
+      "away_team": "Winnipeg Jets",
+      "market": "totals",
+      "pick": "Over 4.5",
+      "selection": "Over",
+      "point": 4.5,
+      "prob": 0.6445,
+      "prob_pct": 64.4,
+      "confidence": 0.15,
+      "model_prob_pct": 65.8,
+      "market_prob_pct": 61.0,
+      "fair_price_american": -181,
       "outcomes": [
         {
-          "label": "Miami Heat ML",
-          "prob_pct": 70.6
+          "label": "Over 4.5",
+          "prob_pct": 64.4
         },
         {
-          "label": "Indiana Pacers ML",
-          "prob_pct": 29.4
+          "label": "Under 4.5",
+          "prob_pct": 35.6
         }
       ],
-      "context": null,
-      "rationale": "Miami Heat is the 71% pick to win \u2014 a clear call."
-    },
-    {
-      "game_id": "aa15904c0f5814a899ddbe002c96406a",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "NC State Wolfpack",
-      "away_team": "California Golden Bears",
-      "market": "h2h",
-      "pick": "NC State Wolfpack ML",
-      "selection": "NC State Wolfpack",
-      "point": null,
-      "prob": 0.7054,
-      "prob_pct": 70.5,
-      "confidence": 0.62,
-      "model_prob_pct": null,
-      "market_prob_pct": 70.5,
-      "fair_price_american": -239,
-      "outcomes": [
-        {
-          "label": "NC State Wolfpack ML",
-          "prob_pct": 70.5
-        },
-        {
-          "label": "California Golden Bears ML",
-          "prob_pct": 29.5
-        }
-      ],
-      "context": null,
-      "rationale": "NC State Wolfpack is the 71% pick to win \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "Expected ~5.4 combined points; Over 4.5 is the 64% call \u2014 a clear call. ESPN: game is End of Period."
     },
     {
       "game_id": "dea96094c29a9f24d7dc07a5d848afd7",
@@ -1637,20 +1749,20 @@
       "pick": "Michigan Wolverines ML",
       "selection": "Michigan Wolverines",
       "point": null,
-      "prob": 0.6415,
-      "prob_pct": 64.2,
+      "prob": 0.6444,
+      "prob_pct": 64.4,
       "confidence": 0.44,
       "model_prob_pct": 47.7,
-      "market_prob_pct": 86.5,
-      "fair_price_american": -179,
+      "market_prob_pct": 86.9,
+      "fair_price_american": -181,
       "outcomes": [
         {
           "label": "Michigan Wolverines ML",
-          "prob_pct": 64.2
+          "prob_pct": 64.4
         },
         {
           "label": "Rutgers Scarlet Knights ML",
-          "prob_pct": 35.8
+          "prob_pct": 35.6
         }
       ],
       "context": null,
@@ -1697,24 +1809,58 @@
       "pick": "Dallas Mavericks +5.5",
       "selection": "Dallas Mavericks",
       "point": 5.5,
-      "prob": 0.6267,
-      "prob_pct": 62.7,
-      "confidence": 0.41,
+      "prob": 0.6232,
+      "prob_pct": 62.3,
+      "confidence": 0.31,
       "model_prob_pct": 70.7,
       "market_prob_pct": 50.2,
-      "fair_price_american": -168,
+      "fair_price_american": -165,
       "outcomes": [
         {
           "label": "Dallas Mavericks +5.5",
-          "prob_pct": 62.7
+          "prob_pct": 62.3
         },
         {
           "label": "Houston Rockets -5.5",
-          "prob_pct": 37.3
+          "prob_pct": 37.7
         }
       ],
-      "context": null,
-      "rationale": "Expected ~1.0-point margin; Dallas Mavericks +5.5 is the 63% side to cover \u2014 a clear call."
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Expected ~1.0-point margin; Dallas Mavericks +5.5 is the 62% side to cover \u2014 a clear call. ESPN: NBA Cup - Group Play."
+    },
+    {
+      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-30T23:41:10Z",
+      "home_team": "Boston Celtics",
+      "away_team": "Chicago Bulls",
+      "market": "totals",
+      "pick": "Under 240.5",
+      "selection": "Under",
+      "point": 240.5,
+      "prob": 0.619,
+      "prob_pct": 61.9,
+      "confidence": 0.11,
+      "model_prob_pct": 68.3,
+      "market_prob_pct": 49.7,
+      "fair_price_american": -162,
+      "outcomes": [
+        {
+          "label": "Under 240.5",
+          "prob_pct": 61.9
+        },
+        {
+          "label": "Over 240.5",
+          "prob_pct": 38.1
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Expected ~232.7 combined points; Under 240.5 is the 62% call \u2014 a clear call. ESPN: game is In Progress."
     },
     {
       "game_id": "240e23b02b1e3fef655d04a286b5a623",
@@ -1777,64 +1923,96 @@
       "rationale": "Expected ~5.5-point margin; Michigan State Spartans +14 is the 62% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "dea96094c29a9f24d7dc07a5d848afd7",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:30:00Z",
-      "home_team": "Rutgers Scarlet Knights",
-      "away_team": "Michigan Wolverines",
-      "market": "totals",
-      "pick": "Over 45",
-      "selection": "Over",
-      "point": 45.0,
-      "prob": 0.5953,
-      "prob_pct": 59.5,
-      "confidence": 0.42,
-      "model_prob_pct": 65.8,
-      "market_prob_pct": 50.2,
-      "fair_price_american": -147,
-      "outcomes": [
-        {
-          "label": "Over 45",
-          "prob_pct": 59.5
-        },
-        {
-          "label": "Under 45",
-          "prob_pct": 40.5
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~49.5 combined points; Over 45 is the 60% call \u2014 a lean."
-    },
-    {
       "game_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
       "commence_time": "2026-11-01T18:00:00Z",
       "home_team": "Cincinnati Bengals",
       "away_team": "Tennessee Titans",
-      "market": "totals",
-      "pick": "Under 46.5",
-      "selection": "Under",
-      "point": 46.5,
-      "prob": 0.5911,
-      "prob_pct": 59.1,
+      "market": "spreads",
+      "pick": "Tennessee Titans +12.5",
+      "selection": "Tennessee Titans",
+      "point": 12.5,
+      "prob": 0.6163,
+      "prob_pct": 61.6,
       "confidence": 0.42,
-      "model_prob_pct": 65.4,
-      "market_prob_pct": 49.8,
-      "fair_price_american": -145,
+      "model_prob_pct": 69.3,
+      "market_prob_pct": 50.4,
+      "fair_price_american": -161,
       "outcomes": [
         {
-          "label": "Under 46.5",
-          "prob_pct": 59.1
+          "label": "Tennessee Titans +12.5",
+          "prob_pct": 61.6
         },
         {
-          "label": "Over 46.5",
-          "prob_pct": 40.9
+          "label": "Cincinnati Bengals -12.5",
+          "prob_pct": 38.4
         }
       ],
       "context": null,
-      "rationale": "Expected ~42.6 combined points; Under 46.5 is the 59% call \u2014 a lean."
+      "rationale": "Expected ~5.7-point margin; Tennessee Titans +12.5 is the 62% side to cover \u2014 a clear call."
+    },
+    {
+      "game_id": "5c712e15e1cd4b9283b4bf410fb334f4",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-30T22:08:51Z",
+      "home_team": "Vegas Golden Knights",
+      "away_team": "New Jersey Devils",
+      "market": "h2h",
+      "pick": "New Jersey Devils ML",
+      "selection": "New Jersey Devils",
+      "point": null,
+      "prob": 0.6062,
+      "prob_pct": 60.6,
+      "confidence": 0.11,
+      "model_prob_pct": 45.0,
+      "market_prob_pct": 91.8,
+      "fair_price_american": -154,
+      "outcomes": [
+        {
+          "label": "New Jersey Devils ML",
+          "prob_pct": 60.6
+        },
+        {
+          "label": "Vegas Golden Knights ML",
+          "prob_pct": 39.4
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is End of Period."
+      },
+      "rationale": "New Jersey Devils is the 61% pick to win \u2014 a clear call. ESPN: game is End of Period."
+    },
+    {
+      "game_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "Los Angeles Kings",
+      "away_team": "Buffalo Sabres",
+      "market": "totals",
+      "pick": "Over 5.5",
+      "selection": "Over",
+      "point": 5.5,
+      "prob": 0.606,
+      "prob_pct": 60.6,
+      "confidence": 0.55,
+      "model_prob_pct": 64.5,
+      "market_prob_pct": 55.2,
+      "fair_price_american": -154,
+      "outcomes": [
+        {
+          "label": "Over 5.5",
+          "prob_pct": 60.6
+        },
+        {
+          "label": "Under 5.5",
+          "prob_pct": 39.4
+        }
+      ],
+      "context": null,
+      "rationale": "Expected ~6.4 combined points; Over 5.5 is the 61% call \u2014 a clear call."
     },
     {
       "game_id": "159dbf0253dd2038eda2212f84387f0c",
@@ -1847,54 +2025,84 @@
       "pick": "Indianapolis Colts +9.5",
       "selection": "Indianapolis Colts",
       "point": 9.5,
-      "prob": 0.5904,
-      "prob_pct": 59.0,
+      "prob": 0.6034,
+      "prob_pct": 60.3,
       "confidence": 0.43,
-      "model_prob_pct": 65.9,
-      "market_prob_pct": 49.4,
-      "fair_price_american": -144,
+      "model_prob_pct": 67.3,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -152,
       "outcomes": [
         {
           "label": "Indianapolis Colts +9.5",
-          "prob_pct": 59.0
+          "prob_pct": 60.3
         },
         {
-          "label": "Jacksonville Jaguars -10",
-          "prob_pct": 41.0
+          "label": "Jacksonville Jaguars -10.5",
+          "prob_pct": 39.7
         }
       ],
       "context": null,
-      "rationale": "Expected ~4.5-point margin; Indianapolis Colts +9.5 is the 59% side to cover \u2014 a lean."
+      "rationale": "Expected ~4.5-point margin; Indianapolis Colts +9.5 is the 60% side to cover \u2014 a clear call."
     },
     {
-      "game_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-      "sport_key": "americanfootball_nfl",
-      "sport_title": "NFL",
-      "commence_time": "2026-11-01T18:00:00Z",
-      "home_team": "Cincinnati Bengals",
-      "away_team": "Tennessee Titans",
-      "market": "spreads",
-      "pick": "Tennessee Titans +11",
-      "selection": "Tennessee Titans",
-      "point": 11.0,
-      "prob": 0.5863,
-      "prob_pct": 58.6,
-      "confidence": 0.43,
-      "model_prob_pct": 65.3,
-      "market_prob_pct": 49.2,
-      "fair_price_american": -142,
+      "game_id": "dea96094c29a9f24d7dc07a5d848afd7",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:30:00Z",
+      "home_team": "Rutgers Scarlet Knights",
+      "away_team": "Michigan Wolverines",
+      "market": "totals",
+      "pick": "Over 45",
+      "selection": "Over",
+      "point": 45.0,
+      "prob": 0.5948,
+      "prob_pct": 59.5,
+      "confidence": 0.42,
+      "model_prob_pct": 65.8,
+      "market_prob_pct": 50.0,
+      "fair_price_american": -147,
       "outcomes": [
         {
-          "label": "Tennessee Titans +11",
-          "prob_pct": 58.6
+          "label": "Over 45",
+          "prob_pct": 59.5
         },
         {
-          "label": "Cincinnati Bengals -11",
-          "prob_pct": 41.4
+          "label": "Under 45",
+          "prob_pct": 40.5
         }
       ],
       "context": null,
-      "rationale": "Expected ~5.7-point margin; Tennessee Titans +11 is the 59% side to cover \u2014 a lean."
+      "rationale": "Expected ~49.5 combined points; Over 45 is the 59% call \u2014 a lean."
+    },
+    {
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-11-08T21:05:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Las Vegas Raiders",
+      "market": "spreads",
+      "pick": "Las Vegas Raiders +9.5",
+      "selection": "Las Vegas Raiders",
+      "point": 9.5,
+      "prob": 0.5905,
+      "prob_pct": 59.1,
+      "confidence": 0.43,
+      "model_prob_pct": 65.5,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -144,
+      "outcomes": [
+        {
+          "label": "Las Vegas Raiders +9.5",
+          "prob_pct": 59.1
+        },
+        {
+          "label": "San Francisco 49ers -10.5",
+          "prob_pct": 40.9
+        }
+      ],
+      "context": null,
+      "rationale": "Expected ~5.1-point margin; Las Vegas Raiders +9.5 is the 59% side to cover \u2014 a lean."
     },
     {
       "game_id": "a6555e8b7252dfb32f1817fc8c59ad83",
@@ -1923,68 +2131,70 @@
           "prob_pct": 41.7
         }
       ],
-      "context": null,
-      "rationale": "Expected ~2.7-point margin; New York Knicks +1.5 is the 58% side to cover \u2014 a lean."
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Expected ~2.7-point margin; New York Knicks +1.5 is the 58% side to cover \u2014 a lean. ESPN: game is In Progress."
     },
     {
-      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "game_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
-      "commence_time": "2026-11-08T21:05:00Z",
-      "home_team": "San Francisco 49ers",
-      "away_team": "Las Vegas Raiders",
-      "market": "spreads",
-      "pick": "Las Vegas Raiders +9.5",
-      "selection": "Las Vegas Raiders",
-      "point": 9.5,
-      "prob": 0.574,
-      "prob_pct": 57.4,
-      "confidence": 0.43,
-      "model_prob_pct": 62.7,
-      "market_prob_pct": 50.0,
-      "fair_price_american": -135,
+      "commence_time": "2026-11-01T18:00:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Tennessee Titans",
+      "market": "totals",
+      "pick": "Under 46",
+      "selection": "Under",
+      "point": 46.0,
+      "prob": 0.5774,
+      "prob_pct": 57.7,
+      "confidence": 0.42,
+      "model_prob_pct": 63.5,
+      "market_prob_pct": 49.3,
+      "fair_price_american": -137,
       "outcomes": [
         {
-          "label": "Las Vegas Raiders +9.5",
-          "prob_pct": 57.4
+          "label": "Under 46",
+          "prob_pct": 57.7
         },
         {
-          "label": "San Francisco 49ers -9.5",
-          "prob_pct": 42.6
+          "label": "Over 46",
+          "prob_pct": 42.3
         }
       ],
       "context": null,
-      "rationale": "Expected ~5.1-point margin; Las Vegas Raiders +9.5 is the 57% side to cover \u2014 a lean."
+      "rationale": "Expected ~42.6 combined points; Under 46 is the 58% call \u2014 a lean."
     },
     {
-      "game_id": "ed751626a7b1f47888222319fec01199",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Los Angeles Kings",
-      "away_team": "Ottawa Senators",
-      "market": "totals",
-      "pick": "Over 5.5",
-      "selection": "Over",
-      "point": 5.5,
-      "prob": 0.5738,
-      "prob_pct": 57.4,
-      "confidence": 0.66,
-      "model_prob_pct": 60.0,
-      "market_prob_pct": 53.8,
-      "fair_price_american": -135,
+      "game_id": "44ee19d31b9288ad402868d6df737595",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:35:14Z",
+      "home_team": "UCF Knights",
+      "away_team": "Baylor Bears",
+      "market": "spreads",
+      "pick": "UCF Knights +2.5",
+      "selection": "UCF Knights",
+      "point": 2.5,
+      "prob": 0.5764,
+      "prob_pct": 57.6,
+      "confidence": 0.12,
+      "model_prob_pct": 62.3,
+      "market_prob_pct": 50.0,
+      "fair_price_american": -136,
       "outcomes": [
         {
-          "label": "Over 5.5",
-          "prob_pct": 57.4
+          "label": "UCF Knights +2.5",
+          "prob_pct": 57.6
         },
         {
-          "label": "Under 5.5",
-          "prob_pct": 42.6
+          "label": "Baylor Bears -3.5",
+          "prob_pct": 42.4
         }
       ],
       "context": null,
-      "rationale": "Expected ~6.1 combined points; Over 5.5 is the 57% call \u2014 a lean."
+      "rationale": "Expected ~2.5-point margin; UCF Knights +2.5 is the 58% side to cover \u2014 a lean."
     },
     {
       "game_id": "2c3f80e228a486e04f6f7a38e4f00fb4",
@@ -2015,6 +2225,36 @@
       ],
       "context": null,
       "rationale": "Expected ~42.9 combined points; Over 39.5 is the 57% call \u2014 a lean."
+    },
+    {
+      "game_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "San Jose Sharks",
+      "away_team": "Ottawa Senators",
+      "market": "totals",
+      "pick": "Under 6.5",
+      "selection": "Under",
+      "point": 6.5,
+      "prob": 0.5726,
+      "prob_pct": 57.3,
+      "confidence": 0.42,
+      "model_prob_pct": 62.4,
+      "market_prob_pct": 49.7,
+      "fair_price_american": -134,
+      "outcomes": [
+        {
+          "label": "Under 6.5",
+          "prob_pct": 57.3
+        },
+        {
+          "label": "Over 6.5",
+          "prob_pct": 42.7
+        }
+      ],
+      "context": null,
+      "rationale": "Expected ~5.8 combined points; Under 6.5 is the 57% call \u2014 a lean."
     },
     {
       "game_id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -2057,11 +2297,11 @@
       "pick": "Over 50.5",
       "selection": "Over",
       "point": 50.5,
-      "prob": 0.5671,
+      "prob": 0.5674,
       "prob_pct": 56.7,
-      "confidence": 0.48,
+      "confidence": 0.49,
       "model_prob_pct": 60.9,
-      "market_prob_pct": 50.4,
+      "market_prob_pct": 50.5,
       "fair_price_american": -131,
       "outcomes": [
         {
@@ -2075,6 +2315,36 @@
       ],
       "context": null,
       "rationale": "Expected ~53.5 combined points; Over 50.5 is the 57% call \u2014 a lean."
+    },
+    {
+      "game_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "Los Angeles Kings",
+      "away_team": "Buffalo Sabres",
+      "market": "h2h",
+      "pick": "Los Angeles Kings ML",
+      "selection": "Los Angeles Kings",
+      "point": null,
+      "prob": 0.5645,
+      "prob_pct": 56.4,
+      "confidence": 0.45,
+      "model_prob_pct": 64.0,
+      "market_prob_pct": 46.9,
+      "fair_price_american": -130,
+      "outcomes": [
+        {
+          "label": "Los Angeles Kings ML",
+          "prob_pct": 56.4
+        },
+        {
+          "label": "Buffalo Sabres ML",
+          "prob_pct": 43.6
+        }
+      ],
+      "context": null,
+      "rationale": "Los Angeles Kings is the 56% pick to win \u2014 a lean."
     },
     {
       "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
@@ -2133,68 +2403,42 @@
           "prob_pct": 44.9
         }
       ],
-      "context": null,
-      "rationale": "New York Knicks is the 55% pick to win \u2014 a lean."
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "New York Knicks is the 55% pick to win \u2014 a lean. ESPN: game is In Progress."
     },
     {
-      "game_id": "c8abddd6d4a9c96f45dcdd287f392537",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Anaheim Ducks",
-      "away_team": "Buffalo Sabres",
-      "market": "h2h",
-      "pick": "Anaheim Ducks ML",
-      "selection": "Anaheim Ducks",
-      "point": null,
-      "prob": 0.5468,
-      "prob_pct": 54.7,
-      "confidence": 0.46,
-      "model_prob_pct": 64.0,
-      "market_prob_pct": 43.3,
-      "fair_price_american": -121,
-      "outcomes": [
-        {
-          "label": "Anaheim Ducks ML",
-          "prob_pct": 54.7
-        },
-        {
-          "label": "Buffalo Sabres ML",
-          "prob_pct": 45.3
-        }
-      ],
-      "context": null,
-      "rationale": "Anaheim Ducks is the 55% pick to win \u2014 a lean."
-    },
-    {
-      "game_id": "c3a424e24d426af94a693e06a33e3037",
+      "game_id": "b9778d0e3a26167eb49901dcae7eeb98",
       "sport_key": "basketball_nba",
       "sport_title": "NBA",
       "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Miami Heat",
-      "away_team": "Indiana Pacers",
-      "market": "spreads",
-      "pick": "Miami Heat -7.5",
-      "selection": "Miami Heat",
-      "point": -7.5,
-      "prob": 0.5465,
-      "prob_pct": 54.6,
-      "confidence": 0.6,
-      "model_prob_pct": null,
-      "market_prob_pct": 54.6,
-      "fair_price_american": -120,
+      "home_team": "Dallas Mavericks",
+      "away_team": "Houston Rockets",
+      "market": "h2h",
+      "pick": "Houston Rockets ML",
+      "selection": "Houston Rockets",
+      "point": null,
+      "prob": 0.5477,
+      "prob_pct": 54.8,
+      "confidence": 0.33,
+      "model_prob_pct": 46.6,
+      "market_prob_pct": 65.0,
+      "fair_price_american": -121,
       "outcomes": [
         {
-          "label": "Miami Heat -7.5",
-          "prob_pct": 54.6
+          "label": "Houston Rockets ML",
+          "prob_pct": 54.8
         },
         {
-          "label": "Indiana Pacers +3.5",
-          "prob_pct": 45.4
+          "label": "Dallas Mavericks ML",
+          "prob_pct": 45.2
         }
       ],
-      "context": null,
-      "rationale": "Miami Heat -7.5 is the 55% side to cover."
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Houston Rockets is the 55% pick to win \u2014 a lean. ESPN: NBA Cup - Group Play."
     },
     {
       "game_id": "1d5b8007f5249010b9c501138e25ac74",
@@ -2227,34 +2471,34 @@
       "rationale": "Expected ~52.1 combined points; Under 54 is the 54% call \u2014 a lean."
     },
     {
-      "game_id": "b8f3c483149e46a5f7c24ea941be8649",
+      "game_id": "7da8a99a4ae4ef2ec08b3e4fa37c2485",
       "sport_key": "icehockey_nhl",
       "sport_title": "NHL",
-      "commence_time": "2026-10-29T23:10:00Z",
-      "home_team": "Pittsburgh Penguins",
-      "away_team": "Utah Mammoth",
+      "commence_time": "2026-10-31T18:10:00Z",
+      "home_team": "New York Islanders",
+      "away_team": "Edmonton Oilers",
       "market": "totals",
       "pick": "Over 6.5",
       "selection": "Over",
       "point": 6.5,
-      "prob": 0.5374,
-      "prob_pct": 53.7,
-      "confidence": 0.79,
-      "model_prob_pct": 52.6,
-      "market_prob_pct": 55.2,
+      "prob": 0.5361,
+      "prob_pct": 53.6,
+      "confidence": 0.46,
+      "model_prob_pct": 58.6,
+      "market_prob_pct": 46.8,
       "fair_price_american": -116,
       "outcomes": [
         {
           "label": "Over 6.5",
-          "prob_pct": 53.7
+          "prob_pct": 53.6
         },
         {
           "label": "Under 6.5",
-          "prob_pct": 46.3
+          "prob_pct": 46.4
         }
       ],
       "context": null,
-      "rationale": "Expected ~6.7 combined points; Over 6.5 is the 54% call \u2014 a lean."
+      "rationale": "Expected ~7.0 combined points; Over 6.5 is the 54% call \u2014 a lean."
     },
     {
       "game_id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -2287,96 +2531,6 @@
       "rationale": "Expected ~41.0 combined points; Under 42.5 is the 54% call \u2014 a lean."
     },
     {
-      "game_id": "c8abddd6d4a9c96f45dcdd287f392537",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Anaheim Ducks",
-      "away_team": "Buffalo Sabres",
-      "market": "totals",
-      "pick": "Under 6.5",
-      "selection": "Under",
-      "point": 6.5,
-      "prob": 0.5357,
-      "prob_pct": 53.6,
-      "confidence": 0.45,
-      "model_prob_pct": 58.6,
-      "market_prob_pct": 46.6,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "Under 6.5",
-          "prob_pct": 53.6
-        },
-        {
-          "label": "Over 6.5",
-          "prob_pct": 46.4
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~6.0 combined points; Under 6.5 is the 54% call \u2014 a lean."
-    },
-    {
-      "game_id": "b9778d0e3a26167eb49901dcae7eeb98",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Dallas Mavericks",
-      "away_team": "Houston Rockets",
-      "market": "h2h",
-      "pick": "Houston Rockets ML",
-      "selection": "Houston Rockets",
-      "point": null,
-      "prob": 0.5354,
-      "prob_pct": 53.5,
-      "confidence": 0.42,
-      "model_prob_pct": 46.6,
-      "market_prob_pct": 63.6,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "Houston Rockets ML",
-          "prob_pct": 53.5
-        },
-        {
-          "label": "Dallas Mavericks ML",
-          "prob_pct": 46.5
-        }
-      ],
-      "context": null,
-      "rationale": "Houston Rockets is the 54% pick to win \u2014 a lean."
-    },
-    {
-      "game_id": "44ee19d31b9288ad402868d6df737595",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:30:00Z",
-      "home_team": "UCF Knights",
-      "away_team": "Baylor Bears",
-      "market": "spreads",
-      "pick": "UCF Knights +0",
-      "selection": "UCF Knights",
-      "point": 0.0,
-      "prob": 0.5343,
-      "prob_pct": 53.4,
-      "confidence": 0.62,
-      "model_prob_pct": 56.2,
-      "market_prob_pct": 49.5,
-      "fair_price_american": -115,
-      "outcomes": [
-        {
-          "label": "UCF Knights +0",
-          "prob_pct": 53.4
-        },
-        {
-          "label": "Baylor Bears +0",
-          "prob_pct": 46.6
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~2.5-point margin; UCF Knights +0 is the 53% side to cover \u2014 a lean."
-    },
-    {
       "game_id": "240e23b02b1e3fef655d04a286b5a623",
       "sport_key": "americanfootball_nfl",
       "sport_title": "NFL",
@@ -2407,34 +2561,34 @@
       "rationale": "Expected ~45.9 combined points; Over 44.5 is the 53% call \u2014 a lean."
     },
     {
-      "game_id": "44ee19d31b9288ad402868d6df737595",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:30:00Z",
-      "home_team": "UCF Knights",
-      "away_team": "Baylor Bears",
-      "market": "h2h",
-      "pick": "UCF Knights ML",
-      "selection": "UCF Knights",
-      "point": null,
-      "prob": 0.5312,
-      "prob_pct": 53.1,
-      "confidence": 0.55,
-      "model_prob_pct": 56.2,
-      "market_prob_pct": 48.2,
-      "fair_price_american": -113,
+      "game_id": "026d37181dd4ace0df7565d9b208ce7e",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Calgary Flames",
+      "away_team": "Seattle Kraken",
+      "market": "totals",
+      "pick": "Over 6.5",
+      "selection": "Over",
+      "point": 6.5,
+      "prob": 0.5289,
+      "prob_pct": 52.9,
+      "confidence": 0.45,
+      "model_prob_pct": 55.8,
+      "market_prob_pct": 48.7,
+      "fair_price_american": -112,
       "outcomes": [
         {
-          "label": "UCF Knights ML",
-          "prob_pct": 53.1
+          "label": "Over 6.5",
+          "prob_pct": 52.9
         },
         {
-          "label": "Baylor Bears ML",
-          "prob_pct": 46.9
+          "label": "Under 6.5",
+          "prob_pct": 47.1
         }
       ],
       "context": null,
-      "rationale": "UCF Knights is the 53% pick to win \u2014 a lean."
+      "rationale": "Expected ~6.8 combined points; Over 6.5 is the 53% call \u2014 a lean."
     },
     {
       "game_id": "159dbf0253dd2038eda2212f84387f0c",
@@ -2447,7 +2601,7 @@
       "pick": "Under 46.5",
       "selection": "Under",
       "point": 46.5,
-      "prob": 0.528,
+      "prob": 0.5281,
       "prob_pct": 52.8,
       "confidence": 0.69,
       "model_prob_pct": 54.6,
@@ -2467,788 +2621,34 @@
       "rationale": "Expected ~45.4 combined points; Under 46.5 is the 53% call \u2014 a lean."
     },
     {
-      "game_id": "026d37181dd4ace0df7565d9b208ce7e",
+      "game_id": "9655de40a1e110a66923a0cd36e0bd78",
       "sport_key": "icehockey_nhl",
       "sport_title": "NHL",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Calgary Flames",
-      "away_team": "Seattle Kraken",
-      "market": "totals",
-      "pick": "Over 6.5",
-      "selection": "Over",
-      "point": 6.5,
-      "prob": 0.5227,
-      "prob_pct": 52.3,
-      "confidence": 0.58,
-      "model_prob_pct": 55.8,
-      "market_prob_pct": 47.5,
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home_team": "San Jose Sharks",
+      "away_team": "Ottawa Senators",
+      "market": "h2h",
+      "pick": "San Jose Sharks ML",
+      "selection": "San Jose Sharks",
+      "point": null,
+      "prob": 0.5236,
+      "prob_pct": 52.4,
+      "confidence": 0.45,
+      "model_prob_pct": 58.3,
+      "market_prob_pct": 44.8,
       "fair_price_american": -110,
       "outcomes": [
         {
-          "label": "Over 6.5",
-          "prob_pct": 52.3
-        },
-        {
-          "label": "Under 6.5",
-          "prob_pct": 47.7
-        }
-      ],
-      "context": null,
-      "rationale": "Expected ~6.8 combined points; Over 6.5 is the 52% call \u2014 a lean."
-    },
-    {
-      "game_id": "d961840cf470389306fa79cf82f5d46c",
-      "sport_key": "basketball_ncaab",
-      "sport_title": "NCAAB",
-      "commence_time": "2026-11-02T07:00:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "High Point Panthers",
-      "market": "spreads",
-      "pick": "Liberty Flames +8.5",
-      "selection": "Liberty Flames",
-      "point": 8.5,
-      "prob": 0.5208,
-      "prob_pct": 52.1,
-      "confidence": 0.56,
-      "model_prob_pct": null,
-      "market_prob_pct": 52.1,
-      "fair_price_american": -109,
-      "outcomes": [
-        {
-          "label": "Liberty Flames +8.5",
-          "prob_pct": 52.1
-        },
-        {
-          "label": "High Point Panthers -8.5",
-          "prob_pct": 47.9
-        }
-      ],
-      "context": {
-        "notes": "ESPN: Field of 68 Opening Day Marathon."
-      },
-      "rationale": "Liberty Flames +8.5 is the 52% side to cover. ESPN: Field of 68 Opening Day Marathon."
-    },
-    {
-      "game_id": "2f219378e527cf1f695b814a0a4ad63c",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Syracuse Orange",
-      "away_team": "SMU Mustangs",
-      "market": "spreads",
-      "pick": "SMU Mustangs -10",
-      "selection": "SMU Mustangs",
-      "point": -10.0,
-      "prob": 0.52,
-      "prob_pct": 52.0,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 52.0,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "SMU Mustangs -10",
-          "prob_pct": 52.0
-        },
-        {
-          "label": "Syracuse Orange +9.5",
-          "prob_pct": 48.0
-        }
-      ],
-      "context": null,
-      "rationale": "SMU Mustangs -10 is the 52% side to cover."
-    },
-    {
-      "game_id": "1e591733bae48534963359a9cff13701",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "Indiana Hoosiers",
-      "away_team": "Minnesota Golden Gophers",
-      "market": "spreads",
-      "pick": "Indiana Hoosiers -20.5",
-      "selection": "Indiana Hoosiers",
-      "point": -20.5,
-      "prob": 0.5198,
-      "prob_pct": 52.0,
-      "confidence": 0.6,
-      "model_prob_pct": null,
-      "market_prob_pct": 52.0,
-      "fair_price_american": -108,
-      "outcomes": [
-        {
-          "label": "Indiana Hoosiers -20.5",
-          "prob_pct": 52.0
-        },
-        {
-          "label": "Minnesota Golden Gophers +19.5",
-          "prob_pct": 48.0
-        }
-      ],
-      "context": null,
-      "rationale": "Indiana Hoosiers -20.5 is the 52% side to cover."
-    },
-    {
-      "game_id": "ed751626a7b1f47888222319fec01199",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Los Angeles Kings",
-      "away_team": "Ottawa Senators",
-      "market": "h2h",
-      "pick": "Los Angeles Kings ML",
-      "selection": "Los Angeles Kings",
-      "point": null,
-      "prob": 0.5174,
-      "prob_pct": 51.7,
-      "confidence": 0.62,
-      "model_prob_pct": 55.1,
-      "market_prob_pct": 47.4,
-      "fair_price_american": -107,
-      "outcomes": [
-        {
-          "label": "Los Angeles Kings ML",
-          "prob_pct": 51.7
+          "label": "San Jose Sharks ML",
+          "prob_pct": 52.4
         },
         {
           "label": "Ottawa Senators ML",
-          "prob_pct": 48.3
+          "prob_pct": 47.6
         }
       ],
       "context": null,
-      "rationale": "Los Angeles Kings is the 52% pick to win \u2014 a coin-flip."
-    },
-    {
-      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "North Texas Mean Green",
-      "away_team": "Florida Atlantic Owls",
-      "market": "spreads",
-      "pick": "Florida Atlantic Owls +14.5",
-      "selection": "Florida Atlantic Owls",
-      "point": 14.5,
-      "prob": 0.5161,
-      "prob_pct": 51.6,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.6,
-      "fair_price_american": -107,
-      "outcomes": [
-        {
-          "label": "Florida Atlantic Owls +14.5",
-          "prob_pct": 51.6
-        },
-        {
-          "label": "North Texas Mean Green -14.5",
-          "prob_pct": 48.4
-        }
-      ],
-      "context": null,
-      "rationale": "Florida Atlantic Owls +14.5 is the 52% side to cover."
-    },
-    {
-      "game_id": "09f66e3676ec3112e24cd6b9e97feb41",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:45:00Z",
-      "home_team": "Wake Forest Demon Deacons",
-      "away_team": "Virginia Cavaliers",
-      "market": "totals",
-      "pick": "Over 48.5",
-      "selection": "Over",
-      "point": 48.5,
-      "prob": 0.5155,
-      "prob_pct": 51.5,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.5,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Over 48.5",
-          "prob_pct": 51.5
-        },
-        {
-          "label": "Under 48.5",
-          "prob_pct": 48.5
-        }
-      ],
-      "context": null,
-      "rationale": "Over 48.5 is the 52% call."
-    },
-    {
-      "game_id": "aa15904c0f5814a899ddbe002c96406a",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "NC State Wolfpack",
-      "away_team": "California Golden Bears",
-      "market": "spreads",
-      "pick": "NC State Wolfpack -7",
-      "selection": "NC State Wolfpack",
-      "point": -7.0,
-      "prob": 0.5153,
-      "prob_pct": 51.5,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.5,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "NC State Wolfpack -7",
-          "prob_pct": 51.5
-        },
-        {
-          "label": "California Golden Bears +6.5",
-          "prob_pct": 48.5
-        }
-      ],
-      "context": null,
-      "rationale": "NC State Wolfpack -7 is the 52% side to cover."
-    },
-    {
-      "game_id": "c17c8f9e12ffe066cf601c96090fcb14",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "North Dakota State Bison",
-      "away_team": "UTEP Miners",
-      "market": "spreads",
-      "pick": "UTEP Miners +24.5",
-      "selection": "UTEP Miners",
-      "point": 24.5,
-      "prob": 0.5151,
-      "prob_pct": 51.5,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.5,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "UTEP Miners +24.5",
-          "prob_pct": 51.5
-        },
-        {
-          "label": "North Dakota State Bison -24.5",
-          "prob_pct": 48.5
-        }
-      ],
-      "context": null,
-      "rationale": "UTEP Miners +24.5 is the 52% side to cover."
-    },
-    {
-      "game_id": "b8f3c483149e46a5f7c24ea941be8649",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-29T23:10:00Z",
-      "home_team": "Pittsburgh Penguins",
-      "away_team": "Utah Mammoth",
-      "market": "h2h",
-      "pick": "Pittsburgh Penguins ML",
-      "selection": "Pittsburgh Penguins",
-      "point": null,
-      "prob": 0.5144,
-      "prob_pct": 51.4,
-      "confidence": 0.46,
-      "model_prob_pct": 57.3,
-      "market_prob_pct": 44.2,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Pittsburgh Penguins ML",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Utah Mammoth ML",
-          "prob_pct": 48.6
-        }
-      ],
-      "context": null,
-      "rationale": "Pittsburgh Penguins is the 51% pick to win \u2014 a coin-flip."
-    },
-    {
-      "game_id": "1e591733bae48534963359a9cff13701",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "Indiana Hoosiers",
-      "away_team": "Minnesota Golden Gophers",
-      "market": "totals",
-      "pick": "Over 40.5",
-      "selection": "Over",
-      "point": 40.5,
-      "prob": 0.5142,
-      "prob_pct": 51.4,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.4,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Over 40.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Under 40.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "context": null,
-      "rationale": "Over 40.5 is the 51% call."
-    },
-    {
-      "game_id": "630ed6c8993fda8943e528a465e55518",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T20:15:00Z",
-      "home_team": "UCLA Bruins",
-      "away_team": "Nevada Wolf Pack",
-      "market": "totals",
-      "pick": "Over 43.5",
-      "selection": "Over",
-      "point": 43.5,
-      "prob": 0.5135,
-      "prob_pct": 51.4,
-      "confidence": 0.57,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.4,
-      "fair_price_american": -106,
-      "outcomes": [
-        {
-          "label": "Over 43.5",
-          "prob_pct": 51.4
-        },
-        {
-          "label": "Under 43.5",
-          "prob_pct": 48.6
-        }
-      ],
-      "context": null,
-      "rationale": "Over 43.5 is the 51% call."
-    },
-    {
-      "game_id": "509ce59dbf5e07bb4acf73cd8ecc4d3b",
-      "sport_key": "basketball_ncaab",
-      "sport_title": "NCAAB",
-      "commence_time": "2026-11-02T23:00:00Z",
-      "home_team": "Iowa State Cyclones",
-      "away_team": "Memphis Tigers",
-      "market": "spreads",
-      "pick": "Memphis Tigers +13.5",
-      "selection": "Memphis Tigers",
-      "point": 13.5,
-      "prob": 0.5121,
-      "prob_pct": 51.2,
-      "confidence": 0.57,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.2,
-      "fair_price_american": -105,
-      "outcomes": [
-        {
-          "label": "Memphis Tigers +13.5",
-          "prob_pct": 51.2
-        },
-        {
-          "label": "Iowa State Cyclones -13.5",
-          "prob_pct": 48.8
-        }
-      ],
-      "context": null,
-      "rationale": "Memphis Tigers +13.5 is the 51% side to cover."
-    },
-    {
-      "game_id": "5bee3fb00be225402b2d2d7842398207",
-      "sport_key": "basketball_ncaab",
-      "sport_title": "NCAAB",
-      "commence_time": "2026-11-01T14:30:00Z",
-      "home_team": "Notre Dame Fighting Irish",
-      "away_team": "Villanova Wildcats",
-      "market": "totals",
-      "pick": "Under 147",
-      "selection": "Under",
-      "point": 147.0,
-      "prob": 0.5117,
-      "prob_pct": 51.2,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.2,
-      "fair_price_american": -105,
-      "outcomes": [
-        {
-          "label": "Under 147",
-          "prob_pct": 51.2
-        },
-        {
-          "label": "Over 147",
-          "prob_pct": 48.8
-        }
-      ],
-      "context": {
-        "notes": "ESPN: Eternal City Tip-Off."
-      },
-      "rationale": "Under 147 is the 51% call. ESPN: Eternal City Tip-Off."
-    },
-    {
-      "game_id": "c0ddb68355a79fb70194e95b75c037ca",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-11-04T00:00:00Z",
-      "home_team": "Akron Zips",
-      "away_team": "Ohio Bobcats",
-      "market": "spreads",
-      "pick": "Akron Zips +11.5",
-      "selection": "Akron Zips",
-      "point": 11.5,
-      "prob": 0.5116,
-      "prob_pct": 51.2,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 51.2,
-      "fair_price_american": -105,
-      "outcomes": [
-        {
-          "label": "Akron Zips +11.5",
-          "prob_pct": 51.2
-        },
-        {
-          "label": "Ohio Bobcats -11.5",
-          "prob_pct": 48.8
-        }
-      ],
-      "context": null,
-      "rationale": "Akron Zips +11.5 is the 51% side to cover."
-    },
-    {
-      "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Detroit Pistons",
-      "market": "totals",
-      "pick": "Over 220.5",
-      "selection": "Over",
-      "point": 220.5,
-      "prob": 0.5093,
-      "prob_pct": 50.9,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -104,
-      "outcomes": [
-        {
-          "label": "Over 220.5",
-          "prob_pct": 50.9
-        },
-        {
-          "label": "Under 220.5",
-          "prob_pct": 49.1
-        }
-      ],
-      "context": null,
-      "rationale": "Over 220.5 is the 51% call."
-    },
-    {
-      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "South Florida Bulls",
-      "away_team": "UAB Blazers",
-      "market": "totals",
-      "pick": "Over 41.5",
-      "selection": "Over",
-      "point": 41.5,
-      "prob": 0.5093,
-      "prob_pct": 50.9,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -104,
-      "outcomes": [
-        {
-          "label": "Over 41.5",
-          "prob_pct": 50.9
-        },
-        {
-          "label": "Under 41.5",
-          "prob_pct": 49.1
-        }
-      ],
-      "context": null,
-      "rationale": "Over 41.5 is the 51% call."
-    },
-    {
-      "game_id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "Memphis Grizzlies",
-      "market": "spreads",
-      "pick": "Portland Trail Blazers -7.5",
-      "selection": "Portland Trail Blazers",
-      "point": -7.5,
-      "prob": 0.5092,
-      "prob_pct": 50.9,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.9,
-      "fair_price_american": -104,
-      "outcomes": [
-        {
-          "label": "Portland Trail Blazers -7.5",
-          "prob_pct": 50.9
-        },
-        {
-          "label": "Memphis Grizzlies +7.5",
-          "prob_pct": 49.1
-        }
-      ],
-      "context": null,
-      "rationale": "Portland Trail Blazers -7.5 is the 51% side to cover."
-    },
-    {
-      "game_id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T02:10:00Z",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "Memphis Grizzlies",
-      "market": "totals",
-      "pick": "Over 232.5",
-      "selection": "Over",
-      "point": 232.5,
-      "prob": 0.5082,
-      "prob_pct": 50.8,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.8,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 232.5",
-          "prob_pct": 50.8
-        },
-        {
-          "label": "Under 232.5",
-          "prob_pct": 49.2
-        }
-      ],
-      "context": null,
-      "rationale": "Over 232.5 is the 51% call."
-    },
-    {
-      "game_id": "c17c8f9e12ffe066cf601c96090fcb14",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "North Dakota State Bison",
-      "away_team": "UTEP Miners",
-      "market": "totals",
-      "pick": "Under 43.5",
-      "selection": "Under",
-      "point": 43.5,
-      "prob": 0.508,
-      "prob_pct": 50.8,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.8,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Under 43.5",
-          "prob_pct": 50.8
-        },
-        {
-          "label": "Over 43.5",
-          "prob_pct": 49.2
-        }
-      ],
-      "context": null,
-      "rationale": "Under 43.5 is the 51% call."
-    },
-    {
-      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:00:00Z",
-      "home_team": "Charlotte 49ers",
-      "away_team": "Tulane Green Wave",
-      "market": "totals",
-      "pick": "Over 47",
-      "selection": "Over",
-      "point": 47.0,
-      "prob": 0.5074,
-      "prob_pct": 50.7,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 47",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Under 47",
-          "prob_pct": 49.3
-        }
-      ],
-      "context": null,
-      "rationale": "Over 47 is the 51% call."
-    },
-    {
-      "game_id": "807f73b612ed07bda8d1835550ddbd43",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Duke Blue Devils",
-      "away_team": "Boston College Eagles",
-      "market": "totals",
-      "pick": "Under 48.5",
-      "selection": "Under",
-      "point": 48.5,
-      "prob": 0.5071,
-      "prob_pct": 50.7,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Under 48.5",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Over 48.5",
-          "prob_pct": 49.3
-        }
-      ],
-      "context": null,
-      "rationale": "Under 48.5 is the 51% call."
-    },
-    {
-      "game_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Western Michigan Broncos",
-      "away_team": "Bowling Green Falcons",
-      "market": "totals",
-      "pick": "Over 43.5",
-      "selection": "Over",
-      "point": 43.5,
-      "prob": 0.5069,
-      "prob_pct": 50.7,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 43.5",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Under 43.5",
-          "prob_pct": 49.3
-        }
-      ],
-      "context": null,
-      "rationale": "Over 43.5 is the 51% call."
-    },
-    {
-      "game_id": "630ed6c8993fda8943e528a465e55518",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T20:15:00Z",
-      "home_team": "UCLA Bruins",
-      "away_team": "Nevada Wolf Pack",
-      "market": "spreads",
-      "pick": "UCLA Bruins -23",
-      "selection": "UCLA Bruins",
-      "point": -23.0,
-      "prob": 0.5069,
-      "prob_pct": 50.7,
-      "confidence": 0.6,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.7,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "UCLA Bruins -23",
-          "prob_pct": 50.7
-        },
-        {
-          "label": "Nevada Wolf Pack +21.5",
-          "prob_pct": 49.3
-        }
-      ],
-      "context": null,
-      "rationale": "UCLA Bruins -23 is the 51% side to cover."
-    },
-    {
-      "game_id": "e5ff4a85ab3b8341184a334a390f6ba2",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "Florida International Panthers",
-      "market": "spreads",
-      "pick": "Liberty Flames -14",
-      "selection": "Liberty Flames",
-      "point": -14.0,
-      "prob": 0.5065,
-      "prob_pct": 50.6,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Liberty Flames -14",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Florida International Panthers +13.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "context": null,
-      "rationale": "Liberty Flames -14 is the 51% side to cover."
-    },
-    {
-      "game_id": "877d5834acad37b6142a835438c23001",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T00:00:00Z",
-      "home_team": "Nebraska Cornhuskers",
-      "away_team": "Washington Huskies",
-      "market": "totals",
-      "pick": "Over 49.5",
-      "selection": "Over",
-      "point": 49.5,
-      "prob": 0.5064,
-      "prob_pct": 50.6,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 49.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Under 49.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "context": null,
-      "rationale": "Over 49.5 is the 51% call."
+      "rationale": "San Jose Sharks is the 52% pick to win \u2014 a lean."
     },
     {
       "game_id": "807f73b612ed07bda8d1835550ddbd43",
@@ -3261,146 +2661,174 @@
       "pick": "Boston College Eagles +7",
       "selection": "Boston College Eagles",
       "point": 7.0,
-      "prob": 0.5064,
-      "prob_pct": 50.6,
+      "prob": 0.5227,
+      "prob_pct": 52.3,
       "confidence": 0.59,
       "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
+      "market_prob_pct": 52.3,
+      "fair_price_american": -110,
       "outcomes": [
         {
           "label": "Boston College Eagles +7",
-          "prob_pct": 50.6
+          "prob_pct": 52.3
         },
         {
           "label": "Duke Blue Devils -7.5",
-          "prob_pct": 49.4
+          "prob_pct": 47.7
         }
       ],
       "context": null,
-      "rationale": "Boston College Eagles +7 is the 51% side to cover."
+      "rationale": "Boston College Eagles +7 is the 52% side to cover."
     },
     {
-      "game_id": "d961840cf470389306fa79cf82f5d46c",
-      "sport_key": "basketball_ncaab",
-      "sport_title": "NCAAB",
-      "commence_time": "2026-11-02T07:00:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "High Point Panthers",
-      "market": "totals",
-      "pick": "Over 154.5",
-      "selection": "Over",
-      "point": 154.5,
-      "prob": 0.5063,
-      "prob_pct": 50.6,
-      "confidence": 0.56,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 154.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Under 154.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "context": {
-        "notes": "ESPN: Field of 68 Opening Day Marathon."
-      },
-      "rationale": "Over 154.5 is the 51% call. ESPN: Field of 68 Opening Day Marathon."
-    },
-    {
-      "game_id": "0540f5758ac50f3bb60beb36755f7a1e",
+      "game_id": "1e591733bae48534963359a9cff13701",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "James Madison Dukes",
-      "away_team": "Troy Trojans",
-      "market": "totals",
-      "pick": "Over 50.5",
-      "selection": "Over",
-      "point": 50.5,
-      "prob": 0.5062,
-      "prob_pct": 50.6,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -103,
-      "outcomes": [
-        {
-          "label": "Over 50.5",
-          "prob_pct": 50.6
-        },
-        {
-          "label": "Under 50.5",
-          "prob_pct": 49.4
-        }
-      ],
-      "context": null,
-      "rationale": "Over 50.5 is the 51% call."
-    },
-    {
-      "game_id": "b02a5444929be961896a4db9742a01fa",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T02:00:00Z",
-      "home_team": "Boise State Broncos",
-      "away_team": "Texas State Bobcats",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Indiana Hoosiers",
+      "away_team": "Minnesota Golden Gophers",
       "market": "spreads",
-      "pick": "Boise State Broncos -12",
-      "selection": "Boise State Broncos",
-      "point": -12.0,
-      "prob": 0.5059,
-      "prob_pct": 50.6,
-      "confidence": 0.59,
+      "pick": "Indiana Hoosiers -20.5",
+      "selection": "Indiana Hoosiers",
+      "point": -20.5,
+      "prob": 0.5193,
+      "prob_pct": 51.9,
+      "confidence": 0.6,
       "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -102,
+      "market_prob_pct": 51.9,
+      "fair_price_american": -108,
       "outcomes": [
         {
-          "label": "Boise State Broncos -12",
-          "prob_pct": 50.6
+          "label": "Indiana Hoosiers -20.5",
+          "prob_pct": 51.9
         },
         {
-          "label": "Texas State Bobcats +10.5",
-          "prob_pct": 49.4
+          "label": "Minnesota Golden Gophers +19.5",
+          "prob_pct": 48.1
         }
       ],
       "context": null,
-      "rationale": "Boise State Broncos -12 is the 51% side to cover."
+      "rationale": "Indiana Hoosiers -20.5 is the 52% side to cover."
     },
     {
-      "game_id": "cac1461f5983a88fac612685395aa897",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Los Angeles Clippers",
-      "market": "totals",
-      "pick": "Over 221.5",
-      "selection": "Over",
-      "point": 221.5,
-      "prob": 0.5058,
-      "prob_pct": 50.6,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -102,
+      "game_id": "7da8a99a4ae4ef2ec08b3e4fa37c2485",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T18:10:00Z",
+      "home_team": "New York Islanders",
+      "away_team": "Edmonton Oilers",
+      "market": "h2h",
+      "pick": "Edmonton Oilers ML",
+      "selection": "Edmonton Oilers",
+      "point": null,
+      "prob": 0.5189,
+      "prob_pct": 51.9,
+      "confidence": 0.7,
+      "model_prob_pct": 49.3,
+      "market_prob_pct": 55.1,
+      "fair_price_american": -108,
       "outcomes": [
         {
-          "label": "Over 221.5",
-          "prob_pct": 50.6
+          "label": "Edmonton Oilers ML",
+          "prob_pct": 51.9
         },
         {
-          "label": "Under 221.5",
-          "prob_pct": 49.4
+          "label": "New York Islanders ML",
+          "prob_pct": 48.1
         }
       ],
       "context": null,
-      "rationale": "Over 221.5 is the 51% call."
+      "rationale": "Edmonton Oilers is the 52% pick to win \u2014 a coin-flip."
+    },
+    {
+      "game_id": "1e591733bae48534963359a9cff13701",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Indiana Hoosiers",
+      "away_team": "Minnesota Golden Gophers",
+      "market": "totals",
+      "pick": "Over 40.5",
+      "selection": "Over",
+      "point": 40.5,
+      "prob": 0.5186,
+      "prob_pct": 51.9,
+      "confidence": 0.57,
+      "model_prob_pct": null,
+      "market_prob_pct": 51.9,
+      "fair_price_american": -108,
+      "outcomes": [
+        {
+          "label": "Over 40.5",
+          "prob_pct": 51.9
+        },
+        {
+          "label": "Under 40.5",
+          "prob_pct": 48.1
+        }
+      ],
+      "context": null,
+      "rationale": "Over 40.5 is the 52% call."
+    },
+    {
+      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:06:00Z",
+      "home_team": "Charlotte 49ers",
+      "away_team": "Tulane Green Wave",
+      "market": "totals",
+      "pick": "Over 40.5",
+      "selection": "Over",
+      "point": 40.5,
+      "prob": 0.5178,
+      "prob_pct": 51.8,
+      "confidence": 0.13,
+      "model_prob_pct": null,
+      "market_prob_pct": 51.8,
+      "fair_price_american": -107,
+      "outcomes": [
+        {
+          "label": "Over 40.5",
+          "prob_pct": 51.8
+        },
+        {
+          "label": "Under 40.5",
+          "prob_pct": 48.2
+        }
+      ],
+      "context": null,
+      "rationale": "Over 40.5 is the 52% call."
+    },
+    {
+      "game_id": "2f219378e527cf1f695b814a0a4ad63c",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Syracuse Orange",
+      "away_team": "SMU Mustangs",
+      "market": "spreads",
+      "pick": "SMU Mustangs -10",
+      "selection": "SMU Mustangs",
+      "point": -10.0,
+      "prob": 0.5134,
+      "prob_pct": 51.3,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 51.3,
+      "fair_price_american": -106,
+      "outcomes": [
+        {
+          "label": "SMU Mustangs -10",
+          "prob_pct": 51.3
+        },
+        {
+          "label": "Syracuse Orange +9.5",
+          "prob_pct": 48.7
+        }
+      ],
+      "context": null,
+      "rationale": "SMU Mustangs -10 is the 51% side to cover."
     },
     {
       "game_id": "509ce59dbf5e07bb4acf73cd8ecc4d3b",
@@ -3410,387 +2838,419 @@
       "home_team": "Iowa State Cyclones",
       "away_team": "Memphis Tigers",
       "market": "totals",
-      "pick": "Under 154.5",
-      "selection": "Under",
-      "point": 154.5,
-      "prob": 0.5057,
-      "prob_pct": 50.6,
-      "confidence": 0.56,
+      "pick": "Over 156",
+      "selection": "Over",
+      "point": 156.0,
+      "prob": 0.5117,
+      "prob_pct": 51.2,
+      "confidence": 0.58,
       "model_prob_pct": null,
-      "market_prob_pct": 50.6,
-      "fair_price_american": -102,
+      "market_prob_pct": 51.2,
+      "fair_price_american": -105,
       "outcomes": [
         {
-          "label": "Under 154.5",
-          "prob_pct": 50.6
+          "label": "Over 156",
+          "prob_pct": 51.2
         },
         {
-          "label": "Over 154.5",
-          "prob_pct": 49.4
+          "label": "Under 156",
+          "prob_pct": 48.8
         }
       ],
       "context": null,
-      "rationale": "Under 154.5 is the 51% call."
+      "rationale": "Over 156 is the 51% call."
     },
     {
       "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
       "sport_key": "basketball_nba",
       "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
+      "commence_time": "2026-10-30T23:41:10Z",
       "home_team": "Brooklyn Nets",
       "away_team": "Detroit Pistons",
+      "market": "totals",
+      "pick": "Under 225.5",
+      "selection": "Under",
+      "point": 225.5,
+      "prob": 0.5112,
+      "prob_pct": 51.1,
+      "confidence": 0.16,
+      "model_prob_pct": null,
+      "market_prob_pct": 51.1,
+      "fair_price_american": -105,
+      "outcomes": [
+        {
+          "label": "Under 225.5",
+          "prob_pct": 51.1
+        },
+        {
+          "label": "Over 225.5",
+          "prob_pct": 48.9
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Under 225.5 is the 51% call. ESPN: game is In Progress."
+    },
+    {
+      "game_id": "509ce59dbf5e07bb4acf73cd8ecc4d3b",
+      "sport_key": "basketball_ncaab",
+      "sport_title": "NCAAB",
+      "commence_time": "2026-11-02T23:00:00Z",
+      "home_team": "Iowa State Cyclones",
+      "away_team": "Memphis Tigers",
       "market": "spreads",
-      "pick": "Detroit Pistons -7.5",
-      "selection": "Detroit Pistons",
-      "point": -7.5,
-      "prob": 0.5054,
-      "prob_pct": 50.5,
+      "pick": "Memphis Tigers +13.5",
+      "selection": "Memphis Tigers",
+      "point": 13.5,
+      "prob": 0.5109,
+      "prob_pct": 51.1,
       "confidence": 0.6,
       "model_prob_pct": null,
-      "market_prob_pct": 50.5,
-      "fair_price_american": -102,
+      "market_prob_pct": 51.1,
+      "fair_price_american": -104,
       "outcomes": [
         {
-          "label": "Detroit Pistons -7.5",
-          "prob_pct": 50.5
+          "label": "Memphis Tigers +13.5",
+          "prob_pct": 51.1
         },
         {
-          "label": "Brooklyn Nets +6.5",
-          "prob_pct": 49.5
+          "label": "Iowa State Cyclones -13.5",
+          "prob_pct": 48.9
         }
       ],
       "context": null,
-      "rationale": "Detroit Pistons -7.5 is the 51% side to cover."
+      "rationale": "Memphis Tigers +13.5 is the 51% side to cover."
     },
     {
-      "game_id": "183676bbb63b1716e2248ec6c6d205a9",
+      "game_id": "09f66e3676ec3112e24cd6b9e97feb41",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T19:15:00Z",
-      "home_team": "Louisville Cardinals",
-      "away_team": "Stanford Cardinal",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home_team": "Wake Forest Demon Deacons",
+      "away_team": "Virginia Cavaliers",
       "market": "totals",
-      "pick": "Over 59.5",
-      "selection": "Over",
-      "point": 59.5,
-      "prob": 0.5048,
-      "prob_pct": 50.5,
-      "confidence": 0.58,
+      "pick": "Under 48.5",
+      "selection": "Under",
+      "point": 48.5,
+      "prob": 0.5102,
+      "prob_pct": 51.0,
+      "confidence": 0.57,
       "model_prob_pct": null,
-      "market_prob_pct": 50.5,
-      "fair_price_american": -102,
+      "market_prob_pct": 51.0,
+      "fair_price_american": -104,
       "outcomes": [
         {
-          "label": "Over 59.5",
-          "prob_pct": 50.5
+          "label": "Under 48.5",
+          "prob_pct": 51.0
         },
         {
-          "label": "Under 59.5",
-          "prob_pct": 49.5
+          "label": "Over 48.5",
+          "prob_pct": 49.0
         }
       ],
       "context": null,
-      "rationale": "Over 59.5 is the 50% call."
+      "rationale": "Under 48.5 is the 51% call."
     },
     {
-      "game_id": "1841dedea57dac1d1de462bb44f8a732",
+      "game_id": "877d5834acad37b6142a835438c23001",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T20:00:00Z",
-      "home_team": "San Jose State Spartans",
-      "away_team": "New Mexico Lobos",
-      "market": "spreads",
-      "pick": "San Jose State Spartans +14.5",
-      "selection": "San Jose State Spartans",
-      "point": 14.5,
-      "prob": 0.5046,
-      "prob_pct": 50.5,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.5,
-      "fair_price_american": -102,
-      "outcomes": [
-        {
-          "label": "San Jose State Spartans +14.5",
-          "prob_pct": 50.5
-        },
-        {
-          "label": "New Mexico Lobos -15",
-          "prob_pct": 49.5
-        }
-      ],
-      "context": null,
-      "rationale": "San Jose State Spartans +14.5 is the 50% side to cover."
-    },
-    {
-      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Navy Midshipmen",
-      "away_team": "Notre Dame Fighting Irish",
+      "commence_time": "2026-11-01T00:00:00Z",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "Washington Huskies",
       "market": "totals",
-      "pick": "Over 56.5",
+      "pick": "Over 49.5",
       "selection": "Over",
-      "point": 56.5,
-      "prob": 0.5034,
-      "prob_pct": 50.3,
+      "point": 49.5,
+      "prob": 0.5098,
+      "prob_pct": 51.0,
       "confidence": 0.58,
       "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
+      "market_prob_pct": 51.0,
+      "fair_price_american": -104,
       "outcomes": [
         {
-          "label": "Over 56.5",
-          "prob_pct": 50.3
+          "label": "Over 49.5",
+          "prob_pct": 51.0
         },
         {
-          "label": "Under 56.5",
-          "prob_pct": 49.7
+          "label": "Under 49.5",
+          "prob_pct": 49.0
         }
       ],
       "context": null,
-      "rationale": "Over 56.5 is the 50% call."
+      "rationale": "Over 49.5 is the 51% call."
     },
     {
-      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T23:30:00Z",
-      "home_team": "Pittsburgh Panthers",
-      "away_team": "Georgia Tech Yellow Jackets",
-      "market": "totals",
-      "pick": "Over 53.5",
-      "selection": "Over",
-      "point": 53.5,
-      "prob": 0.5034,
-      "prob_pct": 50.3,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Over 53.5",
-          "prob_pct": 50.3
-        },
-        {
-          "label": "Under 53.5",
-          "prob_pct": 49.7
-        }
-      ],
-      "context": null,
-      "rationale": "Over 53.5 is the 50% call."
-    },
-    {
-      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "North Texas Mean Green",
-      "away_team": "Florida Atlantic Owls",
-      "market": "totals",
-      "pick": "Over 77.5",
-      "selection": "Over",
-      "point": 77.5,
-      "prob": 0.5034,
-      "prob_pct": 50.3,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Over 77.5",
-          "prob_pct": 50.3
-        },
-        {
-          "label": "Under 77.5",
-          "prob_pct": 49.7
-        }
-      ],
-      "context": null,
-      "rationale": "Over 77.5 is the 50% call."
-    },
-    {
-      "game_id": "1841dedea57dac1d1de462bb44f8a732",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T20:00:00Z",
-      "home_team": "San Jose State Spartans",
-      "away_team": "New Mexico Lobos",
-      "market": "totals",
-      "pick": "Over 41.5",
-      "selection": "Over",
-      "point": 41.5,
-      "prob": 0.5034,
-      "prob_pct": 50.3,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Over 41.5",
-          "prob_pct": 50.3
-        },
-        {
-          "label": "Under 41.5",
-          "prob_pct": 49.7
-        }
-      ],
-      "context": null,
-      "rationale": "Over 41.5 is the 50% call."
-    },
-    {
-      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Navy Midshipmen",
-      "away_team": "Notre Dame Fighting Irish",
-      "market": "spreads",
-      "pick": "Navy Midshipmen +30",
-      "selection": "Navy Midshipmen",
-      "point": 30.0,
-      "prob": 0.5034,
-      "prob_pct": 50.3,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Navy Midshipmen +30",
-          "prob_pct": 50.3
-        },
-        {
-          "label": "Notre Dame Fighting Irish -31",
-          "prob_pct": 49.7
-        }
-      ],
-      "context": null,
-      "rationale": "Navy Midshipmen +30 is the 50% side to cover."
-    },
-    {
-      "game_id": "7fd2d018fdc5930fd62188de968a901c",
+      "game_id": "630ed6c8993fda8943e528a465e55518",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
       "commence_time": "2026-10-31T20:15:00Z",
-      "home_team": "Penn State Nittany Lions",
-      "away_team": "Purdue Boilermakers",
-      "market": "spreads",
-      "pick": "Penn State Nittany Lions -9",
-      "selection": "Penn State Nittany Lions",
-      "point": -9.0,
-      "prob": 0.5033,
-      "prob_pct": 50.3,
+      "home_team": "UCLA Bruins",
+      "away_team": "Nevada Wolf Pack",
+      "market": "totals",
+      "pick": "Over 43.5",
+      "selection": "Over",
+      "point": 43.5,
+      "prob": 0.5086,
+      "prob_pct": 50.9,
       "confidence": 0.58,
       "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
+      "market_prob_pct": 50.9,
+      "fair_price_american": -103,
       "outcomes": [
         {
-          "label": "Penn State Nittany Lions -9",
-          "prob_pct": 50.3
+          "label": "Over 43.5",
+          "prob_pct": 50.9
         },
         {
-          "label": "Purdue Boilermakers +9.5",
-          "prob_pct": 49.7
+          "label": "Under 43.5",
+          "prob_pct": 49.1
         }
       ],
       "context": null,
-      "rationale": "Penn State Nittany Lions -9 is the 50% side to cover."
+      "rationale": "Over 43.5 is the 51% call."
     },
     {
-      "game_id": "b0f68c9265402a825cbbf7954b726339",
+      "game_id": "2f219378e527cf1f695b814a0a4ad63c",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Syracuse Orange",
+      "away_team": "SMU Mustangs",
+      "market": "totals",
+      "pick": "Over 57.5",
+      "selection": "Over",
+      "point": 57.5,
+      "prob": 0.508,
+      "prob_pct": 50.8,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.8,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "Over 57.5",
+          "prob_pct": 50.8
+        },
+        {
+          "label": "Under 57.5",
+          "prob_pct": 49.2
+        }
+      ],
+      "context": null,
+      "rationale": "Over 57.5 is the 51% call."
+    },
+    {
+      "game_id": "44ee19d31b9288ad402868d6df737595",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:35:14Z",
+      "home_team": "UCF Knights",
+      "away_team": "Baylor Bears",
+      "market": "h2h",
+      "pick": "UCF Knights ML",
+      "selection": "UCF Knights",
+      "point": null,
+      "prob": 0.5077,
+      "prob_pct": 50.8,
+      "confidence": 0.12,
+      "model_prob_pct": 56.2,
+      "market_prob_pct": 42.2,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "UCF Knights ML",
+          "prob_pct": 50.8
+        },
+        {
+          "label": "Baylor Bears ML",
+          "prob_pct": 49.2
+        }
+      ],
+      "context": null,
+      "rationale": "UCF Knights is the 51% pick to win \u2014 a coin-flip."
+    },
+    {
+      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-30T23:06:00Z",
+      "home_team": "Charlotte 49ers",
+      "away_team": "Tulane Green Wave",
+      "market": "spreads",
+      "pick": "Tulane Green Wave -15.5",
+      "selection": "Tulane Green Wave",
+      "point": -15.5,
+      "prob": 0.5075,
+      "prob_pct": 50.7,
+      "confidence": 0.13,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "Tulane Green Wave -15.5",
+          "prob_pct": 50.7
+        },
+        {
+          "label": "Charlotte 49ers +12.5",
+          "prob_pct": 49.3
+        }
+      ],
+      "context": null,
+      "rationale": "Tulane Green Wave -15.5 is the 51% side to cover."
+    },
+    {
+      "game_id": "9c33dd628312f89764392414cbc99c86",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
       "commence_time": "2026-10-31T19:30:00Z",
-      "home_team": "BYU Cougars",
-      "away_team": "Arizona State Sun Devils",
+      "home_team": "Utah State Aggies",
+      "away_team": "Colorado State Rams",
       "market": "spreads",
-      "pick": "BYU Cougars -16.5",
-      "selection": "BYU Cougars",
-      "point": -16.5,
-      "prob": 0.5029,
-      "prob_pct": 50.3,
-      "confidence": 0.59,
+      "pick": "Utah State Aggies -7.5",
+      "selection": "Utah State Aggies",
+      "point": -7.5,
+      "prob": 0.5074,
+      "prob_pct": 50.7,
+      "confidence": 0.6,
       "model_prob_pct": null,
-      "market_prob_pct": 50.3,
-      "fair_price_american": -101,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -103,
       "outcomes": [
         {
-          "label": "BYU Cougars -16.5",
-          "prob_pct": 50.3
+          "label": "Utah State Aggies -7.5",
+          "prob_pct": 50.7
         },
         {
-          "label": "Arizona State Sun Devils +16.5",
-          "prob_pct": 49.7
+          "label": "Colorado State Rams +7",
+          "prob_pct": 49.3
         }
       ],
       "context": null,
-      "rationale": "BYU Cougars -16.5 is the 50% side to cover."
+      "rationale": "Utah State Aggies -7.5 is the 51% side to cover."
     },
     {
-      "game_id": "026d37181dd4ace0df7565d9b208ce7e",
-      "sport_key": "icehockey_nhl",
-      "sport_title": "NHL",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Calgary Flames",
-      "away_team": "Seattle Kraken",
-      "market": "h2h",
-      "pick": "Calgary Flames ML",
-      "selection": "Calgary Flames",
-      "point": null,
-      "prob": 0.5025,
-      "prob_pct": 50.3,
-      "confidence": 0.8,
-      "model_prob_pct": 51.3,
-      "market_prob_pct": 48.8,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Calgary Flames ML",
-          "prob_pct": 50.3
-        },
-        {
-          "label": "Seattle Kraken ML",
-          "prob_pct": 49.7
-        }
-      ],
-      "context": null,
-      "rationale": "Calgary Flames is the 50% pick to win \u2014 a coin-flip."
-    },
-    {
-      "game_id": "0540f5758ac50f3bb60beb36755f7a1e",
+      "game_id": "9c33dd628312f89764392414cbc99c86",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-29T23:30:00Z",
-      "home_team": "James Madison Dukes",
-      "away_team": "Troy Trojans",
-      "market": "spreads",
-      "pick": "James Madison Dukes -19",
-      "selection": "James Madison Dukes",
-      "point": -19.0,
-      "prob": 0.5023,
-      "prob_pct": 50.2,
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Utah State Aggies",
+      "away_team": "Colorado State Rams",
+      "market": "totals",
+      "pick": "Over 61.5",
+      "selection": "Over",
+      "point": 61.5,
+      "prob": 0.5071,
+      "prob_pct": 50.7,
       "confidence": 0.59,
       "model_prob_pct": null,
-      "market_prob_pct": 50.2,
-      "fair_price_american": -101,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -103,
       "outcomes": [
         {
-          "label": "James Madison Dukes -19",
-          "prob_pct": 50.2
+          "label": "Over 61.5",
+          "prob_pct": 50.7
         },
         {
-          "label": "Troy Trojans +19",
-          "prob_pct": 49.8
+          "label": "Under 61.5",
+          "prob_pct": 49.3
         }
       ],
       "context": null,
-      "rationale": "James Madison Dukes -19 is the 50% side to cover."
+      "rationale": "Over 61.5 is the 51% call."
+    },
+    {
+      "game_id": "85b5947ccfe102a2fa2179d54c83ae31",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home_team": "North Carolina Tar Heels",
+      "away_team": "Miami Hurricanes",
+      "market": "spreads",
+      "pick": "North Carolina Tar Heels +14",
+      "selection": "North Carolina Tar Heels",
+      "point": 14.0,
+      "prob": 0.5071,
+      "prob_pct": 50.7,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.7,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "North Carolina Tar Heels +14",
+          "prob_pct": 50.7
+        },
+        {
+          "label": "Miami Hurricanes -14.5",
+          "prob_pct": 49.3
+        }
+      ],
+      "context": null,
+      "rationale": "North Carolina Tar Heels +14 is the 51% side to cover."
+    },
+    {
+      "game_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Western Michigan Broncos",
+      "away_team": "Bowling Green Falcons",
+      "market": "spreads",
+      "pick": "Western Michigan Broncos -14",
+      "selection": "Western Michigan Broncos",
+      "point": -14.0,
+      "prob": 0.5064,
+      "prob_pct": 50.6,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.6,
+      "fair_price_american": -103,
+      "outcomes": [
+        {
+          "label": "Western Michigan Broncos -14",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Bowling Green Falcons +13.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "context": null,
+      "rationale": "Western Michigan Broncos -14 is the 51% side to cover."
+    },
+    {
+      "game_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Western Michigan Broncos",
+      "away_team": "Bowling Green Falcons",
+      "market": "totals",
+      "pick": "Over 44.5",
+      "selection": "Over",
+      "point": 44.5,
+      "prob": 0.5061,
+      "prob_pct": 50.6,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.6,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Over 44.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "Under 44.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "context": null,
+      "rationale": "Over 44.5 is the 51% call."
     },
     {
       "game_id": "b0f68c9265402a825cbbf7954b726339",
@@ -3803,24 +3263,416 @@
       "pick": "Under 48.5",
       "selection": "Under",
       "point": 48.5,
-      "prob": 0.5023,
-      "prob_pct": 50.2,
-      "confidence": 0.58,
+      "prob": 0.5056,
+      "prob_pct": 50.6,
+      "confidence": 0.59,
       "model_prob_pct": null,
-      "market_prob_pct": 50.2,
-      "fair_price_american": -101,
+      "market_prob_pct": 50.6,
+      "fair_price_american": -102,
       "outcomes": [
         {
           "label": "Under 48.5",
-          "prob_pct": 50.2
+          "prob_pct": 50.6
         },
         {
           "label": "Over 48.5",
-          "prob_pct": 49.8
+          "prob_pct": 49.4
         }
       ],
       "context": null,
-      "rationale": "Under 48.5 is the 50% call."
+      "rationale": "Under 48.5 is the 51% call."
+    },
+    {
+      "game_id": "c17c8f9e12ffe066cf601c96090fcb14",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "North Dakota State Bison",
+      "away_team": "UTEP Miners",
+      "market": "spreads",
+      "pick": "UTEP Miners +24.5",
+      "selection": "UTEP Miners",
+      "point": 24.5,
+      "prob": 0.5055,
+      "prob_pct": 50.6,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.6,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "UTEP Miners +24.5",
+          "prob_pct": 50.6
+        },
+        {
+          "label": "North Dakota State Bison -24.5",
+          "prob_pct": 49.4
+        }
+      ],
+      "context": null,
+      "rationale": "UTEP Miners +24.5 is the 51% side to cover."
+    },
+    {
+      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Navy Midshipmen",
+      "away_team": "Notre Dame Fighting Irish",
+      "market": "totals",
+      "pick": "Under 56.5",
+      "selection": "Under",
+      "point": 56.5,
+      "prob": 0.5052,
+      "prob_pct": 50.5,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.5,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 56.5",
+          "prob_pct": 50.5
+        },
+        {
+          "label": "Over 56.5",
+          "prob_pct": 49.5
+        }
+      ],
+      "context": null,
+      "rationale": "Under 56.5 is the 51% call."
+    },
+    {
+      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T02:30:00Z",
+      "home_team": "Sacramento State Hornets",
+      "away_team": "Kent State Golden Flashes",
+      "market": "spreads",
+      "pick": "Sacramento State Hornets +7",
+      "selection": "Sacramento State Hornets",
+      "point": 7.0,
+      "prob": 0.5048,
+      "prob_pct": 50.5,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.5,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Sacramento State Hornets +7",
+          "prob_pct": 50.5
+        },
+        {
+          "label": "Kent State Golden Flashes -7.5",
+          "prob_pct": 49.5
+        }
+      ],
+      "context": null,
+      "rationale": "Sacramento State Hornets +7 is the 50% side to cover."
+    },
+    {
+      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "South Florida Bulls",
+      "away_team": "UAB Blazers",
+      "market": "totals",
+      "pick": "Over 41.5",
+      "selection": "Over",
+      "point": 41.5,
+      "prob": 0.5046,
+      "prob_pct": 50.5,
+      "confidence": 0.57,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.5,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Over 41.5",
+          "prob_pct": 50.5
+        },
+        {
+          "label": "Under 41.5",
+          "prob_pct": 49.5
+        }
+      ],
+      "context": null,
+      "rationale": "Over 41.5 is the 50% call."
+    },
+    {
+      "game_id": "aa15904c0f5814a899ddbe002c96406a",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "NC State Wolfpack",
+      "away_team": "California Golden Bears",
+      "market": "spreads",
+      "pick": "California Golden Bears +8",
+      "selection": "California Golden Bears",
+      "point": 8.0,
+      "prob": 0.5046,
+      "prob_pct": 50.5,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.5,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "California Golden Bears +8",
+          "prob_pct": 50.5
+        },
+        {
+          "label": "NC State Wolfpack -8",
+          "prob_pct": 49.5
+        }
+      ],
+      "context": null,
+      "rationale": "California Golden Bears +8 is the 50% side to cover."
+    },
+    {
+      "game_id": "8480c989381049fc30c8d714be95db35",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home_team": "Cincinnati Bearcats",
+      "away_team": "Utah Utes",
+      "market": "totals",
+      "pick": "Under 56.5",
+      "selection": "Under",
+      "point": 56.5,
+      "prob": 0.5043,
+      "prob_pct": 50.4,
+      "confidence": 0.56,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.4,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 56.5",
+          "prob_pct": 50.4
+        },
+        {
+          "label": "Over 56.5",
+          "prob_pct": 49.6
+        }
+      ],
+      "context": null,
+      "rationale": "Under 56.5 is the 50% call."
+    },
+    {
+      "game_id": "183676bbb63b1716e2248ec6c6d205a9",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:15:00Z",
+      "home_team": "Louisville Cardinals",
+      "away_team": "Stanford Cardinal",
+      "market": "totals",
+      "pick": "Under 60.5",
+      "selection": "Under",
+      "point": 60.5,
+      "prob": 0.5039,
+      "prob_pct": 50.4,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.4,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 60.5",
+          "prob_pct": 50.4
+        },
+        {
+          "label": "Over 60.5",
+          "prob_pct": 49.6
+        }
+      ],
+      "context": null,
+      "rationale": "Under 60.5 is the 50% call."
+    },
+    {
+      "game_id": "5bee3fb00be225402b2d2d7842398207",
+      "sport_key": "basketball_ncaab",
+      "sport_title": "NCAAB",
+      "commence_time": "2026-11-01T14:30:00Z",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_team": "Villanova Wildcats",
+      "market": "totals",
+      "pick": "Under 147.5",
+      "selection": "Under",
+      "point": 147.5,
+      "prob": 0.5039,
+      "prob_pct": 50.4,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.4,
+      "fair_price_american": -102,
+      "outcomes": [
+        {
+          "label": "Under 147.5",
+          "prob_pct": 50.4
+        },
+        {
+          "label": "Over 147.5",
+          "prob_pct": 49.6
+        }
+      ],
+      "context": {
+        "notes": "ESPN: Eternal City Tip-Off."
+      },
+      "rationale": "Under 147.5 is the 50% call. ESPN: Eternal City Tip-Off."
+    },
+    {
+      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home_team": "Pittsburgh Panthers",
+      "away_team": "Georgia Tech Yellow Jackets",
+      "market": "totals",
+      "pick": "Over 54.5",
+      "selection": "Over",
+      "point": 54.5,
+      "prob": 0.5036,
+      "prob_pct": 50.4,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.4,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Over 54.5",
+          "prob_pct": 50.4
+        },
+        {
+          "label": "Under 54.5",
+          "prob_pct": 49.6
+        }
+      ],
+      "context": null,
+      "rationale": "Over 54.5 is the 50% call."
+    },
+    {
+      "game_id": "877d5834acad37b6142a835438c23001",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-11-01T00:00:00Z",
+      "home_team": "Nebraska Cornhuskers",
+      "away_team": "Washington Huskies",
+      "market": "spreads",
+      "pick": "Washington Huskies +8",
+      "selection": "Washington Huskies",
+      "point": 8.0,
+      "prob": 0.5034,
+      "prob_pct": 50.3,
+      "confidence": 0.59,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Washington Huskies +8",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Nebraska Cornhuskers -8",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Washington Huskies +8 is the 50% side to cover."
+    },
+    {
+      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T02:30:00Z",
+      "home_team": "Sacramento State Hornets",
+      "away_team": "Kent State Golden Flashes",
+      "market": "totals",
+      "pick": "Over 46.5",
+      "selection": "Over",
+      "point": 46.5,
+      "prob": 0.5034,
+      "prob_pct": 50.3,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Over 46.5",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Under 46.5",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Over 46.5 is the 50% call."
+    },
+    {
+      "game_id": "8480c989381049fc30c8d714be95db35",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home_team": "Cincinnati Bearcats",
+      "away_team": "Utah Utes",
+      "market": "spreads",
+      "pick": "Cincinnati Bearcats +7.5",
+      "selection": "Cincinnati Bearcats",
+      "point": 7.5,
+      "prob": 0.5033,
+      "prob_pct": 50.3,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Cincinnati Bearcats +7.5",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Utah Utes -7",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Cincinnati Bearcats +7.5 is the 50% side to cover."
+    },
+    {
+      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Navy Midshipmen",
+      "away_team": "Notre Dame Fighting Irish",
+      "market": "spreads",
+      "pick": "Notre Dame Fighting Irish -30.5",
+      "selection": "Notre Dame Fighting Irish",
+      "point": -30.5,
+      "prob": 0.5028,
+      "prob_pct": 50.3,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Notre Dame Fighting Irish -30.5",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Navy Midshipmen +30.5",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Notre Dame Fighting Irish -30.5 is the 50% side to cover."
     },
     {
       "game_id": "7fd2d018fdc5930fd62188de968a901c",
@@ -3829,28 +3681,28 @@
       "commence_time": "2026-10-31T20:15:00Z",
       "home_team": "Penn State Nittany Lions",
       "away_team": "Purdue Boilermakers",
-      "market": "totals",
-      "pick": "Over 54.5",
-      "selection": "Over",
-      "point": 54.5,
-      "prob": 0.5022,
-      "prob_pct": 50.2,
+      "market": "spreads",
+      "pick": "Penn State Nittany Lions -10.5",
+      "selection": "Penn State Nittany Lions",
+      "point": -10.5,
+      "prob": 0.5028,
+      "prob_pct": 50.3,
       "confidence": 0.59,
       "model_prob_pct": null,
-      "market_prob_pct": 50.2,
+      "market_prob_pct": 50.3,
       "fair_price_american": -101,
       "outcomes": [
         {
-          "label": "Over 54.5",
-          "prob_pct": 50.2
+          "label": "Penn State Nittany Lions -10.5",
+          "prob_pct": 50.3
         },
         {
-          "label": "Under 54.5",
-          "prob_pct": 49.8
+          "label": "Purdue Boilermakers +10.5",
+          "prob_pct": 49.7
         }
       ],
       "context": null,
-      "rationale": "Over 54.5 is the 50% call."
+      "rationale": "Penn State Nittany Lions -10.5 is the 50% side to cover."
     },
     {
       "game_id": "e5ff4a85ab3b8341184a334a390f6ba2",
@@ -3859,11 +3711,73 @@
       "commence_time": "2026-10-31T19:30:00Z",
       "home_team": "Liberty Flames",
       "away_team": "Florida International Panthers",
+      "market": "spreads",
+      "pick": "Liberty Flames -14",
+      "selection": "Liberty Flames",
+      "point": -14.0,
+      "prob": 0.5026,
+      "prob_pct": 50.3,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.3,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Liberty Flames -14",
+          "prob_pct": 50.3
+        },
+        {
+          "label": "Florida International Panthers +13.5",
+          "prob_pct": 49.7
+        }
+      ],
+      "context": null,
+      "rationale": "Liberty Flames -14 is the 50% side to cover."
+    },
+    {
+      "game_id": "d961840cf470389306fa79cf82f5d46c",
+      "sport_key": "basketball_ncaab",
+      "sport_title": "NCAAB",
+      "commence_time": "2026-11-02T07:00:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "High Point Panthers",
       "market": "totals",
-      "pick": "Over 45",
+      "pick": "Over 154.5",
       "selection": "Over",
-      "point": 45.0,
-      "prob": 0.5019,
+      "point": 154.5,
+      "prob": 0.5025,
+      "prob_pct": 50.2,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Over 154.5",
+          "prob_pct": 50.2
+        },
+        {
+          "label": "Under 154.5",
+          "prob_pct": 49.8
+        }
+      ],
+      "context": {
+        "notes": "ESPN: Field of 68 Opening Day Marathon."
+      },
+      "rationale": "Over 154.5 is the 50% call. ESPN: Field of 68 Opening Day Marathon."
+    },
+    {
+      "game_id": "1841dedea57dac1d1de462bb44f8a732",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T20:00:00Z",
+      "home_team": "San Jose State Spartans",
+      "away_team": "New Mexico Lobos",
+      "market": "spreads",
+      "pick": "San Jose State Spartans +14.5",
+      "selection": "San Jose State Spartans",
+      "point": 14.5,
+      "prob": 0.5024,
       "prob_pct": 50.2,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -3871,16 +3785,108 @@
       "fair_price_american": -101,
       "outcomes": [
         {
-          "label": "Over 45",
+          "label": "San Jose State Spartans +14.5",
           "prob_pct": 50.2
         },
         {
-          "label": "Under 45",
+          "label": "New Mexico Lobos -15",
           "prob_pct": 49.8
         }
       ],
       "context": null,
-      "rationale": "Over 45 is the 50% call."
+      "rationale": "San Jose State Spartans +14.5 is the 50% side to cover."
+    },
+    {
+      "game_id": "85b5947ccfe102a2fa2179d54c83ae31",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home_team": "North Carolina Tar Heels",
+      "away_team": "Miami Hurricanes",
+      "market": "totals",
+      "pick": "Over 53.5",
+      "selection": "Over",
+      "point": 53.5,
+      "prob": 0.5022,
+      "prob_pct": 50.2,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Over 53.5",
+          "prob_pct": 50.2
+        },
+        {
+          "label": "Under 53.5",
+          "prob_pct": 49.8
+        }
+      ],
+      "context": null,
+      "rationale": "Over 53.5 is the 50% call."
+    },
+    {
+      "game_id": "d961840cf470389306fa79cf82f5d46c",
+      "sport_key": "basketball_ncaab",
+      "sport_title": "NCAAB",
+      "commence_time": "2026-11-02T07:00:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "High Point Panthers",
+      "market": "spreads",
+      "pick": "High Point Panthers -7.5",
+      "selection": "High Point Panthers",
+      "point": -7.5,
+      "prob": 0.5019,
+      "prob_pct": 50.2,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.2,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "High Point Panthers -7.5",
+          "prob_pct": 50.2
+        },
+        {
+          "label": "Liberty Flames +7.5",
+          "prob_pct": 49.8
+        }
+      ],
+      "context": {
+        "notes": "ESPN: Field of 68 Opening Day Marathon."
+      },
+      "rationale": "High Point Panthers -7.5 is the 50% side to cover. ESPN: Field of 68 Opening Day Marathon."
+    },
+    {
+      "game_id": "026d37181dd4ace0df7565d9b208ce7e",
+      "sport_key": "icehockey_nhl",
+      "sport_title": "NHL",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Calgary Flames",
+      "away_team": "Seattle Kraken",
+      "market": "h2h",
+      "pick": "Calgary Flames ML",
+      "selection": "Calgary Flames",
+      "point": null,
+      "prob": 0.5018,
+      "prob_pct": 50.2,
+      "confidence": 0.58,
+      "model_prob_pct": 51.3,
+      "market_prob_pct": 48.6,
+      "fair_price_american": -101,
+      "outcomes": [
+        {
+          "label": "Calgary Flames ML",
+          "prob_pct": 50.2
+        },
+        {
+          "label": "Seattle Kraken ML",
+          "prob_pct": 49.8
+        }
+      ],
+      "context": null,
+      "rationale": "Calgary Flames is the 50% pick to win \u2014 a coin-flip."
     },
     {
       "game_id": "5bee3fb00be225402b2d2d7842398207",
@@ -3893,7 +3899,7 @@
       "pick": "Notre Dame Fighting Irish +7.5",
       "selection": "Notre Dame Fighting Irish",
       "point": 7.5,
-      "prob": 0.5019,
+      "prob": 0.5016,
       "prob_pct": 50.2,
       "confidence": 0.6,
       "model_prob_pct": null,
@@ -3915,94 +3921,64 @@
       "rationale": "Notre Dame Fighting Irish +7.5 is the 50% side to cover. ESPN: Eternal City Tip-Off."
     },
     {
-      "game_id": "c3a424e24d426af94a693e06a33e3037",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Miami Heat",
-      "away_team": "Indiana Pacers",
-      "market": "totals",
-      "pick": "Over 239.5",
-      "selection": "Over",
-      "point": 239.5,
-      "prob": 0.5016,
-      "prob_pct": 50.2,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.2,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Over 239.5",
-          "prob_pct": 50.2
-        },
-        {
-          "label": "Under 239.5",
-          "prob_pct": 49.8
-        }
-      ],
-      "context": null,
-      "rationale": "Over 239.5 is the 50% call."
-    },
-    {
-      "game_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
+      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Western Michigan Broncos",
-      "away_team": "Bowling Green Falcons",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home_team": "Pittsburgh Panthers",
+      "away_team": "Georgia Tech Yellow Jackets",
       "market": "spreads",
-      "pick": "Bowling Green Falcons +13",
-      "selection": "Bowling Green Falcons",
-      "point": 13.0,
-      "prob": 0.5014,
+      "pick": "Georgia Tech Yellow Jackets +8",
+      "selection": "Georgia Tech Yellow Jackets",
+      "point": 8.0,
+      "prob": 0.5012,
       "prob_pct": 50.1,
       "confidence": 0.59,
       "model_prob_pct": null,
       "market_prob_pct": 50.1,
-      "fair_price_american": -101,
-      "outcomes": [
-        {
-          "label": "Bowling Green Falcons +13",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "Western Michigan Broncos -13.5",
-          "prob_pct": 49.9
-        }
-      ],
-      "context": null,
-      "rationale": "Bowling Green Falcons +13 is the 50% side to cover."
-    },
-    {
-      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
-      "market": "totals",
-      "pick": "Over 232.5",
-      "selection": "Over",
-      "point": 232.5,
-      "prob": 0.501,
-      "prob_pct": 50.1,
-      "confidence": 0.82,
-      "model_prob_pct": 50.4,
-      "market_prob_pct": 49.7,
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "Over 232.5",
+          "label": "Georgia Tech Yellow Jackets +8",
           "prob_pct": 50.1
         },
         {
-          "label": "Under 232.5",
+          "label": "Pittsburgh Panthers -8",
           "prob_pct": 49.9
         }
       ],
       "context": null,
-      "rationale": "Expected ~232.7 combined points; Over 232.5 is the 50% call \u2014 a coin-flip."
+      "rationale": "Georgia Tech Yellow Jackets +8 is the 50% side to cover."
+    },
+    {
+      "game_id": "b0f68c9265402a825cbbf7954b726339",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "BYU Cougars",
+      "away_team": "Arizona State Sun Devils",
+      "market": "spreads",
+      "pick": "BYU Cougars -16.5",
+      "selection": "BYU Cougars",
+      "point": -16.5,
+      "prob": 0.5009,
+      "prob_pct": 50.1,
+      "confidence": 0.6,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.1,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "BYU Cougars -16.5",
+          "prob_pct": 50.1
+        },
+        {
+          "label": "Arizona State Sun Devils +16.5",
+          "prob_pct": 49.9
+        }
+      ],
+      "context": null,
+      "rationale": "BYU Cougars -16.5 is the 50% side to cover."
     },
     {
       "game_id": "183676bbb63b1716e2248ec6c6d205a9",
@@ -4012,10 +3988,10 @@
       "home_team": "Louisville Cardinals",
       "away_team": "Stanford Cardinal",
       "market": "spreads",
-      "pick": "Louisville Cardinals -23.5",
-      "selection": "Louisville Cardinals",
-      "point": -23.5,
-      "prob": 0.501,
+      "pick": "Stanford Cardinal +22.5",
+      "selection": "Stanford Cardinal",
+      "point": 22.5,
+      "prob": 0.5009,
       "prob_pct": 50.1,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -4023,76 +3999,48 @@
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "Louisville Cardinals -23.5",
+          "label": "Stanford Cardinal +22.5",
           "prob_pct": 50.1
         },
         {
-          "label": "Stanford Cardinal +22.5",
+          "label": "Louisville Cardinals -22.5",
           "prob_pct": 49.9
         }
       ],
       "context": null,
-      "rationale": "Louisville Cardinals -23.5 is the 50% side to cover."
+      "rationale": "Stanford Cardinal +22.5 is the 50% side to cover."
     },
     {
-      "game_id": "aa15904c0f5814a899ddbe002c96406a",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "NC State Wolfpack",
-      "away_team": "California Golden Bears",
-      "market": "totals",
-      "pick": "Over 56.5",
-      "selection": "Over",
-      "point": 56.5,
+      "game_id": "c3a424e24d426af94a693e06a33e3037",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Miami Heat",
+      "away_team": "Indiana Pacers",
+      "market": "spreads",
+      "pick": "Miami Heat -8.5",
+      "selection": "Miami Heat",
+      "point": -8.5,
       "prob": 0.5009,
       "prob_pct": 50.1,
-      "confidence": 0.58,
+      "confidence": 0.44,
       "model_prob_pct": null,
       "market_prob_pct": 50.1,
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "Over 56.5",
+          "label": "Miami Heat -8.5",
           "prob_pct": 50.1
         },
         {
-          "label": "Under 56.5",
+          "label": "Indiana Pacers +8.5",
           "prob_pct": 49.9
         }
       ],
-      "context": null,
-      "rationale": "Over 56.5 is the 50% call."
-    },
-    {
-      "game_id": "85b5947ccfe102a2fa2179d54c83ae31",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T23:30:00Z",
-      "home_team": "North Carolina Tar Heels",
-      "away_team": "Miami Hurricanes",
-      "market": "spreads",
-      "pick": "Miami Hurricanes -14.5",
-      "selection": "Miami Hurricanes",
-      "point": -14.5,
-      "prob": 0.5007,
-      "prob_pct": 50.1,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.1,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Miami Hurricanes -14.5",
-          "prob_pct": 50.1
-        },
-        {
-          "label": "North Carolina Tar Heels +14",
-          "prob_pct": 49.9
-        }
-      ],
-      "context": null,
-      "rationale": "Miami Hurricanes -14.5 is the 50% side to cover."
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Miami Heat -8.5 is the 50% side to cover. ESPN: NBA Cup - Group Play."
     },
     {
       "game_id": "09f66e3676ec3112e24cd6b9e97feb41",
@@ -4105,7 +4053,7 @@
       "pick": "Wake Forest Demon Deacons -13",
       "selection": "Wake Forest Demon Deacons",
       "point": -13.0,
-      "prob": 0.5006,
+      "prob": 0.5009,
       "prob_pct": 50.1,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -4125,17 +4073,47 @@
       "rationale": "Wake Forest Demon Deacons -13 is the 50% side to cover."
     },
     {
-      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
+      "game_id": "aa15904c0f5814a899ddbe002c96406a",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
       "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "South Florida Bulls",
-      "away_team": "UAB Blazers",
+      "home_team": "NC State Wolfpack",
+      "away_team": "California Golden Bears",
+      "market": "totals",
+      "pick": "Over 56.5",
+      "selection": "Over",
+      "point": 56.5,
+      "prob": 0.5007,
+      "prob_pct": 50.1,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.1,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "Over 56.5",
+          "prob_pct": 50.1
+        },
+        {
+          "label": "Under 56.5",
+          "prob_pct": 49.9
+        }
+      ],
+      "context": null,
+      "rationale": "Over 56.5 is the 50% call."
+    },
+    {
+      "game_id": "b02a5444929be961896a4db9742a01fa",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-11-01T02:00:00Z",
+      "home_team": "Boise State Broncos",
+      "away_team": "Texas State Bobcats",
       "market": "spreads",
-      "pick": "South Florida Bulls -8",
-      "selection": "South Florida Bulls",
-      "point": -8.0,
-      "prob": 0.5006,
+      "pick": "Boise State Broncos -12",
+      "selection": "Boise State Broncos",
+      "point": -12.0,
+      "prob": 0.5005,
       "prob_pct": 50.1,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -4143,29 +4121,89 @@
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "South Florida Bulls -8",
+          "label": "Boise State Broncos -12",
           "prob_pct": 50.1
         },
         {
-          "label": "UAB Blazers +8",
+          "label": "Texas State Bobcats +10.5",
           "prob_pct": 49.9
         }
       ],
       "context": null,
-      "rationale": "South Florida Bulls -8 is the 50% side to cover."
+      "rationale": "Boise State Broncos -12 is the 50% side to cover."
     },
     {
-      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "game_id": "807f73b612ed07bda8d1835550ddbd43",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-30T23:00:00Z",
-      "home_team": "Charlotte 49ers",
-      "away_team": "Tulane Green Wave",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "Duke Blue Devils",
+      "away_team": "Boston College Eagles",
+      "market": "totals",
+      "pick": "Over 48.5",
+      "selection": "Over",
+      "point": 48.5,
+      "prob": 0.5004,
+      "prob_pct": 50.0,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "Over 48.5",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Under 48.5",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Over 48.5 is the 50% call."
+    },
+    {
+      "game_id": "1841dedea57dac1d1de462bb44f8a732",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T20:00:00Z",
+      "home_team": "San Jose State Spartans",
+      "away_team": "New Mexico Lobos",
+      "market": "totals",
+      "pick": "Under 42.5",
+      "selection": "Under",
+      "point": 42.5,
+      "prob": 0.5004,
+      "prob_pct": 50.0,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": -100,
+      "outcomes": [
+        {
+          "label": "Under 42.5",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Over 42.5",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Under 42.5 is the 50% call."
+    },
+    {
+      "game_id": "3713b2d962a33a6e55be7bffedd604a5",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home_team": "South Florida Bulls",
+      "away_team": "UAB Blazers",
       "market": "spreads",
-      "pick": "Charlotte 49ers +8.5",
-      "selection": "Charlotte 49ers",
-      "point": 8.5,
-      "prob": 0.5005,
+      "pick": "UAB Blazers +7.5",
+      "selection": "UAB Blazers",
+      "point": 7.5,
+      "prob": 0.5001,
       "prob_pct": 50.0,
       "confidence": 0.59,
       "model_prob_pct": null,
@@ -4173,88 +4211,28 @@
       "fair_price_american": -100,
       "outcomes": [
         {
-          "label": "Charlotte 49ers +8.5",
+          "label": "UAB Blazers +7.5",
           "prob_pct": 50.0
         },
         {
-          "label": "Tulane Green Wave -8.5",
+          "label": "South Florida Bulls -7.5",
           "prob_pct": 50.0
         }
       ],
       "context": null,
-      "rationale": "Charlotte 49ers +8.5 is the 50% side to cover."
+      "rationale": "UAB Blazers +7.5 is the 50% side to cover."
     },
     {
-      "game_id": "2f219378e527cf1f695b814a0a4ad63c",
+      "game_id": "630ed6c8993fda8943e528a465e55518",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T16:00:00Z",
-      "home_team": "Syracuse Orange",
-      "away_team": "SMU Mustangs",
-      "market": "totals",
-      "pick": "Under 57.5",
-      "selection": "Under",
-      "point": 57.5,
-      "prob": 0.5005,
-      "prob_pct": 50.0,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.0,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Under 57.5",
-          "prob_pct": 50.0
-        },
-        {
-          "label": "Over 57.5",
-          "prob_pct": 50.0
-        }
-      ],
-      "context": null,
-      "rationale": "Under 57.5 is the 50% call."
-    },
-    {
-      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T02:30:00Z",
-      "home_team": "Sacramento State Hornets",
-      "away_team": "Kent State Golden Flashes",
-      "market": "totals",
-      "pick": "Over 46.5",
-      "selection": "Over",
-      "point": 46.5,
-      "prob": 0.5005,
-      "prob_pct": 50.0,
-      "confidence": 0.58,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.0,
-      "fair_price_american": -100,
-      "outcomes": [
-        {
-          "label": "Over 46.5",
-          "prob_pct": 50.0
-        },
-        {
-          "label": "Under 46.5",
-          "prob_pct": 50.0
-        }
-      ],
-      "context": null,
-      "rationale": "Over 46.5 is the 50% call."
-    },
-    {
-      "game_id": "cac1461f5983a88fac612685395aa897",
-      "sport_key": "basketball_nba",
-      "sport_title": "NBA",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Los Angeles Clippers",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home_team": "UCLA Bruins",
+      "away_team": "Nevada Wolf Pack",
       "market": "spreads",
-      "pick": "Minnesota Timberwolves -7.5",
-      "selection": "Minnesota Timberwolves",
-      "point": -7.5,
+      "pick": "UCLA Bruins -22",
+      "selection": "UCLA Bruins",
+      "point": -22.0,
       "prob": 0.5,
       "prob_pct": 50.0,
       "confidence": 0.6,
@@ -4263,106 +4241,16 @@
       "fair_price_american": 100,
       "outcomes": [
         {
-          "label": "Minnesota Timberwolves -7.5",
+          "label": "UCLA Bruins -22",
           "prob_pct": 50.0
         },
         {
-          "label": "Los Angeles Clippers +7.5",
+          "label": "Nevada Wolf Pack +22",
           "prob_pct": 50.0
         }
       ],
       "context": null,
-      "rationale": "Minnesota Timberwolves -7.5 is the 50% side to cover."
-    },
-    {
-      "game_id": "877d5834acad37b6142a835438c23001",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-11-01T00:00:00Z",
-      "home_team": "Nebraska Cornhuskers",
-      "away_team": "Washington Huskies",
-      "market": "spreads",
-      "pick": "Nebraska Cornhuskers -8",
-      "selection": "Nebraska Cornhuskers",
-      "point": -8.0,
-      "prob": 0.5,
-      "prob_pct": 50.0,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.0,
-      "fair_price_american": 100,
-      "outcomes": [
-        {
-          "label": "Nebraska Cornhuskers -8",
-          "prob_pct": 50.0
-        },
-        {
-          "label": "Washington Huskies +8",
-          "prob_pct": 50.0
-        }
-      ],
-      "context": null,
-      "rationale": "Nebraska Cornhuskers -8 is the 50% side to cover."
-    },
-    {
-      "game_id": "8916ba5e623a0a1d97dd0e7f50e4a205",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T02:30:00Z",
-      "home_team": "Sacramento State Hornets",
-      "away_team": "Kent State Golden Flashes",
-      "market": "spreads",
-      "pick": "Sacramento State Hornets +8.5",
-      "selection": "Sacramento State Hornets",
-      "point": 8.5,
-      "prob": 0.5,
-      "prob_pct": 50.0,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.0,
-      "fair_price_american": 100,
-      "outcomes": [
-        {
-          "label": "Sacramento State Hornets +8.5",
-          "prob_pct": 50.0
-        },
-        {
-          "label": "Kent State Golden Flashes -8.5",
-          "prob_pct": 50.0
-        }
-      ],
-      "context": null,
-      "rationale": "Sacramento State Hornets +8.5 is the 50% side to cover."
-    },
-    {
-      "game_id": "49aa48a7dbcd6563f389ae4232707d64",
-      "sport_key": "americanfootball_ncaaf",
-      "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T23:30:00Z",
-      "home_team": "Pittsburgh Panthers",
-      "away_team": "Georgia Tech Yellow Jackets",
-      "market": "spreads",
-      "pick": "Pittsburgh Panthers -8",
-      "selection": "Pittsburgh Panthers",
-      "point": -8.0,
-      "prob": 0.5,
-      "prob_pct": 50.0,
-      "confidence": 0.59,
-      "model_prob_pct": null,
-      "market_prob_pct": 50.0,
-      "fair_price_american": 100,
-      "outcomes": [
-        {
-          "label": "Pittsburgh Panthers -8",
-          "prob_pct": 50.0
-        },
-        {
-          "label": "Georgia Tech Yellow Jackets +8",
-          "prob_pct": 50.0
-        }
-      ],
-      "context": null,
-      "rationale": "Pittsburgh Panthers -8 is the 50% side to cover."
+      "rationale": "UCLA Bruins -22 is the 50% side to cover."
     },
     {
       "game_id": "b02a5444929be961896a4db9742a01fa",
@@ -4395,16 +4283,16 @@
       "rationale": "Over 64 is the 50% call."
     },
     {
-      "game_id": "85b5947ccfe102a2fa2179d54c83ae31",
+      "game_id": "c17c8f9e12ffe066cf601c96090fcb14",
       "sport_key": "americanfootball_ncaaf",
       "sport_title": "NCAAF",
-      "commence_time": "2026-10-31T23:30:00Z",
-      "home_team": "North Carolina Tar Heels",
-      "away_team": "Miami Hurricanes",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "North Dakota State Bison",
+      "away_team": "UTEP Miners",
       "market": "totals",
-      "pick": "Over 53",
+      "pick": "Over 43",
       "selection": "Over",
-      "point": 53.0,
+      "point": 43.0,
       "prob": 0.5,
       "prob_pct": 50.0,
       "confidence": 0.58,
@@ -4413,16 +4301,106 @@
       "fair_price_american": 100,
       "outcomes": [
         {
-          "label": "Over 53",
+          "label": "Over 43",
           "prob_pct": 50.0
         },
         {
-          "label": "Under 53",
+          "label": "Under 43",
           "prob_pct": 50.0
         }
       ],
       "context": null,
-      "rationale": "Over 53 is the 50% call."
+      "rationale": "Over 43 is the 50% call."
+    },
+    {
+      "game_id": "7fd2d018fdc5930fd62188de968a901c",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home_team": "Penn State Nittany Lions",
+      "away_team": "Purdue Boilermakers",
+      "market": "totals",
+      "pick": "Over 54",
+      "selection": "Over",
+      "point": 54.0,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Over 54",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Under 54",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Over 54 is the 50% call."
+    },
+    {
+      "game_id": "e5ff4a85ab3b8341184a334a390f6ba2",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Florida International Panthers",
+      "market": "totals",
+      "pick": "Over 45",
+      "selection": "Over",
+      "point": 45.0,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Over 45",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Under 45",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Over 45 is the 50% call."
+    },
+    {
+      "game_id": "c0ddb68355a79fb70194e95b75c037ca",
+      "sport_key": "americanfootball_ncaaf",
+      "sport_title": "NCAAF",
+      "commence_time": "2026-11-04T00:00:00Z",
+      "home_team": "Akron Zips",
+      "away_team": "Ohio Bobcats",
+      "market": "spreads",
+      "pick": "Akron Zips +12.5",
+      "selection": "Akron Zips",
+      "point": 12.5,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.58,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Akron Zips +12.5",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Ohio Bobcats -12.5",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": null,
+      "rationale": "Akron Zips +12.5 is the 50% side to cover."
     },
     {
       "game_id": "c0ddb68355a79fb70194e95b75c037ca",
@@ -4513,39 +4491,103 @@
       ],
       "context": null,
       "rationale": "Over 57.5 is the 50% call."
+    },
+    {
+      "game_id": "c3a424e24d426af94a693e06a33e3037",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-31T00:10:00Z",
+      "home_team": "Miami Heat",
+      "away_team": "Indiana Pacers",
+      "market": "totals",
+      "pick": "Over 237",
+      "selection": "Over",
+      "point": 237.0,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.43,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Over 237",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Under 237",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": {
+        "notes": "ESPN: NBA Cup - Group Play."
+      },
+      "rationale": "Over 237 is the 50% call. ESPN: NBA Cup - Group Play."
+    },
+    {
+      "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
+      "sport_key": "basketball_nba",
+      "sport_title": "NBA",
+      "commence_time": "2026-10-30T23:41:10Z",
+      "home_team": "Brooklyn Nets",
+      "away_team": "Detroit Pistons",
+      "market": "spreads",
+      "pick": "Brooklyn Nets +8",
+      "selection": "Brooklyn Nets",
+      "point": 8.0,
+      "prob": 0.5,
+      "prob_pct": 50.0,
+      "confidence": 0.16,
+      "model_prob_pct": null,
+      "market_prob_pct": 50.0,
+      "fair_price_american": 100,
+      "outcomes": [
+        {
+          "label": "Brooklyn Nets +8",
+          "prob_pct": 50.0
+        },
+        {
+          "label": "Detroit Pistons -8",
+          "prob_pct": 50.0
+        }
+      ],
+      "context": {
+        "notes": "ESPN: game is In Progress."
+      },
+      "rationale": "Brooklyn Nets +8 is the 50% side to cover. ESPN: game is In Progress."
     }
   ],
   "calibration": {
-    "graded": 6501,
+    "graded": 6516,
     "brier": 0.2149,
     "bins": [
       {
         "lo": 0.5,
         "hi": 0.55,
-        "n": 3974,
+        "n": 3980,
         "predicted_pct": 50.5,
         "actual_pct": 50.8
       },
       {
         "lo": 0.55,
         "hi": 0.6,
-        "n": 181,
+        "n": 183,
         "predicted_pct": 57.6,
-        "actual_pct": 57.5
+        "actual_pct": 57.9
       },
       {
         "lo": 0.6,
         "hi": 0.65,
-        "n": 93,
+        "n": 95,
         "predicted_pct": 62.6,
-        "actual_pct": 66.7
+        "actual_pct": 65.3
       },
       {
         "lo": 0.65,
         "hi": 0.75,
-        "n": 469,
+        "n": 474,
         "predicted_pct": 71.1,
-        "actual_pct": 69.1
+        "actual_pct": 69.2
       },
       {
         "lo": 0.75,
