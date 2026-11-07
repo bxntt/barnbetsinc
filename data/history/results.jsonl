@@ -919,3 +919,5 @@
 {"game_id": "401892646", "sport_key": "icehockey_nhl", "home": "Los Angeles Kings", "away": "San Jose Sharks", "home_score": 7, "away_score": 2, "completed_at": "2026-11-05T03:00Z"}
 {"game_id": "401892647", "sport_key": "icehockey_nhl", "home": "Seattle Kraken", "away": "Calgary Flames", "home_score": 2, "away_score": 1, "completed_at": "2026-11-05T03:00Z"}
 {"game_id": "401873037", "sport_key": "americanfootball_nfl", "home": "Baltimore Ravens", "away": "Jacksonville Jaguars", "home_score": 10, "away_score": 33, "completed_at": "2026-11-06T01:15Z"}
+{"game_id": "401918948", "sport_key": "basketball_ncaab", "home": "Louisville Cardinals", "away": "Morehead State Eagles", "home_score": 107, "away_score": 57, "completed_at": "2026-11-07T17:00Z"}
+{"game_id": "401856855", "sport_key": "americanfootball_ncaaf", "home": "Arizona Wildcats", "away": "TCU Horned Frogs", "home_score": 29, "away_score": 28, "completed_at": "2026-11-07T03:15Z"}
