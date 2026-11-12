@@ -952,3 +952,11 @@
 {"game_id": "401873048", "sport_key": "americanfootball_nfl", "home": "Seattle Seahawks", "away": "Arizona Cardinals", "home_score": 17, "away_score": 3, "completed_at": "2026-11-08T21:25Z"}
 {"game_id": "401873050", "sport_key": "americanfootball_nfl", "home": "Chicago Bears", "away": "Tampa Bay Buccaneers", "home_score": 27, "away_score": 24, "completed_at": "2026-11-09T01:20Z"}
 {"game_id": "401873051", "sport_key": "americanfootball_nfl", "home": "Minnesota Vikings", "away": "Buffalo Bills", "home_score": 6, "away_score": 23, "completed_at": "2026-11-10T01:15Z"}
+{"game_id": "401909966", "sport_key": "basketball_nba", "home": "Indiana Pacers", "away": "Washington Wizards", "home_score": 114, "away_score": 101, "completed_at": "2026-11-12T00:00Z"}
+{"game_id": "401909967", "sport_key": "basketball_nba", "home": "New York Knicks", "away": "Cleveland Cavaliers", "home_score": 107, "away_score": 115, "completed_at": "2026-11-12T00:00Z"}
+{"game_id": "401909968", "sport_key": "basketball_nba", "home": "Toronto Raptors", "away": "Boston Celtics", "home_score": 93, "away_score": 98, "completed_at": "2026-11-12T00:00Z"}
+{"game_id": "401892690", "sport_key": "icehockey_nhl", "home": "Buffalo Sabres", "away": "Tampa Bay Lightning", "home_score": 3, "away_score": 8, "completed_at": "2026-11-12T00:00Z"}
+{"game_id": "401925702", "sport_key": "basketball_ncaab", "home": "Houston Cougars", "away": "Jacksonville State Gamecocks", "home_score": 92, "away_score": 46, "completed_at": "2026-11-12T01:00Z"}
+{"game_id": "401920680", "sport_key": "basketball_ncaab", "home": "St. John's Red Storm", "away": "Colgate Raiders", "home_score": 90, "away_score": 59, "completed_at": "2026-11-12T00:00Z"}
+{"game_id": "401928824", "sport_key": "basketball_ncaab", "home": "Arkansas Razorbacks", "away": "Robert Morris Colonials", "home_score": 76, "away_score": 53, "completed_at": "2026-11-12T01:00Z"}
+{"game_id": "401909524", "sport_key": "basketball_ncaab", "home": "Michigan Wolverines", "away": "Marquette Golden Eagles", "home_score": 84, "away_score": 70, "completed_at": "2026-11-12T00:00Z"}
