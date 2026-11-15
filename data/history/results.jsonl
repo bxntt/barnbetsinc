@@ -1003,3 +1003,41 @@
 {"game_id": "401917916", "sport_key": "basketball_ncaab", "home": "Arkansas Razorbacks", "away": "Central Arkansas Bears", "home_score": 79, "away_score": 66, "completed_at": "2026-11-14T01:00Z"}
 {"game_id": "401921825", "sport_key": "basketball_ncaab", "home": "Vanderbilt Commodores", "away": "Prairie View A&M Panthers", "home_score": 89, "away_score": 62, "completed_at": "2026-11-14T00:00Z"}
 {"game_id": "401921803", "sport_key": "basketball_ncaab", "home": "Kentucky Wildcats", "away": "Northern Arizona Lumberjacks", "home_score": 78, "away_score": 77, "completed_at": "2026-11-14T00:00Z"}
+{"game_id": "401921689", "sport_key": "basketball_ncaab", "home": "Gonzaga Bulldogs", "away": "LSU Tigers", "home_score": 80, "away_score": 81, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401919847", "sport_key": "basketball_ncaab", "home": "Texas Tech Red Raiders", "away": "Stonehill Skyhawks", "home_score": 88, "away_score": 37, "completed_at": "2026-11-14T19:00Z"}
+{"game_id": "401891809", "sport_key": "icehockey_nhl", "home": "Carolina Hurricanes", "away": "Seattle Kraken", "home_score": 5, "away_score": 1, "completed_at": "2026-11-14T18:00Z"}
+{"game_id": "401892708", "sport_key": "icehockey_nhl", "home": "Chicago Blackhawks", "away": "Winnipeg Jets", "home_score": 4, "away_score": 5, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401892709", "sport_key": "icehockey_nhl", "home": "Boston Bruins", "away": "Minnesota Wild", "home_score": 2, "away_score": 6, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892710", "sport_key": "icehockey_nhl", "home": "Toronto Maple Leafs", "away": "Edmonton Oilers", "home_score": 0, "away_score": 1, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892711", "sport_key": "icehockey_nhl", "home": "Montreal Canadiens", "away": "Colorado Avalanche", "home_score": 1, "away_score": 4, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892712", "sport_key": "icehockey_nhl", "home": "Tampa Bay Lightning", "away": "Detroit Red Wings", "home_score": 0, "away_score": 2, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892713", "sport_key": "icehockey_nhl", "home": "Pittsburgh Penguins", "away": "Ottawa Senators", "home_score": 1, "away_score": 4, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892714", "sport_key": "icehockey_nhl", "home": "Washington Capitals", "away": "New Jersey Devils", "home_score": 4, "away_score": 7, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892715", "sport_key": "icehockey_nhl", "home": "Columbus Blue Jackets", "away": "Philadelphia Flyers", "home_score": 3, "away_score": 4, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892716", "sport_key": "icehockey_nhl", "home": "St. Louis Blues", "away": "Florida Panthers", "home_score": 1, "away_score": 4, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401892717", "sport_key": "icehockey_nhl", "home": "Dallas Stars", "away": "Buffalo Sabres", "home_score": 2, "away_score": 0, "completed_at": "2026-11-15T01:00Z"}
+{"game_id": "401892718", "sport_key": "icehockey_nhl", "home": "Utah Mammoth", "away": "San Jose Sharks", "home_score": 5, "away_score": 6, "completed_at": "2026-11-15T02:00Z"}
+{"game_id": "401892719", "sport_key": "icehockey_nhl", "home": "Anaheim Ducks", "away": "New York Islanders", "home_score": 2, "away_score": 6, "completed_at": "2026-11-15T03:00Z"}
+{"game_id": "401892720", "sport_key": "icehockey_nhl", "home": "Los Angeles Kings", "away": "Calgary Flames", "home_score": 2, "away_score": 3, "completed_at": "2026-11-15T03:00Z"}
+{"game_id": "401909980", "sport_key": "basketball_nba", "home": "New Orleans Pelicans", "away": "Denver Nuggets", "home_score": 108, "away_score": 116, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401909981", "sport_key": "basketball_nba", "home": "Cleveland Cavaliers", "away": "Dallas Mavericks", "home_score": 127, "away_score": 117, "completed_at": "2026-11-15T00:30Z"}
+{"game_id": "401909982", "sport_key": "basketball_nba", "home": "Miami Heat", "away": "Detroit Pistons", "home_score": 137, "away_score": 117, "completed_at": "2026-11-15T01:00Z"}
+{"game_id": "401909983", "sport_key": "basketball_nba", "home": "Memphis Grizzlies", "away": "Brooklyn Nets", "home_score": 129, "away_score": 110, "completed_at": "2026-11-15T01:00Z"}
+{"game_id": "401909984", "sport_key": "basketball_nba", "home": "Minnesota Timberwolves", "away": "Chicago Bulls", "home_score": 106, "away_score": 117, "completed_at": "2026-11-15T01:00Z"}
+{"game_id": "401856883", "sport_key": "americanfootball_ncaaf", "home": "Georgia Bulldogs", "away": "Missouri Tigers", "home_score": 48, "away_score": 21, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401856864", "sport_key": "americanfootball_ncaaf", "home": "Arizona Wildcats", "away": "Utah Utes", "home_score": 39, "away_score": 40, "completed_at": "2026-11-15T03:30Z"}
+{"game_id": "401856889", "sport_key": "americanfootball_ncaaf", "home": "Vanderbilt Commodores", "away": "Alabama Crimson Tide", "home_score": 6, "away_score": 21, "completed_at": "2026-11-14T17:45Z"}
+{"game_id": "401858294", "sport_key": "americanfootball_ncaaf", "home": "Notre Dame Fighting Irish", "away": "Boston College Eagles", "home_score": 41, "away_score": 7, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401856885", "sport_key": "americanfootball_ncaaf", "home": "LSU Tigers", "away": "Texas Longhorns", "home_score": 21, "away_score": 22, "completed_at": "2026-11-15T00:30Z"}
+{"game_id": "401858296", "sport_key": "americanfootball_ncaaf", "home": "Miami Hurricanes", "away": "Duke Blue Devils", "home_score": 36, "away_score": 25, "completed_at": "2026-11-14T17:00Z"}
+{"game_id": "401856888", "sport_key": "americanfootball_ncaaf", "home": "Texas A&M Aggies", "away": "Tennessee Volunteers", "home_score": 7, "away_score": 22, "completed_at": "2026-11-14T20:00Z"}
+{"game_id": "401858518", "sport_key": "americanfootball_ncaaf", "home": "Indiana Hoosiers", "away": "USC Trojans", "home_score": 27, "away_score": 13, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401856858", "sport_key": "americanfootball_ncaaf", "home": "BYU Cougars", "away": "Baylor Bears", "home_score": 28, "away_score": 7, "completed_at": "2026-11-15T00:00Z"}
+{"game_id": "401856884", "sport_key": "americanfootball_ncaaf", "home": "Kentucky Wildcats", "away": "Florida Gators", "home_score": 14, "away_score": 21, "completed_at": "2026-11-14T23:15Z"}
+{"game_id": "401856863", "sport_key": "americanfootball_ncaaf", "home": "Oklahoma State Cowboys", "away": "Texas Tech Red Raiders", "home_score": 27, "away_score": 52, "completed_at": "2026-11-15T02:30Z"}
+{"game_id": "401858301", "sport_key": "americanfootball_ncaaf", "home": "SMU Mustangs", "away": "Wake Forest Demon Deacons", "home_score": 7, "away_score": 49, "completed_at": "2026-11-14T17:00Z"}
+{"game_id": "401858519", "sport_key": "americanfootball_ncaaf", "home": "Iowa Hawkeyes", "away": "Purdue Boilermakers", "home_score": 28, "away_score": 7, "completed_at": "2026-11-15T00:30Z"}
+{"game_id": "401858523", "sport_key": "americanfootball_ncaaf", "home": "Oregon Ducks", "away": "Michigan Wolverines", "home_score": 31, "away_score": 7, "completed_at": "2026-11-14T20:30Z"}
+{"game_id": "401856882", "sport_key": "americanfootball_ncaaf", "home": "Arkansas Razorbacks", "away": "South Carolina Gamecocks", "home_score": 34, "away_score": 6, "completed_at": "2026-11-15T00:45Z"}
+{"game_id": "401858522", "sport_key": "americanfootball_ncaaf", "home": "Ohio State Buckeyes", "away": "Northwestern Wildcats", "home_score": 28, "away_score": 19, "completed_at": "2026-11-14T17:00Z"}
+{"game_id": "401860914", "sport_key": "americanfootball_ncaaf", "home": "Boise State Broncos", "away": "Oregon State Beavers", "home_score": 46, "away_score": 41, "completed_at": "2026-11-14T23:00Z"}
